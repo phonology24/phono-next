@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/unified-communications.css';
-import YealinkPhone from '../../public/Assets/YealinkPhone.png'
+// import YealinkPhone from '../../public/Assets/YealinkPhone.png'
 // import  Helmet  from 'react-helmet';
 // import { MetaTags, ReactTitle } from 'react-meta-tags';
 import Image from 'next/image';
@@ -54,7 +54,7 @@ const CommunicationsHeader = () => {
         </div>
         <div className="communications-photo">
           <div className="communications-photo-inner">
-            <Image className="communications-photo-image" src={YealinkPhone} alt="_" />
+            {/* <Image className="communications-photo-image" src={YealinkPhone} alt="_" /> */}
           </div>
         </div>
       </div>
