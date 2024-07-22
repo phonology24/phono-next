@@ -31,6 +31,26 @@ const Footer = () => {
             <FaInstagram />
           </a>
         </div>
+          <div className={styles.footerLinks}>
+          <span><a href="/unified-communication-providers">
+            Unified Communications
+            </a></span>
+          <span><a href="/call-center-solution">
+            Hosted Call Centers
+            </a></span>
+          <span><a href="/messaging-services">
+            Messaging Services
+            </a></span>
+          <span><a href="/hosted-pbx-providers">
+            Hosted Phone Numbers
+            </a></span>
+          <span><a href="/direct-routing-service-providers">
+            Microsoft Teams
+            </a></span>
+          <span><a href="/direct-routing-service-providers">
+            Blogs
+            </a></span>
+        </div>
         <div className={styles.footerSectionColumns}>
           <span>
             <Link href="/terms-and-conditions">Terms & Conditions</Link>
