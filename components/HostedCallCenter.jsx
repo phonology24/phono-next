@@ -9,18 +9,6 @@ import HostedCallCenterSubHeading from './HostedCallCenter/hostedCallCenterSubHe
 import { Helmet } from 'react-helmet';
 
 const HostedCallCenter = () => {
-  // const [scrollY, setScrollY] = useState(0);
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     setScrollY(window.scrollY);
-  //   };
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
-  // const additionalComponents = scrollY > 250 ? : null;
 
 
   return (

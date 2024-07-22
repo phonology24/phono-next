@@ -11,7 +11,6 @@ import { event } from 'jquery';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import countriesData from '../../public/jsonFiles/countries.json'
-// import { MetaTags, ReactTitle } from 'react-meta-tags';
 
 const CountryDropdown = () => {
   const [countries, setCountries] = useState([]);
@@ -56,7 +55,6 @@ const CountryDropdown = () => {
     let newValue = event.target.value;
     if (newValue !== '') {
       setSelectedCountry(newValue);
-      // console.log(newValue, "new value");
       setSelectedState('');
       console.log(selectedState)
       setDidNumber('');
@@ -69,12 +67,7 @@ const CountryDropdown = () => {
     const selectedOption = event.target.selectedOptions[0];
     const countryName = selectedOption.getAttribute('data');
     setCountryForActivationRequirements(countryName);
-    // setDidNumber(''); 
-    // setSelectedRateCenter('');
-    // setRateCenters('');
-    // setResponseMessage('');
-    // setStates('');
-    // setClearDefault(false);
+ 
   };
 
   const handleForwardCountryChange = (event) => {
@@ -210,28 +203,13 @@ const CountryDropdown = () => {
       console.error('Error fetching states:', error);
     }
     console.log("before calling frc func")
-    // console.log(newValue, selectedState)
   };
 
-  // useEffect(() => {
-  //   if (states.length >= 70 && !selectedState) {
-  //     setSelectedState(states[96].value);
-  //   }
-  // }, [states]);
+
 
 
   const fetchRateCenters = async (newStateName) => {
     try {
-
-      // console.log(clearDefault,"cleardefault");
-      // const countryCode = newValue;
-      // let stateCode = selectedState;
-      // if(stateCode==='' && clearDefault){
-      //   stateCode = 'US-TX'
-      // }else{
-      //   stateCode = ''
-      // }
-
       console.log(selectedCountry, selectedState, newStateName);
       let stateCode;
       if (newStateName === '') {
@@ -262,13 +240,6 @@ const CountryDropdown = () => {
     }
   };
 
-  // useEffect(() => {
-  //   if (rateCenters.length > 1 && !selectedRateCenter) {
-  //     setSelectedRateCenter(rateCenters[1].value);
-  //   }
-  // },
-  //   [rateCenters, selectedRateCenter]);
-
   useEffect(() => {
     const fetchDidNumbers = async (newValue1) => {
       try {
@@ -278,7 +249,6 @@ const CountryDropdown = () => {
         } else {
           rateCenter = selectedRateCenter
         }
-        // rateCenter = selectedRateCenter;
         console.log(rateCenter, "fdidn");
         const countryCode = selectedCountry;
         const stateCode = selectedState;
@@ -355,16 +325,6 @@ const CountryDropdown = () => {
 
   return (
     <div className='dropdownDiv'>
-        {/* <MetaTags>   
-        <link rel="canonical" href="https://www.phonology.io/get-phone-numbers" />
-
-        <meta name='description' content='Welcome to our Buy phone number page, where innovation meets integrity in providing exceptional VoIP services for 
-          international communication.
-           With a dedication to excellence and a commitment to customer satisfaction, we strive to redefine the standards of global connectivity.'  data-react-helmet="true"/>
-        <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
-        <meta name="keywords" content="Internet service provider in India, Business VoIP in India, business VoIP service in India, VoIP Phone, VoIP, VoIP Service Provider in Bangalore, VoIP Service Provider in India, Best VoIP Service, VoIP Phone Provider, IP phone provider, IP PBX Provider, Internet Telephony Service Provider, VoIP Solutions Provider, Best Business VoIP Solutions Provider, Cloud Based PBX Service Provider, How to Choose VoIP Phone System, VoIP Features, SIP Trunk, VOIP in India in Bangalore, VoIP communication in India, trunk line internet in India, small office VoIP in Bangalore, small office phone systems in India, SIP trunk in India, office VoIP phones in India, office phone services in India, office IP phone in India, " />
-      </MetaTags>
-    <ReactTitle title="Buy Phone Numbers | Phonology | VoIP Service Provider In India"/> */}
       <h1 className="mainHeadingDIDNumbers">International Virtual Phone Numbers from 150+ Countries </h1>
       <button className="shoppingBag" onClick={toggleDrawer} style={{fontSize: "20px"}}><LocalMallIcon /></button>
      <div className='countrysDiv'>

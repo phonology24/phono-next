@@ -3,14 +3,14 @@ import '../../../styles/campaign/campaigneightcards.css';
 
 const CampaignEightCards = () => {
   const cards = [
-    { icon: '🌟', heading: 'Card 1', description: 'This is the description for card' },
-    { icon: '🔥', heading: 'Card 2', description: 'This is the description for card' },
-    { icon: '💧', heading: 'Card 3', description: 'This is the description for card' },
-    { icon: '⚡', heading: 'Card 4', description: 'This is the description for card' },
-    { icon: '🌍', heading: 'Card 5', description: 'This is the description for card' },
-    { icon: '💎', heading: 'Card 6', description: 'This is the description for card' },
-    { icon: '🎯', heading: 'Card 7', description: 'This is the description for card' },
-    { icon: '🚀', heading: 'Card 8', description: 'This is the description for card' },
+    { icon: '🌟', heading: 'Remote Work', description: 'This is the description for card' },
+    { icon: '🔥', heading: 'Business Efficiency', description: 'This is the description for card' },
+    { icon: '💧', heading: 'CRM Integration', description: 'This is the description for card' },
+    { icon: '⚡', heading: 'Customer Suport', description: 'This is the description for card' },
+    { icon: '🌍', heading: 'Cost Saving', description: 'This is the description for card' },
+    { icon: '💎', heading: 'Scalability', description: 'This is the description for card' },
+    { icon: '🎯', heading: 'Improved Call Quality', description: 'This is the description for card' },
+    { icon: '🚀', heading: 'Unified Communications', description: 'This is the description for card' },
   ];
 
   return (

@@ -11,12 +11,12 @@ import Image from 'next/image';
 
 const CampaignHeader = () => {
     const [cards, setCards] = useState([
-        { id: 1, content: 'Lorem', icon:<AcUnitOutlinedIcon/> },
-        { id: 2, content: 'Ipsum', icon:<AutoAwesomeMotionOutlinedIcon/> },
-        { id: 3, content: 'Dolor', icon:<BlurOnOutlinedIcon/> },
-        { id: 4, content: 'Sit', icon:<EqualizerOutlinedIcon/> },
-        { id: 5, content: 'Amet', icon:<EarbudsOutlinedIcon/>  },
-        { id: 6, content: 'Consectetur', icon:<AutorenewOutlinedIcon/>  }
+        { id: 1, content: 'High call quality', icon:<AcUnitOutlinedIcon/> },
+        { id: 2, content: 'Global Connectivity', icon:<AutoAwesomeMotionOutlinedIcon/> },
+        { id: 3, content: '24/7 Connectivity', icon:<BlurOnOutlinedIcon/> },
+        { id: 4, content: 'Virtual Numbers', icon:<EqualizerOutlinedIcon/> },
+        { id: 5, content: 'Advance Features', icon:<EarbudsOutlinedIcon/>  },
+        { id: 6, content: 'Instant Setup', icon:<AutorenewOutlinedIcon/>  }
     ]);
 
     return (
@@ -25,18 +25,15 @@ const CampaignHeader = () => {
                 <a href='/'><Image src={logo} alt="phono-img" /></a>
             </div>
             <div className='button-campaign-div'>
-                <button>Chat With An Expert &nbsp;  &rarr;</button>
+                <button>Talk To An Expert &nbsp;  &rarr;</button>
             </div>
             <div className='twocards'>
                 <div className='cards left'>
-                    <h2>A Reliable VoIP based Phone System for SMBs and Enterprise</h2>
-                    <p>A Reliable VoIP based Phone System for SMBs and Enterprise</p>
+                    <h2>A Trustworthy VoIP Phone System for Small and Medium Businesses and Large Enterprises.</h2>
+                    <p>VoIP Phone System for Small, Medium and Large Enterprises</p>
                     <div className='six-cards'>
                         {cards.map(card => (
-                            <div key={card.id} className='cards1'>
-                            {/* <div className="cards12as">sasdasdda</div>
-                                <div className="cards12as">sasdasdda</div>
-                                <div className="cards12as">sasdasdda</div> */}
+                            <div key={card.id} className='cards1'>                    
                             <div className="card-icon11">{card.icon}</div>
                             {card.content}
                             </div>
