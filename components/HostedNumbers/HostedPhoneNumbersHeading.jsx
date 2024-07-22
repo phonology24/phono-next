@@ -2,7 +2,7 @@ import React from 'react';
 import '../../styles/hostedphonenumbers.css';
 import MyGlobe from '../MyGlobe';
 import { Helmet } from 'react-helmet';
-import { ReactTitle } from 'react-meta-tags';
+// import { ReactTitle } from 'react-meta-tags';
 
 const HostedPhoneNumbers = () => {
   return (
@@ -20,7 +20,7 @@ const HostedPhoneNumbers = () => {
 
       </Helmet>
       <div className="hosted-phone-numbers-inner constrain" style={{ paddingTop: '90px' }}>
-        <ReactTitle title="Hosted PBX | Cloud PBX | IP PBX |Providers in India" />
+        {/* <ReactTitle title="Hosted PBX | Cloud PBX | IP PBX |Providers in India" /> */}
 
         <div className="hosted-phone-numbers-grid hosted-phone-numbers-grid-middle hosted-phone-numbers-grid-gap-large">
           <div className="hosted-phone-numbers-content">

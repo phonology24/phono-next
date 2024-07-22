@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/hostedcallcenter.css";
 import CallCenterImage from "../../public/Assets/HostedCC.png";
 import { Helmet } from "react-helmet";
-import { ReactTitle } from "react-meta-tags";
+// import { ReactTitle } from "react-meta-tags";
 import Image from "next/image";
 const HostedCallCenterHeading = () => {
   return (<>  
@@ -22,7 +22,7 @@ const HostedCallCenterHeading = () => {
 
       </Helmet>
     <div className="hosted-call-center-content">
-    <ReactTitle title="Virtual Call Center Software | Call Center Solutions | Call Center Solution Provider"/>
+    {/* <ReactTitle title="Virtual Call Center Software | Call Center Solutions | Call Center Solution Provider"/> */}
 
       <div className="hosted-call-center-image">
         <Image src={CallCenterImage} alt="Call Center" />

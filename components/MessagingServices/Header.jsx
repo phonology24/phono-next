@@ -4,14 +4,14 @@ import "../../styles/messagingservices.css";
 import  Link  from "next/link";
 import FreeTrialForm from "../Home/FreeTrialForm";
 import { Helmet } from "react-helmet";
-import MetaTags, { ReactTitle } from 'react-meta-tags';
+// import MetaTags, { ReactTitle } from 'react-meta-tags';
 import Image from "next/image";
 import BannerCards from "../BannerCards";
 
 const HeaderVirtualNumbers = () => {
   return (
     <div className="heading">
-      <MetaTags>
+      {/* <MetaTags>
         <title>
           Messaging Service Provider|Best SMS Service Provider In India
         </title>
@@ -26,9 +26,9 @@ const HeaderVirtualNumbers = () => {
           sms text messaging services provider,short message service,online sms service provider,bulk messaging,phone service provider,
           it service provider,bulk sms services provider,short messaging service,best bulk sms service provider,voip mms messaging service,top 
           bulk sms service provider"/>
-      </MetaTags>
+      </MetaTags> */}
       <div className="hero">
-      <ReactTitle title="Messaging Service Provider|Best SMS Service Provider In India"/>
+      {/* <ReactTitle title="Messaging Service Provider|Best SMS Service Provider In India"/> */}
         <div>
           <h2 className="heading-text-h2">Your Trusted SIP Trunk Provider for Seamless Connectivity.</h2>
           <p className="heading-text-p">
