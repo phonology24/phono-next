@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import Footer from '../../components/Home/Footer';
+import Footer from '../../components/Footer';
 import '../../styles/blog-css/blogpost.css';
 import Head from 'next/head';
 import axios from 'axios';
