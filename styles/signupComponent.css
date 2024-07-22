@@ -1,0 +1,186 @@
+.signupDiv{
+    padding: 10px 0px 0px 0px;
+    /* border: 1px solid black; */
+}
+.signupHeading{
+    padding: 0px 0px 5px 0px;
+    border: 2px solid rgb(0, 159, 27);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 0px 30px 10px 30px;
+    font-size: 16px;
+    font-weight: 500;     
+}
+
+.signupFormCart{
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    max-width: 45vw;
+    flex-wrap: wrap;
+}
+
+.signupFormCart input{
+    margin: 10px 20px;
+}
+
+#nameInput, #emailInput, #phoneInput{
+    max-width: 45vw;
+    min-width: 300px;
+    padding: 5px 0px 5px 10px;
+    background-color: rgb(232, 232, 232);
+    border:1px solid rgb(92, 92, 92);
+    /* text-align: center; */
+    /* border: 1px solid blue; */
+}
+
+
+#signupButton{
+    min-width: 300px;
+    min-height: 30px;
+    max-height: 35px;
+    /* padding: 0px 0px px 10px; */
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: black;
+    font-weight: 900;
+    background-color: rgb(133, 255, 122);
+}
+
+.loginLinkText{
+    font-size: 12px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.loginLinkButton{
+    border: none;
+    color: blue;
+    background-color: white;
+    padding: 0;
+}
+
+.otpSignUpDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically in the center */
+}
+
+#otpField{
+    flex: 1; /* Allow the input field to grow and fill the available space */
+    min-width: 300px;
+    padding: 5px 0px 5px 10px;
+    margin-top: 10px;
+    margin-left: 175px;
+}
+
+#OTPSignupBtn{
+    min-width: 300px;
+    min-height: 35px;
+    max-height: 35px;
+    padding: 0px 0px px 10px;
+    margin-top: 10px;
+    margin-left: 175px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: black;
+    font-weight: 900;
+    background-color: rgb(133, 255, 122);
+}
+
+#loginEmailInput{
+    min-width: 300px;
+    padding: 5px 0px 5px 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#LoginButton{
+    min-width: 300px;
+    min-height: 37px;
+    max-height: 35px;
+    padding: 0px 0px 0px 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: black;
+    font-weight: 900;
+    background-color: rgb(133, 255, 122);
+    position: relative;
+
+}
+
+.loginDiv form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#LoginOTPInput{
+    min-width: 300px;
+    padding: 5px 0px 5px 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#OTPLoginBtn{
+    min-width: 300px;
+    min-height: 35px;
+    max-height: 35px;
+    padding: 0px 0px px 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: black;
+    font-weight: 900;
+    background-color: rgb(133, 255, 122);
+}
+
+@media screen and (max-width: 768px) {
+    .signupFormCart{
+        margin: 10px 0px 10px 40px;
+        display: flex;
+        /* max-width: vw; */
+        flex-wrap: wrap;
+    }
+
+    .loginLinkText{
+        margin-left: -10px;
+    }
+
+    #loginEmailInput{
+        position: absolute;
+        top:250px;
+        left: 40px;
+        margin-top: 20px;
+    }
+
+    #LoginButton{
+     margin-top: 50px;
+     margin-left: 60px;
+    }
+
+        #otpField{
+        margin-left: 60px;
+        }
+
+    #OTPSignupBtn{
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    #LoginOTPInput{
+        margin-left: 60px;
+        margin-top: 20px;
+
+    }
+    #OTPLoginBtn{
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+}

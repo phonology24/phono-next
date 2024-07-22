@@ -1,0 +1,56 @@
+.topContactBar {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(223, 255, 216);
+  border-bottom: 1px dashed transparent;
+  min-height: 10px;
+  max-height: 40px;
+  padding: 10px 10px;
+  position: fixed;
+  top: -10px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  transition: all .3s ease-in-out;
+}
+
+.topContactBar:hover {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.142);
+}
+
+.contactInfo a {
+  text-decoration: none;
+  color: #767676;
+}
+
+.contactInfo {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.desktopOnly {
+  display: none; /* Hidden on mobile */
+}
+
+@media (min-width: 768px) {
+  .desktopOnly {
+    display: block; /* Visible on desktop */
+  }
+
+  .contactInfo {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+  }
+}
+
+.socialMediaIcons a {
+  margin-left: 10px;
+}
+
+.salesSpan {
+  color: #5dc22e;
+}

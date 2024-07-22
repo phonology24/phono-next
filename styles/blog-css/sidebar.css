@@ -1,0 +1,42 @@
+.sidebar {
+    width: 80px;
+    background-color:  #0000000e;
+    display: flex;
+    flex-direction: column;
+    padding: 200px 20px 20px 20px;
+    transition: all .2s ease-in-out;
+    position: relative;
+    min-height: auto;
+
+  }
+  
+  .sidebar button {
+    position: relative;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 100%; 
+    transition: all .2s ease-in-out;
+    height: 45px;
+    text-wrap: nowrap;
+    border-radius: 25%;
+    background-color: #00000096;
+
+  }
+
+  .sidebar.expanded {
+    width: 200px;
+    transition: all .2s ease-in-out;
+  }
+
+  .sidebar.expanded button{
+    background-color: #00000096;
+    border-radius: 17px;
+  }
+
+  .sidebar button:hover {
+    background-color: #000000;
+  }
+  

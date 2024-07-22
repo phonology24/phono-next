@@ -1,0 +1,166 @@
+.contactContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: rgb(238, 238, 238);
+  align-items: baseline;
+  border-radius: 17px;
+  /* border: 1px solid rgba(0, 0, 0, 0.142); */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contactContainer:hover {
+  transform: scale(1.01);
+}
+
+.contact-form {
+  align-items: baseline;
+  /* max-width: 100%; */
+  max-width: 400px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  padding: 20px 20px 20px 35px;
+  border-radius: 17px;
+  transition: border 0.3s, transform 0.3s;
+  /* background-color: black; */
+  color: rgb(0, 0, 0);
+}
+
+
+
+.contact-form input {
+  font-family: 'Courier Prime', monospace;
+  width: 100%;
+  padding: 10px 50px 10px 50px;
+  margin-bottom: 10px;
+  align-self: center;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+
+}
+
+
+
+.companyDetails {
+  width: 48%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+
+
+.companyDetails {
+  width: 100%;
+  font-size: 18px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.google-map {
+  width: 20%;
+}
+
+.submitContactform {
+  width: auto;
+  /* margin: 20px 0 20px 0; */
+  margin: 0 auto;
+  /* padding: 15px; */
+  border-radius: 100px;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #b4baff, #ffb5d0);  
+  color: rgb(255, 255, 255);
+  transition: background-image 0.5s ease, color 0.5s ease;
+  align-self: flex-start;
+}
+
+
+
+.form-heading {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 1rem;
+  font-size: 45px;
+}
+
+.formHeadingText {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  margin: 0 auto;
+
+}
+
+
+@media (min-width: 830px) {
+  .contactContainer {
+    flex-direction: row;
+    margin-top: 6rem;
+    /* border: 1px solid black; */
+  }
+
+  .companyDetails {
+    /* border: 1px solid black; */
+    max-width: 100%;
+    text-align: left;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    align-items: baseline;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  /* .large-text{
+  font-size: 45px;
+} */
+
+  .contact-form {
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .formHeadingText {
+    font-size: 39px;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: left;
+    /* line-height: 60px; */
+    /* text-align: center; */
+  }
+
+  .submitContactform {
+    width: auto;
+    /* margin: 0 auto; */
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 24px;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    transition: background-image 0.5s ease, color 0.5s ease;
+    align-self: flex-start;
+    border: none;
+  }
+  
+
+  .submitbuttonLink{
+    text-decoration: none;
+    transition: background-image 0.5s ease, color 0.5s ease;
+    color: rgb(0, 0, 0);
+  }
+  .submitContactform a:hover {
+    color: rgb(255, 255, 255);
+  }
+}
+

@@ -1,0 +1,136 @@
+
+.myForm {
+  color: #000000;
+  max-width: 400px;
+  padding: 20px;
+  align-items: center; 
+  margin: auto;   
+  animation: trialAnim 1s ease 0s 1 normal forwards;
+  z-index: 999;
+
+}
+
+
+@keyframes trialAnim {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.myLabel {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.myInput {
+  color: #000000;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000000af;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+.myButton {
+  background-color: #ffb700;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+}
+
+.myButton:hover {
+  background-color: #ecc258;
+}
+
+
+.myFormModal {
+  max-width: 900px; 
+  margin: 6.5rem auto;
+background: rgba(255, 255, 255, 0.27);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.9px);
+-webkit-backdrop-filter: blur(7.9px);  
+  border-right: 2px solid;
+  border-left: 2px solid;
+  border-image: linear-gradient(to bottom, #ffffff, #000000);
+  border-image-slice: 1; 
+  animation: trialAnim .6s ease 0s 1 normal forwards;
+}
+
+
+
+.freeformheading img {
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: fill;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, #000000, #ffffff); 
+  border-image-slice: 1; 
+
+}
+
+
+
+.close-button {
+  padding: 0px; 
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+  cursor: pointer;
+  color: #000000;
+  background-color: #ffffff00; 
+  border: none; 
+}
+
+
+.text-trial{
+  text-align: center;
+  padding: 20px 20px 0px 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-top: 2px solid;
+  border-image: linear-gradient(to right, #000000, #ffffff); 
+  border-image-slice: 2; 
+}
+
+
+@media (max-width: 830px) {
+
+  .myFormModal {
+    max-width: none;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    padding: 20px;
+  }
+  .dot-image{
+    display: none;
+  }
+
+  .close-button{
+    margin-top: 20px;
+    font-size: 10px;
+  }
+}

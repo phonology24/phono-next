@@ -1,0 +1,60 @@
+﻿Country,Number type,End-user location,Proof of identification,Proof of address
+"AUSTRIA","Geographic","Local",TRUE,TRUE
+"AUSTRIA","Mobile","Worldwide",TRUE,TRUE
+"BULGARIA","Geographic","Local",FALSE,FALSE
+"CHINA","Special","Worldwide",TRUE,TRUE
+"CHINA","Shared Cost","Worldwide",TRUE,TRUE
+"COLOMBIA","Toll-free","Worldwide",FALSE,FALSE
+"CROATIA","Geographic","Local",FALSE,FALSE
+"DENMARK","Geographic","Worldwide",FALSE,FALSE
+"FRANCE","Geographic","National",TRUE,TRUE
+"FRANCE","Mobile","Worldwide",FALSE,TRUE
+"FRANCE","National","National",TRUE,TRUE
+"GEORGIA","Geographic","Local",FALSE,TRUE
+"GERMANY","National","National",TRUE,TRUE
+"GERMANY","Geographic","Local",TRUE,TRUE
+"GERMANY","Toll-free","Worldwide",TRUE,TRUE
+"HONG KONG","Geographic","Worldwide",FALSE,TRUE
+"HONG KONG","National","Worldwide",FALSE,TRUE
+"HONG KONG","Toll-free","Worldwide",FALSE,TRUE
+"HUNGARY","Geographic","Local",FALSE,FALSE
+"INDONESIA","Mobile","Worldwide",TRUE,TRUE
+"IRELAND","Geographic","Local",FALSE,FALSE
+"ISRAEL","Geographic","Local",TRUE,TRUE
+"ITALY","Geographic","National",TRUE,FALSE
+"ITALY","Mobile","Worldwide",TRUE,FALSE
+"ITALY","Toll-free","Worldwide",TRUE,FALSE
+"JAPAN","Toll-free","Worldwide",TRUE,TRUE
+"JAPAN","Geographic","Local",TRUE,TRUE
+"KENYA","Toll-free","Worldwide",TRUE,TRUE
+"LATVIA","Geographic","National",FALSE,TRUE
+"LATVIA","Toll-free","National",FALSE,TRUE
+"LITHUANIA","Mobile","National",FALSE,FALSE
+"MALAYSIA","National","National",FALSE,TRUE
+"MALAYSIA","Toll-free","Worldwide",TRUE,TRUE
+"MALAYSIA","Geographic","Local",FALSE,TRUE
+"MALTA","National","Worldwide",TRUE,TRUE
+"NETHERLANDS","Geographic","Local",FALSE,FALSE
+"NORWAY","Geographic","National",FALSE,TRUE
+"NORWAY","Toll-free","National",FALSE,TRUE
+"NORWAY","National","National",FALSE,TRUE
+"PERU","Toll-free","Worldwide",FALSE,FALSE
+"PHILIPPINES","Special","Worldwide",FALSE,TRUE
+"PORTUGAL","Geographic","Local",FALSE,TRUE
+"SINGAPORE","National","Worldwide",FALSE,TRUE
+"SINGAPORE","Geographic","National",FALSE,TRUE
+"SINGAPORE","Mobile","Worldwide",FALSE,TRUE
+"SINGAPORE","Toll-free","Worldwide",FALSE,TRUE
+"SOUTH AFRICA","Geographic","Local",TRUE,TRUE
+"SOUTH AFRICA","Toll-free","Worldwide",TRUE,TRUE
+"SOUTH AFRICA","National","Worldwide",TRUE,TRUE
+"SOUTH KOREA","National","Local",TRUE,TRUE
+"SOUTH KOREA","Toll-free","Local",TRUE,TRUE
+"THAILAND","Toll-free","Worldwide",TRUE,TRUE
+"THAILAND","Geographic","Worldwide",TRUE,TRUE
+"TURKEY","Geographic","Local",TRUE,TRUE
+"TURKEY","Toll-free","National",TRUE,TRUE
+"TURKEY","National","National",TRUE,TRUE
+"VIETNAM","Toll-free","Worldwide",TRUE,TRUE
+
+"Disclaimer: This file is confidential and intended for customer use only. These are the Activation Requirements as of 2024-05-16 13:13. For the most up to date Activation Requirements, please refer to the https://app.voxbone.com/home/#/information/activation."

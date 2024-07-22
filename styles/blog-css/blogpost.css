@@ -1,0 +1,41 @@
+.blogpost-container {
+    padding: 100px 100px 100px 100px;
+    /* border: 1px solid black; */
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 768px) {
+    .blogpost-container {
+        padding: 20px;
+    }
+
+    .postTitle {
+        font-size: 28px;
+        padding: 10px;
+    }
+
+    .post-content {
+        padding: 20px;
+    }
+}
+
+.postTitle {
+    margin-bottom: 5px;
+    padding: 20px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.post-content {
+    background-color: #eaffe6;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.post-content img {
+    
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}

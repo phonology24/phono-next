@@ -1,0 +1,75 @@
+#cartDiv {
+     margin-top: 20px ;
+    margin-bottom: 10px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+    padding: 55px 0px 50px 20px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgba(0, 200, 255, 0.1);
+}
+
+.cartData {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    /* margin-left: 0px; */
+    /* align-items: center; */
+    /* justify-content: end; */
+}
+
+
+#rateCenterName {
+    font-size: 20px;
+}
+
+#cartNumber {
+    font-size: 16px;
+    color: grey;
+}
+
+#cartAmount {
+    position: absolute;
+    right: 40px;
+    top: 320px;
+    line-height: 20px;
+}
+
+#deleteBtn {
+    position: absolute;
+    border: none;
+    top: 185px;
+    right: 30px;
+    background-color: transparent;
+}
+
+#forward-text{
+    font-size: 16px;
+    color: grey;
+}
+
+#razorpaybuttonComp{
+    min-width: 300px;
+    min-height: 35px;
+    max-height: 35px;
+    margin-top: 10px;
+    margin-left: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.296);
+    border-radius: 5px;
+    color: black;
+    font-weight: 900;
+    background-color: rgb(133, 255, 122);
+    transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    #cartAmount {
+        margin-top: 10px;
+    }
+
+    #razorpaybuttonComp{
+        margin-left: 60px;
+
+    }
+}

@@ -1,0 +1,175 @@
+.navCampaign {
+    text-align: center;
+    margin-bottom: 0px;
+    /* max-height: 100px;  */
+    background-color: #ffffff00;   
+}
+
+
+.navCampaign img {
+    min-height: 200px;    
+}
+
+.twocards {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background: rgb(238,174,202);
+    background: -moz-linear-gradient(90deg, rgba(238,174,202,0.829656862745098) 0%, rgba(148,187,233,0.829656862745098) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(238,174,202,0.829656862745098) 0%, rgba(148,187,233,0.829656862745098) 100%);
+    background: linear-gradient(90deg, rgba(238,174,202,0.829656862745098) 0%, rgba(148,187,233,0.829656862745098) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* border-radius: 100px; */
+}
+
+.cards {
+    flex: 0 1 48%; 
+    min-height: 90vh;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+}
+
+.left {
+    text-align: center;
+    padding-top: 220px;    
+    padding-left: 0px;    
+    padding-right: 0px;    
+    background-color: #96969600;
+}
+
+.left h2 {
+    font-weight: 800;
+    font-size: 32px;
+    padding: 0px 50px;
+    /* border: 1px solid black; */
+    margin: 0;
+}
+
+.right {
+    background-color: #caf3ae00;
+    border: 1px solid rgba(0, 0, 0, 0);
+    overflow: hidden;
+    min-height: 800px;
+    max-height: 800px;
+    /* padding: 0px; */
+    padding: 120px 0px 0px 20px;
+}
+
+.six-cards {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 5px;  */
+    margin-top:50px;
+}
+
+.form-frame{
+    height: 650px;
+    width: 100%;
+    border: none;
+    padding-top:20px;
+    /* overflow:hidden !important; */
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.button-campaign-div{
+    position: absolute;
+    top: 19vh;
+    left: 20.3vw;
+    /* padding: 20px; */
+    font-weight: 400;
+}
+
+.button-campaign-div button{
+    padding: 15px;
+    border: 2px solid navajowhite;
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+
+    color: rgb(83, 83, 83);
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.button-campaign-div button:hover{
+    background-color: #fffc4d;
+    border: 2px solid transparent;
+
+}
+.six-cards .cards1 {
+    flex: 2 1 25%; /* Three cards per row */
+    min-height: 100px;
+    max-width: 200px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid  rgba(255, 222, 173, 0.192);
+    /* border-radius: 10px; */
+    transition: all .3s ease-in-out;
+}
+
+.six-cards .cards1:hover{
+    border: 1px solid  navajowhite;
+    scale: 1.1;
+}
+
+.cards1 .card-icon11 {
+    margin-bottom: 10px;
+    /* font-size: 30px; */
+    scale: 1.2;
+}
+
+.phono-img img{
+    max-height: 100px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top:0;
+    left: 7vw;
+}
+@media (max-width: 768px) {
+    .twocards {
+        flex-direction: column;
+    }
+    .cards {
+        width: 100%;
+        flex: 0 1 100%;
+    }
+    .left{
+        padding-left: 0;
+        padding-top:200px;
+        /* max-height: 70vh; */
+        min-height: 60vh;
+    }
+
+    .left h2 {
+        font-weight: 800;
+        padding: 0px 20px;
+    }
+
+    .left p { 
+        padding: 0px 20px;
+    }
+
+    .right{
+        /* border: 1px solid black; */
+        padding:0;
+        min-height: 60vh;
+        background-color: white;
+    }
+
+    .button-campaign-div{
+        position: absolute;
+        top: 12vh;
+        left: 22.3vw;
+        /* padding: 20px; */
+    }
+
+    .six-cards .cards {
+        flex: 0 1 48%; 
+    }
+}

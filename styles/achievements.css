@@ -1,0 +1,41 @@
+/* styles/achievements.css */
+
+.achievements-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.card {
+  width: 250px !important; 
+  height: 250px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 17px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.achievements-container .card:hover {
+  transform: scale(1.05);
+  background-color: #ffffff;
+  cursor: no-drop;
+}
+
+@media (max-width: 768px) {
+  .achievements-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

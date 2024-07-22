@@ -1,0 +1,59 @@
+.darkDivVt {
+    color: white;
+    border-radius: 17px;
+    padding: 20px;
+    margin-top: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 50px;
+  }
+  
+  .bannerCardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    animation: virtualCard 2s ease-in 0s 1 normal none;
+  }
+  
+  .bannerCardContainer .bannerCard {
+    background-color: #000000;
+    /* padding-top: 30px; */
+    margin: 0 10px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px !important;
+    /* height: 150px !important; */
+    color: 00ccff;
+    text-align: center;
+  }
+  
+  .bannerCard h2 {
+    font-size: 45px;
+    font-weight: bold;
+    /* margin-top: -10px; */
+    flex-wrap: nowrap;
+    color: transparent;
+    background-image: url('/Assets/gradient.png');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  
+  @keyframes virtualCard {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .bannerCardContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

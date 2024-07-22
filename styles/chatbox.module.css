@@ -1,0 +1,174 @@
+.popupBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #BEFFAF;
+    padding: 15px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 2;
+    color: #000000;
+    transition: all .5s ease-in-out;
+}
+
+.popupBtn:hover {
+    color: #000000a2;
+    border: 2px solid rgb(165, 165, 165);
+}
+
+.chatbox {
+    position: fixed;
+    z-index: 2;
+    bottom: 72px;
+    right: 5px;
+    min-height: 500px;
+    min-width: 300px;
+    background-color: #beffaf;
+    border-radius: 17px;
+    animation: chatboxanim .7s ease 0s 1 normal forwards;
+}
+
+@keyframes chatboxanim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.chat-input {
+    position: absolute;
+    bottom: 10px;
+    margin: 10px 10px 10px 25px;
+}
+
+.chat-input button {
+    border-bottom-right-radius: 17px;
+    position: absolute;
+    right: 0px;
+    bottom: 3px;
+    background-color: transparent;
+    border: none;
+}
+
+
+#inputchat {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.chatboxImg {
+    max-height: 50%;
+    max-width: 100%;
+    padding: 0;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    scale: 1.5;
+}
+
+.boxclosebutton {
+    position: absolute;
+    top: 3px;
+    right: 8px;
+    background-color: #dfffd800;
+    padding: 0px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    z-index: 2;
+    color: #979797;
+    transition: all .5s ease-in-out;
+}
+
+.boxclosebutton:hover {
+    color: #000000;
+}
+
+.buttonDivChatbox{
+    display: flex;
+    flex-direction: column;    
+    margin-top: 20px;
+
+}
+
+.buttonDivChatbox button{
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 230px;
+    margin-left: 40px;
+    font-size: 14px;
+    background-color: #dbffd3;
+    border-radius: 10px;
+    border: none;
+}
+
+.buttonDivChatbox button:hover{
+cursor: pointer;
+}
+
+.buttonDivChatbox button a{
+    text-decoration: none;
+    color: #000000;
+}
+.chatboxText{
+    padding: 0px 20px;
+}
+
+.headingChatbox{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 170px;
+    left: 18px;
+}
+
+.preheadingChatbox {
+    position: absolute;
+    top: 200px;
+    left: 18px;
+    font-size: 14px;
+}
+
+.pptext{
+    font-size: 10px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 600px) {
+    .popupBtn {
+        bottom: 20px; /* Adjust bottom position */
+        right: 20px; /* Adjust right position */
+        padding: 10px; /* Reduce padding for smaller screens */
+        font-size: 14px; /* Adjust font size */
+        border: none;
+        /* display: none; */
+    }
+
+    .chatbox {
+        position: fixed;
+        z-index: 2;
+        bottom: 72px;
+        right: 20px;
+        /* transform: translate(-50%, -50%); */
+        max-height: 500px;
+        max-width: 300px;
+        background-color: #beffaf;
+        border-radius: 17px;
+        animation: chatboxanim .7s ease 0s 1 normal forwards;
+        /* display: none; */
+
+    }
+    
+}

@@ -1,0 +1,72 @@
+.messagingServicesCardsContainer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 5rem;
+    border-radius: 17px;
+    background-color: #f0f0f0;
+  }
+  
+  .msMainHeading {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0rem 6rem 1rem 6rem;
+  }
+  
+  .msSectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .msSectionContainer .msCard {
+    width: 200px;
+    height: auto;
+    border: none;
+    background-color: #e2ffd4;
+    border-radius: 8px;
+    margin: 20px 0px 20px 0px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .msSectionContainer .msCard:hover {
+    transform: scale(1.03);
+    cursor: default;
+  }
+  
+  .msCardHeading {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.msCardParagraph {
+    font-size: 14px;
+    /* margin: 0; */
+  }
+  
+  .msBulletPoints {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    flex-shrink: 0;
+  }
+  
+  .msBulletPoints li {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .messagingServicesCardsContainer {
+      margin: 3rem 1rem 0rem 1rem;
+    }
+  
+    .msSectionContainer .msCard {
+      width: 100%;
+    }
+  }
+  

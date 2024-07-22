@@ -1,0 +1,15 @@
+.navbar {
+    min-height: 80px;
+    background-color: #0000000e;
+    display: flex;
+    padding: 0 20px;
+    color: #000000;  
+  }  
+  
+  .navbar h5 {
+    margin: 0;
+    position: absolute;
+    top: 55px;
+    right: 20px;
+  }
+  

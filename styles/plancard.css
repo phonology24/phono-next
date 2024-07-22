@@ -1,0 +1,77 @@
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 100px;
+  top: 489px;
+}
+
+.planCard {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.cardTitle {
+  background-color: #5FC32D;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+.cardContent {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100%;
+}
+
+.price {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.minutes {
+  font-size: 28px;
+}
+
+.additionalMinutes {
+  font-size: 12px;
+}
+
+.selectButton {
+  background-color: #5FC32D;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .cardsContainer {
+    flex-direction: column;
+    top: 750px;
+    left: 10px;
+  }
+
+  .planCard {
+    width: 90vw;
+    height: 250px;
+    /* margin: 10px; */
+    background-color: white;
+
+  }
+}

@@ -1,0 +1,83 @@
+.drawer{
+    min-width: 40vw;
+}
+
+.cartDiv {
+    min-width: 45vw;
+    max-width: 40vw;
+}
+
+.cartHeading {
+    text-align: left;
+    padding: 50px 0px 20px 50px;
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(47, 47, 47);
+}
+
+.closeIconDrawer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    border: none;   
+     color:  rgb(255, 0, 0);
+    border: 2px solid rgba(168, 0, 0, 0.349);
+    transition: all .5s ease-in-out;
+}
+
+.closeIconDrawer:hover{
+    border: 2px solid rgb(168, 0, 0);
+    color:  rgb(168, 0, 0);
+
+}
+
+.numbersLine {
+    padding: 0px 0px 5px 0px;
+    border: 2px solid rgb(0, 159, 27);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 0px 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.phoneNumbersInCart {
+    margin: 10px 10px;
+    min-width: 95%;
+    max-height: 300px;
+    background-color: rgb(232, 232, 232);
+    align-items: center;
+    justify-content: center;
+}
+
+.phoneNumbersP {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.userDiv{
+    /* border: 1px solid black; */
+    padding-left: 20px;
+}
+
+#username{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .drawer{
+        min-width: 100vw;
+    }
+
+    .cartDiv {
+        min-width: 100vw;
+    }
+    
+}

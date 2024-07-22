@@ -1,0 +1,254 @@
+/* SIPTrunkingHeading.css */
+
+.sip-trunking-heading {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 80px;
+  }
+  
+  .sip-trunking-content {
+    margin: 100px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  
+  .sip-trunking-heading-main {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    animation: sip-hd 1s ease-in 0s 1 normal none;  
+  }
+  
+  @keyframes sip-hd {
+    0% {
+      opacity: 0;
+      transform: scale(1.4);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .sip-trunking-description {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 10px;
+    animation: sip-des 1s ease-in 0s 1 normal none;
+  }
+
+  @keyframes sip-des {
+    0% {
+      opacity: 0;
+      transform: scale(0.6);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .sip-trunking-details {
+    font-size: 18px;
+    color: #000000df;
+    line-height: 1.5;
+    animation: sip-p 1s ease-in 0s 1 normal none;
+  }
+
+  @keyframes sip-p {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  
+  .sip-trunking-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    animation: sip-img 1s ease-in 0s 1 normal none;
+  }
+
+  @keyframes sip-img {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+@media (max-width: 768px) {
+  .sip-subheader-heading {
+    font-size: 36px; 
+  }
+
+  .sip-subheader-container {
+    padding: 20px;
+  }
+
+  .sip-subheader-paragraph {
+    font-size: 16px;
+  }
+
+  .sip-cards-container {
+    flex-direction: column;
+  }
+
+  .sip-card {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+}
+
+/* Default styles */
+.sip-subheader-container {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 4rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+  .sip-subheader-container:hover {
+    transform: scale(1.03);
+  }
+  
+.sip-subheader-heading {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sip-subheader-paragraph {
+  font-size: 18px;
+}
+
+.sip-cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.gradient-ltr{
+  color: transparent;
+  background-image: url('/Assets/gradient.png');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+
+
+
+/* sip-subheader.css */
+
+.two-cards-sip-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000000; 
+margin: 7rem 0 7rem 0;
+  border-radius: 80px;
+}
+
+.sip-left-p{
+ color: white;
+ font-size: 18px;
+    
+}
+
+.left-section-sip {
+  flex: 1;
+  padding: 20px;
+  background-color: #000000; 
+  border-radius: 20px;
+  margin-top: 1.6rem;
+}
+
+.right-section-sip {
+  padding: 20px;
+color: rgb(218, 218, 218);
+}
+
+.quote-heading {
+  color: transparent;
+    background-image: url('/Assets/gradient.png');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+  font-size: 45px;
+    text-align: left;
+    font-weight: 900;
+    animation: sip-slv 1s ease-in 0s 1 normal none;
+}
+
+.sip-ul {
+  list-style-type: disc;
+  animation: sip-slv 1s ease-in 0s 1 normal none;
+
+  padding-left: 20px;
+  color: transparent;
+  background-image: url('/Assets/gradient.png');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+}
+.sip-ul li{
+  font-size: 24px;
+  
+}
+
+.sip-p {
+  font-size: 18px;
+   color: rgb(218, 218, 218);
+}
+
+.quote-paragraph {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .two-cards-sip-container {
+    flex-direction: column;
+  }
+
+  .left-section-sip,
+  .right-section-sip {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.quote-heading .solved-sip{
+  color: transparent;
+    background-image: url('/Assets/gradient.png');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+@keyframes sip-slv {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

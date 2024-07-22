@@ -1,0 +1,176 @@
+/* HostedCallCenterHeading.css */
+
+
+.hosted-call-center-content {
+  justify-content: space-between;
+  background-color: #c0c0c0;
+  padding: 30px;
+  border-radius: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  margin: 120px 20px 50px 20px;
+  align-items: center;
+}
+
+.hosted-call-center-image  {
+  max-width: 100%;
+  height: auto;
+  border-radius: 80px;
+  margin-right: 20px;
+  animation: hcc-img 1s ease-in 0s 1 normal none;
+}
+
+@keyframes hcc-img {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.hosted-call-center-text {
+  flex: 1;
+}
+
+.hosted-call-center-heading-main {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  animation: hcc-hd 1s ease-in 0s 1 normal none;
+}
+
+@keyframes hcc-hd {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.hosted-call-center-description {
+  animation: hcc-des 1s ease-in 0s 1 normal none;
+  font-size: 24px;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+@keyframes hcc-des {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hosted-call-center-details {
+  font-size: 18px;
+  line-height: 1.5;
+  animation: hcc-p 1s ease-in 0s 1 normal none;
+}
+
+@keyframes hcc-p {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+/* HostedCallCenterSubHeading.css */
+
+.hostedCallCenterContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10rem 0 10rem 0;
+}
+
+.hostedCallCenterText {
+  flex: 1;
+}
+
+
+.hostedCallCenterh2 {
+  animation: hcc-subh2 1s ease-in 0s 1 normal none;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+@keyframes hcc-subh2 {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.hostedCallCenterP {
+  animation: hcc-subh2 1s ease-in 0s 1 normal none;
+  font-size: 18px;
+
+}
+
+.hostedCallCenterImage {
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  animation: hcc-img 1s ease-in 0s 1 normal none;
+}
+
+@media (max-width: 768px) {
+
+  /* Change to column layout on smaller screens */
+  .hostedCallCenterContainer {
+    flex-direction: column;
+    display: block;
+  }
+
+  .hosted-call-center-content {
+    flex-direction: column;
+    width: 100%;
+    margin: 8rem auto;
+    display: block;
+  }
+
+  .hostedCallCenterImage {
+    margin-left: 0;
+    /* width: 90%; */
+    margin-top: 20px;
+    /* display: none; */
+  }
+
+  .hosted-call-center-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hosted-call-center-heading-main {
+    margin-top: 20px;
+    font-size: 35px;
+  }
+
+  .hostedCallCenterh2 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,116 @@
+.editor-wrapper {
+  width: 80vw;
+  border: 1px solid rgb(255, 255, 255);
+  background: #fff;
+  padding: 1rem;
+  margin-left: 30px;
+  margin-top: 200px;
+}
+
+.editor-container {
+  width: 100%;
+  border: 2px solid rgb(216, 216, 216);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 1rem;
+}
+
+.toolbar-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-input {
+  min-width: 100%;
+  padding: 10px 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  border-bottom: 2px solid rgb(216, 216, 216);
+  flex-grow: 1;
+}
+
+
+#toolbar-buttons {
+  margin-right: 8px;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+.superFancyBlockquote {
+  color: #999;
+  background: #fff;
+  font-family: "Hoefler Text", Georgia, serif;
+  font-style: italic;
+  border-left: 2px solid #999;
+  padding-left: 10px;
+}
+
+.codeBlock {
+  font-family: fira-code, monospace;
+  font-size: inherit;
+  background: #ffeff0;
+  font-style: italic;
+  word-wrap: normal;
+  word-wrap: break-word;
+  box-decoration-break: slice;
+  padding: 0.3rem 2rem;
+  border-radius: 0.2rem;
+}
+
+.leftAlign {
+  text-align: left;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+.centerAlign {
+  text-align: center;
+}
+
+.justifyAlign {
+  text-align: justify;
+}
+
+.save-post-button {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: #e0e0e000;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  /* border: 1px solid black; */
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  transition: all .3s ease-in-out;
+}
+
+.save-post-button:hover {
+  transform: rotate(-90deg);
+  background-color: #000000;
+  color: white;
+}
+
+.add-image-button {
+  margin-top: 10px;
+  background-color: #00000000;
+  border: none;
+  color: #C6C7C6;
+}

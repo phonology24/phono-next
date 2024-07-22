@@ -1,0 +1,77 @@
+.virtualNumberCardsContainer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 5rem;
+    border-radius: 17px;
+    background-color: #ffffff;
+  }
+  
+  .vnMainHeading {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0rem 6rem 1rem 6rem;
+  }
+  
+  .vnSectionContainer {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+    gap: 10px; 
+    margin: 0;
+  }
+  
+  .vnSectionContainer .vnCard {
+    max-width: 200px; 
+    min-width: 200px; 
+    height: auto;
+    background-color: #E4F9E8;
+    border-radius: 8px;
+    margin: 20px 0; 
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .vnSectionContainer .vnCard:hover {
+    transform: scale(1.03);
+    cursor: default;
+  }
+  
+  .vnCardHeading {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .vnCardParagraph {
+    font-size: 14px;
+    flex-grow: 1;
+  }
+  
+  .vnBulletPoints {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+    flex-shrink: 0;
+  }
+  
+  .vnBulletPoints li {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .virtualNumberCardsContainer {
+      margin: 3rem 1rem 0rem 1rem;
+    }
+  
+    .vnSectionContainer {
+      flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    }
+  
+    .vnSectionContainer .vnCard {
+      width: 100%;
+    }
+  }
+  

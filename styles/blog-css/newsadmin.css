@@ -1,0 +1,94 @@
+.news-grid {
+    z-index: 999;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .news-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      /* border: 1px solid black; */
+      padding-left: 30px;
+      /* margin-top: -80px; */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .news-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .news-card-admin::-webkit-scrollbar {
+    display: none;
+}
+  
+  .news-card-admin {
+      z-index: 999;
+      border: 1px solid #f1f1f1;
+    overflow-y: scroll;
+
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    min-height: 450px;
+    min-height: 400px;
+    min-width: 250px;
+    max-width: 250px;
+  }
+  
+  .news-card-admin:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  
+  .news-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(221, 221, 221);
+    font-weight: 600;
+    font-family: "League Spartan", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    min-height: 50px;
+    width: 100%;
+  }
+  
+  .news-date {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: -120px;
+    font-size: 14px;
+    color: #ff9900;
+  }
+  
+  .news-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: auto;
+    padding: 10px;
+  }
+  
+  .edit-button, .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ff9900;
+  }
+  

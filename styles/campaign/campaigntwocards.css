@@ -1,0 +1,38 @@
+.campaign-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 500px;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #dddddd;
+    /* border-radius: 8px; */
+    background-color: #ffffff;
+  }
+  
+  .campaign-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .campaign-text h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+    font-weight: 800;
+  }
+  
+  .campaign-text p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .campaign-image {
+    flex: 1;
+  }
+  
+  .campaign-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

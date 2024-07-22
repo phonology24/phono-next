@@ -1,0 +1,339 @@
+/* Communications Header Styles */
+
+.communications-header {
+  background-color: #ffffff;
+  padding: 10px 0px 20px 0px;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(to right, #F08080, #87CEEB);
+  border-image-slice: 1;
+  padding-top:200px;
+  animation: unifiedHeader 1s ease-in 0s 1 normal none;
+}
+
+@keyframes unifiedHeader {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.communications-inner {
+  align-items: center;
+}
+
+.communications-main {
+  max-width: 100%;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 30px;
+  margin-top: 0rem 30px 0px 30px;
+}
+
+
+.communications-content {
+  text-align: left;
+}
+
+.communications-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .communications-grid{
+    display: flex;
+    flex-direction: column;
+  }
+  .communications-header{
+    padding: 80px;
+  }
+}
+
+.communications-content-inner {
+  padding: 20px;
+}
+
+.communications-display-4 {
+  font-size: 50px;
+  line-height: 1.3;
+  font-weight: 900;
+}
+
+.communications-gradient-ltr {
+  color: transparent;
+  background-image: url('../public/Assets/gradient.png');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.communications-large {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.communications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.communications-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #314BE3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.communications-link {
+  text-decoration: none;
+}
+
+.communications-link-inner {
+  display: flex;
+  align-items: center;
+}
+
+.communications-link-label {
+  font-size: 18px;
+  color: #314BE3;
+  font-weight: 400;
+}
+
+.communications-link-icon {
+  width: 19px;
+  height: 10px;
+  fill: #314BE3;
+}
+
+.communications-photo-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+/* CommunicationsTwoCards Styles */
+
+.communications-two-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 6rem 20px 60px 20px;
+  border-left: 200px solid;
+  border-image: linear-gradient(to bottom, #aaeb87, #ffffff);
+  border-image-slice: 1;
+  padding: 20px;
+}
+
+.communications-two-cards h2 {
+  font-weight: 900;
+  padding-bottom: 30px;
+  font-size: 24px;
+
+}
+
+.communications-left-card p {
+  font-size: 18px;
+}
+
+.communications-right-card .communication-li,
+.communication-ul {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.communications-right-card span {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  padding: 6px;
+  border-radius: 30%;
+}
+
+.communications-card {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.communications-left-card {
+  margin-right: 10px;
+}
+
+.communications-right-card .communication-ul {
+  list-style: disc;
+  padding: 0;
+}
+
+.communications-right-card .communication-li {
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .communications-two-cards {
+    flex-direction: column;
+    border: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .how-it-works-heading {
+    font-size: 36px;
+
+  }
+
+  .how-it-works-container {
+    padding: 20px;
+  }
+
+  .how-it-works-paragraph {
+    font-size: 16px;
+  }
+}
+
+.how-it-works-container {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 4rem;
+}
+
+.how-it-works-heading {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.how-it-works-paragraph {
+  font-size: 18px;
+}
+
+.unified-cards-wrapper{
+  display: flex;
+}
+
+.unified-card {
+  text-align: center;
+
+  padding: 20px;
+  width: 400px;
+  height: auto;
+  justify-content: space-between;
+  flex-direction: row; 
+
+}
+
+.unified-card p {
+  font-size: 2px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+
+  .how-it-works-container {
+    padding: 10px;
+  }
+
+  .unified-cards-wrapper{
+    display: block;
+  }
+  .unified-card {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+.pain-points-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.left-section {
+  padding: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin-top: 1.6rem;
+}
+
+.right-section {
+  flex: 1;
+}
+
+.section-heading-unified {
+  font-size: 45px;
+  text-align: left;
+  font-weight: 900;
+}
+
+.section-heading-unified .solved {
+  color: transparent;
+  background-image: url('../public/Assets/gradient.png');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+
+.painpointsul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 26px;
+
+}
+
+
+.painpoints-p {
+  font-size: 18px;
+  color: rgb(54, 54, 54);
+  margin: 10px;
+}
+
+.client-feedback {
+  text-align: left;
+  align-items: center;
+  margin:10rem auto;
+
+}
+
+.feedback-heading {
+  font-size: 20px;
+}
+
+.feedback-paragraph {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 900
+}
+
+@media (max-width: 768px) {
+  .pain-points-container {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

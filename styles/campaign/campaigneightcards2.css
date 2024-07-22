@@ -1,0 +1,63 @@
+.campaign-eight-cards-container82 {
+  text-align: center;
+  padding: 20px;
+}
+
+.heading82 {
+  font-size: 46px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.cards82 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card82 {
+  flex: 1 1 20%;
+  /* This will make sure 4 cards fit in a row on a standard desktop */
+  border: 1px solid #dddddd00;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  /* From https://css.glass */
+  background: rgba(96, 231, 83, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.icon82 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .card82 {
+    flex: 1 1 45%;
+    /* Two cards per row on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .card82 {
+    flex: 1 1 100%;
+    /* One card per row on mobile */
+  }
+}

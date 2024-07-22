@@ -1,0 +1,75 @@
+.dashboard-container {
+    display: flex;
+    max-height: 100%;
+    /* width: 100vw; */
+    /* margin-left: -115px; */
+    /* margin-right: -115px; */
+    background-image: url(../../../src/Assets/dot-grid.webp);
+z-index: -999;
+  }
+
+  /* .news-container{
+    margin-top: 100px;
+  } */
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    padding: 40px;
+    flex: 1;
+    /* border: 1px solid rgb(224, 224, 224);   */
+  }  
+
+
+.post-actions{
+  position: relative;
+  margin-right: 60px;
+}
+
+
+.post-actions button{
+  border-radius: 17px;
+  background-color: rgba(0, 0, 0, 0);
+  /* position: absolute; */
+  /* margin-bottom: -20px; */
+  padding: 25px 0px 10px 10px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+
+}
+  .delete-button{
+    color: #ff9900;
+    border: none;
+    /* padding: 10px; */
+    /* margin: 0px 10px; */
+
+  }
+
+  .edit-button{
+    color: #ff9900;
+    border: none; 
+    /* padding: 10px; */
+    /* margin: 0px 10px; */
+
+  }
+
+  .open-button{
+    color: #ff9900;
+    border: none; 
+    /* padding: 10px; */
+    /* margin: 0px 10px; */
+
+  }
+
+  .toggle-button{
+    border: none;
+    background-color: transparent;
+    color: #ff9900;
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }

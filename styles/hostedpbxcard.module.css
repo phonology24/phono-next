@@ -1,0 +1,64 @@
+/* Hosted PBX Cards Styles */
+.nestedLayoutColumnInner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px 0 100px 0;
+    align-items: center;
+  }
+  
+  .columnPbx {
+    flex: 0 0 calc(33.333% - 20px);
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 10px;
+    /* padding: 20px; */
+    /* border-radius: 8px; */
+    transition: transform 0.3s ease-in-out;
+    text-align: left;
+    /* border: 1px solid black; */
+    min-height: 181px;
+  }
+  
+  .columnPbx .gradientLtr {
+    background-image: url('/Assets/gradient.png');
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+        font-size: 22px;
+        margin-top: 0;
+        text-align: left;
+  }
+  
+  .columnPbx:hover {
+    transform: scale(1.01);
+  }
+  
+  .columnContent {
+    flex: 1;
+  }
+  
+  .large {
+    font-size: 16px;
+    min-height: 109px;
+  }
+  
+  @media (max-width: 768px) {
+    .nestedLayoutColumnInner {
+      flex-direction: column;
+    }
+  
+    .columnPbx {
+      margin-right: 10px;
+      width: 100%;
+      align-items: center;
+    }
+  }
+  
+  .iconPbx {
+    font-size: 80px;
+    padding: 10px;
+  }
+  

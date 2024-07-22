@@ -1,0 +1,351 @@
+.sales-button{
+  position: fixed;
+  left: 1.6rem;
+  top: 29rem;
+  right: 0rem;
+  width: 60px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  z-index: 1;
+  background-color: #00000000;
+
+}
+
+.sales-button:hover{
+  color: #fffb00;
+}
+
+
+.sales-button::before {
+  content: '';
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.sales-button:hover {
+  width: 150px;
+  height: 50px;
+  text-align: right;
+  position: fixed;
+  border-radius: 17px;
+  background-color: #dbdbdb00;
+  color: rgb(0, 0, 0);
+  display: flex;
+
+}
+
+.sales-button:hover::before {
+  white-space: nowrap;
+  content: 'Lets Talk';
+  background-position:right center;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  background-color: #00000000;
+} 
+
+/* 
+.support-button{
+  position: fixed;
+  left: 1.5rem;
+  top: 30rem;
+  right: 2rem;
+  width: 60px;
+  height: 50px;
+  background-color:#ffffff00;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all .5s;
+  z-index: 1;
+}
+
+.support-button::before {
+  content: 'support';
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.support-button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 17px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.support-button:hover::before {
+  white-space: nowrap;
+  content: '+91 99865 09709 / 9740454742';
+  background-position: right center;
+  color: rgb(0, 0, 0);
+}
+
+
+.billing-button{
+  position: fixed;
+  left: 1.5rem;
+  top: 32rem;
+  right: 2rem;
+  width: 60px;
+  height: 50px;
+  background-color:#ffffff00;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all .5s;
+  z-index: 1;
+}
+
+.billing-button::before {
+  content: 'billing';
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.billing-button:hover {
+  width: 250px;
+  height: 50px;
+  border-radius: 17px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.billing-button:hover::before {
+  white-space: nowrap;
+  content: '+91 91085 40675';
+  background-position: right center;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 1023px) {
+
+  .sales-button {
+display: none;
+  }
+  .support-button {
+    display: none;
+  }
+
+  .billing-button {
+    display: none;
+  } 
+}
+
+ */
+
+.menu-icon {
+  cursor: pointer;
+  height: 1.5rem;
+  width: 2rem;
+}
+
+
+.menu {
+  position: absolute;
+  top: -110px;
+  min-width: 280px;
+  min-height:180px;
+  left:40%;
+  padding: 0em;
+  font-size: 1rem;
+  background-color: #fffb00 !important;
+  list-style: none;
+  color: rgb(0, 0, 0);
+  visibility: hidden;
+  display: flex;
+  /* border: 1px solid rgba(0, 0, 0, 0.325); */
+  border-radius:30px ;
+  flex-direction: column;
+  transition: all .5s ease-in-out;
+}
+
+
+.menu:hover{
+  background-color: #ffffff;
+}
+
+
+.menu li + li {
+  margin-top: 2em;
+}
+
+.menu-item1 {
+  margin-top: 20px;
+  cursor: pointer;
+  color: #000000;
+  text-align: center;
+  /* top: 100px; */
+  /* background-color: #000000;
+  border-radius: 10px; */
+}
+
+.menu-item1::before{
+  content: 'Sales';
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -0%);
+  /* background-color: #ffffff; */
+  border-radius: 10px;
+}
+
+.menu-item1:hover{
+  /* width: 250px;
+  height: 50px; */
+  /* border-radius: 17px; */
+  /* background-color: #ffffff;
+  color: rgb(0, 0, 0); */
+  display: flex;
+}
+
+.menu-item1:hover::before{
+  white-space: nowrap;
+  content: '+91 98459 77788 / +919845633355';
+  background-position: right center;
+  color: rgb(0, 0, 0);
+  /* background-color:#ffffff; */
+  /* padding: 10px 20px; */
+  border-radius: 10px;
+  left: 50%;
+  top:0%;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+
+.menu-item2 {
+  cursor: pointer;
+  color: #000000;
+  text-align: center;
+}
+
+.menu-item2::before{
+  content: 'Support';
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -0%);
+}
+
+.menu-item2:hover{
+  /* width: 250px;
+  height: 50px; */
+  /* border-radius: 17px; */
+  /* background-color: #ffffff;
+  color: rgb(0, 0, 0); */
+  display: flex;
+}
+
+.menu-item2:hover::before{
+  white-space: nowrap;
+  content: '+91 99865 09709 / 9740454742';
+  background-position: right center;
+  color: rgb(0, 0, 0);
+  /* background-color:#ffffff; */
+  /* padding: 10px 20px; */
+  border-radius: 10px;
+  left: 50%;
+  top:0%;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+
+}
+.menu-item3 {
+  cursor: pointer;
+  color: #000000;
+  text-align: center;
+}
+
+
+.menu-item3::before{
+  content: 'Billing';
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, 0%);
+}
+
+.menu-item3:hover{
+  /* width: 250px;
+  height: 50px; */
+  /* border-radius: 17px; */
+  /* background-color: #ffffff;
+  color: rgb(0, 0, 0); */
+  display: flex;
+}
+
+.menu-item3:hover::before{
+  white-space: nowrap;
+  content: '+91 91085 40675';
+  background-position: right center;
+  color: rgb(0, 0, 0);
+  /* background-color:#ffffff; */
+  /* padding: 10px 20px; */
+  border-radius: 10px;
+  left: 50%;
+  top:0%;
+  animation: myAnim 1s ease-in-out 0s 1 normal forwards;
+
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	  transform: translate(50%, 0%);
+    
+  }
+  
+	50% {
+		opacity: 0.50;
+		transform: scale(0.6);
+	  transform: translate(-50%, 0%);
+    
+  }
+  
+	100% {
+    opacity: 1;
+		transform: scale(1);
+    transform: translate(-50%, 0%);
+	}
+}
+
+@media (max-width: 1000px){
+  .sales-button{
+    display: none;
+  }
+}

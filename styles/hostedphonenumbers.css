@@ -1,0 +1,340 @@
+/* Hosted Phone Numbers Styles */
+
+.hosted-phone-numbers {
+  background-color: #ff000000;
+  padding: 10px 0px 20px 0px;
+  /* font-family: 'Courier Prime', monospace !important; */
+  border-bottom: 4px solid;
+  border-image: linear-gradient(to right, #b9ff9b, #87CEEB);
+  border-image-slice: 1;
+}
+
+.hosted-phone-numbers-inner {
+  align-items: center;
+}
+
+.hosted-phone-numbers-main {
+  max-width: 100%;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 30px;
+  margin-top: 0rem 30px 0px 30px;
+}
+
+@media (max-width: 768px) {
+  .hosted-phone-numbers-grid {
+    grid-template-columns: 100%;
+  }
+}
+
+.hosted-phone-numbers-content {
+  text-align: left;
+}
+
+.hosted-phone-numbers-grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  gap: 20px;
+}
+
+.hosted-phone-numbers-content-inner {
+  padding: 20px;
+}
+
+.hosted-phone-numbers-display-4 {
+  font-size: 50px;
+  line-height: 1.3;
+  font-weight: 900;
+}
+
+.hosted-phone-numbers-gradient-ltr {
+  font-weight: 900;
+}
+
+.hosted-phone-numbers-large {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.hosted-phone-numbers-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hosted-phone-numbers-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #314BE3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hosted-phone-numbers-link {
+  text-decoration: none;
+}
+
+.hosted-phone-numbers-link-inner {
+  display: flex;
+  align-items: center;
+}
+
+.hosted-phone-numbers-link-label {
+  font-size: 18px;
+  color: #314BE3;
+  font-weight: 400;
+}
+
+.hosted-phone-numbers-link-icon {
+  width: 19px;
+  height: 10px;
+  fill: #314BE3;
+}
+
+.hosted-phone-numbers-photo-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20%;
+  margin: 0 auto;
+  padding: 50px;
+  z-index: 1;
+
+}
+
+
+.hosted-phone-numbers-photo {
+  position: relative;
+
+}
+
+.background-z {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.hosted-phone-numbers-display-4 {
+  animation: hostedpb 1s ease-in 0s 1 normal none;
+}
+
+.hosted-phone-numbers-large {
+  animation: hostedpbp 1s ease-in 0s 1 normal none;
+}
+
+.hosted-phone-numbers-link-inner {
+  animation: hostedpbp 1s ease-in 0s 1 normal none;
+}
+
+.hosted-phone-numbers-photo-image {
+  animation: hostedpbpimg 1s ease-in 0s 1 normal none;
+}
+
+
+@keyframes hostedpbpimg {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes hostedpbp {
+  0% {
+    opacity: 0;
+    transform: translateY(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hostedpb {
+  0% {
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1200px) {
+  .hosted-phone-numbers-grid {
+    grid-template-columns: 100%;
+  }
+}
+
+
+
+.hosted-numbers-two-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+  margin-bottom: 30px;
+  border-radius: 17px;
+  animation: twocardfade 1.5s ease-in 0s 1 normal none;
+}
+
+@keyframes twocardfade {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.hosted-numbers-two-cards .card-hosted {
+  text-align: left;
+  flex: 1;
+  margin: 10px;
+  border: none;
+  }
+
+  .card-hosted img {
+    margin-top: 40px;
+    max-width: 100%;
+    z-index: auto;
+  height: auto;
+  scale: 1.1;
+  border-radius: 10px;
+  /* z-index: -999; */
+  overflow-y: hidden;
+}
+
+.card-hosted h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.card-hosted .gradient-ltr {
+  background-image: url('/Assets/gradient.png');
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.card-hosted h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.card-hosted p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 768px) {
+  .hosted-numbers-two-cards {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 30px;
+
+  }
+
+  .hosted-phone-numbers-photo {
+    margin-left: -90px;
+  }
+
+  .card-hosted {
+    max-width: 100%;
+  }
+
+  .card-hosted h3 {
+    font-size: 3rem;
+
+  }
+}
+
+
+
+
+
+
+
+.nested-layout__column-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 100px 0 100px 0;
+  align-items: center;
+}
+
+.column-pbx {
+  flex: 0 0 calc(33.333% - 20px);
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 8px;
+
+  transition: transform 0.3s ease-in-out;
+  text-align: left;
+}
+
+.column-pbx .gradient-ltr {
+  font-size: 24px;
+
+}
+
+.column-pbx:hover {
+  transform: scale(1.01);
+}
+
+.column__image {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.column__content {
+  flex: 1;
+}
+
+.large {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .nested-layout__column-inner {
+    flex-direction: column;
+
+  }
+
+  .column-pbx {
+    margin-right: 10px;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.column-pbx .icon-pbx {
+  font-size: 100px;
+  padding: 10px;
+}
