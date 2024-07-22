@@ -41,7 +41,7 @@ const PhonologyBlogs = () => {
     <div className="post-container">
       <NewsComponent />
       <div className="posts-list">
-        <h1>Phonology Blogs</h1>
+        <h1>Blogs</h1>
         <div className="posts-grid">
           {!posts || posts.length === 0 ? (
             <h2>No posts available</h2>
