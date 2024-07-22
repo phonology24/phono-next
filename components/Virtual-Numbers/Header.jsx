@@ -5,7 +5,7 @@ import "../../styles/virtualnumbers.css";
 import Link  from "next/link";
 import FreeTrialForm from "../Home/FreeTrialForm";
 import { Helmet } from "react-helmet";
-import { ReactTitle } from "react-meta-tags";
+// import { ReactTitle } from "react-meta-tags";
 import Image from "next/image";
 import BannerCards from "../BannerCards";
 
@@ -28,7 +28,7 @@ const HeaderVirtualNumbers = () => {
       </Helmet>
       <div className="hero-vn">
       {/* <h1 style={{display:"none"}}>Virtual Phone Number Providers</h1> */}
-      <ReactTitle title="Virtual Phone Number Providers"/>
+      {/* <ReactTitle title="Virtual Phone Number Providers"/> */}
 
         <div>
           <h2 className="heading-text-vn">

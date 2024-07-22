@@ -13,7 +13,7 @@ import Testimonials from "@/components/Home/Testimonial";
 import PopupButton from "@/components/PopupContact";
 import Form from "@/components/Form";
 import { Helmet } from "react-helmet";
-import { MetaTags, ReactTitle } from "react-meta-tags";
+// import { MetaTags, ReactTitle } from "react-meta-tags";
 import styles from "../styles/App.module.css";
 
 const cardVariants = {
@@ -154,7 +154,7 @@ const Home = () => {
 
   return (
     <div className={styles.homeContainer}>
-      <MetaTags>
+      {/* <MetaTags>
         <title>
           VoIP Service Provider | VoIP Service Provider In India | Phonology
         </title>
@@ -177,7 +177,7 @@ const Home = () => {
      SIP trunk in India, office VoIP phones in India, office phone services in India, office IP phone in India, "
         />
       </MetaTags>
-      <ReactTitle title="VoIP Service Provider | VoIP Service Provider In India | Phonology" />
+      <ReactTitle title="VoIP Service Provider | VoIP Service Provider In India | Phonology" /> */}
 
       <div className={styles.homeBannerContainer}>
         <div className={styles.homeBannerImageContainer}></div>

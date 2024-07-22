@@ -5,13 +5,13 @@ import styles from '../../styles/voiceTermination.module.css';
 import Link from "next/link";
 import FreeTrialForm from "../Home/FreeTrialForm";
 import { Helmet } from "react-helmet-async";
-import MetaTags, { ReactTitle } from 'react-meta-tags';
+// import MetaTags, { ReactTitle } from 'react-meta-tags';
 import BannerCards from "../BannerCards";
 
 const HeaderVoiceTermination = () => {
   return (
     <div className={styles.heading}>
-      <MetaTags>
+      {/* <MetaTags>
         <meta
           name="description"
           content="The leading VoIP service provider in India with Phonology. Enjoy crystal-clear communication, seamless connectivity, 
@@ -31,9 +31,9 @@ const HeaderVoiceTermination = () => {
           SIP trunk in India, office VoIP phones in India, office phone services in India, office IP phone in India,"
         />
         <link rel="canonical" href="https://www.phonology.io/voip-service-providers-in-india" />
-      </MetaTags>
+      </MetaTags> */}
       <div className={styles.heroVc}>
-        <ReactTitle title="Enterprise VoIP Solution- Leading VoIP Service Provider in India" />
+        {/* <ReactTitle title="Enterprise VoIP Solution- Leading VoIP Service Provider in India" /> */}
         <div>
           <h1 className={styles.headingTextVc}>
             Enterprise VoIP Solution- Leading VoIP Service Provider in India
