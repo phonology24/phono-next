@@ -1,10 +1,9 @@
+"use client"
 import React, { useEffect, useRef, useState } from "react";
 import {
   EditorState,
   RichUtils,
   convertToRaw,
-  convertFromRaw,
-  Modifier,
   AtomicBlockUtils,
 } from "draft-js";
 import { stateToHTML } from "draft-js-export-html";
@@ -18,16 +17,17 @@ import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 import { ToastContainer } from 'react-toastify';
 import createLinkDecorator from "./LinkComponent";
 import AddLinkIcon from '@mui/icons-material/AddLink';
-import { useParams, useHistory } from 'react-router-dom';
+import { useRouter } from 'next/router';
 import { stateFromHTML } from 'draft-js-import-html';
 
 const imagePlugin = createImagePlugin();
 const plugins = [imagePlugin];
 
-const BlogPostEditor = () => { // Added postId prop to identify the post to edit
+const BlogPostEditor = () => {
+  const router = useRouter();
   const [title, setTitle] = useState("");
-  const {postId } = useParams(); 
-  console.log(postId);
+  const { postId } = router.query; 
+  console.log(postId); 
 
   const [description, setDescription] = useState("");
   const [editorState, setEditorState] = useState(() => {
@@ -193,7 +193,7 @@ const BlogPostEditor = () => { // Added postId prop to identify the post to edit
     setEditorState(newEditorState);
   };
 
-  const handleAddLink = ( ) => {
+  const handleAddLink = () => {
     const selection = editorState.getSelection();
     if (!selection.isCollapsed()) {
       const contentState = editorState.getCurrentContent();
@@ -306,8 +306,6 @@ const BlogPostEditor = () => { // Added postId prop to identify the post to edit
         editorState={editorState}
         setEditorState={setEditorState}
         handleImageUpload={handleImageUpload}
-        // handleAddLink={handleAddLink}
-        // handleRemoveLink={handleRemoveLink}
       />
       <input
         type="text"
