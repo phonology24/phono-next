@@ -17,10 +17,12 @@
     height: 450px;
     font-size: 15px;
     width: 950px;
-    margin-right: 100px;
+    margin-right: 90px;
+    padding-left: 50px;
     left:5px;
     top:10px;
     color: #000000;
+
     }
 
    #go-to-home{
@@ -47,11 +49,12 @@
   .login-form {
     background: rgb(247, 247, 247);
     padding: 20px;
-    padding-top: 250px;
+    padding-top: 35vh;
+    padding-bottom: 33vh;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(212, 255, 156, 0.1);
     width: 400px;
-    height: 100%;
+    height: auto;
     text-align: center;
   }
   
@@ -67,6 +70,8 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+
   }
   
   .login-form button {
@@ -78,6 +83,8 @@
     cursor: pointer;
     margin-top: 10px;
     transition: all .2s ease-in-out;
+    font-family: "Poppins", sans-serif;
+
   }
   
   .login-form button:hover {

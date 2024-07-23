@@ -47,9 +47,6 @@ const Footer = () => {
           <span><a href="/direct-routing-service-providers">
             Microsoft Teams
             </a></span>
-          <span><a href="/direct-routing-service-providers">
-            Blogs
-            </a></span>
         </div>
         <div className={styles.footerSectionColumns}>
           <span>

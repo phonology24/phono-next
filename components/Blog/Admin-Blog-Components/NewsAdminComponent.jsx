@@ -111,7 +111,7 @@ const NewsAdminComponent = () => {
             ) : (
                 news.map((newsItem) => (
                     <div key={newsItem._id} className="news-card-admin">
-                        <Image src={`https://blog.phonology.io/${newsItem.image}`} alt={newsItem.title} className="news-card-image" />
+                        <Image src={`https://blog.phonology.io/${newsItem.image}`} alt={newsItem.title} className="news-card-image" width={300} height={100} />
                         <h6 className='card-title' style={{ color: "grey" }}>{newsItem.title}</h6>
                         <div className="news-date">{moment(newsItem.createdAt).format('MMMM Do, YYYY')}</div>
                         <div className="news-actions">

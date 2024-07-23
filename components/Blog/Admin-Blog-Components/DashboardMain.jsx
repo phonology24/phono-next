@@ -1,8 +1,9 @@
+"use client"
 import React, { useEffect, useState } from 'react';
 import Sidebar from '../Admin-Blog-Components/SideBar';
 import Navbar from './BlogNavBar';
 import '../../../styles/blog-css/blogDashboard.css';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/navigation';
 import axios from 'axios';
 import moment from 'moment';
 import slugify from 'slugify';
@@ -16,7 +17,7 @@ const DashboardMain = () => {
   const [viewNews, setViewNews] = useState(false);
   const [viewBlogs, setViewBlogs] = useState(true);
 
-  const navigate = useNavigate();
+  const navigate = useRouter();
 
   // Authentication
   useEffect(() => {
@@ -109,7 +110,7 @@ const DashboardMain = () => {
     <div className="dashboard-container">
       <Sidebar />
       <div className="main-content">
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="content">
         <button onClick={() => newsToggler()} className="toggle-button">{viewBlogs ? 'View News' : 'View Blogs' }</button>
         {viewBlogs && (
@@ -120,11 +121,11 @@ const DashboardMain = () => {
                 posts.map((post) => (
                   <div key={post._id} className="post-card">
                     {extractImage(post.content) ? (
-                      <Image src={extractImage(post.content)} alt={post.title} className="post-image" />
+                      <Image src={extractImage(post.content)} alt={post.title} className="post-image"   width={300} height={100} />
                     ) : (
                       <div className="image-placeholder"></div>
                     )}
-                    <h6 className='card-title' style={{ color: "grey" }}>{post.title}</h6>
+                    <h6 className='card-title' >{post.title}</h6>
                     <div className="post-date">{moment(post.createdAt).format('MMMM Do, YYYY')}</div>
                     <div className="post-actions">
                       <button className='edit-button' onClick={() => handleEditClick(post._id)} title='Edit Post'><EditIcon /></button>
@@ -134,6 +135,7 @@ const DashboardMain = () => {
                   </div>
                 ))
               )}
+              
             </div>
           )}
 
