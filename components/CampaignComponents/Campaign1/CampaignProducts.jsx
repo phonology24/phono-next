@@ -11,43 +11,45 @@ const CampaignProducts = () => {
             <div className="vn-card">
               <h2 className="vn-card-heading">SIP Trunk</h2>
               <p className="vn-card-paragraph">
-              Boost call handling productivity, elevate client adventure, and smooth operational administration for ultimate results.
+              Internet-based phone line that allows businesses to make and receive calls more efficiently and cost-effectively.
               </p>
               <ul className="vn-bullet-points">
-                <li> Inbound campaigns</li>
-                <li>Outbound campaigns</li>
-                <li>Local presence</li>
+                <li> Cost-Effective</li>
+                <li>Scalable</li>
+                <li>Flexible</li>
               </ul>
             </div>
             <div className="vn-card">
               <h2 className="vn-card-heading">Virtual Numbers</h2>
               <p className="vn-card-paragraph">
-              Ease external coupling, blend across assorted pathways, and ensure scalability for your blueprint.
-              </p>
+              Virtual phone numbers  let businesses manage calls from anywhere in the world , providing a local presence and enhancing customer reach
+                            </p>
               <ul className="vn-bullet-points">
-                <li>Virtual Identity</li>
-                <li> Inbound Flows</li>
+                <li>Remote work support</li>
+                <li>Increased Accessibility</li>
+                <li>Global Reach</li>
               </ul>
             </div>
             <div className="vn-card">
               <h2 className="vn-card-heading">Cloud PBX</h2>
               <p className="vn-card-paragraph">
-              We serve external interaction, vocal routing, and assessing.
-                        </p>
+              Internet-based phone system that manages business calls and communications without traditional hardware            
+                          </p>
               <ul className="vn-bullet-points">
-                <li> Virtual presence in any state / country</li>
-                <li>Toll-free Numbers</li>
-                <li> Remote lines</li>
+                <li> Cost Savings</li>
+                <li>Disaster Recovery</li>
+                <li>Enhanced Security</li>
               </ul>
             </div>
             <div className="vn-card">
               <h2 className="vn-card-heading">UCaas / CPaaS</h2>
               <p className="vn-card-paragraph">
-              Provide localized entry, optimize vocal routing, and extend value-added facilities to boost the all-inclusive venture for your clientele.
-                     </p>
+              Provide cloud-based tools for seamless business communication, integrating voice, video, messaging, and more into one platform.
+                                  </p>
               <ul className="vn-bullet-points">
-                <li>Expanded coverage</li>
-                <li>Better pricing</li>
+                <li>Integrated Communication</li>
+                <li>Scalable Solutions</li>
+                <li>Cost Efficiency</li>
               </ul>
             </div>
           </div>

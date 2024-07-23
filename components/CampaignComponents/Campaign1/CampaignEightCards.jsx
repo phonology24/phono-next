@@ -10,14 +10,14 @@ import FitbitIcon from '@mui/icons-material/Fitbit';
 import NatIcon from '@mui/icons-material/Nat';
 const CampaignEightCards = () => {
   const cards = [
-    { icon: <SettingsRemoteIcon/>, heading: 'Remote Work', description: 'This is the description for card' },
-    { icon: <WorkHistoryIcon/>, heading: 'Business Efficiency', description: 'This is the description for card' },
-    { icon: <SpaIcon/>, heading: 'CRM Integration', description: 'This is the description for card' },
-    { icon: <SupportAgentIcon/>, heading: 'Customer Suport', description: 'This is the description for card' },
-    { icon: <AttachMoneyIcon/>, heading: 'Cost Saving', description: 'This is the description for card' },
-    { icon: <AspectRatioIcon/>, heading: 'Scalability', description: 'This is the description for card' },
-    { icon: <FitbitIcon/>, heading: 'Improved Call Quality', description: 'This is the description for card' },
-    { icon: <NatIcon/>, heading: 'Unified Communications', description: 'This is the description for card' },
+    { icon: <SettingsRemoteIcon/>, heading: 'Remote Work', description: 'Work from anywhere with clear and reliable VoIP calls.' },
+    { icon: <WorkHistoryIcon/>, heading: 'Business Efficiency', description: 'Improving business efficiency by making calls quicker, clearer and cheaper.' },
+    { icon: <SpaIcon/>, heading: 'CRM Integration', description: 'Easily manage all customer calls and information in one place.' },
+    { icon: <SupportAgentIcon/>, heading: 'Customer Suport', description: 'The customer support team offers assistance to clients round the clock.' },
+    { icon: <AttachMoneyIcon/>, heading: 'Cost Saving', description: 'Reduces costs with and scalable and flexible solutions.' },
+    { icon: <AspectRatioIcon/>, heading: 'Scalability', description: 'Can add or remove lines as communication needs change.' },
+    { icon: <FitbitIcon/>, heading: 'Security', description: 'Encrypts calls, verifies users, blocks hackers, prevents attacks.' },
+    { icon: <NatIcon/>, heading: 'Unified Communications', description: 'Combines all your communication tools into one platform.'},
   ];
 
   return (
