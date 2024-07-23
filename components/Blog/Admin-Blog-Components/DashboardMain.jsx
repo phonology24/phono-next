@@ -107,30 +107,30 @@ const DashboardMain = () => {
 
   return (
     <>
-    <div className="dashboard-container">
+    <div className="dashboard-container1">
       <Sidebar />
-      <div className="main-content">
+      <div className="main-content1">
         {/* <Navbar /> */}
-        <div className="content">
-        <button onClick={() => newsToggler()} className="toggle-button">{viewBlogs ? 'View News' : 'View Blogs' }</button>
+        <div className="content1">
+        <button onClick={() => newsToggler()} className="toggle-button1">{viewBlogs ? 'View News' : 'View Blogs' }</button>
         {viewBlogs && (
-            <div className="posts-grid">
+            <div className="posts-grid1">
               {posts.length === 0 ? (
                 <h2>No posts available</h2>
               ) : (
                 posts.map((post) => (
-                  <div key={post._id} className="post-card">
+                  <div key={post._id} className="post-card1">
                     {extractImage(post.content) ? (
                       <Image src={extractImage(post.content)} alt={post.title} className="post-image"   width={300} height={100} />
                     ) : (
-                      <div className="image-placeholder"></div>
+                      <div className="image-placeholder1"></div>
                     )}
-                    <h6 className='card-title' >{post.title}</h6>
-                    <div className="post-date">{moment(post.createdAt).format('MMMM Do, YYYY')}</div>
-                    <div className="post-actions">
-                      <button className='edit-button' onClick={() => handleEditClick(post._id)} title='Edit Post'><EditIcon /></button>
-                      <button className='open-button' onClick={() => handlePostClick(post.title, post._id)} title='Open Post'><OpenInNewOutlinedIcon /></button>
-                      <button className='delete-button' onClick={() => deletePost(post._id)} title='Delete Post'><DeleteOutlinedIcon /></button>
+                    <h6 className='card-title1' >{post.title}</h6>
+                    <div className="post-date1">{moment(post.createdAt).format('MMMM Do, YYYY')}</div>
+                    <div className="post-actions1">
+                      <button className='edit-button1' onClick={() => handleEditClick(post._id)} title='Edit Post'><EditIcon /></button>
+                      <button className='open-button1' onClick={() => handlePostClick(post.title, post._id)} title='Open Post'><OpenInNewOutlinedIcon /></button>
+                      <button className='delete-button1' onClick={() => deletePost(post._id)} title='Delete Post'><DeleteOutlinedIcon /></button>
                     </div>
                   </div>
                 ))
