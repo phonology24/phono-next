@@ -11,13 +11,13 @@ import NatIcon from '@mui/icons-material/Nat';
 const CampaignEightCards = () => {
   const cards = [
     { icon: <SettingsRemoteIcon/>, heading: 'Remote Work', description: 'Work from anywhere with clear and reliable VoIP calls.' },
-    { icon: <WorkHistoryIcon/>, heading: 'Business Efficiency', description: 'Improving business efficiency by making calls quicker, clearer and cheaper.' },
-    { icon: <SpaIcon/>, heading: 'CRM Integration', description: 'Easily manage all customer calls and information in one place.' },
+    { icon: <WorkHistoryIcon/>, heading: 'Business Efficiency', description: 'Improve business efficiency by making calls that are quicker, clearer and cheaper.' },
+    { icon: <SpaIcon/>, heading: 'CRM Integration', description: 'Integrate your VoIP calls to CRM to help manage all customer calls and information in one place.' },
     { icon: <SupportAgentIcon/>, heading: 'Customer Suport', description: 'The customer support team offers assistance to clients round the clock.' },
-    { icon: <AttachMoneyIcon/>, heading: 'Cost Saving', description: 'Reduces costs with and scalable and flexible solutions.' },
-    { icon: <AspectRatioIcon/>, heading: 'Scalability', description: 'Can add or remove lines as communication needs change.' },
-    { icon: <FitbitIcon/>, heading: 'Security', description: 'Encrypts calls, verifies users, blocks hackers, prevents attacks.' },
-    { icon: <NatIcon/>, heading: 'Unified Communications', description: 'Combines all your communication tools into one platform.'},
+    { icon: <AttachMoneyIcon/>, heading: 'Cost Saving', description: 'Reduce costs with VoIP solutions that are scalable and flexible solutions.' },
+    { icon: <AspectRatioIcon/>, heading: 'Scalability', description: 'You can add or remove lines as communication needs change.' },
+    { icon: <FitbitIcon/>, heading: 'Security', description: 'Provides robust security by encrypting calls, verifying users and blocking hackers.' },
+    { icon: <NatIcon/>, heading: 'Unified Communications', description: 'Combines all your communication tools into one single easy-to-use platform'},
   ];
 
   return (

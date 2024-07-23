@@ -22,7 +22,7 @@ const CampaignProducts = () => {
             <div className="vn-card">
               <h2 className="vn-card-heading">Virtual Numbers</h2>
               <p className="vn-card-paragraph">
-              Virtual phone numbers  let businesses manage calls from anywhere in the world , providing a local presence and enhancing customer reach
+              Virtual phone numbers  let businesses manage calls from anywhere in the world , providing a local presence and enhancing customer reach.
                             </p>
               <ul className="vn-bullet-points">
                 <li>Remote work support</li>
@@ -33,7 +33,7 @@ const CampaignProducts = () => {
             <div className="vn-card">
               <h2 className="vn-card-heading">Cloud PBX</h2>
               <p className="vn-card-paragraph">
-              Internet-based phone system that manages business calls and communications without traditional hardware            
+              Internet-based phone system that manages business calls and communications without traditional hardware.     
                           </p>
               <ul className="vn-bullet-points">
                 <li> Cost Savings</li>
