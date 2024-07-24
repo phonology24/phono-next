@@ -1,5 +1,7 @@
-"use client"
+// components/Blog/Admin-Blog-Components/BlogPostEditorComponent.jsx
+"use client"; // Ensure this line is at the top
 import React, { useEffect, useRef, useState } from "react";
+import { usePathname } from 'next/navigation';
 import {
   EditorState,
   RichUtils,
@@ -10,23 +12,23 @@ import { stateToHTML } from "draft-js-export-html";
 import axios from "axios";
 import Editor from "@draft-js-plugins/editor";
 import createImagePlugin from "@draft-js-plugins/image";
-import Toolbar from "./ToolBar";
-import "../../../styles/blog-css/texteditor.css";
+import { ToastContainer } from 'react-toastify';
 import AddPhotoAlternateOutlinedIcon from '@mui/icons-material/AddPhotoAlternateOutlined';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
-import { ToastContainer } from 'react-toastify';
 import createLinkDecorator from "./LinkComponent";
 import AddLinkIcon from '@mui/icons-material/AddLink';
-import { useRouter } from 'next/router';
 import { stateFromHTML } from 'draft-js-import-html';
+
+import "../../../styles/blog-css/texteditor.css";
+import Toolbar from "./ToolBar";
 
 const imagePlugin = createImagePlugin();
 const plugins = [imagePlugin];
 
 const BlogPostEditor = () => {
-  const router = useRouter();
+  const pathname = usePathname();
   const [title, setTitle] = useState("");
-  const { postId } = router.query; 
+  const postId = pathname.split("/").pop(); // Extract the postId from the pathname
   console.log(postId); 
 
   const [description, setDescription] = useState("");
@@ -360,7 +362,7 @@ const BlogPostEditor = () => {
         <AddPhotoAlternateOutlinedIcon />
       </button>
       <button className="add-image-button" onClick={handleAddLink}><AddLinkIcon /></button>
-      <button onClick={handleRemoveLink}>Remove Link</button>
+      {/* <button onClick={handleRemoveLink}>Remove Link</button> */}
       <button onClick={handleSave} className="save-post-button" title="Save">
         <SendOutlinedIcon style={{ fontSize: '44px' }} />
       </button>

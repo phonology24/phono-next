@@ -96,7 +96,7 @@ const DashboardMain = () => {
 
   // U/X
   const handleEditClick = (postId) => {
-    const url = `${window.location.origin}/edit-post/postId?${postId}`;
+    const url = `${window.location.origin}/edit-post/${postId}`;
     window.open(url, '_blank');
   };
 

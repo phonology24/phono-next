@@ -54,7 +54,7 @@ const HeaderVirtualNumbers = () => {
 />
 
       </div>
-      <div className="button-group">
+      <div className="button-groupvn">
         <FreeTrialForm />
         <Link href="https://zfrmz.in/uVhtnQbhSsWHU9Z8Xy8T" target="_blank" rel="noopener noreferrer nofollow">
           <button>Get Pricing</button>

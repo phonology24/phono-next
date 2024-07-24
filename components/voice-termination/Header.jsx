@@ -27,32 +27,13 @@ const HeaderVoiceTermination = () => {
           Your browser does not support the video tag.
         </video>
       </div>
-      <div className={styles.buttonGroup}>
+      <div className={styles.buttonGroupvc}>
           <button className={styles.vtButton}>Free Trial</button>
-        {/* <Link href="https://zfrmz.in/uVhtnQbhSsWHU9Z8Xy8T" target="_blank" rel="noopener noreferrer nofollow"> */}
+        <Link href="https://zfrmz.in/uVhtnQbhSsWHU9Z8Xy8T" target="_blank" rel="noopener noreferrer nofollow">
           <button className={styles.vtButton}>Get Pricing</button>
-        {/* </Link> */}
+        </Link>
       </div>
-      {/* <div className={styles.darkDivVt}>
-        <div className={styles.bannerCardContainer}>
-          <div className={styles.bannerCard}>
-            <h2 style={{ fontSize: "40px" }}>24B+</h2>
-            <h4 className={styles.ltrGradient}>Minutes Terminated</h4>
-          </div>
-          <div className={styles.bannerCard}>
-            <h2 style={{ fontSize: "40px" }}>80%</h2>
-            <h4 className={styles.ltrGradient}>Cost Reduction</h4>
-          </div>
-          <div className={styles.bannerCard}>
-            <h2 style={{ fontSize: "40px" }}>70+</h2>
-            <h4 className={styles.ltrGradient}>Country Supports</h4>
-          </div>
-          <div className={styles.bannerCard}>
-            <h2 style={{ fontSize: "40px" }}>24/7</h2>
-            <h4 className={styles.ltrGradient}>Dedicated Technical Support</h4>
-          </div>
-        </div>
-      </div> */}
+ 
       <BannerCards/>
     </div>
   );

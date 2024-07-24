@@ -106,29 +106,29 @@ filter: drop-shadow();
         box-shadow: 1px -86px 400px 50px #5FC72F;
 
     }
-    .button-group button {
+    .button-groupvn button {
         
         padding: 8px;
         border-radius: 10px;
         position: relative;
         background-color: rgba(251, 251, 251, 0.404);
         color: #000000;
-        border: 1px solid rgba(255, 255, 255, 0.125);
+        border: 1px solid rgba(0, 0, 0, 0.125);
         align-self: center;
         font-weight: 500;
     }
     
-    .button-group {
+    .button-groupvn {
         margin-top: -40px;
         align-items: center;
         /* z-index: -999; */
 
     }
     
-    .button-group button:hover {
-        background-color: rgba(54, 54, 54, 0.378);
+    .button-groupvn button:hover {
+        background-color: rgba(255, 255, 255, 0.378);
         border: 1px solid rgba(54, 54, 54, 0.378);
-        color: #8CD4FF;
+        color: #000000;
         
     }
     
@@ -181,30 +181,35 @@ filter: drop-shadow();
     z-index: 999 !important; */
 
 }
-.button-group button {
+.button-groupvn button {
     margin: 5px;
-    padding: 8px;
+    padding: 10px;
     border-radius: 10px;
     position: relative;
     transition: 0.5s;
-    background-color: #9bff94;
+    background-color: #8cff84;
     background-size: 200% auto;
     color: #242424;
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
     align-self: center;
     font-weight: 500;    
-}
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 
-.button-group {
+  }
+  
+  .button-groupvn {
     margin-top: -50px;
     align-items: center;
-}
-
-.button-group button:hover {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .button-groupvn button:hover {
+  border: 2px solid rgb(201, 201, 201);
     background-position: right center; 
             color: #000000;
-            text-decoration: none;
-    
+            text-decoration: none;    
 }
 
 

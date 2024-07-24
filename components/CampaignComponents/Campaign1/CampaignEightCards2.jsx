@@ -11,14 +11,14 @@ import PieChartIcon from '@mui/icons-material/PieChart';
 import TerminalIcon from '@mui/icons-material/Terminal';
 const CampaignEightCards2 = () => {
   const cards = [
-    { icon: <PhoneForwardedIcon/>, heading: 'Call Forwarding and Routing', description: 'Empower yourself with knowledge through our comprehensive courses.' },
-    { icon: <ShowChartIcon/>, heading: 'Call Barging', description: 'Boost your professional growth with our career development programs.' },
-    { icon: <FaceRetouchingNaturalIcon/>, heading: 'Auto- Attendant', description: 'Join us in making a positive impact on our planet.' },
-    { icon: <RadioButtonCheckedIcon/>, heading: 'Call Recording', description: 'Explore the latest trends and innovations in technology.' },
-    { icon: <AddIcCallIcon/>, heading: 'Conference Calling', description: 'Stay fit and healthy with our personalized fitness plans.' },
-    { icon: <LeakAddIcon/>, heading: 'Integration With CRM', description: 'Discover delicious recipes and culinary tips.' },
-    { icon: <PieChartIcon/>, heading: 'Call Analytics and Reporting', description: 'Plan your next adventure with our travel guides and tips.' },
-    { icon: <TerminalIcon/>, heading: 'Mobile App', description: 'Unleash your creativity with our art and design resources.' },
+    { icon: <PhoneForwardedIcon/>, heading: 'Call Forwarding and Routing', description: 'Efficiently redirecting incoming calls to the right person at the right time.' },
+    { icon: <ShowChartIcon/>, heading: 'Auto Dialers', description: 'Enhance your agents productivity with automated dialers.' },
+    { icon: <FaceRetouchingNaturalIcon/>, heading: 'Toll free numbers', description: 'Encourage more international callers as they will not be charged.' },
+    { icon: <RadioButtonCheckedIcon/>, heading: 'Call Barging', description: 'Join an ongoing phone call to listen in or help out, provide support or guidance.' },
+    { icon: <AddIcCallIcon/>, heading: 'Voicemail to Email  ', description: 'Receive voicemail messages as email attachments.' },
+    { icon: <LeakAddIcon/>, heading: 'Call analytics and reporting', description: 'Gives you detailed call reports which you can use to enhance performance.' },
+    { icon: <PieChartIcon/>, heading: 'Mobile App', description: 'VoIP mobile apps enable internet-based calls, messaging, and file sharing.' },
+    { icon: <TerminalIcon/>, heading: 'Conference calling', description: 'allows multiple participants to join a single call over the internet, facilitating virtual meetings and group discussions.' },
   ];
 
   return (

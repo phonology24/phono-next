@@ -1,11 +1,14 @@
-import React from 'react'
-import BlogPostEditor from '@/components/Blog/Admin-Blog-Components/BlogPostEditorComponent'
-const page = () => {
+// app/unified-communication-providers/page.jsx
+import dynamic from 'next/dynamic';
+
+const BlogPostEditor = dynamic(() => import('../../../components/Blog/Admin-Blog-Components/BlogPostEditorComponent'), { ssr: false });
+
+const Page = () => {
   return (
     <div>
-      <BlogPostEditor/>
+      <BlogPostEditor />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default Page;

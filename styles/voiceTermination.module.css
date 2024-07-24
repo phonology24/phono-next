@@ -110,7 +110,7 @@
     position: relative;
   }
 
-  .buttonGroup  {
+  .buttonGroupvc  {
     padding: 8px;
     border-radius: 10px;
     position: relative;
@@ -123,16 +123,16 @@
 
   }
 
-  .buttonGroup {
+  .buttonGroupvc {
     align-items: center;
     display: flex;
     animation: virtualHeroButton 1s ease-in 0s 1 normal none;
   }
 
-  .buttonGroup button:hover {
-    background-color: rgba(54, 54, 54, 0.378);
-    border: 1px solid rgba(54, 54, 54, 0.378);
-    color: #8cd4ff;
+  .buttonGroupvc button:hover {
+    background-color: rgba(255, 255, 255, 0.378);
+    border: 2px solid rgba(0, 0, 0, 0.378);
+    color: #000000;
   }
 
   @keyframes virtualHeroButton {
@@ -190,21 +190,19 @@
 }
 
 .vtButton{
-  margin-left: 10px;
-  padding: 15px;
+  margin-left:10px;
+  padding: 10px;
   border-radius: 10px;
   z-index: -1;
   /* position: relative; */
   transition: 0.5s;
-background-color: yellow;
+background-color: rgb(155, 255, 142);
   color: #000000;
-  border: 1px solid rgb(102, 102, 102);
+  border: 2px solid rgba(102, 102, 102, 0);
   align-self: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
-
-
 }
 
 .buttonGroup1 {
