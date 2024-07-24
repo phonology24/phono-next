@@ -47,6 +47,32 @@
     padding: 0px 50px;
     /* border: 1px solid black; */
     margin: 0;
+    animation: h2animation 2s ease 0s 1 normal forwards;
+}
+.left p {
+    animation: cardpanimation 2s ease 0s 1 normal forwards;
+}
+
+@keyframes cardpanimation {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes h2animation {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 .right {
@@ -63,17 +89,42 @@
     display: flex;
     flex-wrap: wrap;
     /* gap: 5px;  */
-    margin-top:50px;
+    margin-top:20px;
+    animation: cardanimation 2s ease 0s 1 normal forwards;
+}
+
+@keyframes cardanimation {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 .form-frame{
     height: 650px;
     width: 100%;
-    border: none;
+    /* border: 1px solid black; */
     padding-top:20px;
     /* overflow:hidden !important; */
+    animation: formanimation 2s ease 0s 1 normal forwards;
     background-color: rgba(255, 255, 255, 0);
 }
+
+@keyframes formanimation {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 
 .button-campaign-div{
     position: absolute;
@@ -81,6 +132,19 @@
     left: 20.3vw;
     /* padding: 20px; */
     font-weight: 400;
+    animation: buttonanimation 2s ease 0s 1 normal forwards;
+}
+
+@keyframes buttonanimation {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 .button-campaign-div button{
