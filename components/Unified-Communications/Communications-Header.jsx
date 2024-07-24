@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/unified-communications.css';
-import YealinkPhone from '../../public/Assets/YealinkPhone.png'
+import YealinkPhone from '../../public/Assets/home-banner-image.png'
 
 import Image from 'next/image';
 const CommunicationsHeader = () => {
