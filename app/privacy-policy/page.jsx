@@ -1,5 +1,9 @@
 import React from 'react';
+import { Metadata } from 'next';
 
+export const metadata = {
+  title: 'Privacy Policy | Phonology', 
+}
 const PrivacyPolicy = () => {
   const containerStyle = {
     maxWidth: '800px',

@@ -1,5 +1,9 @@
 import React from 'react';
+import { Metadata } from 'next';
 
+export const metadata = {
+  title: 'Terms and Conditions | Phonology', 
+}
 const TermsAndConditions = () => {
   const containerStyle = {
     maxWidth: '800px',
