@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/unified-communications.css';
-import YealinkPhone from '/Assets/YealinkPhone.png'
+import YealinkPhone from '../../public/Assets/YealinkPhone.png'
 
 import Image from 'next/image';
 const CommunicationsHeader = () => {
@@ -36,7 +36,13 @@ const CommunicationsHeader = () => {
         </div>
         <div className="communications-photo">
           <div className="communications-photo-inner">
-            <Image className="communications-photo-image" src={YealinkPhone} alt="yealink-phone" />
+            <Image className="communications-photo-image" src={YealinkPhone} alt="yealinkphone" style={{
+            width: '100%',
+            height: 'auto',
+            borderRadius: '8px',
+            margin: '20px 0',
+            objectFit: 'cover',
+          }} ></Image>
           </div>
         </div>
       </div>
