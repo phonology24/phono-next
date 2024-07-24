@@ -8,6 +8,7 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import AspectRatioIcon from '@mui/icons-material/AspectRatio';
 import FitbitIcon from '@mui/icons-material/Fitbit';
 import NatIcon from '@mui/icons-material/Nat';
+
 const CampaignEightCards = () => {
   const cards = [
     { icon: <SettingsRemoteIcon/>, heading: 'Remote Work', description: 'Work from anywhere with clear and reliable VoIP calls.' },

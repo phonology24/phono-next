@@ -18,26 +18,22 @@
 .card82 {
   flex: 1 1 20%;
   /* This will make sure 4 cards fit in a row on a standard desktop */
-  border: 1px solid #000000ea;
+  border: 1px solid #00000000;
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
   background-color: #ffffff;
   text-align: center;
-  /* From https://css.glass */
-  background: rgba(96, 231, 83, 0.28);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3.4px);
-  -webkit-backdrop-filter: blur(3.4px);
-  border: 1px solid rgb(247, 247, 247);
   transition: all .3s ease-in-out;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #e2ff0055, #e2ff00 );
 }
+
 
 .card82:hover{
   scale: 1.04;
   border: 1px solid rgb(204, 204, 204);
-
 }
 
 .icon82 svg{
