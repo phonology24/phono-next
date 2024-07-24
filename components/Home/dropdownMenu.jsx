@@ -34,7 +34,7 @@ const DropdownMenu = () => {
               <p className={styles.itemDescription}>The business phone system that you love with added features for power call center users.</p>
             </Row>
             <Row className={styles.itemRow}>
-              <Col><Link href="/sip-trunk-providers" className={styles.itemColLink}><SipIcon /> SIP Trunking</Link></Col>
+              <Col><Link href="/messaging-services" className={styles.itemColLink}><SipIcon /> Messaging Services</Link></Col>
               <p className={styles.itemDescription}>Have your own phone? No problem. Digital dial tone for any phone system.</p>
             </Row>
             <Row className={styles.itemRow}>
