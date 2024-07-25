@@ -6,14 +6,19 @@ import CampaignTwoCards from './CampaignComponents/Campaign1/CampaignTwoCards'
 import HostedPbxCards from './HostedNumbers/HostedPbxCards'
 import CampaignEightCards from './CampaignComponents/Campaign1/CampaignEightCards'
 import CampaignEightCards2 from './CampaignComponents/Campaign1/CampaignEightCards2'
+import CallToActionDemoButton from './CampaignComponents/Campaign1/CallToActionDemoButton'
+import FreetrialComponent from './CampaignComponents/Campaign1/FreetrialComponent'
+
 const Campaign1 = () => {
   return (
     <div>
 <CampaignHeader/>      
 <CampaignTwoCards/>
 <CampaignEightCards/>
+<CallToActionDemoButton/>
 <CampaignProducts/>
 <CampaignEightCards2/>
+<FreetrialComponent/>
 <HostedPbxCards/>
     </div>
   )
