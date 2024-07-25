@@ -1,19 +1,32 @@
 .freeTrialButtonCampaign {
     justify-content: center;
-    align-items: center;
+    align-items: left;
     border: 1px solid rgba(0, 0, 0, 0);
     min-width: 100%;    
     font-size: 30px;
-    background-color: rgba(230, 230, 230, 0.363);
+    background-color: rgba(255, 255, 255, 0.438);
     color: rgb(0, 0, 0);
-    padding: 15px;
+    padding: 45px;
     font-weight: 800;
     /* border-radius: 17px; */
-    margin:50px 0px;
+    margin:0px 0px 0px 0px;
     font-family: "Poppins", sans-serif;
-
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    transition: all .3s ease-in-out;
 }
 
+
+.freeTrialButtonCampaign:hover{
+    background-color: #D8B3B7;
+    color: rgb(255, 255, 255);
+}
+
+.freeTrialButtonCampaign svg{
+    /* background-color: aqua; */
+    /* margin-top: 1px; */
+font-size: 25px;
+}
 .freetrialcontainer{
     background-color: rgba(0, 0, 255, 0.116); 
     border-radius: 17px;
@@ -26,9 +39,10 @@
 
 
 .Headingvoipform{
-font-size: 40px;
+font-size: 36px;
 padding-top: 30px;
 }
+
 .freetrialcontainer p{
     display: flex;
     justify-content: center;
@@ -38,16 +52,17 @@ padding-top: 30px;
 .listfreetrial {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    /* align-items: last baseline; */
 }
 
 .listfreetrial p {
-    flex: 0 0 calc(33.33% - 100px); /* Ensures three items per row and accounts for margins */
-    margin: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.158);
-    padding: 20px;
+    flex: 0 0 calc(24.33% - 10px);
+    /* margin: 10px 20px; */
+    background-color: rgba(119, 95, 95, 0.432);
+    padding: 10px;
     border-radius: 17px;
+    text-align: left;
     /* border: 1px solid black; */
 }
 
