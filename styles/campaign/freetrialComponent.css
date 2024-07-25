@@ -68,12 +68,21 @@ padding-top: 30px;
 
 @media (max-width: 992px) {
     .listfreetrial li {
-        flex: 0 0 calc(50% - 40px); /* Two items per row for medium screens */
+        flex: 0 0 calc(50% - 40px); 
     }
 }
 
 @media (max-width: 768px) {
     .listfreetrial li {
-        flex: 0 0 calc(100% - 40px); /* One item per row for small screens */
+        flex: 0 0 calc(100% - 40px); 
     }
+    .Headingvoipform{
+        font-size: 18px;
+        padding-top: 30px;
+        }
+
+        .freeTrialButtonCampaign {
+            font-size: 22px;
+            /* padding-top: 30px; */
+        }
 }

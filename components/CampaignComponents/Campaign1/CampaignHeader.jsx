@@ -21,6 +21,7 @@ const CampaignHeader = () => {
 
     return (
         <>
+        <div className="campaignHeaderContainer">
             <div className="phono-img">
                 <a href='/'><Image src={logo} alt="phono-img" /></a>
             </div>
@@ -43,6 +44,7 @@ const CampaignHeader = () => {
                 <div className='cards right'>
                     <iframe aria-label='SIGN UP FOR A FREE DEMO' frameBorder="0" src='https://forms.zohopublic.in/phonology/form/CampaignForm/formperma/ZSZ6bo7a2Bc7eKru1S4sKmXzI4dMI8Rp-9bOSbnInZ4' className='form-frame'></iframe>
                 </div>
+            </div>
             </div>
         </>
     );

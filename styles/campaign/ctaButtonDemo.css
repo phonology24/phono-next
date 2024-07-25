@@ -36,3 +36,22 @@
     font-weight: 600;
     margin-right:20px;
 }
+
+@media (max-width: 768px) {
+    .ctaButtonDemoContainer{
+        flex-direction: column;
+    }
+
+    .ctaPDemo{
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+    }
+
+.ctaBookADemo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+}

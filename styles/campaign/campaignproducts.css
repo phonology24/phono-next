@@ -73,10 +73,19 @@
 
 @media (max-width: 768px) {
   .virtual-number-cards-container {
-    margin: 3rem 1rem 0rem 1rem;
+    margin: 1rem 0rem 0rem 0rem;
+    padding: 0;
+  }
+
+  .vn-card-heading {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 700;
   }
 
   .vn-section-container .vn-card {
-    width: 100%;
+    min-width: 70%;
+    margin: 1rem 0rem;
+    padding: 25px;
   }
 }
