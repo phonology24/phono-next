@@ -1,7 +1,64 @@
-.freeTrialButtonCampaign{
+.freeTrialButtonCampaign {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0);
+    min-width: 100%;    
+    font-size: 30px;
+    background-color: rgba(230, 230, 230, 0.363);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-weight: 800;
+    /* border-radius: 17px; */
+    margin:50px 0px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.freetrialcontainer{
+    background-color: rgba(0, 0, 255, 0.116); 
+    border-radius: 17px;
+    background: rgb(179,174,238);
+    background: -moz-linear-gradient(90deg, rgba(179,174,238,1) 0%, rgba(255,184,125,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(179,174,238,1) 0%, rgba(255,184,125,1) 100%);
+    background: linear-gradient(90deg, rgba(179,174,238,1) 0%, rgba(255,184,125,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3aeee",endColorstr="#ffb87d",GradientType=1);
+}
+
+
+.Headingvoipform{
+font-size: 40px;
+padding-top: 30px;
+}
+.freetrialcontainer p{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    min-width: 100%;    
+}
+
+.listfreetrial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.listfreetrial p {
+    flex: 0 0 calc(33.33% - 100px); /* Ensures three items per row and accounts for margins */
+    margin: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.158);
+    padding: 20px;
+    border-radius: 17px;
+    /* border: 1px solid black; */
+}
+
+@media (max-width: 992px) {
+    .listfreetrial li {
+        flex: 0 0 calc(50% - 40px); /* Two items per row for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .listfreetrial li {
+        flex: 0 0 calc(100% - 40px); /* One item per row for small screens */
+    }
 }
