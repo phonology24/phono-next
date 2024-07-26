@@ -18,7 +18,7 @@ const CampaignEightCards = () => {
     { icon: <AttachMoneyIcon/>, heading: 'Cost Saving', description: 'Reduces costs with and scalable and flexible solutions.' },
     { icon: <AspectRatioIcon/>, heading: 'Scalability', description: 'You can add or remove lines as communication needs change.' },
     { icon: <FitbitIcon/>, heading: 'Security', description: 'Encrypts calls, verifies users, blocks hackers, prevents attacks.' },
-    { icon: <NatIcon/>, heading: 'Unified Communications', description: 'Combines all your communication tools into one single easy-to-use platform'},
+    { icon: <NatIcon/>, heading: 'Unified Communications', description: 'Brings together all your different communication tools into one simple system, making it easier to connect and work with others.'},
   ];
 
   return (

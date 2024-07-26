@@ -11,7 +11,7 @@ import FreetrialComponent from './CampaignComponents/Campaign1/FreetrialComponen
 
 const Campaign1 = () => {
   return (
-    <div>
+<div >
 <CampaignHeader/>      
 <CampaignTwoCards/>
 <CampaignEightCards/>

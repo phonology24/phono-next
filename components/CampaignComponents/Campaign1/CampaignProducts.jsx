@@ -11,8 +11,8 @@ const CampaignProducts = () => {
             <div className="vn-card">
               <h2 className="vn-card-heading">SIP Trunk</h2>
               <p className="vn-card-paragraph">
-              Internet-based phone line that allows businesses to make and receive calls more efficiently and cost-effectively.
-              </p>
+              An internet-based phone line enables businesses to handle calls more efficiently and cost-effectively.
+                            </p>
               <ul className="vn-bullet-points">
                 <li> Cost-Effective</li>
                 <li>Scalable</li>

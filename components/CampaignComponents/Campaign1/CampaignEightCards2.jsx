@@ -13,7 +13,7 @@ const CampaignEightCards2 = () => {
   const cards = [
     { icon: <PhoneForwardedIcon/>, heading: 'Call Forwarding and Routing', description: 'Efficiently redirecting incoming calls to the right person at the right time.' },
     { icon: <ShowChartIcon/>, heading: 'Auto Dialers', description: 'Enhance your agents productivity with automated dialers.' },
-    { icon: <FaceRetouchingNaturalIcon/>, heading: 'Toll Free Numbers', description: 'Encourage more international callers as they will not be charged.' },
+    { icon: <FaceRetouchingNaturalIcon/>, heading: 'Toll Free Numbers', description: 'Encourage more international callers by letting them know they wont incur any charges.' },
     { icon: <RadioButtonCheckedIcon/>, heading: 'Call Barging', description: 'Join an ongoing phone call to listen in or help out, provide support or guidance.' },
     { icon: <AddIcCallIcon/>, heading: 'Voicemail to Email  ', description: 'You can receive voicemail messages in the form of email attachments.' },
     { icon: <PieChartIcon/>, heading: 'Call Analytics and Reporting', description: 'Gives you detailed call reports which you can use to enhance performance.' },
