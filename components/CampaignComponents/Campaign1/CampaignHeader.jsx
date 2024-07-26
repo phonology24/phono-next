@@ -11,12 +11,12 @@ import Image from 'next/image';
 
 const CampaignHeader = () => {
     const [cards, setCards] = useState([
-        { id: 1, content: 'High call quality', icon:<AcUnitOutlinedIcon/> },
         { id: 2, content: 'Global Connectivity', icon:<AutoAwesomeMotionOutlinedIcon/> },
         { id: 3, content: '24/7 Connectivity', icon:<BlurOnOutlinedIcon/> },
+        { id: 1, content: 'High call quality', icon:<AcUnitOutlinedIcon/> },
+        { id: 5, content: 'Advanced Features', icon:<EarbudsOutlinedIcon/>  },
+        { id: 6, content: 'Instant Setup', icon:<AutorenewOutlinedIcon/>  },
         { id: 4, content: 'Virtual Numbers', icon:<EqualizerOutlinedIcon/> },
-        { id: 5, content: 'Advance Features', icon:<EarbudsOutlinedIcon/>  },
-        { id: 6, content: 'Instant Setup', icon:<AutorenewOutlinedIcon/>  }
     ]);
 
     return (
@@ -30,7 +30,7 @@ const CampaignHeader = () => {
             </div>
             <div className='twocards'>
                 <div className='cards left'>
-                    <h2>A Trustworthy VoIP Phone System for Small and Medium Businesses and Large Enterprises.</h2>
+                    <h2>Trusted VoIP Communication for Small, Medium, and Large Enterprises.</h2>
                     <p>VoIP Phone System for Small, Medium and Large Enterprises</p>
                     <div className='six-cards'>
                         {cards.map(card => (
