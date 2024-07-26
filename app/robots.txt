@@ -1,4 +1,7 @@
 User-Agent: *
 Allow: /
+Disallow: blog.phonology.io/
+Disallow: api.phonology.io/
+
 
 Sitemap: https://phonology.io/sitemap.xml
