@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../styles/campaign/campaigntwocards.css';
-import campaignImg from "../../../public/Assets/HostedCallCenter.png"
+import campaignImg from "../../../public/Assets/landingPageImg.png"
 import Image from 'next/image';
 const CampaignTwoCards = () => {
   return (
