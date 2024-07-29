@@ -34,14 +34,13 @@
 
 .country-card {
     width: 100px;
-    height: 100px;
+    height: 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     background: rgba(255, 255, 255, 0);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(0px);
     -webkit-backdrop-filter: blur(0px);
     padding: 5px;
@@ -51,6 +50,7 @@
 }
 
 .country-card:hover {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     transform: scale(1.07);
     background: rgb(219, 255, 215);
 
@@ -68,7 +68,7 @@
 
 .flag-icon {
     width: 60px;
-    height: 60px;
+    height: 50px;
     padding: 0;
     /* object-fit: cover; */
 }
