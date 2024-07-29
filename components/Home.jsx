@@ -15,6 +15,7 @@ import Form from "@/components/Form";
 import { Helmet } from "react-helmet";
 // import { MetaTags, ReactTitle } from "react-meta-tags";
 import styles from "../styles/App.module.css";
+import PhoneNumbers from "./InternationalNumbers/GetInternationalNumbersComponent";
 
 const cardVariants = {
   whileHover: {
@@ -227,6 +228,7 @@ const Home = () => {
       {additionalComponents}
       <Testimonials />
       <Form />
+      <PhoneNumbers/>
       <Footer />
     </div>
   );

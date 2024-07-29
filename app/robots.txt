@@ -1,7 +1,7 @@
-User-Agent: *
+User-agent: *
 Allow: /
-Disallow: blog.phonology.io/
-Disallow: api.phonology.io/
 
+Disallow: /blog/
+Disallow: /api/
 
 Sitemap: https://phonology.io/sitemap.xml
