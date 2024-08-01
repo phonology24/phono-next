@@ -93,7 +93,7 @@ const phoneNumbers = {
 
   const PhoneNumbers = () => (
     <>
-      <h3 style={{ fontSize: '30px', textAlign: 'center', marginTop:"20px", fontWeight: 600 }}>Get International Phone Numbers</h3>
+      <h3 style={{ fontSize: '30px', textAlign: 'center', marginTop:"20px", fontWeight: 600 }}>Gain Access To International Phone Numbers</h3>
       <div className="phone-numbers">
         {Object.keys(phoneNumbers).map(region => (
           <div key={region} className="region">

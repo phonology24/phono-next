@@ -9,7 +9,7 @@
   max-height: 40px;
   padding: 10px 10px;
   position: fixed;
-  top: 0px;
+  top: -10px;
   left: 0;
   right: 0;
   z-index: 1;

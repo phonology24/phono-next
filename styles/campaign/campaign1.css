@@ -26,9 +26,10 @@
 .left {
     text-align: center;
     padding-top: 220px;    
-    padding-left: 50px;    
+    /* padding-left: 50px;     */
     padding-right: 0px;    
-    background-color: #96969600;
+    background-color: #ff030300;
+    /* border: 2px solid red; */
 }
 
 .left h2 {

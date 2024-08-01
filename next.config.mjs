@@ -2,7 +2,8 @@
 
 const nextConfig = {
   images: {
-    domains: ['blog.phonology.io'], // Add the allowed image domains here
+    domains: ['blog.phonology.io', 'flagsapi.com'],
+
   },
   webpack: (config, { isServer }) => {
     config.module.rules.push({

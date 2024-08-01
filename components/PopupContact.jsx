@@ -52,7 +52,7 @@ const PopupContact = () => {
               </Link>
             </button>
             <button>
-              <Link href="/about-phono">
+              <Link href="/about-phonology">
                 What Does Phonology.io do?
               </Link>
             </button>
