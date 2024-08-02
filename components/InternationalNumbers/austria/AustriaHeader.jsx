@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import ImageForInternationalNumber from "../../../public/Assets/blurry-gradient-haikei.png";
-import styles from "../../../styles/InternationalNumbersCss/internationalheader.module.css"; // Updated to use CSS modules
+import styles from "../../../styles/InternationalNumbersCss/Internationalheader.module.css"; 
 
 const AustriaHeader = () => {
   let countryName = "Austria";
@@ -12,7 +12,7 @@ const AustriaHeader = () => {
     <div className={styles.InternationalHeaderContainer}>
       <div className={styles.InternationalContent}>
         <h1 className={styles.Heading}>
-          Get <span className={styles.gradientLetter}>{countryName} </span>
+          Get&nbsp;<span className={styles.gradientLetter}>{countryName}&nbsp;</span>
           Virtual Phone Number
         </h1>
         <h2>Engage With {countryName} Customers and Prospects, Efficiently.</h2>
