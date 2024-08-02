@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import ImageForCard from '../../../public/Assets/wholesale-voice.png';
-import '../../../styles/Internationalsubheader.css';
+import styles from '../../../styles/Internationalsubheader.module.css';
 
 const AustriaSubHeader = () => {
   let countryName = "Austria";
@@ -18,32 +18,32 @@ const AustriaSubHeader = () => {
   ];
   
   return (
-    <div className="subHeaderContainer">
-      <h2 className="subHeaderHeading">Why Do You Need {countryName} Virtual Numbers?</h2>
+    <div className={styles.subHeaderContainer}>
+      <h2 className={styles.subHeaderHeading}>Why Do You Need {countryName} Virtual Numbers?</h2>
       
-      <div className="cardsContainer">
+      <div className={styles.cardsContainer}>
         {/* Uncomment if you want to use an image card */}
-        {/* <div className="imageCard">
-          <Image src={ImageForCard} alt={countryName} width={5000} height={5000} className="cardImage" />
+        {/* <div className={styles.imageCard}>
+          <Image src={ImageForCard} alt={countryName} width={5000} height={5000} className={styles.cardImage} />
         </div> */}
         
-        <div className="contactCard">
+        <div className={styles.contactCard}>
           {contactNumbers.map((number, index) => (
-            <div key={index} className="contactRow">
-              <Image src={countryFlag} alt={`${countryName} flag`} width={32} height={32} className="flagIcon" />
-              <span className="contactNumber">{number}</span>
-              <button className="buyNowButton" disabled>Buy Now</button>
+            <div key={index} className={styles.contactRow}>
+              <Image src={countryFlag} alt={`${countryName} flag`} width={32} height={32} className={styles.flagIcon} />
+              <span className={styles.contactNumber}>{number}</span>
+              <button className={styles.buyNowButton} disabled>Buy Now</button>
             </div>
           ))}
         </div>
         
-        <div className="textCard">
+        <div className={styles.textCard}>
           {/* Uncomment if you want to use a card heading */}
-          {/* <h3 className="cardHeading">Benefits of Austria Virtual Numbers</h3> */}
-          <p className="cardParagraph">
+          {/* <h3 className={styles.cardHeading}>Benefits of Austria Virtual Numbers</h3> */}
+          <p className={styles.cardParagraph}>
             {countryName} virtual numbers offer numerous benefits for businesses looking to expand their reach and improve communication with local customers. Here are some key advantages:
           </p>
-          <ul className="bulletPoints">
+          <ul className={styles.bulletPoints}>
             <li>Cost-effective communication</li>
             <li>Local presence without a physical office</li>
             <li>Enhanced customer trust</li>
@@ -58,7 +58,7 @@ const AustriaSubHeader = () => {
         </div>
         
         {/* Uncomment if you want to add a visual element */}
-        {/* <div className="visualElement"></div> */}
+        {/* <div className={styles.visualElement}></div> */}
       </div>
     </div>
   );
