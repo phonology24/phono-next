@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import ImageForInternationalNumber from "../../../public/Assets/blurry-gradient-haikei.png";
-import styles from "../../../styles/InternationalNumbersCss/Internationalheader.module.css"; 
+import styles from "../../../styles/Internationalheader.module.css"; 
 
 const AustriaHeader = () => {
   let countryName = "Austria";

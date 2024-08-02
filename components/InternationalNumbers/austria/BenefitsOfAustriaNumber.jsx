@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/internationalNumbersCss/internationalBenefits.css";
+import "../../../styles/internationalBenefits.css";
 
 const BenefitsOfAustriaNumber = () => {
   let countryName = "Austria";

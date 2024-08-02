@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/internationalNumbersCss/internationalCards8.css';
+import '../../../styles/internationalCards8.css';
 import SettingsRemoteIcon from '@mui/icons-material/SettingsRemote';
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import SpaIcon from '@mui/icons-material/Spa';

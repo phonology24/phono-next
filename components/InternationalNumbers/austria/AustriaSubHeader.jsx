@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import ImageForCard from '../../../public/Assets/wholesale-voice.png';
-import '../../../styles/InternationalNumbersCss/internationalSubHeader.css'; // Updated import for regular CSS
+import '../../../styles/internationalSubHeader.css'; // Updated import for regular CSS
 
 const AustriaSubHeader = () => {
   let countryName = "Austria";
