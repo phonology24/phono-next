@@ -1,107 +1,104 @@
 .InternationalHeaderContainer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: start; /* Align items to start to prevent shifting */
+  text-align: left;
+  background-color: #f3f3f300;
+  margin-top: 100px;
+  max-height: 800px;
+  overflow: hidden; 
+  position: relative;
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+}
+
+
+.FlagContainer {
+  flex: 0 0 auto; 
+  max-width: 500px; 
+}
+
+.flagImage {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;  
+  border-radius: 17px;
+  object-fit: cover; 
+}
+
+.InternationalContent {
+  max-width: 650px;
+  padding: 0px 20px 0px 50px;
+  overflow: auto;
+  position: relative;
+}
+
+.InternationalContent h1 {
+  font-size: 34px;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.InternationalContent h2 {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.InternationalButton {
+  padding: 10px 20px ;
+  font-size: 1em;
+  color: #000000;
+  background-color: #f3e300cc;
+  font-weight: 600;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.InternationalButton:hover {
+  background-color: #f3e300;
+}
+
+.Heading {
+  margin-bottom: 20px;
+}
+
+.gradientLetter {
+  background-image: url("/Assets/gradient.png");
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+@media (max-width: 768px) {
+  .InternationalHeaderContainer {
+    flex-direction: column; /* Stack items vertically on smaller screens */
     align-items: center;
-    text-align: center;
-    padding: 20px;
-    background-color: #f3f3f300;
-    margin-top: 200px;
-    /* border: 1px solid black; */
+    margin-top: 50px;
   }
-  
+
   .InternationalContent {
-    width: 100%;
-    max-width: 1200px;
-    padding: 20px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    border-radius: 8px;
-    /* background: rgb(172,255,206);
-    background: -moz-linear-gradient(180deg, rgba(172,255,206,1) 0%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(172,255,206,1) 0%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(180deg, rgba(172,255,206,1) 0%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acffce",endColorstr="#ffffff",GradientType=1); */
-    position: relative;
-    overflow: hidden;
-    /* border: 1px solid black; */
+    padding: 10px;
   }
-  
+
   .InternationalContent h1 {
-    font-size: 50px;
-    margin-bottom: 10px;
-    font-weight: 700;
+    font-size: 2em;
+    padding: 0;
   }
-  
+
   .InternationalContent h2 {
-    font-size: 26px;
-    margin-bottom: 1em;
+    font-size: 18px;
   }
-  
+
   .InternationalButton {
-    padding: 10px 20px;
-    font-size: 1em;
-    color: #000000;
-    background-color: #f3e300cc;
-    font-weight: 600;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    font-size: 0.9em;
+    padding: 8px 16px;
   }
-  
-  .InternationalButton:hover {
-    background-color: #f3e300;
-  }
-  
-  .flagImage {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .FlagContainer {
-    display: flex;
-    margin: 0 10px;
-  }
-  
+
   .Heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5em;
+    font-size: 28px;
   }
-  
-  .gradientLetter {
-    background-image: url("/Assets/gradient.png");
-    background-size: cover;
-    background-clip: text;
-    color: transparent;
-    -webkit-background-clip: text;
-    /* font-size: 28px; */
-    /* margin-bottom: 50px; */
-    text-align: center;
-  }
-  
-  @media (max-width: 768px) {
-    .InternationalContent h1 {
-      font-size: 2em;
-      padding: 0;
-    }
-  
-    .InternationalHeaderContainer {
-      margin-top: 100px;
-    }
-  
-    .InternationalContent h2 {
-      font-size: 24px;
-    }
-  
-    .InternationalButton {
-      font-size: 0.9em;
-      padding: 8px 16px;
-    }
-    .Heading {
-      flex-direction: column;
-      font-size: 32px;
-      /* margin-top: 100px; */
-    }
-  }
-  
+}

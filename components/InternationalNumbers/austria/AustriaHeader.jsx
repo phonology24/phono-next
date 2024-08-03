@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import ImageForInternationalNumber from "../../../public/Assets/blurry-gradient-haikei.png";
+import ImageForInternationalNumber from "../../../public/Assets/byon.png";
 import styles from "../../../styles/Internationalheader.module.css"; 
+import AustriaAccordionComponent from "./accordion";
 
 const AustriaHeader = () => {
   let countryName = "Austria";
@@ -10,6 +11,13 @@ const AustriaHeader = () => {
 
   return (
     <div className={styles.InternationalHeaderContainer}>
+      <div className="headerImageContainer">
+        <Image 
+          src={ImageForInternationalNumber} 
+          alt="Background" 
+          className={styles.flagImage}
+        />
+        </div>
       <div className={styles.InternationalContent}>
         <h1 className={styles.Heading}>
           Get&nbsp;<span className={styles.gradientLetter}>{countryName}&nbsp;</span>
@@ -17,12 +25,9 @@ const AustriaHeader = () => {
         </h1>
         <h2>Engage With {countryName} Customers and Prospects, Efficiently.</h2>
         <button className={styles.InternationalButton}>Start Demo</button>
+   
         {/* Uncomment to use the image */}
-        {/* <Image 
-          src={ImageForInternationalNumber} 
-          alt="Background" 
-          className={styles.flagImage}
-        /> */}
+   <AustriaAccordionComponent/>
       </div>
       {/* Uncomment if you want to add a visual element */}
       {/* <div className="visualElement"></div> */}
