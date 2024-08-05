@@ -23,7 +23,7 @@ const AustriaEightCards = () => {
 
   return (
     <div className="international-eight-cards-container">
-      <h1 className="international-heading8">Benefits Of Using Our VoIP</h1>
+      <h2 className="international-heading8">Benefits Of Using Our VoIP</h2>
       <div className="international-cards8">
         {cards.map((card, index) => (
           <div key={index} className="international-card8">

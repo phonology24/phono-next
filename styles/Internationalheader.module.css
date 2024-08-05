@@ -1,6 +1,7 @@
 .InternationalHeaderContainer {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   align-items: start; /* Align items to start to prevent shifting */
   text-align: left;
   background-color: #f3f3f300;

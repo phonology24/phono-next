@@ -11,7 +11,7 @@ const HeaderVirtualNumbers = () => {
     <div className="heading">
       <div className="hero">
         <div>
-          <h2 className="heading-text-h2">Your Trusted SIP Trunk Provider for Seamless Connectivity.</h2>
+          <h1 className="heading-text-h2">Your Trusted SIP Trunk Provider for Seamless Connectivity.</h1>
           <p className="heading-text-p">
           As your trusted SIP trunk provider, we ensure seamless connectivity for your business. Our advanced SIP trunking services offer reliable,
            high-quality communication solutions, enhancing your global reach and operational efficiency, making us the leading SIP trunk provider in the industry.

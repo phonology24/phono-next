@@ -5,10 +5,7 @@ import '../styles/globals.css';  // Ensure your global styles are imported
 export default function Layout({ children }) {
   return (
     <html lang="en">
-      <head>
-        {/* <title>My Application</title> */}
-        {/* Add other meta tags or links to stylesheets here */}
-   
+      <head>      
       </head>
       <body>
         <TopContactBar/>

@@ -9,9 +9,9 @@ const TopContactBar = () => {
         <a href="mailto:example@example.com">info@phonology.io</a>
       </div>
       
-      <div className={styles.contactInfo}>
+      {/* <div className={styles.contactInfo}>
         <a href=""><span className={styles.salesSpan}>For Sales : </span>+91 98459 77788 / +91 98456 33355</a>
-      </div>
+      </div> */}
       
       {/* Right section: Social media icons */}
       {/* <div className={styles.socialMediaIcons}>

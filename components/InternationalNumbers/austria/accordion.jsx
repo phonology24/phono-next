@@ -50,8 +50,9 @@ const AustriaAccordionComponent = () => {
       }}
     >
       <AccordionItem
-        key="1"
+        key="1" 
         aria-label="What Is a Austria Virtual Number?"
+        isBordered color="transparent"
         title={
           <div className="accordionItemTitle">
 What Is a Austria Virtual Number?
