@@ -1,42 +1,50 @@
 .accordionContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 10px;
     flex-wrap: nowrap;
     /* background-color: #eeeeee; */
     border-radius: 17px;
-
-}
-
-.accordionItem svg{
-padding: 0px 10px;
-}
-
- .accordionItem button {
+    transition: all .3s ease-in-out;
+    
+  }
+  
+  .accordionItem svg{
+    padding: 0px 10px;
+  }
+  
+  .accordionItem button {
+   transition: all .3s ease-in-out;
     background-color: #ffffff00;
     border-radius: 17px; 
     border: 1px solid #d8d8d8;
-    padding: 10px 0px;    
+    padding: 10px 15px;
+    /* max-width: 22rem; */
+    min-width: 25rem;
+    /* font-size: 12px; */
   }  
   
+
+
   .accordionItemTitle {
     /* background-color: #ffffff; */
   /* border: 1px solid black; */
     cursor: pointer;
     font-family: "Poppins", sans-serif;
     /* border: 10px solid black; */
-    font-weight: 500;
+    font-weight: 600;
     text-wrap: nowrap;
     /* text-decoration: underline; */
     font-size: 16px;
-    transition: background-color 0.3s ease;
     user-select: none; 
-    min-width: 14rem;
+    /* min-width: 14rem; */
     /* background-color: #DFFFD8; */
   }
   
   .accordionContent {
-    max-width: 18rem;
+    max-width: 25rem;
+    /* min-width: 15rem; */
      padding: 30px;
     background-color:#f0f0f0;
     color: rgb(46, 46, 46);
@@ -56,3 +64,27 @@ padding: 0px 10px;
     flex-direction: column;
   }
   }
+
+  @media (max-width: 980px) {
+
+    .accordionContainer{
+      flex-direction: column;
+    }
+    .accordionItem button {
+      transition: all 0.3s ease-in-out;
+      background-color: #ffffff00; /* Transparent background */
+      border-radius: 17px;
+      border: 1px solid #d8d8d8;
+      padding: 10px 15px;
+      min-width: 20rem; /* Minimum width set for the button */
+    }
+  
+    .accordionContent {
+      max-width: 20rem;
+      padding: 30px;
+      background-color: #f0f0f0;
+      color: rgb(46, 46, 46);
+      border-radius: 50px; /* Rounded corners for the content */
+    }
+  }
+  
