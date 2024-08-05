@@ -1,7 +1,7 @@
 .accordionContainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: nowrap;
     /* background-color: #eeeeee; */
     border-radius: 17px;
@@ -31,7 +31,7 @@ padding: 0px 10px;
     font-size: 16px;
     transition: background-color 0.3s ease;
     user-select: none; 
-    min-width: 18rem;
+    min-width: 14rem;
     /* background-color: #DFFFD8; */
   }
   
