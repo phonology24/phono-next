@@ -1,69 +1,34 @@
 .InternationalHeaderContainer {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: start; /* Align items to start to prevent shifting */
-  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   background-color: #f3f3f300;
   margin-top: 100px;
-  max-height: 800px;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
-  -ms-overflow-style: none;  
-  scrollbar-width: none; 
-}
+  /* border: 1px solid black; */
 
-
-.FlagContainer {
-  flex: 0 0 auto; 
-  max-width: 500px; 
-}
-
-.flagImage {
-  width: 100%;
-  height: auto;
-  margin-top: 10px;  
-  border-radius: 17px;
-  object-fit: cover; 
-}
-
-.InternationalContent {
-  max-width: 650px;
-  padding: 0px 20px 0px 50px;
-  overflow: auto;
-  position: relative;
-}
-
-.InternationalContent h1 {
-  font-size: 34px;
-  margin-bottom: 0px;
-  font-weight: 700;
-}
-
-.InternationalContent h2 {
-  font-size: 16px;
-  font-weight: 100;
-}
-
-.InternationalButton {
-  padding: 10px 20px ;
-  font-size: 1em;
-  color: #000000;
-  background-color: #f3e300cc;
-  font-weight: 600;
-  margin-top: 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.InternationalButton:hover {
-  background-color: #f3e300;
 }
 
 .Heading {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.HeadingText {
+  font-size: 34px;
+  margin-bottom: 10px;
+  font-weight: 700;
+
+}
+
+.visualElement {
+  /* border: 1px solid black; */
+  min-height: 100px;
+  min-width: 100px;
+  background-color: rgb(255, 0, 0);
+  display: block;
+
 }
 
 .gradientLetter {
@@ -74,24 +39,100 @@
   -webkit-background-clip: text;
 }
 
+.CardsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+
+  /* margin-top: 20px; */
+
+}
+
+.ContentCard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  padding: 20px;
+  /* border: 1px solid black; */
+  text-align: left;
+
+}
+
+.ContentCard p {
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background: rgb(131, 255, 170);
+  background: -moz-linear-gradient(293deg, rgba(131, 255, 170, 0) 0%, rgba(216, 247, 127, 0) 5%, rgba(12, 215, 0, 0.22181372549019607) 100%);
+  background: -webkit-linear-gradient(293deg, rgba(131, 255, 170, 0) 0%, rgba(216, 247, 127, 0) 5%, rgba(12, 215, 0, 0.22181372549019607) 100%);
+  background: linear-gradient(293deg, rgba(131, 255, 170, 0) 0%, rgba(216, 247, 127, 0) 5%, rgba(12, 215, 0, 0.22181372549019607) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#83ffaa", endColorstr="#0cd700", GradientType=1);
+  /* background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, rgb(0, 255, 115), rgb(100, 100, 100)) border-box;
+              border: 5px solid transparent; */
+
+}
+
+.ImageCard {
+  /* border: 1px solid black; */
+  flex: 1;
+  padding: 0;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flagImage {
+  max-height: 100%;
+  /* min-width: 100%; */
+  width: auto;
+  border-radius: 17px;
+  object-fit: cover;
+}
+
+.InternationalButton {
+  align-self: flex-start;
+  /* Align the button to the start (left) */
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #000000;
+  background-color: #19df8300;
+  /* border: 2px solid; */
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgb(0, 255, 115), rgb(100, 100, 100)) border-box;
+  border-radius: 5px;
+  border: 4px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+
+.InternationalButton:hover {
+  background-color: #f3e300;
+}
+
 @media (max-width: 768px) {
   .InternationalHeaderContainer {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    align-items: center;
     margin-top: 50px;
   }
 
-  .InternationalContent {
-    padding: 10px;
+  .CardsContainer {
+    flex-direction: column;
+    /* Stack cards vertically on smaller screens */
   }
 
-  .InternationalContent h1 {
+  .HeadingText {
     font-size: 2em;
-    padding: 0;
   }
 
-  .InternationalContent h2 {
-    font-size: 18px;
+  .ContentCard p {
+    font-size: 16px;
   }
 
   .InternationalButton {

@@ -1,17 +1,20 @@
 import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
 import "../../../styles/accordion.css";
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-const AustriaAccordionComponent = () => {
-    let countryName="Austria"
+import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
+import DialpadIcon from '@mui/icons-material/Dialpad';
+import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 
+const AustriaAccordionComponent = () => {
+
+    let countryName="Austria"
   const defaultContent =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
   return (
     <Accordion
       variant="splitted"
-      className="accordionContainer "
+      className="accordionContainer"
       motionProps={{
         variants: {
           enter: {
@@ -52,13 +55,13 @@ const AustriaAccordionComponent = () => {
       <AccordionItem
         key="1" 
         aria-label="What Is a Austria Virtual Number?"
-        isBordered color="transparent"
+        // isBordered color="transparent"
         title={
           <div className="accordionItemTitle">
 What Is a Austria Virtual Number?
           </div>
         }
-        className="accordionItem" indicator={<ArrowDropDownIcon/>}
+        className="accordionItem" indicator={<DialpadIcon />}
       >
         <div className="accordionContent">
           <p className="accordionP">{defaultContent}</p>
@@ -72,7 +75,7 @@ What Is a Austria Virtual Number?
 Pricing
           </div>
         }
-        className="accordionItem"  indicator={<ArrowDropDownIcon/>}
+        className="accordionItem"  indicator={<CurrencyRupeeIcon/>}
       >
         <div className="accordionContent">
           <p>{defaultContent}</p>
@@ -86,7 +89,7 @@ Pricing
             Features That Stand Out!
           </div>
         }
-        className="accordionItem"  indicator={<ArrowDropDownIcon/>}
+        className="accordionItem"  indicator={<MilitaryTechIcon/>}
       >
         <div className="accordionContent">
           <p>{defaultContent}</p>

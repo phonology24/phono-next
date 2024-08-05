@@ -41,7 +41,7 @@
 
 .benefitCard {
     width: 300px;
-    background-color: #ececec;
+    background-color: #f8f8f8;
     height: 450px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -53,8 +53,14 @@
     align-items: center;
     justify-content: start;
     /* padding: 20px; */
+    transition: all .3s ease-in-out;
   }
 
+
+  .benefitCard:hover{
+    transform: scale(1.03);
+    background-color: #ffffff;
+  }
   .imageContainer{
     padding: 0;
   }
