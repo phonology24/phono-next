@@ -18,6 +18,7 @@ const PhonologyBlogs = () => {
       try {
         const response = await axios.get('https://blog.phonology.io/api/get-posts');
         setPosts(response.data);
+        console.log(response.data);
       } catch (error) {
         console.error('Error fetching posts:', error);
       }
@@ -32,7 +33,7 @@ const PhonologyBlogs = () => {
     return img ? img.src : null;
   };
 
-  const handlePostClick = (postTitle, postId) => {
+  const handlePostClick = (postTitle, postId, postDescription) => {
     const slugifiedTitle = slugify(postTitle, { lower: true });
     router.push(`/phonology-blogs/${slugifiedTitle}?id=${postId}`);
   };
@@ -47,7 +48,7 @@ const PhonologyBlogs = () => {
             <h2>No posts available</h2>
           ) : (
             posts.map((post) => (
-              <div key={post._id} className="post-card" onClick={() => handlePostClick(post.title, post._id)}>
+              <div key={post._id} className="post-card" onClick={() => handlePostClick(post.title, post._id, post.description,)}>
                 {extractImage(post.content) ? (
                   <Image
                     src={extractImage(post.content)}

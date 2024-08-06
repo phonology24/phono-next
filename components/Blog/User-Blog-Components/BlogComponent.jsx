@@ -1,8 +1,10 @@
+"use client"
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Footer from '../../Home/Footer';
 import '../../../styles/blog-css/blogpost.css'
 import { Helmet } from 'react-helmet';
+// import { post } from 'jquery';
 
 
 const BlogPost = () => {
@@ -10,16 +12,18 @@ const BlogPost = () => {
     const [postContent, setPostContent] = useState('');
     const [postTitle, setPostTitle] = useState('');
     const [postDescription, setPostDescription] = useState('');
-    useEffect(() => {
-        const storedContent = localStorage.getItem('postContent'); // Example using local storage
-        const postTitle = localStorage.getItem('postTitle'); // Example using local storage
-        const postDescription = localStorage.getItem('postDescription'); // Example using local storage
-        if (storedContent) {
-            setPostContent(storedContent);
-            setPostTitle(postTitle);
-            setPostDescription(postDescription);
-        }
-    }, [slug] );
+    console.log(post)
+    // useEffect(() => {
+    //     const storedContent = localStorage.getItem('postContent');
+    //     const postTitle = localStorage.getItem('postTitle');
+    //     const postDescription = localStorage.getItem('postDescription'); 
+    //     console.log(postDescription, "❤️‍🔥");
+    //     if (storedContent) {
+    //         setPostContent(storedContent);
+    //         setPostTitle(postTitle);
+    //         setPostDescription(postDescription);
+    //     }
+    // }, [slug] );
 
     return (
         <>
