@@ -28,72 +28,71 @@ const Page = () => {
         <link rel="canonical" href={metadata.alternates.canonical} />
 
         {/* JSON-LD for WebSite */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{
-          __html: `
-            {
-              "@context": "https://schema.org/",
-              "@type": "WebSite",
-              "name": "Phonology",
-              "url": "https://www.phonology.io/",
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://www.phonology.io/{search_term_string}",
-                "query-input": "required name=search_term_string"
-              }
-            }
-          `}} />
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "Phonology",
+  "url": "https://www.phonology.io/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.phonology.io/{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 
         {/* JSON-LD for LocalBusiness */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{
-          __html: `
-            {
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Phonology",
-              "url": "https://www.phonology.io/",
-              "telephone": "9845633355",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "# 2 , 2nd Floor, RR Chambers 11th Main, Millers Rd,",
-                "addressLocality": "Bangalore",
-                "postalCode": "560052",
-                "addressCountry": "IN"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 12.9914423,
-                "longitude": 77.59371709999999
-              },
-              "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday"
-                ],
-                "opens": "09:30",
-                "closes": "18:30"
-              }
-            }
-          `}} />
+      
+ 	
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Phonology",
+  "url": "https://www.phonology.io/",
+  "telephone": "9845633355",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "# 2 , 2nd Floor, RR Chambers 11th Main, Millers Rd,",
+    "addressLocality": "Bangalore",
+    "postalCode": "560052",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 12.9914423,
+    "longitude": 77.59371709999999
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "09:30",
+    "closes": "06:30"
+  } 
+}
+</script>
 
         {/* JSON-LD for BreadcrumbList */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{
-          __html: `
-            {
-              "@context": "https://schema.org/", 
-              "@type": "BreadcrumbList", 
-              "itemListElement": [{
-                "@type": "ListItem", 
-                "position": 1, 
-                "name": "Phonology home",
-                "item": "https://www.phonology.io/" 
-              }]
-            }
-          `}} />
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Phonology home",
+    "item": "https://www.phonology.io/" 
+}]}
+
+</script>
       </Head>
       <Home />
     </div>
