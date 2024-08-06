@@ -13,7 +13,7 @@ export const metadata = {
   keywords:
     'bulk sms service provider, text messaging service provider, bulk sms service, text messaging provider, text messaging service, bulk sms services, sms text messaging services provider, short message service, online sms service provider, bulk messaging, phone service provider, it service provider, bulk sms services provider, short messaging service, best bulk sms service provider, voip mms messaging service, top bulk sms service provider',
   alternates: {
-    canonical: 'https://www.phonology.io/messaging-services',
+    canonical: 'https://www.phonology.io/sip-trunk-providers',
   },
   robots: 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large', // Robots meta tag
 
@@ -24,10 +24,10 @@ const websiteSchema = {
   '@context': 'https://schema.org/',
   '@type': 'WebSite',
   name: 'Phonology',
-  url: 'https://www.phonology.io/messaging-services',
+  url: 'https://www.phonology.io/sip-trunk-providers',
   potentialAction: {
     '@type': 'SearchAction',
-    target: 'https://www.phonology.io/messaging-services/{search_term_string}',
+    target: 'https://www.phonology.io/sip-trunk-providers/{search_term_string}',
     'query-input': 'required name=search_term_string',
   },
 };
@@ -36,7 +36,7 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'Phonology',
-  url: 'https://www.phonology.io/messaging-services',
+  url: 'https://www.phonology.io/sip-trunk-providers',
   telephone: '9845633355',
   address: {
     '@type': 'PostalAddress',

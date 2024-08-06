@@ -18,13 +18,17 @@
    transition: all .3s ease-in-out;
     background-color: #ffffff00;
     border-radius: 17px; 
-    border: 1px solid #d8d8d8;
+    border: 2px solid #d8d8d8;
     padding: 10px 15px;
     /* max-width: 22rem; */
     min-width: 25rem;
     /* font-size: 12px; */
+    transition: all .5s ease-in-out;
   }  
   
+  .accordionItem button:hover{
+    border: 2px solid #ffffff;
+  }
 
 
   .accordionItemTitle {
