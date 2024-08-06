@@ -15,6 +15,8 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.phonology.io/voip-service-providers-in-india',
   },
+  robots: 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large', // Robots meta tag
+
 };
 
 // JSON-LD Schema Markup
@@ -86,6 +88,8 @@ const Page = () => {
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <link rel="canonical" href={metadata.alternates.canonical} />
+        <meta name="robots" content={metadata.robots} />
+
       </Head>
 
       {/* JSON-LD for WebSite */}
