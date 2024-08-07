@@ -79,7 +79,7 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 2,
       name: 'Messaging Services',
-      item: 'https://www.phonology.io/messaging-services',
+      item: 'https://www.phonology.io/sip-trunk-providers',
     },
   ],
 };
