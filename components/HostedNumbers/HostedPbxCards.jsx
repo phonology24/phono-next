@@ -16,7 +16,7 @@ const HostedPbxCards = () => {
           <div className={styles.columnPbx}>
             <VideoChatIcon className={styles.iconPbx} alt="web-meetings" />
             <div className={styles.columnContent}>
-              <h3 className={styles.gradientLtr}>Web Meetings</h3>
+              <h2 className={styles.gradientLtr}>Web Meetings</h2>
               <p className={styles.large}>
               Host reliable web meetings through the same system you use to call or chat.
               </p>

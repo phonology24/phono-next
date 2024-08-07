@@ -4,10 +4,10 @@ import styles from "../../styles/messaging-services-cards.module.css";
 const MessagingServicesCards = () => {
   return (
     <div className={styles.messagingServicesCardsContainer}>
-      <h2 className={styles.msMainHeading}>Get Messaging for</h2>
+      <h3 className={styles.msMainHeading}>Get Messaging for</h3>
       <div className={styles.msSectionContainer}>
         <div className={styles.msCard}>
-          <h2 className={styles.msCardHeading}>Notifications</h2>
+          <h3 className={styles.msCardHeading}>Notifications</h3>
           <p className={styles.msCardParagraph}>
             Ensure that dates, appointments, deliveries, and renewals are remembered always and never missed!
           </p>
@@ -18,7 +18,7 @@ const MessagingServicesCards = () => {
           </ul>
         </div>
         <div className={styles.msCard}>
-          <h2 className={styles.msCardHeading}>OTP Verification</h2>
+          <h3 className={styles.msCardHeading}>OTP Verification</h3>
           <p className={styles.msCardParagraph}>
             Step up user authentications and security measures by impaling one-time passwords and two-factor authentications for enhanced protection.
           </p>
@@ -29,7 +29,7 @@ const MessagingServicesCards = () => {
           </ul>
         </div>
         <div className={styles.msCard}>
-          <h2 className={styles.msCardHeading}>Marketing</h2>
+          <h3 className={styles.msCardHeading}>Marketing</h3>
           <p className={styles.msCardParagraph}>
             Boost engagement by impaling special offers, loyalty promotions, and discounts to drive business growth.
           </p>
@@ -40,7 +40,7 @@ const MessagingServicesCards = () => {
           </ul>
         </div>
         <div className={styles.msCard}>
-          <h2 className={styles.msCardHeading}>Support</h2>
+          <h3 className={styles.msCardHeading}>Support</h3>
           <p className={styles.msCardParagraph}>
             Strengthen customer support processes by managing tickets and providing updates to enhance overall satisfaction effectively.
           </p>

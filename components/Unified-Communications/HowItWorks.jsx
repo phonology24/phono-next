@@ -7,7 +7,7 @@ import ImportantDevicesIcon from "@mui/icons-material/ImportantDevices";
 const HowItWorks = () => {
   return (
     <div className="how-it-works-container">
-      <h2 className="how-it-works-heading">How It Works</h2>
+      <h3 className="how-it-works-heading">How It Works</h3>
       <p className="how-it-works-paragraph">
       Partners have the flexibility to create and tailor quotes for their customized UCaaS service.
             <br></br>

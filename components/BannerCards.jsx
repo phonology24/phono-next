@@ -7,20 +7,20 @@ const BannerCards = () => {
     <div className={styles.darkDivVt}>
       <div className={styles.bannerCardContainer}>
         <div className={styles.bannerCard}>
-          <h2>24B+</h2>
-          <h4 className={styles.ltrGradient}>Minutes Terminated</h4>
+          <h2 className={styles.headingbannercard}>24B+</h2>
+          <h3 className={styles.ltrGradient}>Minutes Terminated</h3>
         </div>
         <div className={styles.bannerCard}>
-          <h2>80%</h2>
-          <h4 className={styles.ltrGradient}>Cost Reduction</h4>
+          <h3 className={styles.headingbannercard}>80%</h3>
+          <h3 className={styles.ltrGradient}>Cost Reduction</h3>
         </div>
         <div className={styles.bannerCard}>
-          <h2>70+</h2>
-          <h4 className={styles.ltrGradient}>Country Supports</h4>
+          <h3 className={styles.headingbannercard}>70+</h3>
+          <h3 className={styles.ltrGradient}>Country Supports</h3>
         </div>
         <div className={styles.bannerCard}>
-          <h2>24/7</h2>
-          <h4 className={styles.ltrGradient}>Dedicated Technical Support</h4>
+          <h3 className={styles.headingbannercard}>24/7</h3>
+          <h3 className={styles.ltrGradient}>Dedicated Technical Support</h3>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import Link  from 'next/link';
 const DemoForm = () => {
   return (
     <div className="demo-form-container">
-      <h2 className="demo-form-header">Schedule a demo and experience<span className='black'>  How It Works.</span></h2>
+      <h3 className="demo-form-header">Schedule a demo and experience<span className='black'>  How It Works.</span></h3>
       {/* <form className="demo-form">
         <h3 className="demo-form-subheader">Request a Demo</h3>
         <input type="text" className="demo-form-input" placeholder="First Name" />

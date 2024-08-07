@@ -77,9 +77,9 @@ const Cards = () => {
           style={{ width: "250px", height: "100px" }}
         >
           {achievement.icon}
-          <h4>
+          <h3>
             <b>{achievement.title}</b>
-          </h4>
+          </h3>
         </motion.div>
       ))}
     </div>

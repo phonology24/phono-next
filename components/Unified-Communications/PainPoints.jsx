@@ -5,9 +5,9 @@ const PainPoints = () => {
   return (
     <div className="pain-points-container">
       <div className="left-section">
-        <h2 className="section-heading-unified">
+        <h3 className="section-heading-unified">
           Challenges <span className="solved">Addressed</span>
-        </h2>
+        </h3>
         <ul className="painpointsul">
           <li>
             Constraining your income potential.

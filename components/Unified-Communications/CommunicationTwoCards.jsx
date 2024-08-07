@@ -16,7 +16,7 @@ const CommunicationsTwoCards = () => {
         </p>
       </div>
       <div className="communications-card communications-right-card">
-        <h2>With White Label UCaaS from Phonology, you get:</h2>
+        <h3>With White Label UCaaS from Phonology, you get:</h3>
         <ul className="communication-ul">
           <li className="communication-li">
           A singular system that integrates voice, video, email, fax, and instant messaging for seamless and unified communication.{" "}

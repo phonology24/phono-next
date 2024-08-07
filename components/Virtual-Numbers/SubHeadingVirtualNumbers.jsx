@@ -9,8 +9,8 @@ import DialpadIcon from '@mui/icons-material/Dialpad';
 const SubHeadingVirtualNumbers = () => {
   return (
     <div className="sub-heading-container">
-      <h1 className="main-heading">A diverse range of Corporate
-<br></br> Telephone Numbers you can get in <span className='ltr-gradient'> Phonology </span></h1>
+      <h2 className="main-heading">A diverse range of Corporate
+<br></br> Telephone Numbers you can get in <span className='ltr-gradient'> Phonology </span></h2>
       <div className="section-container">
         <div className="card">
           <PublicIcon className="icon" />

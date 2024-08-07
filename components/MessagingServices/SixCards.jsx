@@ -11,7 +11,7 @@ const TextCard = ({ logo, heading, paragraph }) => (
   <div className="text-card">
     {logo && <div className="card-logo">{logo}</div>}
     <div className="card-content">
-      <h2 className="card-heading">{heading}</h2>
+      <h3 className="card-heading">{heading}</h3>
       <p className="card-paragraph">{paragraph}</p>
     </div>
   </div>

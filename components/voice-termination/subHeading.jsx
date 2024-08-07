@@ -16,14 +16,14 @@ const SubHeading = () => {
       ></iframe>
 
       <div className={styles.textField}>
-        <h2>Magnify your impact while diminishing expenses.</h2>
+        <h3>Magnify your impact while diminishing expenses.</h3>
         <p>
         Fulfill all your voice calling requirements with our high-grade wholesale A-Z Voice Termination. Partner with global corporations fabricating their voice architecture with Phonology.
         </p>
       </div>
       <div className={styles.centerTextContainer}>
         <div className={styles.centerText}>
-          <h2 className={styles.centerTextH2}>How That Operates.</h2>
+          <h3 className={styles.centerTextH2}>How That Operates.</h3>
           <p className={styles.centerTextP}>Attain all your voice-calling desires with our category-leading wholesale A-Z Voice Termination.<br></br> Collaborate with enterprises globally constructing their Voice structure utilizing Phonology.</p>
         </div>
       </div>

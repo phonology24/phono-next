@@ -31,9 +31,9 @@ const HeaderVirtualNumbers = () => {
       {/* <ReactTitle title="Virtual Phone Number Providers"/> */}
 
         <div>
-          <h2 className="heading-text-vn">
+          <h1 className="heading-text-vn">
           Your Global Presence, Simplified with Our Virtual Phone Numbers.
-                    </h2>
+                    </h1>
           <p className="heading-text-vnp">
           Experience seamless global connectivity with our virtual phone number provider.
            Simplify your business communications and establish a local presence anywhere in the world.
