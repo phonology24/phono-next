@@ -78,7 +78,7 @@ const breadcrumbSchema = {
     {
       '@type': 'ListItem',
       position: 2,
-      name: 'Messaging Services',
+      name: 'SIP Trunking Providers',
       item: 'https://www.phonology.io/sip-trunk-providers',
     },
   ],
