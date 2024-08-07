@@ -7,11 +7,11 @@ import Script from 'next/script';
 
 // Define metadata for the page
 export const metadata = {
-  title: 'Messaging Service Provider | Best SMS Service Provider In India',
+  title: 'Sip Trunk Providers | SIP Trunking Solutions ',
   description:
-    'Experience seamless communication solutions with Phonology, your trusted messaging service provider. Elevate your messaging experience with our innovative technology and reliable services. Discover the power of efficient and secure communication today.',
+    'Explore top-tier SIP trunking solutions with Phonology, your trusted SIP trunk provider. Streamline your communication infrastructure with reliable, scalable, and cost-efficient SIP trunking services tailored to your business requirements.',
   keywords:
-    'bulk sms service provider, text messaging service provider, bulk sms service, text messaging provider, text messaging service, bulk sms services, sms text messaging services provider, short message service, online sms service provider, bulk messaging, phone service provider, it service provider, bulk sms services provider, short messaging service, best bulk sms service provider, voip mms messaging service, top bulk sms service provider',
+    'sip trunking,sip trunking explained,what is sip trunking,sip,sip trunk,sip trunking for dummies,sip trunks,sip trunking vs voip,what is a sip trunk,trunking,pbx sip trunking,global sip trunking,softtop sip trunking,sip trunking service,explain sip trunking,elastic sip trunking,sip trunking benefits,sip trunking provider,business sip trunking,wholesale sip trunking,call center sip trunking,sip trunking applications,understanding sip trunking',
   alternates: {
     canonical: 'https://www.phonology.io/sip-trunk-providers',
   },
