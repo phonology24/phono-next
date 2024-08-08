@@ -5,7 +5,7 @@ import Home from '@/components/Home.jsx';
 import styles from '../styles/App.module.css';
 import Head from 'next/head';
 import Script from 'next/script';
-
+// import favicon from '../app/favicon.ico'
 // Metadata for the page
 export const metadata = {
   title: 'VoIP Service Provider | VoIP Service Provider In India | Phonology',
@@ -17,6 +17,7 @@ export const metadata = {
     canonical: 'https://www.phonology.io',
   },
   robots: 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large',
+  // icon: {favicon},
 
 };
 
@@ -81,15 +82,15 @@ const breadcrumbSchema = {
 
 const Page = () => {
   return (
+    
     <div className={styles.body}>
       <Head>
-        {/* Using metadata */}
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <link rel="canonical" href={metadata.alternates.canonical} />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content={metadata.robots} />
-
       </Head>
 
       {/* JSON-LD for WebSite */}

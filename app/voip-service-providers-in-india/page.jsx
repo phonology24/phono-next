@@ -89,7 +89,6 @@ const Page = () => {
         <meta name="keywords" content={metadata.keywords} />
         <link rel="canonical" href={metadata.alternates.canonical} />
         <meta name="robots" content={metadata.robots} />
-
       </Head>
 
       {/* JSON-LD for WebSite */}
