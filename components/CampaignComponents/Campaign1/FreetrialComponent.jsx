@@ -2,11 +2,17 @@ import React from 'react'
 import '../../../styles/campaign/freetrialComponent.css'
 import ArrowOutwardOutlinedIcon from '@mui/icons-material/ArrowOutwardOutlined';
 const FreetrialComponent = () => {
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }  
   return (
     <div>
       <div className="freetrialcontainer">
         <p className='Headingvoipform'>Feel Free to Connect With Us!</p>
-        <button className='freeTrialButtonCampaign'>
+        <button className='freeTrialButtonCampaign' onClick={scrollToTop}>
             Get A Free Trial <ArrowOutwardOutlinedIcon/>
         </button>
          {/* <div className='listfreetrial'> 
