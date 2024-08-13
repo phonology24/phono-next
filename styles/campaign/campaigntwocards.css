@@ -15,7 +15,7 @@
     margin-right: 20px;
   }
   
-  .campaign-text h1 {
+  .campaign-text h2 {
     font-size: 30px;
     margin-bottom: 10px;
     font-weight: 800;
@@ -46,7 +46,7 @@
       flex-direction: column;
     }
 
-    .campaign-text h1 {
+    .campaign-text h2 {
       font-size: 24px;
       margin-bottom: 10px;
       font-weight: 800;

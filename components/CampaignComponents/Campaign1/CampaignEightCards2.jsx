@@ -23,12 +23,12 @@ const CampaignEightCards2 = () => {
 
   return (
     <div className="campaign-eight-cards-container82"> 
-      <h1 className="heading82">Our Features</h1>
+      <h2 className="heading82">Our Features</h2>
       <div className="cards82">
         {cards.map((card, index) => (
           <div key={index} className="card82">
             <div className="icon82">{card.icon}</div>
-            <h2>{card.heading}</h2>
+            <h3>{card.heading}</h3>
             <p>{card.description}</p>
           </div>
         ))}

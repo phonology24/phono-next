@@ -4,12 +4,12 @@ import '../../../styles/campaign/campaignproducts.css'
 const CampaignProducts = () => {
     return (
         <div className="virtual-number-cards-container">
-          <h2 className="vn-main-heading">
+          <h3 className="vn-main-heading">
          Our Products
-                </h2>
+                </h3>
           <div className="vn-section-container">
             <div className="vn-card">
-              <h2 className="vn-card-heading">SIP Trunk</h2>
+              <h3 className="vn-card-heading">SIP Trunk</h3>
               <p className="vn-card-paragraph">
               An internet-based phone line enables businesses to handle calls more efficiently and cost-effectively.
                             </p>
@@ -20,7 +20,7 @@ const CampaignProducts = () => {
               </ul>
             </div>
             <div className="vn-card">
-              <h2 className="vn-card-heading">Virtual Numbers</h2>
+              <h3 className="vn-card-heading">Virtual Numbers</h3>
               <p className="vn-card-paragraph">
               Virtual phone numbers  let businesses manage calls from anywhere in the world , providing a local presence and enhancing customer reach.
                             </p>
@@ -31,7 +31,7 @@ const CampaignProducts = () => {
               </ul>
             </div>
             <div className="vn-card">
-              <h2 className="vn-card-heading">Cloud PBX</h2>
+              <h3 className="vn-card-heading">Cloud PBX</h3>
               <p className="vn-card-paragraph">
               Internet-based phone system that manages business calls and communications without traditional hardware.     
                           </p>
@@ -42,7 +42,7 @@ const CampaignProducts = () => {
               </ul>
             </div>
             <div className="vn-card">
-              <h2 className="vn-card-heading">UCaas / CPaaS</h2>
+              <h3 className="vn-card-heading">UCaas / CPaaS</h3>
               <p className="vn-card-paragraph">
               Provide cloud-based tools for seamless business communication, integrating voice, video, messaging, and more into one platform.
                                   </p>

@@ -23,12 +23,12 @@ const CampaignEightCards = () => {
 
   return (
     <div className="campaign-eight-cards-container">
-      <h1 className="heading8">Benefits Of Using Our VoIP</h1>
+      <h2 className="heading8">Benefits Of Using Our VoIP</h2>
       <div className="cards8">
         {cards.map((card, index) => (
           <div key={index} className="card8">
             <div className="icon8">{card.icon}</div>
-            <h2>{card.heading}</h2>
+            <h3>{card.heading}</h3>
             <p>{card.description}</p>
           </div>
         ))}

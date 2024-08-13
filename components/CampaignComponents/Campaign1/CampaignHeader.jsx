@@ -30,7 +30,7 @@ const CampaignHeader = () => {
             </div> */}
             <div className='twocards'>
                 <div className='cards left'>
-                    <h2>Trusted VoIP Communication for Small, Medium, and Large Enterprises.</h2>
+                    <h1>Trusted VoIP Communication for Small, Medium, and Large Enterprises.</h1>
                     <p>VoIP Phone System for Small, Medium and Large Enterprises</p>
                     <div className='six-cards'>
                         {cards.map(card => (

@@ -6,7 +6,7 @@ const CampaignTwoCards = () => {
   return (
     <div className="campaign-container">
       <div className="campaign-text">
-        <h1>Enhance your business communication now with our cost-effective, high-quality VoIP solutions.</h1>
+        <h2>Enhance your business communication now with our cost-effective, high-quality VoIP solutions.</h2>
         <p>
         Phonology's VoIP services offer seamless, high-quality voice communication over the Internet, 
         reducing costs and enhancing business efficiency. Our solutions include international - virtual and
