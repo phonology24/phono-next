@@ -5,7 +5,7 @@ import Head from 'next/head';
 export const metadata = {
   title: 'VoIP service providers | SIP Trunk Providers',
   description:
-    'Phonology is a leading VoIP service provider, offering seamless communication solutions. We specialize in SIP trunking, Virtual numbers, Hosted PBX, and Unified Communications, empowering businesses with innovative, scalable, and reliable technology to enhance connectivity and boost productivity.',
+    'Get the best VoIP service providers and SIP Trunk Providers for seamless business connectivity. Boost your business communication today!',
   keywords:
     'virtual numbers, virtual number, number virtual, ca virtual number, uk virtual number, free virtual numbers, virtual phone numbers, local virtual numbers, usa virtual number, buy virtual number, get virtual number, buy number virtual, free virtual number, free number virtual, number virtual free, virtual number free, virtual phone number sms, virtual phone number, onoff number virtual, virtual dubai number, virtualphonenumber, virtual mobile number',
   alternates: {
