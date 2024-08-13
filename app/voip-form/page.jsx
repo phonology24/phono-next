@@ -1,22 +1,26 @@
-"use client"
 import React from 'react';
 import Campaign1 from '@/components/Campaign1';
 import Head from 'next/head';
-import { usePathname } from 'next/navigation';
+
+export const metadata = {
+  title: 'VoIP service providers | SIP Trunk Providers',
+  description:
+    'Phonology is a leading VoIP service provider, offering seamless communication solutions. We specialize in SIP trunking, Virtual numbers, Hosted PBX, and Unified Communications, empowering businesses with innovative, scalable, and reliable technology to enhance connectivity and boost productivity.',
+  keywords:
+    'virtual numbers, virtual number, number virtual, ca virtual number, uk virtual number, free virtual numbers, virtual phone numbers, local virtual numbers, usa virtual number, buy virtual number, get virtual number, buy number virtual, free virtual number, free number virtual, number virtual free, virtual number free, virtual phone number sms, virtual phone number, onoff number virtual, virtual dubai number, virtualphonenumber, virtual mobile number',
+  alternates: {
+    canonical: 'https://www.phonology.io/voip-form',
+  },
+  robots: 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large', // Robots meta tag
+
+};
+
 
 const Page = () => {
-  // Get the current pathname using usePathname hook
-  const pathname = usePathname();
 
-  // Define the URL to match
-  const targetPath = '/voip-form';
-
-  // Check if the current path matches the target path
-  const isTargetPage = pathname === targetPath;
 
   return (
     <>
-        {isTargetPage && (
           <script
             type="text/javascript"
             id="zsiqchat"
@@ -38,7 +42,6 @@ const Page = () => {
               `,
             }}
           />
-        )}
       <div>
         <Campaign1 />
       </div>
