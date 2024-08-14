@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import ImageForCard from '../../../public/Assets/wholesale-voice.png';
+import ImageForCard from '../../../public/Assets/HostedCallCenter.png';
 import styles from '../../../styles/Internationalsubheader.module.css';
 
 const AustriaSubHeader = () => {
@@ -27,15 +27,16 @@ const AustriaSubHeader = () => {
           <Image src={ImageForCard} alt={countryName} width={5000} height={5000} className={styles.cardImage} />
         </div> */}
         
-        <div className={styles.contactCard}>
-          {contactNumbers.map((number, index) => (
+        <Image className={styles.contactCard} src={ImageForCard}>
+           {/* {contactNumbers.map((number, index) => (
             <div key={index} className={styles.contactRow}>
               <Image src={countryFlag} alt={`${countryName} flag`} width={32} height={32} className={styles.flagIcon} />
               <span className={styles.contactNumber}>{number}</span>
               <button className={styles.buyNowButton} disabled>Buy Now</button>
             </div>
-          ))}
-        </div>
+          ))} */}
+
+        </Image> 
         
         <div className={styles.textCard}>
           {/* Uncomment if you want to use a card heading */}

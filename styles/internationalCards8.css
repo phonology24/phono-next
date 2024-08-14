@@ -25,13 +25,13 @@
   
   .international-card8:hover{
     scale: 1.04;
-    border: 1px solid rgb(204, 204, 204);
+    /* border: 1px solid rgb(204, 204, 204); */
   
   }
   .international-card8 {
-    flex: 1 1 20%; /* This will make sure 4 cards fit in a row on a standard desktop */
+    flex: 1 1 25%; 
     border-radius: 8px;
-    padding: 20px;
+    /* padding: 10px; */
     margin: 10px;
     /* background: rgba(255, 255, 255, 0.08);
     border-radius: 16px;

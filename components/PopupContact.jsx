@@ -18,7 +18,7 @@ const PopupContact = () => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setIsOpen(true);
-    }, 3000);
+    }, 300);
 
     return () => clearTimeout(timeoutId);
   }, []);

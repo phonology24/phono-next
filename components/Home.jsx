@@ -87,8 +87,13 @@ const Home = () => {
     };
   }, []);
 
-  const additionalComponents = scrollY > 200 ? <Work /> : null;
-  const text = "Connecting Conversations Worldwide.";
+  const additionalComponents = scrollY > 200 ? (
+    <>
+      <Work />
+      <PopupButton />  {/* Add your second component here */}
+    </>
+  ) : null;
+    const text = "Connecting Conversations Worldwide.";
   const text2 = text.split(" ");
 
   useEffect(() => {
@@ -198,7 +203,7 @@ const Home = () => {
       >
         {" "}
       </Link>
-      <PopupButton />
+      {/* <PopupButton /> */}
       <Banner />
       <TelecomBanner />
       {additionalComponents}

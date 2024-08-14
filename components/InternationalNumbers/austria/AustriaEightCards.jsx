@@ -17,8 +17,8 @@ const AustriaEightCards = () => {
     { icon: <SupportAgentIcon/>, heading: 'Customer Suport', description: 'Clients will receive continuous, robust support from our customer service team at all hours.' },
     { icon: <AttachMoneyIcon/>, heading: 'Cost Saving', description: 'Reduces costs with and scalable and flexible solutions.' },
     { icon: <AspectRatioIcon/>, heading: 'Scalability', description: 'You can add or remove lines as communication needs change.' },
-    { icon: <FitbitIcon/>, heading: 'Security', description: 'Encrypts calls, verifies users, blocks hackers, prevents attacks.' },
-    { icon: <NatIcon/>, heading: 'UCaaS', description: 'Brings together all your different communication tools into one simple system.'},
+    // { icon: <FitbitIcon/>, heading: 'Security', description: 'Encrypts calls, verifies users, blocks hackers, prevents attacks.' },
+    // { icon: <NatIcon/>, heading: 'UCaaS', description: 'Brings together all your different communication tools into one simple system.'},
   ];
 
   return (

@@ -11,8 +11,8 @@ const page = () => {
     <div>
       <AustriaHeader/>
       <AustriaSubHeader/>
-      <AustriaEightCards/>
       <BenefitsOfAustriaNumber/>
+      <AustriaEightCards/>
       <PhoneNumbers/>
       <Footer/>
     </div>

@@ -1,17 +1,15 @@
 .subHeaderContainer{    
     /* display: flex; */
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     text-align: center;
-    padding: 20px ;
+    padding: 20px;
     background: rgb(226,255,224);
     background: -moz-linear-gradient(101deg, rgba(226,255,224,1) 0%, rgba(226,230,255,1) 100%);
     background: -webkit-linear-gradient(101deg, rgba(226,255,224,1) 0%, rgba(226,230,255,1) 100%);
     background: linear-gradient(101deg, rgba(226,255,224,1) 0%, rgba(226,230,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2ffe0",endColorstr="#e2e6ff",GradientType=1);
        margin-top: 20px;
-       /* border-top-left-radius: 17px;
-       border-top-right-radius: 17px; */
        min-width: 97.90vw;
        margin-left: -8.55vw;
 }
@@ -30,7 +28,7 @@
   .cardsContainer {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 300px;
+    /* padding-left: 300px; */
     gap: 20px;
     justify-content: center; /* Center the cards container */
   }
@@ -122,14 +120,14 @@
 
 
   .contactCard {
-    background: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #ffffff00;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     border-radius: 8px;
     padding: 20px;
     flex: 1 1 45%;
-    max-width: 300px;
-    max-height: auto;
-    border: 2px solid rgb(233, 233, 233);
+    max-width: 500px;
+    max-height: 500px;
+    /* border: 2px solid rgb(233, 233, 233); */
     text-align: left;
   }
   
