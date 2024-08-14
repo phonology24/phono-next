@@ -108,7 +108,7 @@
     height: 650px;
     width: 100%;
     /* border: 1px solid black; */
-    /* padding-top:20px; */
+    padding-top:20px;
     /* overflow:hidden !important; */
     animation: formanimation 2s ease 0s 1 normal forwards;
     /* background-color: rgba(211, 0, 0, 0.959); */
