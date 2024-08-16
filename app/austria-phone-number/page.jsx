@@ -3,6 +3,7 @@ import AustriaEightCards from '@/components/InternationalNumbers/austria/Austria
 import AustriaHeader from '@/components/InternationalNumbers/austria/AustriaHeader'
 import AustriaSubHeader from '@/components/InternationalNumbers/austria/AustriaSubHeader'
 import BenefitsOfAustriaNumber from '@/components/InternationalNumbers/austria/BenefitsOfAustriaNumber'
+import HowToBuy from '@/components/InternationalNumbers/austria/HowToBuy'
 import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
 import React from 'react'
 
@@ -13,6 +14,7 @@ const page = () => {
       <AustriaSubHeader/>
       <BenefitsOfAustriaNumber/>
       <AustriaEightCards/>
+      <HowToBuy/>
       <PhoneNumbers/>
       <Footer/>
     </div>

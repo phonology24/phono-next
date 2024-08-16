@@ -14,7 +14,7 @@ const CampaignEightCards = () => {
     { icon: <SettingsRemoteIcon/>, heading: 'Remote Work', description: 'Work from anywhere with clear and reliable VoIP calls.' },
     { icon: <WorkHistoryIcon/>, heading: 'Business Efficiency', description: 'Improve business efficiency by making calls that are quicker, clearer and cheaper.' },
     { icon: <SpaIcon/>, heading: 'CRM Integration', description: 'Integrate your VoIP calls to CRM to help manage all customer calls and information in one place.' },
-    { icon: <SupportAgentIcon/>, heading: 'Customer Suport', description: 'Clients will receive continuous, robust support from our customer service team at all hours.' },
+    { icon: <SupportAgentIcon/>, heading: 'Customer Support', description: 'Clients will receive continuous, robust support from our customer service team at all hours.' },
     { icon: <AttachMoneyIcon/>, heading: 'Cost Saving', description: 'Reduces costs with and scalable and flexible solutions.' },
     { icon: <AspectRatioIcon/>, heading: 'Scalability', description: 'You can add or remove lines as communication needs change.' },
     { icon: <FitbitIcon/>, heading: 'Security', description: 'Encrypts calls, verifies users, blocks hackers, prevents attacks.' },
