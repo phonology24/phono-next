@@ -17,25 +17,25 @@ const Work = () => {
     {
       image: WholesaleVoice,
       endpoint: "/unified-communication-providers",
-      title: "Communication",
+      title: "Unified Communications",
       text: "No matter where your audience resides, our platform guarantees smooth calls and messaging across various channels.",
     },
     {
       image: VirtualNumbers,
       endpoint: "/hosted-pbx-providers",
-      title: "Hosted Numbers",
+      title: "Hosted PBX",
       text: "Virtual phone numbers that businesses can use to manage calls via cloud-based systems.",
     },
     {
       image: Messaging,
       endpoint: "/direct-routing-service-providers",
-      title: "Video Conferencing",
+      title: "Cloud Telephony",
       text: "Enables seamless and high-quality virtual meetings, connecting teams and clients worldwide.",
     },
     {
       image: Byon,
       endpoint: "/call-center-solution",
-      title: "Hosted Call Center",
+      title: "Call Center Solutions",
       text: "Utilizes cloud-based technology to efficiently manage customer interactions, offering flexible solutions tailored to enhance customer service.",
     },
   ];

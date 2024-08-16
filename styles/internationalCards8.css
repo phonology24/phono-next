@@ -1,9 +1,9 @@
 .international-eight-cards-container {
     text-align: center;
-    padding: 20px;
+    padding: 10px 30px 30px 30px;
     /* border-top: 1px solid rgb(168, 168, 168); */
     margin-top: 50px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     border-radius: 17px;
     background-color: #e5e5f7;
     opacity: 1;
@@ -11,7 +11,7 @@
 }
   .international-heading8 {
     font-size: 46px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: 800;
     color: #000000;
   }

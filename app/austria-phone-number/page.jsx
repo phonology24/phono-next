@@ -1,3 +1,4 @@
+import React from 'react'
 import Footer from '@/components/Footer'
 import AustriaEightCards from '@/components/InternationalNumbers/austria/AustriaEightCards'
 import AustriaHeader from '@/components/InternationalNumbers/austria/AustriaHeader'
@@ -5,7 +6,8 @@ import AustriaSubHeader from '@/components/InternationalNumbers/austria/AustriaS
 import BenefitsOfAustriaNumber from '@/components/InternationalNumbers/austria/BenefitsOfAustriaNumber'
 import HowToBuy from '@/components/InternationalNumbers/austria/HowToBuy'
 import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import FAQAccordionComponent from '@/components/InternationalNumbers/austria/FAQAccordion'
+
 
 const page = () => {
   return (
@@ -16,6 +18,7 @@ const page = () => {
       <AustriaEightCards/>
       <HowToBuy/>
       <PhoneNumbers/>
+      <FAQAccordionComponent/>
       <Footer/>
     </div>
   )

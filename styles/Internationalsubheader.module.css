@@ -103,6 +103,12 @@
   }
   
   @media (max-width: 768px) {
+
+    .subHeaderContainer{
+      max-width: 90%;
+      margin-left: -10.55vw;
+
+    }
     .cardsContainer {
       flex-direction: column-reverse;
       align-items: center;
@@ -111,15 +117,24 @@
   
     .imageCard{
       flex: 1 1 100%;
+      border: 2px solid red;
       min-width: 100%;
     }
     .contactCard{
-        flex-direction: column-reverse;
+        flex-direction: column;
+        max-width: 300px !important;
+        /* border: 2px solid red; */
+        /* border: 2px solid red; */
+      }
+      .contactCard Image{
+        /* max-width: 10px; */
+        border: 2px solid red;
+      }
     }
-  }
-
-
-  .contactCard {
+    
+    
+    .contactCard {
+    /* border: 2px solid red; */
     background: #ffffff00;
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     border-radius: 8px;
