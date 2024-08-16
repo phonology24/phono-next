@@ -10,14 +10,25 @@ const DirectRoutingHeading = () => {
       <div className="direct-routing-content">
 
         <div className="direct-routing-text">
-          <h1 className="direct-routing-description ">
+          {/* <h1 className="direct-routing-description ">
           Microsoft Teams Direct Routing
+          </h1> */}
+          <h1 className="direct-routing-heading-main">
+          Your Business, Your Way—<span className='ltr-gradient'>Cloud Telephony </span>for the Modern Enterprise.
           </h1>
-          <p className="direct-routing-heading-main">
-          Transform Your Customers <br /> Teams App into a <br></br>Powerful <span className='ltr-gradient'>Phone System</span>
-          </p>
           <p className="direct-routing-details">
-          If your customers are already utilizing Microsoft Teams for chat and web meetings &lsquo; seamlessly integrate it with Phonology&apos;s white-label VoIP platform to activate its integrated phone system. Phonology provides the easiest&lsquo; vendor-certified solution with a one-click setup and maintenance. Moreover&lsquo; you can handle billing and support for the service&lsquo; all from a single system.
+          Imagine transforming your business communication into a seamless, modern experience—no clunky hardware, 
+          just pure efficiency.
+          <br/> 
+          <br/> 
+          Phonology’s Cloud Telephony does exactly that. Say goodbye to traditional 
+          PBX systems and hello to a flexible, cloud-based solution that scales as you grow. Whether it’s 
+          handling calls from anywhere, setting up virtual numbers, or managing IVR and call analytics, we’ve
+           got you covered.
+           <br/>
+           With built-in security and rock-solid reliability, your communication never 
+           misses a beat. It’s the perfect fit for businesses that want to stay connected, work smarter,
+            and embrace the future of telephony with confidence.  
           </p>
         </div>
         <div className="direct-routing-image">

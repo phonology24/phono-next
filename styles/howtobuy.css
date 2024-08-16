@@ -32,12 +32,11 @@
   }
   
   .step.reverse {
-    flex-direction: row-reverse;
-    
+    flex-direction: row-reverse;    
   }
   
   .step-image img {
-    width: 300px;
+    width: 400px;
     height: auto;
     border-radius: 10px;
   }
