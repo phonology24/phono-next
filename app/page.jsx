@@ -90,6 +90,8 @@ const Page = () => {
         <meta name="keywords" content={metadata.keywords} />
         <link rel="canonical" href={metadata.alternates.canonical} />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.ico"/>
+
         <meta name="robots" content={metadata.robots} />
       </Head>
 
