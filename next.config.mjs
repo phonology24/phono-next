@@ -19,6 +19,15 @@ const nextConfig = {
 
     return config;
   },
+  // Rewrites for the dynamic sitemap
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap.xml',
+        destination: '/api/sitemap',
+      },
+    ];
+  },
 };
 
 export default nextConfig;
