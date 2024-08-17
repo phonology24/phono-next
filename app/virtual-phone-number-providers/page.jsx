@@ -81,15 +81,14 @@ const breadcrumbSchema = {
 const Page = () => {
   return (
     <div>
-      <Head>
-        {/* Using metadata */}
+      {/* <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <link rel="canonical" href={metadata.alternates.canonical} />
         <meta name="robots" content={metadata.robots} />
 
-      </Head>
+      </Head> */}
 
       {/* JSON-LD for WebSite */}
       <Script
