@@ -14,7 +14,7 @@ const DirectRoutingHeading = () => {
           Microsoft Teams Direct Routing
           </h1> */}
           <h1 className="direct-routing-heading-main">
-          Your Business, Your Way—<span className='ltr-gradient'>Cloud Telephony </span>for the Modern Enterprise.
+         <span className='ltr-gradient'>Cloud Telephony</span> : Your Business, Connected Everywhere
           </h1>
           <p className="direct-routing-details">
           Imagine transforming your business communication into a seamless, modern experience—no clunky hardware, 
