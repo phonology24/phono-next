@@ -146,18 +146,18 @@ cursor: pointer;
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 786px) {
     .popupBtn {
         bottom: 20px; /* Adjust bottom position */
         right: 20px; /* Adjust right position */
         padding: 10px; /* Reduce padding for smaller screens */
         font-size: 14px; /* Adjust font size */
         border: none;
-
         display: none;
     }
-
+    
     .chatbox {
+        display: none;
         position: fixed;
         z-index: 2;
         bottom: 72px;
