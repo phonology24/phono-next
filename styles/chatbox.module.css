@@ -153,7 +153,8 @@ cursor: pointer;
         padding: 10px; /* Reduce padding for smaller screens */
         font-size: 14px; /* Adjust font size */
         border: none;
-        /* display: none; */
+
+        display: none;
     }
 
     .chatbox {
