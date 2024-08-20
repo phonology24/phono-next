@@ -18,25 +18,25 @@ const Work = () => {
       image: WholesaleVoice,
       endpoint: "/unified-communication-providers",
       title: "Unified Communications",
-      text: "No matter where your audience resides, our platform guarantees smooth calls and messaging across various channels.",
+      text: "It brings all your voice, video, and messaging tools together in one seamless platform, making business communication effortless and efficient.",
     },
     {
       image: VirtualNumbers,
       endpoint: "/hosted-pbx-providers",
       title: "Hosted PBX",
-      text: "Virtual phone numbers that businesses can use to manage calls via cloud-based systems.",
+      text: "	Gives your business a powerful cloud-based phone system with all the features you need—no hardware, no hassle, just seamless communication.",
     },
     {
       image: Messaging,
       endpoint: "/direct-routing-service-providers",
       title: "Cloud Telephony",
-      text: "Enables seamless and high-quality virtual meetings, connecting teams and clients worldwide.",
+      text: "Takes your business communication to the cloud, giving you flexible, scalable phone services that work wherever you do..",
     },
     {
       image: Byon,
       endpoint: "/call-center-solution",
       title: "Call Center Solutions",
-      text: "Utilizes cloud-based technology to efficiently manage customer interactions, offering flexible solutions tailored to enhance customer service.",
+      text: "You can enhance your customer service with smart, cloud-based tools that ensure every interaction is seamless and exceptional.",
     },
   ];
 
