@@ -44,18 +44,25 @@
   @media (max-width: 768px){
     .campaign-container{
       flex-direction: column;
+      min-width: 100%;
+      margin-top: 0;
+      padding: 0;
     }
 
+.campaign-text{
+  margin-right: 0px;
+  text-align: center;
+}
     .campaign-text h2 {
       font-size: 24px;
       margin-bottom: 10px;
       font-weight: 800;
-      padding: 0px 10px;
+      padding: 0px 0px;
       /* text-align: center; */
     }
 
     .campaign-text p {
-      padding: 0px 10px;
+      padding: 10px 0px;
       /* text-align: center; */
       font-size: 18px;
       line-height: 1.5;
