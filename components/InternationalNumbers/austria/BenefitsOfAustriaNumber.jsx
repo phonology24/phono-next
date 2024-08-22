@@ -43,7 +43,7 @@ const BenefitsOfAustriaNumber = () => {
         <button className="benefitsButton">Get A Trial</button>
       </div>
       <div className="BenefitsCardContainer">
-        {benefits.map((benefit, index) => (
+        {/* {benefits.map((benefit, index) => (
           <div className="benefitCard" key={index}>
             <div className="imageContainer">
               <img src={benefit.image} alt={benefit.title} />
@@ -51,7 +51,7 @@ const BenefitsOfAustriaNumber = () => {
             <h3>{benefit.title}</h3>
             <p>{benefit.description}</p>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );

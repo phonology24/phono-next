@@ -7,6 +7,7 @@ import BenefitsOfAustriaNumber from '@/components/InternationalNumbers/austria/B
 import HowToBuy from '@/components/InternationalNumbers/austria/HowToBuy'
 import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
 import FAQAccordionComponent from '@/components/InternationalNumbers/austria/FAQAccordion'
+import AustriaFeatureCards from '@/components/InternationalNumbers/austria/FeatureCards'
 
 
 const page = () => {
@@ -17,8 +18,9 @@ const page = () => {
       <BenefitsOfAustriaNumber/>
       <AustriaEightCards/>
       <HowToBuy/>
-      <PhoneNumbers/>
+      <AustriaFeatureCards/>
       <FAQAccordionComponent/>
+      <PhoneNumbers/>
       <Footer/>
     </div>
   )
