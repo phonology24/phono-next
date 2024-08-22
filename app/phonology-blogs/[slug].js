@@ -41,7 +41,7 @@ const BlogPost = ({ post }) => {
 
       <div className="blogpost-container">
         <h1 className='postTitle'>{post.title}</h1>
-        <div className='post-content' dangerouslySetInnerHTML={{ __html: post.content }} />
+        {/* <div className='post-content' dangerouslySetInnerHTML={{ __html: post.content }} /> */}
       </div>
       <Footer />
     </>

@@ -38,6 +38,7 @@ const BlogPost = () => {
             <h1 className='postTitle'>
                 {postTitle}
             </h1>
+            <p>{postContent.createdAt}</p>
             <div className='post-content' dangerouslySetInnerHTML={{ __html: postContent }} />
             </div>
             <Footer />

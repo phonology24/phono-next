@@ -1,9 +1,15 @@
 .blogpost-container {
-    padding: 100px 100px 100px 100px;
+    padding: 10px 100px 100px 100px;
+    /* border: 1px solid black; */
+    /* margin: ; */
+    background-color: #ffffff;
     /* border: 1px solid black; */
 }
 
-/* Adjustments for mobile devices */
+.post-content img {
+border-radius: 17px;
+  }
+
 @media (max-width: 768px) {
     .blogpost-container {
         padding: 20px;
@@ -20,14 +26,14 @@
 }
 
 .postTitle {
-    margin-bottom: 5px;
-    padding: 20px;
+    /* margin-bottom: 5px; */
+    /* padding: 20px; */
     font-size: 36px;
     text-align: center;
 }
 
 .post-content {
-    background-color: #eaffe6;
+    /* background-color: #eaffe6; */
     padding: 50px;
     border-radius: 30px;
 }

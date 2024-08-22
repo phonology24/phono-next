@@ -7,6 +7,7 @@ import moment from 'moment';
 import slugify from 'slugify';
 import NewsComponent from './NewsComponent';
 import Image from 'next/image';
+import Logo from '../../../public/Assets/logo.png'
 import '../../../styles/blog-css/userblog.css';
 
 const PhonologyBlogs = () => {
@@ -40,7 +41,12 @@ const PhonologyBlogs = () => {
 
   return (
     <div className="post-container">
-      <NewsComponent />
+ <div className="logo-container">
+      <a href='/'>
+        <Image src={Logo} className='logoImage' alt='PhonologyLogo' />
+      </a>
+    </div>
+  <NewsComponent />
       <div className="posts-list">
         <h1>Blogs</h1>
         <div className="posts-grid">
