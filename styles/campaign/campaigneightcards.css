@@ -59,8 +59,11 @@
   }
   
   @media (max-width: 768px) {
+  
+
     .card8 {
-      flex: 1 1 45%; /* Two cards per row on tablets */
+      flex: 1 1 100%; /* Two cards per row on tablets */
+      /* border: 1px solid red; */
     }
   }
   
