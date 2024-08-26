@@ -34,7 +34,7 @@ const BenefitsOfAustriaNumber = () => {
   return (
     <div className="BenefitsContainer">
       <div className="benefitsHeaderContainer">
-        <h2>Benefits Of Getting {countryName} Virtual Numbers</h2>
+        <h2>Key benefits of {countryName}n Virtual Number</h2>
         <p>
           Acquiring a {countryName} virtual phone number grants you a range of
           benefits, including nationwide coverage, lowered expenses, and

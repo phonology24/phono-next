@@ -58,7 +58,7 @@ const AustriaAccordionComponent = () => {
         // isBordered color="transparent"
         title={
           <div className="accordionItemTitle">
-What Is a Austria Virtual Number?
+What is Austria's virtual phone number?
           </div>
         }
         className="accordionItem" indicator={<DialpadIcon />}
@@ -72,7 +72,7 @@ What Is a Austria Virtual Number?
         aria-label="Pricing"
         title={
           <div className="accordionItemTitle">
-Pricing
+How does an Austrian virtual phone number work?
           </div>
         }
         className="accordionItem"  indicator={<CurrencyRupeeIcon/>}
@@ -86,7 +86,7 @@ Pricing
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle">
-            Features That Stand Out!
+            Top Features.
           </div>
         }
         className="accordionItem"  indicator={<MilitaryTechIcon/>}

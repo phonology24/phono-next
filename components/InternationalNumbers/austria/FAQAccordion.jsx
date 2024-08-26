@@ -58,7 +58,7 @@ const FAQAccordionComponent = () => {
         // isBordered color="transparent"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/> Question 1
+<KeyboardArrowDownIcon/>How quickly can I get my Austria virtual number activated?
           </div>
         }
         className="accordionItem1" 
@@ -72,7 +72,7 @@ const FAQAccordionComponent = () => {
         aria-label="Pricing"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/> Question 2
+<KeyboardArrowDownIcon/>Do features  like call forwarding and voicemail come with the Austria virtual number?
 </div>
         }
         className="accordionItem1" 
@@ -86,7 +86,7 @@ const FAQAccordionComponent = () => {
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/> Question 3
+<KeyboardArrowDownIcon/>Can I choose between local or toll-free Austria numbers?
 </div>
         }
         className="accordionItem1" 
@@ -100,7 +100,7 @@ const FAQAccordionComponent = () => {
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/> Question 4
+<KeyboardArrowDownIcon/>  Are there flexible pricing plans for Austria virtual numbers? 
 </div>
         }
         className="accordionItem1"  
@@ -114,7 +114,7 @@ const FAQAccordionComponent = () => {
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/> Question 5
+<KeyboardArrowDownIcon/> Can I use the Austria virtual number to receive calls worldwide?
 </div>
         }
         className="accordionItem1" 

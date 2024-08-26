@@ -7,7 +7,7 @@ const HowToBuy = () => {
   return (
     <div className="how-to-buy-container">
       <div className="heading-section">
-        <h1>How to Buy Phone Numbers Online</h1>
+        <h1>How to Buy Austria Phone Numbers Online in 4 Simple Steps:</h1>
         <p>Phonology makes it easy and affordable to buy phone numbers you need online.
         Set up your VoIP number service in four easy steps!</p>
       </div>
@@ -19,8 +19,9 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">1</div>
-            <h2>Step 1: Choose Your Phone Number</h2>
-            <p>Pick toll free, non-geographic, or local call tracking phone numbers from over 150+ countries around the world or port a phone number you already have.</p>
+            <h2>Step 1: Select Your Number Type</h2>
+            <p>
+            Explore the available options and choose the Austria phone number that best suits your needs—local, toll-free, or mobile.              </p>
           </div>
         </div>
         
@@ -30,8 +31,9 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">2</div>
-            <h2>Step 2: Configure Call Forwarding Settings</h2>
-            <p>After purchasing your  phone number, you'll receive an email with your login information and introduction to the platform. Log in to begin configuring forwarding rules, IVR menus, manage numbers and self-service your account.</p>
+            <h2>Step 2: Choose a Plan of your Choice</h2>
+            <p>
+            Take up a pricing plan that aligns with your budget and call volume requirements.              </p>
           </div>
         </div>
 
@@ -41,8 +43,9 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">3</div>
-            <h2>Step 3: Download Phonology Apps</h2>
-            <p>FBrowse our optional applications like click-to-call (for softphone users) and mobile app so you can make and take calls from home, the office, anywhere!</p>
+            <h2>Step 3: Sign Up & Complete Registration</h2>
+            <p>
+            Create an account and provide the necessary business or personal details to complete the registration process.              </p>
           </div>
         </div>
 
@@ -52,8 +55,9 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">4</div>
-            <h2>Step 4: Start Connecting with Customers!</h2>
-            <p>Enjoy crystal-clear voice services in Australia and beyond! One of our voice experts will reach out to confirm your account and ensure your service is set up for your specific preferences.</p>
+            <h2>Step 4: Activate & Configure: </h2>
+            <p>
+            After purchase, your Austria phone number will be activated instantly. Customize settings like call forwarding, voicemail, and more to start using your number.            </p>
           </div>
         </div>
       </div>

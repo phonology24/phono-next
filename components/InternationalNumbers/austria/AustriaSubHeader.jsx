@@ -19,7 +19,7 @@ const AustriaSubHeader = () => {
   
   return (
     <div className={styles.subHeaderContainer}>
-      <h2 className={styles.subHeaderHeading}>Why Do You Need {countryName} Virtual Numbers?</h2>
+      <h2 className={styles.subHeaderHeading}>Why do you need an {countryName} Virtual Number?</h2>
       
       <div className={styles.cardsContainer}>
         {/* Uncomment if you want to use an image card */}
@@ -42,19 +42,19 @@ const AustriaSubHeader = () => {
           {/* Uncomment if you want to use a card heading */}
           {/* <h3 className={styles.cardHeading}>Benefits of Austria Virtual Numbers</h3> */}
           <p className={styles.cardParagraph}>
-            {countryName} virtual numbers offer numerous benefits for businesses looking to expand their reach and improve communication with local customers. Here are some key advantages:
+             Connect with {countryName}n Customers Instantly: By using a local Austrian number, you’ll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
           </p>
           <ul className={styles.bulletPoints}>
-            <li>Cost-effective communication</li>
-            <li>Local presence without a physical office</li>
-            <li>Enhanced customer trust</li>
-            <li>Easy to set up and manage</li>
-            <li>Scalable solutions for growing businesses</li>
-            <li>Advanced call forwarding options</li>
-            <li>Integration with CRM and other tools</li>
-            <li>Improved customer support experience</li>
-            <li>Access to advanced features like IVR</li>
-            <li>Better call quality and reliability</li>
+          <ul>
+          <ul>
+  <li><b>Increase Customer Inquiries:</b> With a local or toll-free Austrian number, you make it easier for your customers to get in touch—leading to more inquiries and potential sales.</li>
+  <li><b>Save on Communication Costs:</b> You can reduce expensive international call charges, allowing your business to grow without the high costs of global communication.</li>
+  <li><b>Scale as Your Business Expands:</b> As your business grows, so can your virtual number system. Add more lines as needed, without the hassle of physical office expansions.</li>
+  <li><b>Offer Exceptional Service:</b> Using advanced features like call recording, IVR, and voicemail, you can provide the highest level of customer service, ensuring every call is handled professionally.</li>
+</ul>
+
+</ul>
+
           </ul>
         </div>
         

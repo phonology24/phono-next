@@ -11,12 +11,12 @@ import NatIcon from '@mui/icons-material/Nat';
 
 const AustriaEightCards = () => {
   const cards = [
-    { icon: <SettingsRemoteIcon/>, heading: 'Remote Work', description: 'Work from anywhere with clear and reliable VoIP calls.' },
-    { icon: <WorkHistoryIcon/>, heading: 'Business Efficiency', description: 'Improve business efficiency by making calls that are quicker, clearer and cheaper.' },
-    { icon: <SpaIcon/>, heading: 'CRM Integration', description: 'Integrate your VoIP calls to CRM to help manage all customer calls and information in one place.' },
-    { icon: <SupportAgentIcon/>, heading: 'Customer Suport', description: 'Clients will receive continuous, robust support from our customer service team at all hours.' },
-    { icon: <AttachMoneyIcon/>, heading: 'Cost Saving', description: 'Reduces costs with and scalable and flexible solutions.' },
-    { icon: <AspectRatioIcon/>, heading: 'Scalability', description: 'You can add or remove lines as communication needs change.' },
+    { icon: <SettingsRemoteIcon/>, heading: 'Expand Your Global Presence', description: 'Work from anywhere with clear and reliable VoIP calls.' },
+    { icon: <WorkHistoryIcon/>, heading: 'Reduce Communication Costs', description: 'Improve business efficiency by making calls that are quicker, clearer and cheaper.' },
+    { icon: <SpaIcon/>, heading: '24/7 Availability Anywhere', description: 'Integrate your VoIP calls to CRM to help manage all customer calls and information in one place.' },
+    { icon: <SupportAgentIcon/>, heading: 'Scalable to Your Needs', description: 'Clients will receive continuous, robust support from our customer service team at all hours.' },
+    { icon: <AttachMoneyIcon/>, heading: 'Enhanced Customer Interaction', description: 'Reduces costs with and scalable and flexible solutions.' },
+    { icon: <AspectRatioIcon/>, heading: 'Protect Your Privacy', description: 'You can add or remove lines as communication needs change.' },
     // { icon: <FitbitIcon/>, heading: 'Security', description: 'Encrypts calls, verifies users, blocks hackers, prevents attacks.' },
     // { icon: <NatIcon/>, heading: 'UCaaS', description: 'Brings together all your different communication tools into one simple system.'},
   ];

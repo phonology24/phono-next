@@ -31,7 +31,12 @@ const CampaignHeader = () => {
             <div className='twocards'>
                 <div className='cards left'>
                     <h1>Trusted VoIP Communication for Small, Medium, and Large Enterprises.</h1>
-                    <p>VoIP Phone System for Small, Medium and Large Enterprises</p>
+                    <p>
+                        Take your business global with an Austria virtual phone number from Phonology.
+                         Establish a local presence, boost customer engagement, and enjoy cost-efficient 
+                         communication—all without the need for a physical office. Get your Austria number
+                          today and grow internationally!
+                          </p>
                     <div className='six-cards'>
                         {cards.map(card => (
                             <div key={card.id} className='cards1'>                    
