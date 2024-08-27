@@ -31,11 +31,7 @@ const CampaignHeader = () => {
             <div className='twocards'>
                 <div className='cards left'>
                     <h1>Trusted VoIP Communication for Small, Medium, and Large Enterprises.</h1>
-                    <p>
-                        Take your business global with an Austria virtual phone number from Phonology.
-                         Establish a local presence, boost customer engagement, and enjoy cost-efficient 
-                         communication—all without the need for a physical office. Get your Austria number
-                          today and grow internationally!
+                    <p>                  
                           </p>
                     <div className='six-cards'>
                         {cards.map(card => (
