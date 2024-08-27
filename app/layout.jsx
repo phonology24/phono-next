@@ -6,6 +6,7 @@ import '../styles/globals.css'; // Ensure your global styles are imported
 import Head from 'next/head';
 import { usePathname } from 'next/navigation';
 import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 
 export default function Layout({ children }) {
@@ -53,6 +54,7 @@ export default function Layout({ children }) {
         </noscript> */}
         {/* End Google Tag Manager (noscript) */}
         <GoogleAnalytics gaId="G-FHPV037WGM" />
+        <GoogleTagManager gtmId="GTM-T4FS3L3Q" />
 
         {!shouldHideNavbar && (
           <>
