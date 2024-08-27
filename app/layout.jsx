@@ -5,6 +5,8 @@ import TopContactBar from '@/components/TopContactBar';
 import '../styles/globals.css'; // Ensure your global styles are imported
 import Head from 'next/head';
 import { usePathname } from 'next/navigation';
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 
 export default function Layout({ children }) {
   const pathname = usePathname();
@@ -50,7 +52,8 @@ export default function Layout({ children }) {
           ></iframe>
         </noscript>
         {/* End Google Tag Manager (noscript) */}
-        
+        <GoogleAnalytics gaId="G-FHPV037WGM" />
+
         {!shouldHideNavbar && (
           <>
             <TopContactBar />
