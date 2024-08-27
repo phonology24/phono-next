@@ -15,7 +15,6 @@ export default function Layout({ children }) {
   // Check if the current path starts with '/phonology-blogs/' or is in noNavbarRoutes
   const shouldHideNavbar = noNavbarRoutes.includes(pathname) || pathname.startsWith('/phonology-blogs/');
 
-  // Return must be inside the component function
   return (
     <html lang="en">
       <Head>
@@ -24,7 +23,17 @@ export default function Layout({ children }) {
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'}); var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer' ? '&l='+l : ''; j.async=true; j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl; f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-T4FS3L3Q');`}
         </script>
         {/* End Google Tag Manager */}
-        
+
+        {/* Google Tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FHPV037WGM"></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FHPV037WGM');`}
+        </script>
+        {/* End Google Tag */}
+
         {/* reCAPTCHA */}
         <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_6LfJjSwqAAAAACCGN5biITkYEHR4fkfXL-vhWkOI"></script>
 
