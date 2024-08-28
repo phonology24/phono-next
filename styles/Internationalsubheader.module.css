@@ -16,7 +16,7 @@
 .subHeaderHeading {
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align: center; /* Ensure the heading is centered */
   }
   
@@ -41,6 +41,7 @@
     flex: 1 1 45%;
     max-width: 700px;
     text-align: left;
+    /* border: 1px solid rgb(34, 0, 255); */
   }
 
   .imageCard{
@@ -55,11 +56,13 @@
     justify-content: center;
     align-items: center;
     text-align: left;
+    /* border: 2px solid rgb(255, 0, 0); */
+
   }
   
   .cardHeading {
     font-size: 1.5em;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
   
   .cardParagraph {
@@ -68,10 +71,12 @@
   }
   
   .bulletPoints {
-    list-style-type: circle;
-    padding-left: 15px;
+    list-style-type: disc;
+    /* padding-left: 0px; */
     font-size: 18px;
+    /* border: 2px solid rgb(255, 0, 0); */
     font-weight: 500;
+    /* align-items: center; */
   }
 
 
@@ -96,10 +101,13 @@
     background: linear-gradient(37deg, rgba(252,255,172,1) 0%, rgba(255,255,221,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcffac",endColorstr="#ffffdd",GradientType=1);
     transition: all .3s ease-in-out;
+    border: 1px solid black;
 }
-  
+
+
   .bulletPoints li {
     margin-bottom: 5px;
+    /* border: 1px solid  black; */
   }
   
   @media (max-width: 768px) {
@@ -117,7 +125,7 @@
   
     .imageCard{
       flex: 1 1 100%;
-      border: 2px solid red;
+      /* border: 2px solid red; */
       min-width: 100%;
     }
     .contactCard{

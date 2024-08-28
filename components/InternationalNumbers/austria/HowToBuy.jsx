@@ -7,7 +7,7 @@ const HowToBuy = () => {
   return (
     <div className="how-to-buy-container">
       <div className="heading-section">
-        <h1>How to Buy Austria Phone Numbers Online in 4 Simple Steps:</h1>
+        <h2>How to Buy Austria Phone Numbers Online in 4 Simple Steps:</h2>
         <p>Phonology makes it easy and affordable to buy phone numbers you need online.
         Set up your VoIP number service in four easy steps!</p>
       </div>
