@@ -1,70 +1,151 @@
 .campaign-container {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    min-height: 500px;
-    align-items: center;
-    padding: 20px;
-    /* border-top: 1px solid #dddddd; */
-    /* border-radius: 8px; */
-    background-color: #ffffff;
-  }
-  
-  .campaign-text {
-    flex: 1;
-    margin-right: 20px;
-  }
-  
-  .campaign-text h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
-    font-weight: 800;
-    padding: 0px 20px;
-    /* text-align: center; */
-  }
-  
-  .campaign-text p {
-    padding: 0px 20px;
-    /* text-align: center; */
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
-  .campaign-image {
-    flex: 1;
-  }
-  
-  .campaign-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-
-  @media (max-width: 768px){
-    .campaign-container{
-      flex-direction: column;
-      min-width: 100%;
-      margin-top: 0;
-      padding: 0;
-    }
-
-.campaign-text{
-  margin-right: 0px;
-  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  background-color: #ffffff;
+  /* border: 1px solid black; */
+  border-radius: 10px;
 }
-    .campaign-text h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-      font-weight: 800;
-      padding: 0px 0px;
-      /* text-align: center; */
-    }
 
-    .campaign-text p {
-      padding: 10px 0px;
-      /* text-align: center; */
-      font-size: 18px;
-      line-height: 1.5;
-    }
+.campaign-text {
+  /* border: 1px solid black; */
+  flex: 1;
+  /* margin-right: 20px; */
+  padding: 0px 50px 0px 50px;
+}
+
+.campaign-text h2 {
+  font-size: 46px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-weight: 800;
+  background-color: #D7FFD6;
+}
+
+.campaign-text p {
+  /* padding: 0px 30px; */
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.landing-page-cta {
+  appearance: button;
+  background-color: #D7FFD6;
+  background-image: none;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-shadow: #000000 4px 4px 0 0, #000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.landing-page-cta:focus {
+  text-decoration: none;
+}
+
+.landing-page-cta:hover {
+  text-decoration: none;
+}
+
+.landing-page-cta:active {
+  box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.landing-page-cta:not([disabled]):active {
+  box-shadow: #616161 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+
+
+.campaign-cards {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 500px;
+  
+  /* box-shadow: #050505 4px 4px 0 0, #000 4px 4px 0 1px; */
+  border-radius: 18px;
+
+  /* border: 1px solid black; */
+}
+
+.cardscampaign {
+  flex: 1 1 50%;
+  /* margin-bottom: 20px; */
+  padding: 0px;
+  box-sizing: border-box;
+  /* border-radius: 18px; */
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* background-color: #D7FFD6; */
+}
+
+.cardscampaign img {
+  max-width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+  border-radius: 18px;
+  padding: 0;
+}
+
+.campaign-text-content {
+  font-size: 22px;
+  /* background-color: #D7FFD6; */
+  line-height: 1.5;
+  font-weight: 800;
+  
+}
+
+@media (max-width: 768px) {
+  .campaign-container {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .campaign-text {
+    margin-right: 0;
+    text-align: left;
+    padding: 0px 0px;
+
+  }
+
+  .campaign-cards {
+    max-width: 100%;
+  }
+
+  .landing-page-cta {
+    padding: 12px 50px;
+    margin-bottom: 20px;
+  }
+
+  .cardscampaign {
+    flex: 1 1 100%;
+    margin-bottom: 10px;
+  }
+}

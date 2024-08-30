@@ -8,11 +8,13 @@ import CampaignEightCards from './CampaignComponents/Campaign1/CampaignEightCard
 import CampaignEightCards2 from './CampaignComponents/Campaign1/CampaignEightCards2'
 import CallToActionDemoButton from './CampaignComponents/Campaign1/CallToActionDemoButton'
 import FreetrialComponent from './CampaignComponents/Campaign1/FreetrialComponent'
+import CampaignMarquee from './CampaignComponents/Campaign1/CampaignMarquee'
 
 const Campaign1 = () => {
   return (
 <div >
 <CampaignHeader/>      
+<CampaignMarquee/>
 <CampaignTwoCards/>
 <CampaignEightCards/>
 <CallToActionDemoButton/>

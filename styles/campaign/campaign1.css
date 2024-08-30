@@ -5,16 +5,23 @@
     min-height: 100vh;
     max-height: 100vh;
     margin-left: -110px;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    background-color: #E8E8E0;
-    overflow-x: hidden !important;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid #48ff00; */
+    flex-wrap: nowrap;
+    background-color: #fffffe;
+
 }
 
 .cards {
-    flex: 0 1 48%; 
-    max-height: 60vh;
-    padding: 10px;
+    flex: 0 1 49%;
+    max-height: 100vh;
+    min-height: 100%;
+    /* padding: 100px 0px 0px 0px; */
+    /* border: 2px solid #48ff00; */
+
+    /* padding-top: 100px; */
+    /* border: 1px solid red; */
 }
 
 
@@ -23,8 +30,8 @@
 
 .left {
     text-align: left;
-    padding-top: 150px;    
-    padding-right: 0px;    
+    padding: 90px 0px 0px 100px;
+    /* border: 1px solid black; */
     background-color: #ff030300;
 }
 
@@ -44,19 +51,37 @@
 
 
 .right {
+    padding: 0px 100px 0px 0px;
+    display: flex;
     background-color: #caf3ae00;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    padding: 100px 0px 0px 0px;
+    /* padding: 0px 0px 100px 0px; */
+    /* margin: 0 auto; */
 }
 
 .right-image {
-    max-width: 100%;    
-    height: auto;       
-    display: block;     
+    border-radius: 50px;
+    /* background: linear-gradient(45deg, #f0f0f0, #cacaca);
+    box-shadow:  20px -20px 60px #bebebe,
+                 -20px 20px 60px #ffffff; */
+    max-width: 75%;
+    height: auto;
+    display: block;
     object-fit: contain;
     border-radius: 50px;
+    transition: all .5s ease-in-out;
+    /* filter: blur(1px); */
 }
+
+.right-image:hover{
+    filter: contrast(110%);
+    
+}
+
+
+
+
 
 .right iframe {
     border-radius: 20px;
@@ -77,7 +102,7 @@
     flex-direction: row;
     gap: 10px;
     padding: 20px 50px;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 
 
@@ -89,7 +114,7 @@
     background: transparent;
     border: none;
     position: relative;
-    color: #f0f0f0;
+    color: #000000;
     cursor: pointer;
     z-index: 1;
     padding: 10px 20px;
@@ -114,7 +139,7 @@
     transform: translate(0%, 0%);
     width: 100%;
     height: 100%;
-    background: #000000;
+    background: #ffcffb80;
     border-radius: 10px;
 }
 
@@ -122,7 +147,7 @@
     transform: translate(10px, 10px);
     width: 35px;
     height: 35px;
-    background: #ffffff15;
+    background: #ffee0049;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border-radius: 50px;
@@ -174,73 +199,76 @@
 
 /* CSS */
 .button-85 {
+    font-family: "Poppins", sans-serif;
+
     padding: 20px 20px;
-    width: 100%;
+    text-wrap: nowrap;
+    width: 50%;
     font-size: 20px;
-    font-weight: 700;    
-  border: none;
-  outline: none;
-  color: rgb(255, 255, 255);
-  background: #f60202;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background: #f6020200;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    /* border-radius: 50px; */
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 .button-85:before {
-  content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing-button-85 20s linear infinite;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
+    content: "";
+    background: linear-gradient(45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
 }
 
 @keyframes glowing-button-85 {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
 
 .button-85:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #FE5C35;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffffce;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
 }
 
 
@@ -251,7 +279,7 @@
     position: absolute;
     top: 1vh;
     left: 1vw;
-    max-width: 250px; 
+    max-width: 250px;
 }
 
 
@@ -272,6 +300,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -282,6 +311,7 @@
         opacity: 0;
         transform: translateY(-50px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -293,6 +323,7 @@
         opacity: 0;
         transform: translateY(50px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -303,6 +334,7 @@
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -313,6 +345,7 @@
         opacity: 0;
         transform: translateX(-50px);
     }
+
     100% {
         opacity: 1;
         transform: translateX(0);
@@ -325,40 +358,62 @@
 @media (max-width: 768px) {
     .twocards {
         margin: 0px -32px;
-        min-width: 100vw;
+        /* Adjust margin if necessary */
+        width: 100vw;
+        /* Ensure full width */
         flex-direction: column;
+        min-height: auto;
+        /* Let content dictate height */
+        max-height: none;
+        /* Remove max height constraint */
+        overflow-x: visible;
+        /* Make sure nothing is hidden horizontally */
+    }
+
+    .button-div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 
     .cards {
         width: 100%;
-        flex: 0 1 100%;
+        /* Ensure each card takes full width */
+        flex: 1 0 auto;
+        /* Allow cards to grow as needed */
+        max-height: none;
+        /* Let cards expand naturally */
+        padding: 10px;
+        /* Adjust padding if needed */
     }
 
-    .left {
-        padding-left: 0px;
-        padding-top: 120px;
-        min-height: 60vh;
+    .left,
+    .right {
+        padding: 0px;
+        text-align: left;
+        min-height: auto;
+        /* Ensure content fits */
     }
 
-    .left h1 {
-        font-weight: 800;
-        padding: 0px 20px;
-    }
-
-    .left p { 
-        padding: 0px 20px;
+    .left h1,
+    .left p {
+        padding: 0 20px;
+        /* Adjust padding for better mobile view */
     }
 
     .right {
-        padding: 0;
-        min-height: 60vh;
+        padding: 20px;
         background-color: white;
+        display: none;
     }
 
     .button-campaign-div {
         position: absolute;
         top: 12vh;
-        left: 22.3vw;
+        left: 10vw;
+        /* Adjust for better alignment */
     }
 
     .six-cards {
@@ -366,6 +421,6 @@
     }
 
     .six-cards .cards1 {
-        flex: 1; 
+        flex: 1;
     }
 }

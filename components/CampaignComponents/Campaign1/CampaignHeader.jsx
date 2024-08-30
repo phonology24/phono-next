@@ -57,7 +57,7 @@ const CampaignHeader = () => {
                         ))}
                     </div> */}
                     <div className="cta-buttons">
-                    <button className='button-85'>Try For Free &nbsp; {`\u2192`}</button>
+                    <button className='button-85'>Try it for free &nbsp; {`\u2192`}</button>
                     {/* <button>Contact An Expert</button> */}
                     </div>
                     </div>
