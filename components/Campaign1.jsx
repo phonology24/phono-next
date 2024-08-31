@@ -9,6 +9,8 @@ import CampaignEightCards2 from './CampaignComponents/Campaign1/CampaignEightCar
 import CallToActionDemoButton from './CampaignComponents/Campaign1/CallToActionDemoButton'
 import FreetrialComponent from './CampaignComponents/Campaign1/FreetrialComponent'
 import CampaignMarquee from './CampaignComponents/Campaign1/CampaignMarquee'
+import CompanyNumbers from './CampaignComponents/Campaign1/CompanyNumbers'
+import ReportSection from './CampaignComponents/Campaign1/ReportSection'
 
 const Campaign1 = () => {
   return (
@@ -16,6 +18,8 @@ const Campaign1 = () => {
 <CampaignHeader/>      
 <CampaignMarquee/>
 <CampaignTwoCards/>
+<CompanyNumbers/>
+<ReportSection/>
 <CampaignEightCards/>
 <CallToActionDemoButton/>
 <CampaignProducts/>
