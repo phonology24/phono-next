@@ -7,7 +7,7 @@ import Script from 'next/script';
 
 // Define metadata for the page
 export const metadata = {
-  title: '7.	Enhance Your Business with a Cloud PBX Phone System',
+  title: 'Enhance Your Business with a Cloud PBX Phone System',
   description:
     'Discover how a Cloud PBX Phone System can streamline your business communication with scalable, feature-rich solutions that enhance productivity.',
   keywords:
