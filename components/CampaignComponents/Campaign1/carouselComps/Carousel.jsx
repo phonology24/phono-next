@@ -1,9 +1,9 @@
 import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Fade from 'embla-carousel-fade'
-import Carousel1 from '../../../public/Assets/carousel1.png'
-import Carousel2 from '../../../public/Assets/Carousel2.png'
-import Carousel3 from '../../../public/Assets/Carousel3.png'
+import Carousel1 from '../../../../public/Assets/carousel1.png'
+import Carousel2 from '../../../../public/Assets/carousel2.png'
+import Carousel3 from '../../../../public/Assets/carousel3.png'
 
 import {
   NextButton,
