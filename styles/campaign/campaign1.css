@@ -72,6 +72,7 @@
     border-radius: 50px;
     transition: all .5s ease-in-out;
     /* filter: blur(1px); */
+    border: 1px solid black;
 }
 
 .right-image:hover{
@@ -278,7 +279,7 @@
     max-height: 120px;
     position: absolute;
     top: 0vh;
-    right: 0vw;
+    left: 7vw;
     max-width: 250px;
 }
 

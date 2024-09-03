@@ -42,7 +42,7 @@ const DropdownMenu = () => {
               <p className={styles.itemDescription}>Everything you expect from Link business phone system, hosted through cloud technology</p>
             </Row>
             <Row className={styles.itemRow}>
-              <Col><Link href="/direct-routing-service-providers" className={styles.itemColLink}><VideoCallIcon /> Microsoft Teams</Link></Col>
+              <Col><Link href="/cloud-telephony-providers" className={styles.itemColLink}><VideoCallIcon /> Cloud Telephony</Link></Col>
               <p className={styles.itemDescription}>Bring your own carrier with provisioning.</p>
             </Row>
             <Row className={styles.itemRow}>
