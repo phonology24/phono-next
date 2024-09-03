@@ -7,9 +7,9 @@ import Script from 'next/script';
 
 // Define metadata for the page
 export const metadata = {
-  title: 'Leading VoIP Service Provider In India',
+  title: 'Enterprise VoIP Solution | Leading VoIP Service Provider in India',
   description:
-    'The leading VoIP service provider in India with Phonology. Enjoy crystal-clear communication, seamless connectivity, and cost-effective solutions tailored to your business needs. Call us for the best VoIP Calling rates with HD quality and 100% Client satisfaction.',
+    'Explore cutting-edge Enterprise VoIP solutions designed to boost your business with India&#39;s leading VoIP service provider, Phonology.',
   keywords:
     'Internet service provider in India, Business VoIP in India, business VoIP service in India, VoIP Phone, VoIP, VoIP Service Provider in Bangalore, VoIP Service Provider in India, Best VoIP Service, VoIP Phone Provider, IP phone provider, IP PBX Provider, Internet Telephony Service Provider, VoIP Solutions Provider, Best Business VoIP Solutions Provider, Cloud Based PBX Service Provider, How to Choose VoIP Phone System, VoIP Features, SIP Trunk, VOIP in India in Bangalore, VoIP communication in India, trunk line internet in India, small office VoIP in Bangalore, small office phone systems in India, SIP trunk in India, office VoIP phones in India, office phone services in India, office IP phone in India',
   alternates: {
