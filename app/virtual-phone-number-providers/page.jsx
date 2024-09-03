@@ -7,7 +7,7 @@ import Script from 'next/script';
 
 // Define metadata for the page
 export const metadata = {
-  title: '3.	Virtual Phone Number Providers | Buy Virtual Phone Numbers',
+  title: 'Virtual Phone Number Providers | Buy Virtual Phone Numbers',
   description:
     'Discover top virtual phone number providers and buy virtual phone numbers to enhance your business communication with cost-effective solutions.',
   keywords:
