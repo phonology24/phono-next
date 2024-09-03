@@ -22,7 +22,7 @@ const testimonials = [
 const SocialProof = () => {
   return (
     <div className="social-proof-section">
-      <h2 className="social-proof-title">TRUST ELEMENTS / SOCIAL PROOF</h2>
+      <h2 className="social-proof-title">Testimonials</h2>
       <div className="testimonials">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="testimonial">
