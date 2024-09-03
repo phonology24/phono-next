@@ -8,7 +8,7 @@ import Script from 'next/script';
 // import favicon from '../app/favicon.ico'
 // Metadata for the page
 export const metadata = {
-  title: '1.	VoIP Service Provider In India | Phonology',
+  title: 'VoIP Service Provider In India | Phonology',
   description:
     'Phonology is a leading VoIP service provider in India, offering reliable and cost-effective communication solutions for businesses.',
   keywords:
