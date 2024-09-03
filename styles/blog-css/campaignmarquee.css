@@ -1,10 +1,11 @@
 
 .marquee-header-campaign{
-    /* border: 1px solid black; */
-    text-align: center;
-    font-size: 46px;
+  text-align: center;
+  font-size: 46px;
 }
 .logo-card {
+  /* padding: 100px; */
+  /* border: 1px solid black; */
     max-width: 200px;
     /* min-heig1ht: 300px; */
     max-height: 100px;

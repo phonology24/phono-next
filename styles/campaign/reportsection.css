@@ -1,84 +1,133 @@
 .report-section {
-    text-align: center;
-    padding: 40px;
-  }
-  
-  .report-section h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .report-section .highlight {
-    color: #002776; /* Customize the color to match your theme */
-  }
-  
-  .report-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-  }
-  
-  .report-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: calc(50% - 40px);
-    margin-bottom: 20px;
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 8px;
-  }
-  
-  .image-container {
-    position: relative;
-    margin-right: 15px;
-  }
-  
-  .report-image {
-    width: 150px; /* Adjust as needed */
-    height: auto;
-    border-radius: 50%;
-    /* border: 1px solid red; */
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  }
-  
-  .icon-circle {
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    background-color: #ffffff;
-    color: #ff0000;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: bold;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  padding: 40px;
+}
 
+.report-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.report-section .highlight {
+  color: #002776; /* Customize the color to match your theme */
+}
+
+.report-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.report-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: calc(50% - 40px);
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.image-container {
+  position: relative;
+  margin-right: 15px;
+}
+
+.report-image {
+  width: 150px; /* Adjust as needed */
+  height: auto;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.icon-circle {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: #ffffff;
+  color: #ff0000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.report-item p {
+  margin: 0;
+  text-align: left;
+  font-size: 14px; /* Adjust as needed */
+}
+
+.cta-button {
+  background-color: #ff0000; /* Customize the color to match your theme */
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #cc0000; /* Customize the color to match your theme */
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .report-item {
+      width: 100%; /* Full width on tablets */
+      flex-direction: column; /* Stack image on top of text */
+      align-items: center; /* Center align items */
+      text-align: center; /* Center text */
   }
-  
+
+  .image-container {
+      margin-right: 0; /* Remove margin when stacking */
+      margin-bottom: 15px; /* Add bottom margin for spacing */
+  }
+
+  .report-image {
+      width: 120px; /* Adjust size for smaller screens */
+  }
+
   .report-item p {
-    margin: 0;
-    text-align: left;
-    font-size: 14px; /* Adjust as needed */
+      font-size: 13px; /* Slightly smaller text on tablets */
   }
-  
+
   .cta-button {
-    background-color: #ff0000; /* Customize the color to match your theme */
-    color: #fff;
-    border: none;
-    padding: 15px 30px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px;
+      width: 100%; /* Full width button on smaller screens */
+      padding: 12px 20px; /* Adjust padding */
+      font-size: 14px; /* Adjust font size */
   }
-  
-  .cta-button:hover {
-    background-color: #cc0000; /* Customize the color to match your theme */
+}
+
+@media (max-width: 480px) {
+  .report-item {
+      width: 100%; /* Full width on mobile */
+      flex-direction: column; /* Stack image on top of text */
+      align-items: center; /* Center align items */
+      text-align: center; /* Center text */
   }
-  
+
+  .report-image {
+      width: 100px; /* Smaller image for mobile */
+  }
+
+  .report-item p {
+      font-size: 12px; /* Adjust text size for mobile */
+  }
+
+  .cta-button {
+      width: 100%; /* Full width button */
+      padding: 10px 15px; /* Adjust padding */
+      font-size: 14px; /* Adjust font size */
+  }
+}

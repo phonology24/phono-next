@@ -24,9 +24,9 @@ const CampaignHeader = () => {
     return (
         <>
             <div className="campaignHeaderContainer">
-                {/* <div className="phono-img">
+                <div className="phono-img">
                     <a href='/'><Image src={logo} alt="phono-img" /></a>
-                </div> */}
+                </div>
                 {/* <div className='button-campaign-div'>
                 <button>Talk To An Expert &nbsp;  &rarr;</button>
             </div> */}

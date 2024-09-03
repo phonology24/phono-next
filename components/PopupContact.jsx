@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
 import CloseIcon from '@mui/icons-material/Close';
 import Image from 'next/image';
@@ -9,6 +9,7 @@ import chatboximage from '../public/Assets/chatboximage.svg';
 const PopupContact = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [manuallyClosed, setManuallyClosed] = useState(false);
+  const hasOpened = useRef(false); // Declare useRef outside of useEffect
 
   const toggleChatbox = () => {
     setIsOpen(!isOpen);
@@ -16,11 +17,15 @@ const PopupContact = () => {
   };
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      setIsOpen(true);
-    }, 300);
+    if (!hasOpened.current) {
+      const timeoutId = setTimeout(() => {
+        setIsOpen(true); // Assuming setIsOpen is defined elsewhere in your component
+        hasOpened.current = true; // Mark as opened so it won't run again
+        console.log('Opened:', hasOpened.current);
+      }, 3000); // 300 milliseconds delay
 
-    return () => clearTimeout(timeoutId);
+      return () => clearTimeout(timeoutId); // Cleanup timeout on component unmount
+    }
   }, []);
 
   return (

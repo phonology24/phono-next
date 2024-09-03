@@ -8,12 +8,13 @@
     color: rgb(0, 0, 0);
     padding: 45px;
     font-weight: 800;
-    /* border-radius: 17px; */
     margin:0px 0px 0px 0px;
     font-family: "Poppins", sans-serif;
     border-bottom-left-radius: 17px;
     border-bottom-right-radius: 17px;
     transition: all .3s ease-in-out;
+    /* border-radius: 17px; */
+    /* border: 1px solid black; */
 }
 
 
@@ -35,6 +36,7 @@ font-size: 25px;
     background: -webkit-linear-gradient(90deg, rgba(179,174,238,1) 0%, rgba(255,184,125,1) 100%);
     background: linear-gradient(90deg, rgba(179,174,238,1) 0%, rgba(255,184,125,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3aeee",endColorstr="#ffb87d",GradientType=1);
+    margin-bottom: 50px;
 }
 
 

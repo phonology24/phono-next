@@ -1,75 +1,84 @@
 .campaign-eight-cards-container {
-    text-align: center;
-    padding: 20px;
-    /* border-top: 1px solid rgb(168, 168, 168); */
-    margin-top: 50px;
-    padding-top: 50px;
-    border-radius: 17px;
-    background-color: #e5e5f7;
-    opacity: 1;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #e9bdff55, #e9bdff );
+  text-align: center;
+  padding: 20px;
+  margin: 0px 0px 50px 0px;
+  padding-top: 20px;
+  border-radius: 17px;
+  opacity: 1;
+  background-color: rgb(245, 245, 245);
+  /* border: 1px solid black; */
 }
-  .heading8 {
-    font-size: 46px;
-    margin-bottom: 20px;
-    font-weight: 800;
-    color: #000000;
-  }
-  
-  .cards8 {
-    display: flex;
-    color: #000000;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .card8:hover{
-    scale: 1.04;
-    border: 1px solid rgb(204, 204, 204);
-  
-  }
-  .card8 {
-    flex: 1 1 20%; /* This will make sure 4 cards fit in a row on a standard desktop */
-    border-radius: 8px;
-    padding: 20px;
-    margin: 10px;
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(1px);
-    border: 1px solid rgba(255, 255, 255, 0.356);  
-      text-align: center;
-      transition: all .3s ease-in-out;
-  }
-  
-  .icon8  svg{
-    font-size: 40px;
-    margin-bottom: 0px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  @media (max-width: 768px) {
-  
 
-    .card8 {
-      flex: 1 1 100%; /* Two cards per row on tablets */
-      /* border: 1px solid red; */
-    }
+.heading8 {
+  font-size: 46px;
+  margin: 0px 0px 20px 0px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.cards8 {
+  display: flex;
+  color: #000000;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards */
+}
+
+.card8 {
+  flex: 1 1 calc(33.333% - 20px); /* 3 cards per row, with space between them */
+  border-radius: 16px;
+  padding: 20px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.356);
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+
+.card8:hover {
+  transform: scale(1.04);
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.icon8 svg {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.features-button{
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 40px;
+  background-color: #ffffff;
+  color: #0b78ec;
+  border: 2px solid #0b78ec;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .card8 {
+      flex: 1 1 calc(50% - 20px); /* 2 cards per row on tablets */
   }
-  
-  @media (max-width: 480px) {
-    .card8 {
-      flex: 1 1 100%; /* One card per row on mobile */
-    }
+}
+
+@media (max-width: 480px) {
+  .card8 {
+      flex: 1 1 100%; /* 1 card per row on mobile */
   }
-  
+}

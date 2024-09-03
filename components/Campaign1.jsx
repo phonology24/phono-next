@@ -11,6 +11,10 @@ import FreetrialComponent from './CampaignComponents/Campaign1/FreetrialComponen
 import CampaignMarquee from './CampaignComponents/Campaign1/CampaignMarquee'
 import CompanyNumbers from './CampaignComponents/Campaign1/CompanyNumbers'
 import ReportSection from './CampaignComponents/Campaign1/ReportSection'
+import BenefitsComponent from './CampaignComponents/Campaign1/CampaignBenefits'
+import ValueProposition from './CampaignComponents/Campaign1/ValueProposition'
+import SocialProof from './CampaignComponents/Campaign1/SocialProof'
+import Footer from './Footer'
 
 const Campaign1 = () => {
   return (
@@ -18,14 +22,18 @@ const Campaign1 = () => {
 <CampaignHeader/>      
 <CampaignMarquee/>
 <CampaignTwoCards/>
+<CallToActionDemoButton/> 
 <CompanyNumbers/>
 <ReportSection/>
 <CampaignEightCards/>
-<CallToActionDemoButton/>
-<CampaignProducts/>
-<CampaignEightCards2/>
+<BenefitsComponent/>
+<ValueProposition/>
+<SocialProof/>
+{/* <CampaignProducts/> */}
+{/* <CampaignEightCards2/> */}
 <FreetrialComponent/>
-<HostedPbxCards/>
+<Footer/>
+{/* <HostedPbxCards/> */}
     </div>
   )
 }

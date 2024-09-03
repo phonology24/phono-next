@@ -11,7 +11,7 @@ const CallToActionDemoButton = () => {
     <div>
       <div className="ctaButtonDemoContainer">
         <p className='ctaPDemo'>Strengthen Your Business Communication <br/>
-        with an Advanced VoIP Solution Today!</p>
+        with an Advanced VoIP Solution Today!</p>
         <button className='ctaBookADemo' onClick={scrollToTop}> Book A Free Demo</button>
       </div>
     </div>

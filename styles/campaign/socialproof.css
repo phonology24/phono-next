@@ -1,0 +1,73 @@
+.social-proof-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #F0F6FF;
+  }
+  
+  .social-proof-title {
+    color: #2455A6;
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .quote-icon {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    font-size: 40px;
+    color: #2455A6; /* You can use a quote icon from a library like FontAwesome */
+  }
+  
+  .testimonial-quote {
+    font-style: italic;
+    color: #1F2A44;
+  }
+  
+  .testimonial-author {
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+  }
+  
+  .testimonial-company {
+    color: #2455A6;
+    font-weight: bold;
+  }
+  
+  .ctasp-button button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 40px;
+    background-color: #ffffff;
+    color: #0b78ec;
+    border: 2px solid #0b78ec;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    transition: all.5s ease-in-out;
+  }
+  
+  .ctasp-button button:hover {
+    /* background-color: #1C3F81; */
+    border: 2px solid #ffffff;
+  }
+  
