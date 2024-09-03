@@ -48,12 +48,13 @@ const CampaignHeader = () => {
                         </div>
                         <h1>Trusted VoIP Communication for Small, Medium, and Large Enterprises.</h1>
                         <p>
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            Welcome to Phonology, where your business communication isn’t just better—it’s brilliant!
+                          <br/>  Whether you’re a bold startup or a global enterprise, our VoIP solutions are built to power your success.
+                         Ready to break away from the
+                            ordinary and experience something extraordinary?
+                            <br/>  Discover how Phonology is transforming the
+                            way businesses connect. Let’s reimagine what’s possible together—your next level of
+                            communication starts here. Dive in and see the difference today!
                         </p>
                         {/* <div className='six-cards'>
                         {cards.map(card => (

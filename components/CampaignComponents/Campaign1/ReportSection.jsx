@@ -6,7 +6,7 @@ import Image from 'next/image';
 const ReportSection = () => {
   return (
     <div className="report-section">
-      <h2>What will you learn <span className="highlight">from the report</span></h2>
+      <h2>Our <span className="highlight">Products</span></h2>
       <div className="report-items">
         <div className="report-item">
           <div className="image-container">
@@ -14,9 +14,11 @@ const ReportSection = () => {
             <div className="icon-circle">1</div>
           </div>
           <p>
-            <strong>Add a description of your offer and key benefits.</strong>
+            <strong style={{fontSize:"24px"}}>SIP Trunking</strong>
             <br />
-            What it is and how it helps your customer.
+            Offers seamless, scalable voice communication over the internet, 
+            reducing costs while enhancing call quality and reliability. 
+            Empower your business with flexible, high-performance connectivity that grows with you.
           </p>
         </div>
         <div className="report-item">
@@ -25,10 +27,12 @@ const ReportSection = () => {
           <div className="icon-circle">2</div>
           </div>
           <p>
-            <strong>Add a description of your offer and key benefits.</strong>
-            <br />
-            What it is and how it helps your customer.
-          </p>
+          <strong style={{fontSize:"24px"}}>UCaaS</strong>
+          <br />
+          Solution unifies your communication channels into one cloud-based platform, 
+          enhancing collaboration and productivity across your organization. 
+           You can enjoy seamless integration of voice, video, messaging, 
+           and more—unified in one powerful service.</p>
         </div>
         <div className="report-item">
           <div className="image-container">
@@ -36,10 +40,12 @@ const ReportSection = () => {
           <div className="icon-circle">3</div>
           </div>
           <p>
-            <strong>Add a description of your offer and key benefits.</strong>
+          <strong style={{fontSize:"24px"}}>Virtual Numbers</strong>
             <br />
-            What it is and how it helps your customer.
-          </p>
+            Provide your business with a local presence globally, 
+            enabling seamless customer interaction without geographic limitations. 
+            Enhance your reach and accessibility with flexible, cost-effective
+             virtual numbers tailored to your needs. </p>
         </div>
         <div className="report-item">
           <div className="image-container">
@@ -47,10 +53,12 @@ const ReportSection = () => {
           <div className="icon-circle">4</div>
           </div>
           <p>
-            <strong>Add a description of your offer and key benefits.</strong>
+          <strong style={{fontSize:"24px"}}>Hosted PBX</strong>
             <br />
-            What it is and how it helps your customer.
-          </p>
+            Offers a cloud-based phone system that delivers enterprise-level 
+            features without the need for on-site hardware. Enjoy scalable,
+             reliable communication that simplifies management and reduces costs,
+              all while keeping your business connected.</p>
         </div>
       </div>
       <button className="cta-button">GET FREE COPY</button>

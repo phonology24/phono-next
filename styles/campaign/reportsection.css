@@ -4,12 +4,12 @@
 }
 
 .report-section h2 {
-  font-size: 24px;
+  font-size: 46px;
   margin-bottom: 20px;
 }
 
 .report-section .highlight {
-  color: #002776; /* Customize the color to match your theme */
+  color: #000000; /* Customize the color to match your theme */
 }
 
 .report-items {

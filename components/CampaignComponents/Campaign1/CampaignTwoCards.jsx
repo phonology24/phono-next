@@ -11,11 +11,13 @@ const CampaignTwoCards = () => {
       <div className="campaign-text">
         <h2>About Phonology</h2>
         <p>
-          Phonology's VoIP services offer seamless, high-quality voice communication over the Internet,
-          reducing costs and enhancing business efficiency. Our solutions include international - virtual and
-          toll-free numbers, SIP trunks, Cloud telephony, and hosted PBX systems. They are designed to cater to
-          the specific needs of enterprises and corporations. With over 2 decades of expertise, Phonology ensures
-          reliable and scalable telephony services for global connectivity.
+        Phonology is a leader in innovative telecom solutions, offering advanced VoIP, Internet telephony, 
+        SIP trunks, and cloud telephony services. With 19 years of expertise, we empower businesses in India 
+        and globally with seamless communication, international virtual numbers, and hosted PBX systems. 
+        Our UCaaS and CPaaS platforms enhance connectivity, making us the go-to partner for enterprises 
+        seeking reliable and cost-effective telecom services. At Phonology, we don’t just connect calls; 
+        we connect people, ideas, and opportunities. Experience the future of communication 
+        with Phonology—where technology meets exceptional service.
         </p>
         <button className='landing-page-cta'>Contact Us</button>
       </div>
