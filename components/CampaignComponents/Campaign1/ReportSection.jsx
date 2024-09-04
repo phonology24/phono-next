@@ -1,5 +1,6 @@
 import React from 'react';
 import ElastixLogo from '../../../public/Assets/cisco-logo.png';
+import SipTrunkLogo from '../../../public/Assets/siptrunk.jpg'
 import '../../../styles/campaign/reportsection.css';
 import Image from 'next/image';
 
@@ -10,7 +11,7 @@ const ReportSection = () => {
       <div className="report-items">
         <div className="report-item">
           <div className="image-container">
-            <Image src={ElastixLogo} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
+            <Image src={SipTrunkLogo} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
             <div className="icon-circle">1</div>
           </div>
           <p>
