@@ -2,6 +2,8 @@ import React from 'react';
 import ElastixLogo from '../../../public/Assets/cisco-logo.png';
 import SipTrunkImage from '../../../public/Assets/siptrunk.jpg'
 import HostedPBXImage from '../../../public/Assets/hostedpbx.png'
+import UcaasImage from '../../../public/Assets/Ucaas.png'
+import VNImage from '../../../public/Assets/vn.png'
 import '../../../styles/campaign/reportsection.css';
 import Image from 'next/image';
 
@@ -25,7 +27,7 @@ const ReportSection = () => {
         </div>
         <div className="report-item">
           <div className="image-container">
-          <Image src={HostedPBXImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
+          <Image src={UcaasImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
           <div className="icon-circle">2</div>
           </div>
           <p>
@@ -38,7 +40,7 @@ const ReportSection = () => {
         </div>
         <div className="report-item">
           <div className="image-container">
-          <Image src={ElastixLogo} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
+          <Image src={VNImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
           <div className="icon-circle">3</div>
           </div>
           <p>
@@ -51,7 +53,7 @@ const ReportSection = () => {
         </div>
         <div className="report-item">
           <div className="image-container">
-          <Image src={ElastixLogo} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
+          <Image src={HostedPBXImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
           <div className="icon-circle">4</div>
           </div>
           <p>
