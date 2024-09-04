@@ -15,7 +15,7 @@ const ReportSection = () => {
         <div className="report-item">
           <div className="image-container">
             <Image src={SipTrunkImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
-            <div className="icon-circle">1</div>
+            {/* <div className="icon-circle">1</div> */}
           </div>
           <p>
             <strong style={{fontSize:"24px"}}>SIP Trunking</strong>
@@ -28,7 +28,7 @@ const ReportSection = () => {
         <div className="report-item">
           <div className="image-container">
           <Image src={UcaasImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
-          <div className="icon-circle">2</div>
+          {/* <div className="icon-circle">2</div> */}
           </div>
           <p>
           <strong style={{fontSize:"24px"}}>UCaaS</strong>
@@ -41,7 +41,7 @@ const ReportSection = () => {
         <div className="report-item">
           <div className="image-container">
           <Image src={VNImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
-          <div className="icon-circle">3</div>
+          {/* <div className="icon-circle">3</div> */}
           </div>
           <p>
           <strong style={{fontSize:"24px"}}>Virtual Numbers</strong>
@@ -54,7 +54,7 @@ const ReportSection = () => {
         <div className="report-item">
           <div className="image-container">
           <Image src={HostedPBXImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
-          <div className="icon-circle">4</div>
+          {/* <div className="icon-circle">4</div> */}
           </div>
           <p>
           <strong style={{fontSize:"24px"}}>Hosted PBX</strong>
