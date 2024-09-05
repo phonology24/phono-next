@@ -2,7 +2,8 @@ import React from 'react';
 import '../../../styles/campaign/valueproposition.css';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import CostIcon from '../../../public/Assets/iconcost.png'
-import CommIcon from '../../../public/Assets/iconcomm.png'
+import CommIcon from '../../../public/Assets/iconvn.png'
+import PBXIcon from '../../../public/Assets/iconpbx.png'
 import Image from 'next/image';
 const ValueProposition = () => {
   return (
@@ -24,7 +25,7 @@ const ValueProposition = () => {
         </div>
         <div className="value-proposition-item">
           <div className="icon-circle1">
-            <Image src={CostIcon} alt="Cost Icon" width={150} height={150} />
+            <Image src={PBXIcon} alt="Cost Icon" width={150} height={150} />
           </div>
           <p><strong>Worldwide Reach, No Boundaries <br /></strong>
             We bridge the gap between your business and the world, offering seamless global communication.

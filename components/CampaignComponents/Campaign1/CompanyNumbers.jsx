@@ -7,11 +7,11 @@ const CompanyNumbers = () => {
             <h2 className="company-numbers-heading">Company In Numbers</h2>
             <div className="company-numbers-cards">
                 <div className="company-numbers-card">
-                    <h3 className="card-heading">Minutes terminated</h3>
+                    <h3 className="card-heading">Minutes Terminated</h3>
                     <p className="card-paragraph">This is a paragraph for card 1.</p>
                 </div>
                 <div className="company-numbers-card">
-                    <h3 className="card-heading">Countries connected</h3>
+                    <h3 className="card-heading">Countries Connected</h3>
                     <p className="card-paragraph">This is a paragraph for card 2.</p>
                 </div>
                 <div className="company-numbers-card">
