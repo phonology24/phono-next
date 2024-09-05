@@ -6,18 +6,19 @@
     align-items: center;
     justify-items: center;
   }
-  
   .benefits-image {
-    max-height: 50%;
-    overflow: hidden; /* Prevent the image from overflowing the container */
+    min-height: 50%; /* Ensures container is at least half the parent's height */
+    overflow: hidden; /* Hides the image overflow */
+    display: flex; /* Flexbox helps to align the content */
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
 }
 
-.benefits-image img {
-    width: 100%; /* Ensure the image takes up the full width of the container */
-    height: auto; /* Maintain the aspect ratio */
-    max-height: 100%; /* Limit the image's height to the container's height */
-    border-radius: 10px 0 0 10px;
-    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+.benefits-image img { /* Targeting the image inside the container */
+    width: 100%; /* Ensures the image fills the container's width */
+    height: 100%; /* Ensures the image fills the container's height */
+    border-radius: 10px 0 0 10px; /* Adds the border-radius on specific corners */
+    object-fit: cover; /* Crops the image to fit the container without stretching */
 }
 
   

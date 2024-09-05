@@ -18,51 +18,51 @@ const ReportSection = () => {
             {/* <div className="icon-circle">1</div> */}
           </div>
           <p>
-            <strong style={{fontSize:"24px"}}>SIP Trunking</strong>
+            <strong style={{ fontSize: "24px" }}>SIP Trunking</strong>
             <br />
-            Offers seamless, scalable voice communication over the internet, 
-            reducing costs while enhancing call quality and reliability. 
+            Offers seamless, scalable voice communication over the internet,
+            reducing costs while enhancing call quality and reliability.
             Empower your business with flexible, high-performance connectivity that grows with you.
           </p>
         </div>
         <div className="report-item">
           <div className="image-container">
-          <Image src={UcaasImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
-          {/* <div className="icon-circle">2</div> */}
+            <Image src={UcaasImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
+            {/* <div className="icon-circle">2</div> */}
           </div>
           <p>
-          <strong style={{fontSize:"24px"}}>UCaaS</strong>
-          <br />
-          Solution unifies your communication channels into one cloud-based platform, 
-          enhancing collaboration and productivity across your organization. 
-           You can enjoy seamless integration of voice, video, messaging, 
-           and more—unified in one powerful service.</p>
+            <strong style={{ fontSize: "24px" }}>UCaaS</strong>
+            <br />
+            Solution unifies your communication channels into one cloud-based platform,
+            enhancing collaboration and productivity across your organization.
+            You can enjoy seamless integration of voice, video, messaging,
+            and more—unified in one powerful service.</p>
         </div>
         <div className="report-item">
           <div className="image-container">
-          <Image src={VNImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
-          {/* <div className="icon-circle">3</div> */}
+            <Image src={VNImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
+            {/* <div className="icon-circle">3</div> */}
           </div>
           <p>
-          <strong style={{fontSize:"24px"}}>Virtual Numbers</strong>
+            <strong style={{ fontSize: "24px" }}>Virtual Numbers</strong>
             <br />
-            Provide your business with a local presence globally, 
-            enabling seamless customer interaction without geographic limitations. 
+            Provide your business with a local presence globally,
+            enabling seamless customer interaction without geographic limitations.
             Enhance your reach and accessibility with flexible, cost-effective
-             virtual numbers tailored to your needs. </p>
+            virtual numbers tailored to your needs. </p>
         </div>
         <div className="report-item">
           <div className="image-container">
-          <Image src={HostedPBXImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
-          {/* <div className="icon-circle">4</div> */}
+            <Image src={HostedPBXImage} alt="Elastix Logo" className="report-image" width={1000} height={1000} />
+            {/* <div className="icon-circle">4</div> */}
           </div>
           <p>
-          <strong style={{fontSize:"24px"}}>Hosted PBX</strong>
+            <strong style={{ fontSize: "24px" }}>Hosted PBX</strong>
             <br />
-            Offers a cloud-based phone system that delivers enterprise-level 
+            Offers a cloud-based phone system that delivers enterprise-level
             features without the need for on-site hardware. Enjoy scalable,
-             reliable communication that simplifies management and reduces costs,
-              all while keeping your business connected.</p>
+            reliable communication that simplifies management and reduces costs,
+            all while keeping your business connected.</p>
         </div>
       </div>
       <button className="cta-button">GET FREE COPY</button>

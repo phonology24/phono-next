@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../styles/campaign/campaignbenefits.css';
-import benefitImage from '../../../public/Assets/cisco-logo.png'; // Update the path as per your setup
+import benefitImage from '../../../public/Assets/benefits.png'; // Update the path as per your setup
 import Image from 'next/image';
 
 const benefits = [
@@ -34,16 +34,16 @@ const benefits = [
     description: "Unlock a suite of powerful tools like call forwarding and auto-attendant, turning your phone system into a productivity powerhouse with Phonology's VoIP.",
     color: "#97DFFB"
   },
-  {
-    title: "Easy Integration",
-    description: "Seamlessly blend Phonology's VoIP with your existing CRM and business tools, creating a unified communication ecosystem that works smarter, not harder.",
-    color: "#45D534"
-  },
-  {
-    title: "Reliability",
-    description: "Stay connected without a hitch. Phonology’s robust network ensures your calls are always on, so your business never misses a beat.",
-    color: "#536537"
-  }
+  // {
+  //   title: "Easy Integration",
+  //   description: "Seamlessly blend Phonology's VoIP with your existing CRM and business tools, creating a unified communication ecosystem that works smarter, not harder.",
+  //   color: "#45D534"
+  // },
+  // {
+  //   title: "Reliability",
+  //   description: "Stay connected without a hitch. Phonology’s robust network ensures your calls are always on, so your business never misses a beat.",
+  //   color: "#536537"
+  // }
 ];
 
 const BenefitsComponent = () => {
