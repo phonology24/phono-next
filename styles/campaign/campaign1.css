@@ -287,7 +287,7 @@
 
 
 .form-frame {
-    height: 650px;
+    height:100%;
     width: 100%;
     padding-top: 20px;
     animation: formanimation 2s ease 0s 1 normal forwards;

@@ -70,9 +70,8 @@ const CampaignHeader = () => {
                         </div>
                     </div>
                     <div className='cards right'>
-                        {/* <iframe aria-label='SIGN UP FOR A FREE DEMO' frameBorder="0" src='https://forms.zohopublic.in/phonology/form/CampaignForm/formperma/ZSZ6bo7a2Bc7eKru1S4sKmXzI4dMI8Rp-9bOSbnInZ4' className='form-frame'></iframe> */}
-                        {/* <Image src={LandingPageImage} alt='phono-img' width={1000} height={1000} className='right-image' /> */}
-                        <EmblaCarousel slides={SLIDES} options={OPTIONS} className='right-image' />
+                    <iframe aria-label='Sign Up To Schedule a Demo' frameBorder="0" className='form-frame' src='https://forms.zohopublic.in/phonology/form/CampaignForm/formperma/ZSZ6bo7a2Bc7eKru1S4sKmXzI4dMI8Rp-9bOSbnInZ4'></iframe>                        {/* <Image src={LandingPageImage} alt='phono-img' width={1000} height={1000} className='right-image' /> */}
+                        {/* <EmblaCarousel slides={SLIDES} options={OPTIONS} className='right-image' /> */}
 
                     </div>
                 </div>
