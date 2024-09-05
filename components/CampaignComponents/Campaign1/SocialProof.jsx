@@ -3,19 +3,19 @@ import '../../../styles/campaign/socialproof.css';
 
 const testimonials = [
   {
-    quote: "A few sentences about your product. How it help to solve clients' problems. It should convince the unconvinced. No fake quotes or photos!",
-    name: "Your Customer Name",
-    company: "Company"
+    quote: "Phonology has diverse solutions for their customer needs, their UCaaS deployment has helped our diverse business requirements. UC has helped and improved our productivity 100%.",
+    name: "Praveen Prakash",
+    company: "Manager at a prominent E-Learning and Online Course Agency"
   },
   {
-    quote: "A few sentences about your product. How it help to solve clients' problems. It should convince the unconvinced. No fake quotes or photos!",
-    name: "Your Customer Name",
-    company: "Company"
+    quote: "Phonology has been a very reliable partner and their services have helped our business grow & deliver efficiently to our end consumers.",
+    name: "Vinod Bhatta",
+    company: "Partner at an International Auditing Firm"
   },
   {
-    quote: "A few sentences about your product. How it help to solve clients' problems. It should convince the unconvinced. No fake quotes or photos!",
-    name: "Your Customer Name",
-    company: "Company"
+    quote: "Phonology has helped us deliver smooth solutions to our onsite offices, we have never felt offshore to our main offices. Phonology helps us connect to every individual instantly on demand.",
+    name: "Joseph George",
+    company: "Manager Operations of an International Banking Firm"
   }
 ];
 
