@@ -24,9 +24,6 @@ const CampaignHeader = () => {
         { id: 4, content: 'Virtual Numbers', icon: <EqualizerOutlinedIcon /> },
     ]);
 
-    const OPTIONS = { loop: true, duration: 0, Autoplay: true }
-    const SLIDE_COUNT = 5
-    const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
     return (
         <>
@@ -71,7 +68,6 @@ const CampaignHeader = () => {
                     </div>
                     <div className='cards right'>
                     <iframe aria-label='Sign Up To Schedule a Demo' frameBorder="0" className='form-frame' src='https://forms.zohopublic.in/phonology/form/CampaignForm/formperma/ZSZ6bo7a2Bc7eKru1S4sKmXzI4dMI8Rp-9bOSbnInZ4'></iframe>                        {/* <Image src={LandingPageImage} alt='phono-img' width={1000} height={1000} className='right-image' /> */}
-                        {/* <EmblaCarousel slides={SLIDES} options={OPTIONS} className='right-image' /> */}
 
                     </div>
                 </div>

@@ -4,8 +4,13 @@ import campaignImg from "../../../public/Assets/virtual-numbers1.png";
 import LandingPageImage from '../../../public/Assets/cloud.png'
 
 import Image from 'next/image';
+import EmblaCarousel from './carouselComps/Carousel';
 
-const CampaignTwoCards = () => {
+const CampaignTwoCards = () => {  
+  const OPTIONS = { loop: true, duration: 0, Autoplay: true }
+  const SLIDE_COUNT = 5
+  const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
+  
   return (
     <div className="campaign-container">
       <div className="campaign-text">
@@ -22,7 +27,7 @@ const CampaignTwoCards = () => {
         <button className='landing-page-cta'>Contact Us</button>
       </div>
       <div className="campaign-cards">
-        <div className="cardscampaign">
+        {/* <div className="cardscampaign">
           <Image src={campaignImg} alt="Campaign" />
         </div>
         <div className="cardscampaign">
@@ -37,7 +42,9 @@ const CampaignTwoCards = () => {
         </div>
         <div className="cardscampaign">
           <Image src={LandingPageImage} alt="Campaign" />
-        </div>
+        </div> */}
+                                <EmblaCarousel slides={SLIDES} options={OPTIONS} className='right-image' />
+
       </div>
     </div>
   );
