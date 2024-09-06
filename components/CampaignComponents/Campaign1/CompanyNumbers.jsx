@@ -7,19 +7,19 @@ const CompanyNumbers = () => {
             <h2 className="company-numbers-heading">Company In Numbers</h2>
             <div className="company-numbers-cards">
                 <div className="company-numbers-card">
-                    <h3 className="card-heading">Minutes Terminated</h3>
-                    <p className="card-paragraph">This is a paragraph for card 1.</p>
+                    <h3 className="card-heading">100+ Million</h3>
+                    <p className="card-paragraph">Minutes Terminated</p>
                 </div>
                 <div className="company-numbers-card">
-                    <h3 className="card-heading">Countries Connected</h3>
-                    <p className="card-paragraph">This is a paragraph for card 2.</p>
+                    <h3 className="card-heading">150+</h3>
+                    <p className="card-paragraph">Countries Connected.</p>
                 </div>
                 <div className="company-numbers-card">
-                    <h3 className="card-heading">Cost Reduction</h3>
-                    <p className="card-paragraph">This is a paragraph for card 3.</p>
+                    <h3 className="card-heading">60%</h3>
+                    <p className="card-paragraph">Cost Reduction.</p>
                 </div>
             </div>
-            <button className="company-numbers-button">Learn More</button>
+            {/* <button className="company-numbers-button">Learn More</button> */}
         </div>
 
     )
