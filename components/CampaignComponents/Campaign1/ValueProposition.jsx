@@ -14,20 +14,20 @@ const ValueProposition = () => {
           <div className="icon-circle1">
             <Image src={CostIcon} alt="Cost Icon" width={150} height={150} />
           </div>
-          <p><strong>Cost-Effective Excellence<br /> </strong>Top-tier telecom services at the best prices.</p>
+          <p><strong style={{fontSize:"20px"}}>Cost-Effective Excellence<br /> </strong>Top-tier telecom services at the best prices.</p>
         </div>
         <div className="value-proposition-item">
           <div className="icon-circle1">
             <Image src={CommIcon} alt="Cost Icon" width={150} height={150} />
           </div>
-          <p> <strong>Instant Communication, Zero Disruption</strong>
+          <p> <strong style={{fontSize:"20px"}}>Instant Communication, Zero Disruption</strong>
             <br />We make sure your business stays connected around the clock with uninterrupted service and flawless call quality.</p>
         </div>
         <div className="value-proposition-item">
           <div className="icon-circle1">
             <Image src={PBXIcon} alt="Cost Icon" width={150} height={150} />
           </div>
-          <p><strong>Worldwide Reach, No Boundaries <br /></strong>
+          <p><strong style={{fontSize:"20px"}}>Worldwide Reach, No Boundaries <br /></strong>
             We bridge the gap between your business and the world, offering seamless global communication.
           </p>
         </div>

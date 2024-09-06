@@ -17,10 +17,10 @@ const CampaignTwoCards = () => {
         <h2>About Phonology</h2>
         <p>
         Phonology is a leader in innovative telecom solutions, offering advanced VoIP, Internet telephony, 
-        SIP trunks, and cloud telephony services. With 19 years of expertise, we empower businesses in India 
+        SIP trunks, and cloud telephony services.<br/> With 19 years of expertise, we empower businesses in India 
         and globally with seamless communication, international virtual numbers, and hosted PBX systems. 
         Our UCaaS and CPaaS platforms enhance connectivity, making us the go-to partner for enterprises 
-        seeking reliable and cost-effective telecom services. At Phonology, we don’t just connect calls; 
+        seeking reliable and cost-effective telecom services.<br/> At Phonology, we don’t just connect calls; 
         we connect people, ideas, and opportunities. Experience the future of communication 
         with Phonology—where technology meets exceptional service.
         </p>
