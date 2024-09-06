@@ -14,7 +14,7 @@ const ValueProposition = () => {
           <div className="icon-circle1">
             <Image src={CostIcon} alt="Cost Icon" width={150} height={150} />
           </div>
-          <p><strong style={{fontSize:"20px"}}>Cost-Effective Excellence<br /> </strong>Top-tier telecom services at the best prices.</p>
+          <p><strong style={{fontSize:"20px"}}>Cost-Effective Excellence<br /> </strong>We ensure you get the best of both worlds—superior technology and smart, efficient pricing.</p>
         </div>
         <div className="value-proposition-item">
           <div className="icon-circle1">
