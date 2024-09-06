@@ -65,7 +65,7 @@ const ReportSection = () => {
             all while keeping your business connected.</p>
         </div>
       </div>
-      <button className="cta-button">GET FREE COPY</button>
+      {/* <button className="cta-button">GET FREE COPY</button> */}
     </div>
   );
 };

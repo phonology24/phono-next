@@ -22,7 +22,7 @@ const logos = [
 const CampaignMarquee = () => {
   return (<>
     <h2 className='marquee-header-campaign'>Our Partners</h2>
-      <Marquee gradient={false} speed={50} style={{ zIndex: -999 }}>
+      <Marquee gradient={false} speed={100} style={{ zIndex: -999 }}>
       {logos.map((logo) => (
         <div className="logo-card" key={logo.id}>
           <Image

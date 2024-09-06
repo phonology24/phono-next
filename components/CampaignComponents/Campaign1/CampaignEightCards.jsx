@@ -1,24 +1,23 @@
 import React from 'react';
 import '../../../styles/campaign/campaigneightcards.css';
-import SettingsRemoteIcon from '@mui/icons-material/SettingsRemote';
-import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
-import SpaIcon from '@mui/icons-material/Spa';
-import SupportAgentIcon from '@mui/icons-material/SupportAgent';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
-import AspectRatioIcon from '@mui/icons-material/AspectRatio';
-import FitbitIcon from '@mui/icons-material/Fitbit';
-import NatIcon from '@mui/icons-material/Nat';
-
+import PhoneForwardedOutlinedIcon from '@mui/icons-material/PhoneForwardedOutlined';
+import VoicemailOutlinedIcon from '@mui/icons-material/VoicemailOutlined';
+import AssistantOutlinedIcon from '@mui/icons-material/AssistantOutlined';
+import RadioButtonCheckedOutlinedIcon from '@mui/icons-material/RadioButtonCheckedOutlined';
+import AddIcCallOutlinedIcon from '@mui/icons-material/AddIcCallOutlined';
+import DataSaverOffOutlinedIcon from '@mui/icons-material/DataSaverOffOutlined';
+import IntegrationInstructionsOutlinedIcon from '@mui/icons-material/IntegrationInstructionsOutlined';
+import InstallMobileOutlinedIcon from '@mui/icons-material/InstallMobileOutlined';
 const CampaignEightCards = () => {
   const cards = [
-    { icon: <SettingsRemoteIcon/>, heading: 'Call Forwarding and Routing', description: 'Seamlessly direct calls to the right person or device, making sure there are no missed connections.' },
-    { icon: <WorkHistoryIcon/>, heading: 'Voicemail to Email', description: 'Receive your voicemails directly in your inbox for easy access and quick response.' },
-    { icon: <SpaIcon/>, heading: 'Auto-Attendant', description: 'Automate call handling with a professional virtual receptionist that directs callers efficiently.' },
-    { icon: <SupportAgentIcon/>, heading: 'Call Recording', description: 'Capture and store important conversations for quality assurance, training, or compliance purposes.' },
-    { icon: <AttachMoneyIcon/>, heading: 'Conference Calling', description: ': Host virtual meetings effortlessly with crystal-clear conference calling capabilities.' },
-    { icon: <AspectRatioIcon/>, heading: 'Call Analytics and Reporting', description: 'You can gain insights into call performance with detailed analytics and reporting tools.' },
-    { icon: <FitbitIcon/>, heading: 'Integration with CRM', description: ': Enhance customer interactions by integrating calls directly with your CRM system.' },
-    { icon: <NatIcon/>, heading: 'Mobile App', description: 'Stay connected on the go with a mobile app that brings your business communication to your fingertips.'},
+    { icon: <PhoneForwardedOutlinedIcon/>, heading: 'Call Forwarding and Routing', description: 'Seamlessly direct calls to the right person or device, making sure there are no missed connections.' },
+    { icon: <VoicemailOutlinedIcon/>, heading: 'Voicemail to Email', description: 'Receive your voicemails directly in your inbox for easy access and quick response.' },
+    { icon: <AssistantOutlinedIcon/>, heading: 'Auto-Attendant', description: 'Automate call handling with a professional virtual receptionist that directs callers efficiently.' },
+    { icon: <RadioButtonCheckedOutlinedIcon/>, heading: 'Call Recording', description: 'Capture and store important conversations for quality assurance, training, or compliance purposes.' },
+    { icon: <AddIcCallOutlinedIcon/>, heading: 'Conference Calling', description: ': Host virtual meetings effortlessly with crystal-clear conference calling capabilities.' },
+    { icon: <DataSaverOffOutlinedIcon/>, heading: 'Call Analytics and Reporting', description: 'You can gain insights into call performance with detailed analytics and reporting tools.' },
+    { icon: <IntegrationInstructionsOutlinedIcon/>, heading: 'Integration with CRM', description: ': Enhance customer interactions by integrating calls directly with your CRM system.' },
+    { icon: <InstallMobileOutlinedIcon/>, heading: 'Mobile App', description: 'Stay connected on the go with a mobile app that brings your business communication to your fingertips.'},
   ];
 
   return (
@@ -33,7 +32,7 @@ const CampaignEightCards = () => {
           </div>
         ))}
       </div>
-      <button className='features-button'>Apply Now</button>
+      {/* <button className='features-button'>Apply Now</button> */}
     </div>
   );
 }

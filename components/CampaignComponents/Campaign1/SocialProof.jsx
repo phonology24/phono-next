@@ -38,7 +38,7 @@ const SocialProof = () => {
         ))}
       </div>
       <div className="ctasp-button">
-        <button>FIND OUT MORE</button>
+        {/* <button>FIND OUT MORE</button> */}
       </div>
     </div>
   );

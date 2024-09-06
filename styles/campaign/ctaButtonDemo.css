@@ -8,8 +8,8 @@
     max-height: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
-    padding: 100px 0px 100px 0px;
-    background-color: #fffc4d;
+    padding: 50px 0px 50px 0px;
+    background-color: #f1f1f1;
 }
 
 
@@ -17,8 +17,8 @@
     padding: 30px;
     border: 2px solid #ffc40000;
     border-radius: 17px;
-    background-color: rgb(255, 243, 243);
-    font-size: 28px;
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     transition: all .3s ease-in-out;
@@ -32,9 +32,11 @@
 }
 
 .ctaPDemo{
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 600;
     margin-right:20px;
+    /* border: 1px solid black; */
+
 }
 
 @media (max-width: 768px) {

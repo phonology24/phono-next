@@ -1,13 +1,13 @@
 .social-proof-section {
     text-align: center;
-    padding: 40px 20px;
+    padding: 20px 20px;
     background-color: #F0F6FF;
   }
   
   .social-proof-title {
     color: #2455A6;
-    margin-bottom: 40px;
-    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 46px;
   }
   
   .testimonials {
@@ -47,8 +47,9 @@
   }
   
   .testimonial-quote {
-    font-style: italic;
+    /* font-style: italic; */
     color: #1F2A44;
+    font-size: 18px;
   }
   
   .testimonial-author {
