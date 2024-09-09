@@ -36,13 +36,21 @@ const CampaignHeader = () => {
             </div> */}
                 <div className='twocards'>
                     <div className='cards left'>
-                        <div className="button-div">
-                            <button className='button-86'>Voice</button>
-                            <button className='button-86'>Use Cases</button>
-                            <button className='button-86'>SIP Trunking</button>
-                            <button className='button-86'>IVR</button>
-                            {/*  <button>button 1</button> */}
-                        </div>
+                    <div className="button-div">
+    <a href="https://www.phonology.io/unified-communication-providers">
+        <button className='button-86'>UCaaS</button>
+    </a>
+    <a href="https://www.phonology.io/sip-trunk-providers">
+        <button className='button-86'>SIP Trunk</button>
+    </a>
+    <a href="https://www.phonology.io/sip-trunk-providers">
+        <button className='button-86'>Virtual Numbers</button> 
+    </a>
+    <a href="https://www.phonology.io/hosted-pbx-providers">
+        <button className='button-86'>Hosted PBX</button>
+    </a>
+</div>
+
                         <h1>Trusted VoIP Communication for Small, Medium, and Large Enterprises.</h1>
                         <p>
                             Welcome to Phonology, where your business communication isn’t just better—it’s brilliant!
@@ -62,7 +70,12 @@ const CampaignHeader = () => {
                         ))}
                     </div> */}
                         <div className="cta-buttons">
-                            <button className='button-85'>Try it for free &nbsp; {`\u2192`}</button>
+                        <button 
+    className='button-85' 
+    onClick={() => window.open('https://zfrmz.in/OVhArflKi5Y3yxPIOhgd', '_blank')}>
+    Start your free trial &nbsp; {`\u2192`}
+</button>
+
                             {/* <button>Contact An Expert</button> */}
                         </div>
                     </div>

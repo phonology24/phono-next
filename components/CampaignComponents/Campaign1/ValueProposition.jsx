@@ -6,6 +6,12 @@ import CommIcon from '../../../public/Assets/iconvn.png'
 import PBXIcon from '../../../public/Assets/iconpbx.png'
 import Image from 'next/image';
 const ValueProposition = () => {
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }  
   return (
     <div className="value-proposition-section">
       <h2 className="value-proposition-title">Value Proposition</h2>
@@ -33,7 +39,7 @@ const ValueProposition = () => {
         </div>
       </div>
       <div className="ctavp-button">
-        <button>FIND OUT MORE</button>
+        <button onClick={scrollToTop}>Book your free demo</button>
       </div>
     </div>
   );
