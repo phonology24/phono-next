@@ -43,6 +43,7 @@
     .ctaButtonDemoContainer{
         flex-direction: column;
         margin-bottom: 50px;
+        min-height:300px;
     }
 
     .ctaPDemo{

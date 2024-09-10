@@ -127,6 +127,7 @@
   .campaign-container {
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
   }
 
   .campaign-text {
