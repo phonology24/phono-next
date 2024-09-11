@@ -88,7 +88,7 @@ const DraftEditor = () => {
     const rawContent = convertToRaw(contentState);
 
     axios
-      .post("http://localhost:7000/api/save-post", {
+      .post("https://blog.phonology.io/api/save-post", {
         title,
         description,
         keywords,
