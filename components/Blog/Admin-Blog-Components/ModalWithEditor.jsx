@@ -25,6 +25,7 @@ const plugins = [imagePlugin];
 const DraftEditor = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
+  const[keywords, setKeywords] = useState("");
   const [editorState, setEditorState] = useState(() => {
     const contentState = convertFromRaw({
       blocks: [
@@ -68,6 +69,10 @@ const DraftEditor = () => {
     setDescription(e.target.value);
   };
 
+  const handleKeywordsChange = (e) => {
+    setKeywords(e.target.value)
+  }
+
   const handleKeyCommand = (command) => {
     const newState = RichUtils.handleKeyCommand(editorState, command);
     if (newState) {
@@ -83,9 +88,10 @@ const DraftEditor = () => {
     const rawContent = convertToRaw(contentState);
 
     axios
-      .post("https://blog.phonology.io/api/save-post", {
+      .post("http://localhost:7000/api/save-post", {
         title,
         description,
+        keywords,
         content: htmlContent,
         rawContent,
       })
@@ -285,6 +291,13 @@ const DraftEditor = () => {
         value={description}
         onChange={handleDescriptionChange}
         placeholder="This Is A <meta> Tag for Description"
+        className="title-input"
+      />
+            <input
+        type="text"
+        value={keywords}
+        onChange={handleKeywordsChange}
+        placeholder="This Is A <meta> Tag for Keywords"
         className="title-input"
       />
       <div className="editor-container">

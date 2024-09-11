@@ -323,6 +323,13 @@ const BlogPostEditor = () => {
         placeholder="This Is A <meta> Tag for Description"
         className="title-input"
       />
+      {/* <input
+        type="text"
+        value={keywords}
+        onChange={handleKeywordsChange}
+        placeholder="This Is A <meta> Tag for Keywords"
+        className="title-input"
+      /> */}
       <div className="editor-container">
         <Editor
           ref={editor}
