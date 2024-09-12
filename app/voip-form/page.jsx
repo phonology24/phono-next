@@ -1,6 +1,8 @@
 import React from 'react';
 import Campaign1 from '@/components/Campaign1';
 import Head from 'next/head';
+import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata = {
   title: 'VoIP service providers | SIP Trunk Providers',
@@ -47,7 +49,7 @@ const Page = () => {
         }}
       />
       {/* Google Tag Manager Script */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16678504638"></script>
+      {/* <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16678504638"></script>
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -57,7 +59,9 @@ const Page = () => {
             gtag('config', 'AW-16678504638');
           `,
         }}
-      />
+      /> */}
+              <GoogleAnalytics gaId="G-FHPV037WGM" />
+              <GoogleTagManager gtmId="GTM-T4FS3L3Q" />
       <div>
         <Campaign1 />
       </div>

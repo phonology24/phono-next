@@ -38,7 +38,7 @@ export default function Layout({ children }) {
         {/* End Google Tag */}
 
         {/* reCAPTCHA */}
-        <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_6LfJjSwqAAAAACCGN5biITkYEHR4fkfXL-vhWkOI"></script>
+        {/* <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_6LfJjSwqAAAAACCGN5biITkYEHR4fkfXL-vhWkOI"></script> */}
 
         <link rel="icon" href="/favicon.ico" />
       </Head>

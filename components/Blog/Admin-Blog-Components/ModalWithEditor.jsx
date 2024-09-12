@@ -313,7 +313,7 @@ const DraftEditor = () => {
       </div>
       {showURLInput && (
         <div style={{ marginBottom: 10 }}>
-          <input
+          <input 
             onChange={onURLChange}
             ref={urlRef}
             type="text"
