@@ -83,6 +83,11 @@
 
 /* Mobile Devices */
 @media (max-width: 768px) {
+
+  .report-section {
+    padding: 10px;
+  }
+  
   .report-item {
       width: 100%; /* Full width on tablets */
       flex-direction: column; /* Stack image on top of text */
@@ -101,21 +106,28 @@
 
   .report-item p {
       font-size: 16px; /* Slightly smaller text on tablets */
+      text-align: center;
   }
 
   .cta-button {
       width: 100%; /* Full width button on smaller screens */
-      padding: 12px 20px; /* Adjust padding */
+      padding: 12px 10px; /* Adjust padding */
       font-size: 16px; /* Adjust font size */
   }
 }
 
 @media (max-width: 480px) {
+
+  .report-section {
+    padding: 10px;
+  }
+
   .report-item {
       width: 100%; /* Full width on mobile */
       flex-direction: column; /* Stack image on top of text */
       align-items: center; /* Center align items */
       text-align: center; /* Center text */
+      padding: 0px;
   }
 
   .report-image {

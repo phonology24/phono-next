@@ -404,13 +404,14 @@
     .right {
         padding: 20px;
         background-color: white;
-        height: auto; /* Let the height adjust based on iframe */
+        min-height: max-content; /* Let the height adjust based on iframe */
         overflow: visible;
         min-height: 90vh; /* Ensure full-screen height on mobile */
         display: flex;
         /* justify-content: center; */
         /* align-items: center; */
-    margin-left: -40px;
+    margin-left: -20px;
+    /* border: 1px solid black; */
 
     }
 
@@ -420,12 +421,14 @@
         height: 100%;
         border: none; /* Remove any default border */
         min-height: 90vh; /* Ensure iframe covers most of the screen */
+        overflow-y: hidden !important;
     }
 
     .button-campaign-div {
         position: absolute;
         top: 12vh;
         left: 10vw;
+        /* border: 1px solid black; */
     }
 
     .six-cards {
