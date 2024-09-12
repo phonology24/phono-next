@@ -61,7 +61,7 @@ const Page = () => {
         }}
       />
               <GoogleAnalytics gaId="G-FHPV037WGM" />
-              <GoogleTagManager gtmId="GTM-T4FS3L3Q" />
+              {/* <GoogleTagManager gtmId="GTM-T4FS3L3Q" /> */}
       <div>
         <Campaign1 />
       </div>
