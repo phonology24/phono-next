@@ -49,7 +49,7 @@ const Page = () => {
         }}
       />
       {/* Google Tag Manager Script */}
-      {/* <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16678504638"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16678504638"></script>
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -59,7 +59,7 @@ const Page = () => {
             gtag('config', 'AW-16678504638');
           `,
         }}
-      /> */}
+      />
               <GoogleAnalytics gaId="G-FHPV037WGM" />
               <GoogleTagManager gtmId="GTM-T4FS3L3Q" />
       <div>
