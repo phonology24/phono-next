@@ -51,8 +51,10 @@ const Page = () => {
         }}
       />
       {/* Google Tag Manager Script */}
-      {/* <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16678504638"></script> */}
-      {/* <script
+      <GoogleAnalytics gaId="G-FHPV037WGM" />
+<GoogleTagManager gtmId="GTM-T4FS3L3Q" />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16678504638"></script>
+      <script
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
@@ -62,10 +64,9 @@ const Page = () => {
           `,
         }}
 
-      /> */}
+      />
 
-<GoogleAnalytics gaId="G-FHPV037WGM" />
-<GoogleTagManager gtmId="GTM-T4FS3L3Q" />
+
       <div>
         <Campaign1 />
       </div>
