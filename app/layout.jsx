@@ -53,8 +53,8 @@ export default function Layout({ children }) {
           ></iframe>
         </noscript> */}
         {/* End Google Tag Manager (noscript) */}
-        <GoogleAnalytics gaId="G-FHPV037WGM" />
-        <GoogleTagManager gtmId="GTM-T4FS3L3Q" />
+        {/* <GoogleAnalytics gaId="G-FHPV037WGM" />
+        <GoogleTagManager gtmId="GTM-T4FS3L3Q" /> */}
 
         {!shouldHideNavbar && (
           <>
