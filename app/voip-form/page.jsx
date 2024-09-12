@@ -26,8 +26,7 @@ const Page = () => {
         <meta name="keywords" content={metadata.keywords} />
         <link rel="canonical" href={metadata.alternates.canonical} />
         <meta name="robots" content={metadata.robots} />
-        <GoogleAnalytics gaId="G-FHPV037WGM" />
-        <GoogleTagManager gtmId="GTM-T4FS3L3Q" />
+ 
 
       </Head>
       <script
@@ -62,7 +61,11 @@ const Page = () => {
             gtag('config', 'AW-16678504638');
           `,
         }}
+
       /> */}
+
+<GoogleAnalytics gaId="G-FHPV037WGM" />
+<GoogleTagManager gtmId="GTM-T4FS3L3Q" />
       <div>
         <Campaign1 />
       </div>
