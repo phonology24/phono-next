@@ -1,9 +1,11 @@
 /* NewsMarquee.css */
 .news-marquee{
-  height:420px;
-  margin-top: -90px;
+  height:400px;
+  margin-top: -50px;
 /* border: 1px solid black; */
 /* align-items: flex-start; */
+background-color: #fffefe00;
+
 }
 
 .news-card {
@@ -13,7 +15,7 @@
     width: 500px;
     /* padding: 20px; */
     height: 320px;
-    margin: 0px 30px 30px 0px;
+    margin: 0px 30px 50px 0px;
     border: none;
     border-radius: 10px;
     background-color: #ffffff69;
@@ -31,7 +33,7 @@
     width: 100%;
     height: 200px;
     border-radius: 10px 10px 0 0;
-    object-fit: cover;
+    object-fit: contain;
     /* border: 1px solid black; */
   }
   
