@@ -3,10 +3,21 @@
   height:400px;
   margin-top: 0px;
 /* border: 1px solid black; */
+margin-left: -200px;
 /* align-items: flex-start; */
 background-color: #fffefe00;
-z-index: -999999 !important;
+z-index: -999 !important;
+min-width: 200vw;
 
+}
+
+
+@media(max-width: 768px){
+ .news-marquee{
+
+  display: none;
+
+}
 }
 
 .news-card {
