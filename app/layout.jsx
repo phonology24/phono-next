@@ -13,7 +13,7 @@ export default function Layout({ children }) {
   const pathname = usePathname();
 
   // Routes where the navbar should not be displayed
-  const noNavbarRoutes = ['/voip-form', '/phonology-blogs'];
+  const noNavbarRoutes = ['/voip-form',];
 
   // Check if the current path starts with '/phonology-blogs/' or is in noNavbarRoutes
   const shouldHideNavbar = noNavbarRoutes.includes(pathname) || pathname.startsWith('/phonology-blogs/');

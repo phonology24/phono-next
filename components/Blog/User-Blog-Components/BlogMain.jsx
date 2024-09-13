@@ -60,6 +60,10 @@ const PhonologyBlogs = () => {
         <a href="/">
           <Image src={Logo} className="usersideblog-logo" alt="Phonology Logo" />
         </a>
+        {/* <a href="/">
+          <Image src={Logo} className="usersideblog-logo" alt="Phonology Logo" />
+          <h2  className="usersideblog-logo">About Us</h2>
+        </a> */}
       {/* <h2 style={{fontSize:"46px",}}>Featured Blogs</h2> */}
       </header>
 
