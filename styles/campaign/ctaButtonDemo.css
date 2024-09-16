@@ -17,7 +17,7 @@
     padding: 30px;
     border: 2px solid #ffc40000;
     border-radius: 17px;
-    background-color: rgb(255, 255, 255);
+    background-color:   #fffc5b;
     font-size: 22px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
@@ -26,7 +26,7 @@
 }
 
 .ctaBookADemo:hover{
-    background-color:  #fffc4d;
+    background-color:  #fffb00;
     border: 2px solid#ffc40000;
     color: black;
 }
