@@ -144,13 +144,15 @@
   .hostedCallCenterContainer {
     flex-direction: column;
     display: block;
+    padding: 30px;
   }
 
   .hosted-call-center-content {
     flex-direction: column;
     width: 100%;
-    margin: 8rem auto;
+    margin: 100px 0px 20px -30px;
     display: block;
+    background-color: rgb(255, 255, 255);
   }
 
   .hostedCallCenterImage {

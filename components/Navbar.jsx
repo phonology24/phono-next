@@ -64,14 +64,15 @@ const Navbar = () => {
       href: "/about-phonology",
     },
     {
+      text: "Blogs",
+      icon: <CommentRoundedIcon />,
+      href: "/phonology-blogs",
+    },
+    {
       text: "Book A Meeting",
       icon: <PhoneRoundedIcon />,
       href: "https://nilesh-phonology60.zohobookings.in/#/208025000000027072"
-    },
-    {
-      text: "Contact Us",
-      icon: <CommentRoundedIcon />,
-    },
+    }
   ];
 
   const scrollToTop = () => {

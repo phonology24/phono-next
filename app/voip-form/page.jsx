@@ -1,37 +1,35 @@
 import React from 'react';
 import Campaign1 from '@/components/Campaign1';
 import Head from 'next/head';
-import { GoogleAnalytics } from '@next/third-parties/google';
-import { GoogleTagManager } from '@next/third-parties/google'
+import Script from 'next/script'; // To handle external scripts
 
 export const metadata = {
   title: 'VoIP service providers | SIP Trunk Providers',
   description:
-    'Get the best VoIP service providers and SIP Trunk Providers for seamless business connectivity. Boost your business communication today!',
+    'Get the best VoIP service providers and SIP Trunk Providers for seamless business connectivity. Boost your business communication today!',
   keywords:
     'virtual numbers, virtual number, number virtual, ca virtual number, uk virtual number, free virtual numbers, virtual phone numbers, local virtual numbers, usa virtual number, buy virtual number, get virtual number, buy number virtual, free virtual number, free number virtual, number virtual free, virtual number free, virtual phone number sms, virtual phone number, onoff number virtual, virtual dubai number, virtualphonenumber, virtual mobile number',
   alternates: {
     canonical: 'https://www.phonology.io/voip-form',
   },
-  robots: 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large', // Robots meta tag
+  robots: 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large',
 };
 
 const Page = () => {
   return (
     <>
       <Head>
-        {/* Add metadata, title, and other head elements */}
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <link rel="canonical" href={metadata.alternates.canonical} />
         <meta name="robots" content={metadata.robots} />
- 
-
       </Head>
-      <script
-        type="text/javascript"
+
+      {/* Zoho SalesIQ Chat Script */}
+      <Script
         id="zsiqchat"
+        strategy="lazyOnload" // Load it only after the page has loaded
         dangerouslySetInnerHTML={{
           __html: `
             var $zoho=$zoho || {};
@@ -50,11 +48,15 @@ const Page = () => {
           `,
         }}
       />
-      {/* Google Tag Manager Script */}
-      <GoogleAnalytics gaId="G-FHPV037WGM" />
-<GoogleTagManager gtmId="GTM-T4FS3L3Q" />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16678504638"></script>
-      <script
+
+      {/* Google Analytics Script */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16678504638"
+        strategy="afterInteractive"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
@@ -63,9 +65,35 @@ const Page = () => {
             gtag('config', 'AW-16678504638');
           `,
         }}
-
       />
 
+      {/* Google Tag Manager */}
+      <Script
+        id="gtm"
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-T4FS3L3Q');
+          `,
+        }}
+      />
+
+      {/* Event Tracking for Form Submission */}
+      <Script
+        id="event-tracking"
+        dangerouslySetInnerHTML={{
+          __html: `
+            gtag('event', 'conversion_event_submit_lead_form', {
+              'event_category': 'Form Submission',
+              'event_label': 'Lead Form',
+              'value': 1
+            });
+          `,
+        }}
+      />
 
       <div>
         <Campaign1 />

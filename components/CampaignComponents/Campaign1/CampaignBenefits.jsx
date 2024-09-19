@@ -27,12 +27,12 @@ const benefits = [
   {
     title: "Global Reach",
     description: "Go global without boundaries. Phonology’s international virtual numbers put your business on the map, making it easy to connect with clients anywhere.",
-    color: "#97DFFB"
+    color: "#ff5858"
   },
   {
     title: "Advanced Features",
     description: "Unlock a suite of powerful tools like call forwarding and auto-attendant, turning your phone system into a productivity powerhouse with Phonology's VoIP.",
-    color: "#97DFFB"
+    color: "#12ff89"
   },
   // {
   //   title: "Easy Integration",
