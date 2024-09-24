@@ -22,10 +22,9 @@ const BelizeHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Establish a local presence, enhance your communication with Belizean customers, 
+          and strengthen your brand—all without the need for a physical office. Secure 
+          your Belize virtual number today and explore new opportunities in this growing market!
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

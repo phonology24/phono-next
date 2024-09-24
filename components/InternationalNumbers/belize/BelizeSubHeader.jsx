@@ -42,13 +42,13 @@ const BelizeSubHeader = () => {
           {/* Uncomment if you want to use a card heading */}
           {/* <h3 className={styles.cardHeading}>Benefits of Austria Virtual Numbers</h3> */}
           <p className={styles.cardParagraph}>
-             Connect with {countryName}n Customers Instantly: By using a local Austrian number, you’ll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
+          Instantly Connect with Belizean Clients: A local Belize phone number increases your business’s credibility, making it easy for customers in Belize to engage with you, helping build trust and improve communication.
           </p>
           <ul className={styles.bulletPoints}>
-  <li><b>Increase Customer Inquiries:</b> With a local or toll-free Austrian number, you make it easier for your customers to get in touch—leading to more inquiries and potential sales.</li>
+  <li><b>Boost Customer Interaction: </b>Providing a local or toll-free Belize number gives your customers a simple and cost-free way to reach your business, leading to more inquiries and fostering better relationships.</li>
   <li><b>Save on Communication Costs:</b> You can reduce expensive international call charges, allowing your business to grow without the high costs of global communication.</li>
-  <li><b>Scale as Your Business Expands:</b> As your business grows, so can your virtual number system. Add more lines as needed, without the hassle of physical office expansions.</li>
-  <li><b>Offer Exceptional Service:</b> Using advanced features like call recording, IVR, and voicemail, you can provide the highest level of customer service, ensuring every call is handled professionally.</li>
+  <li><b>Effortlessly Scale Your Business:</b>As your business grows, so can your virtual phone system. You can add more lines and services without the need for additional office infrastructure or complicated setups.</li>
+  <li><b>Provide Exceptional Customer Support::</b> Leverage features like call forwarding, IVR, voicemail, and call recording to ensure that every customer interaction is professional and seamless, enhancing their experience with your brand.</li>
 
 
           </ul>

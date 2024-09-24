@@ -20,9 +20,11 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">1</div>
-            <h2>Step 1: Select Your Number Type</h2>
+            <h2>Step 1: Pick Your Number Type</h2>
             <p>
-            Explore the available options and choose the {countryName} phone number that best suits your needs—local, toll-free, or mobile.              </p>
+Choose between a local Belize phone number to establish a local presence or opt for a toll-free number to give your
+ customers a free and easy way to contact your business. Phonology offers flexible options suited to your business needs.     
+                  </p>
           </div>
         </div>
         
@@ -32,9 +34,11 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">2</div>
-            <h2>Step 2: Choose a Plan of your Choice</h2>
+            <h2>Step 2: Select the Right Plan for Your Business</h2>
             <p>
-            Take up a pricing plan that aligns with your budget and call volume requirements.              </p>
+            Browse through our pricing plans, designed to meet the needs of businesses of all sizes.
+             Whether you’re a growing startup or an established company, Phonology has the perfect plan for you. 
+                                  </p>
           </div>
         </div>
 
@@ -44,9 +48,10 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">3</div>
-            <h2>Step 3: Sign Up & Complete Registration</h2>
+            <h2>Step 3: Complete the Simple Registration Process</h2>
             <p>
-            Create an account and provide the necessary business or personal details to complete the registration process.              </p>
+            Register your business details and complete our quick, hassle-free sign-up process. Your Belize virtual number will be ready to activate in just a few minutes.
+                              </p>
           </div>
         </div>
 
@@ -56,9 +61,11 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">4</div>
-            <h2>Step 4: Activate & Configure: </h2>
+            <h2>Step 4: Activate & Customize Your Virtual Phone System </h2>
             <p>
-            After purchase, your {countryName} phone number will be activated instantly. Customize settings like call forwarding, voicemail, and more to start using your number.            </p>
+            Once registered, activate your Belize phone number and configure key features like call forwarding, voicemail, and IVR. 
+            Phonology’s platform allows you to easily personalize the system to match your business’s needs.            
+                     </p>
           </div>
         </div>
       </div>
