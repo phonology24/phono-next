@@ -69,8 +69,8 @@ const phoneNumbers = {
     { country: 'Costa Rica', path: '/costa-rica-phone-number', flag: 'https://flagsapi.com/CR/flat/64.png' },
     { country: 'El Salvador', path: '/el-salvador-phone-number', flag: 'https://flagsapi.com/SV/flat/64.png' },
     { country: 'Panama', path: '/panama-phone-number', flag: 'https://flagsapi.com/PA/flat/64.png' },
-    { country: 'United States', path: '/us-phone-number', flag: 'https://flagsapi.com/US/flat/64.png' },
-    { country: 'US Toll Free', path: '/us-toll-free-number', flag: 'https://flagsapi.com/US/flat/64.png' },
+    { country: 'United States', path: '/usa-phone-number', flag: 'https://flagsapi.com/US/flat/64.png' },
+    { country: 'US Toll Free', path: '/usa-toll-free-number', flag: 'https://flagsapi.com/US/flat/64.png' },
   ],
   Oceania: [
     { country: 'Australia', path: '/australia-phone-number', flag: 'https://flagsapi.com/AU/flat/64.png' },
