@@ -22,10 +22,10 @@ const BahrainHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an Austria virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your Austria number
-            today and grow internationally!
+          Expand your business globally with an {countryName} virtual phone number from Phonology. 
+          Establish a strong local presence, foster trust with Bahraini customers, and enhance your 
+          communication—all without needing a physical office. Secure your Bahrain virtual number 
+          today and explore the possibilities in the growing Middle Eastern market!
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

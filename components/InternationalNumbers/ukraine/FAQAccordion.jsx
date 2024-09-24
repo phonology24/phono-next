@@ -52,7 +52,7 @@ const FAQAccordionComponent = () => {
         },
       }}
     >
-      <AccordionItem
+       <AccordionItem
         key="1" 
         aria-label="What Is a Austria Virtual Number?"
         // isBordered color="transparent"

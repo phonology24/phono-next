@@ -52,13 +52,13 @@ const FAQAccordionComponent = () => {
         },
       }}
     >
-      <AccordionItem
+   <AccordionItem
         key="1" 
         aria-label="What Is a Austria Virtual Number?"
         // isBordered color="transparent"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>How quickly can I get my Austria virtual number activated?
+<KeyboardArrowDownIcon/>How quickly can I get my {countryName} virtual number activated?
           </div>
         }
         className="accordionItem1" 
@@ -72,7 +72,7 @@ const FAQAccordionComponent = () => {
         aria-label="Pricing"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>Do features  like call forwarding and voicemail come with the Austria virtual number?
+<KeyboardArrowDownIcon/>Do features  like call forwarding and voicemail come with the {countryName} virtual number?
 </div>
         }
         className="accordionItem1" 
@@ -86,7 +86,7 @@ const FAQAccordionComponent = () => {
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>Can I choose between local or toll-free Austria numbers?
+<KeyboardArrowDownIcon/>Can I choose between local or toll-free {countryName} numbers?
 </div>
         }
         className="accordionItem1" 
@@ -100,7 +100,7 @@ const FAQAccordionComponent = () => {
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>  Are there flexible pricing plans for Austria virtual numbers? 
+<KeyboardArrowDownIcon/>  Are there flexible pricing plans for {countryName} virtual numbers? 
 </div>
         }
         className="accordionItem1"  
@@ -114,7 +114,7 @@ const FAQAccordionComponent = () => {
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/> Can I use the Austria virtual number to receive calls worldwide?
+<KeyboardArrowDownIcon/> Can I use the {countryName} virtual number to receive calls worldwide?
 </div>
         }
         className="accordionItem1" 

@@ -42,13 +42,15 @@ const BahrainSubHeader = () => {
           {/* Uncomment if you want to use a card heading */}
           {/* <h3 className={styles.cardHeading}>Benefits of Austria Virtual Numbers</h3> */}
           <p className={styles.cardParagraph}>
-             Connect with {countryName}n Customers Instantly: By using a local Austrian number, you’ll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
+             Connect with {countryName}n Customers Instantly: A local Bahrain phone number boosts your business’s credibility, 
+             making it easy for customers in Bahrain to connect with you, fostering trust and stronger business relationships.
           </p>
           <ul className={styles.bulletPoints}>
-  <li><b>Increase Customer Inquiries:</b> With a local or toll-free Austrian number, you make it easier for your customers to get in touch—leading to more inquiries and potential sales.</li>
-  <li><b>Save on Communication Costs:</b> You can reduce expensive international call charges, allowing your business to grow without the high costs of global communication.</li>
-  <li><b>Scale as Your Business Expands:</b> As your business grows, so can your virtual number system. Add more lines as needed, without the hassle of physical office expansions.</li>
-  <li><b>Offer Exceptional Service:</b> Using advanced features like call recording, IVR, and voicemail, you can provide the highest level of customer service, ensuring every call is handled professionally.</li>
+  <li><b>Increase Customer Inquiries:</b>By offering a local or toll-free Bahrain number,
+   you provide an easy and cost-free way for customers to contact you, resulting in more inquiries and enhanced customer interactions.</li>
+  <li><b>Lower Your International Calling Costs:</b> Using a Bahrain virtual number helps you minimize international call expenses, allowing your business to communicate efficiently without the high cost of international phone calls.</li>
+  <li><b>Effortlessly Scale Your Operations:</b> As your business grows, your virtual phone system can grow with it. Add more lines and services seamlessly, without the need for physical infrastructure expansion.</li>
+  <li><b>Provide Seamless Customer Support:</b> With features like call forwarding, IVR, call recording, and voicemail, you can ensure every customer interaction is smooth and professional, enhancing the overall experience for your clients.</li>
 
 
           </ul>

@@ -52,77 +52,78 @@ const FAQAccordionComponent = () => {
         },
       }}
     >
-      <AccordionItem
-        key="1" 
-        aria-label="What Is a Austria Virtual Number?"
-        // isBordered color="transparent"
-        title={
-          <div className="accordionItemTitle1">
+      
+ <AccordionItem
+ key="1" 
+ aria-label="What Is a Austria Virtual Number?"
+ // isBordered color="transparent"
+ title={
+   <div className="accordionItemTitle1">
 <KeyboardArrowDownIcon/>How quickly can I get my {countryName} virtual number activated?
-          </div>
-        }
-        className="accordionItem1" 
-      >
-        <div className="accordionContent1">
-          <p className="accordionP1">{defaultContent}</p>
-        </div>
-      </AccordionItem>
-      <AccordionItem
-        key="2"
-        aria-label="Pricing"
-        title={
-          <div className="accordionItemTitle1">
+   </div>
+ }
+ className="accordionItem1" 
+>
+ <div className="accordionContent1">
+   <p className="accordionP1">{defaultContent}</p>
+ </div>
+</AccordionItem>
+<AccordionItem
+ key="2"
+ aria-label="Pricing"
+ title={
+   <div className="accordionItemTitle1">
 <KeyboardArrowDownIcon/>Do features  like call forwarding and voicemail come with the {countryName} virtual number?
 </div>
-        }
-        className="accordionItem1" 
-      >
-        <div className="accordionContent1">
-          <p>{defaultContent}</p>
-        </div>
-      </AccordionItem>
-      <AccordionItem
-        key="3"
-        aria-label="Features That Stand Out!"
-        title={
-          <div className="accordionItemTitle1">
+ }
+ className="accordionItem1" 
+>
+ <div className="accordionContent1">
+   <p>{defaultContent}</p>
+ </div>
+</AccordionItem>
+<AccordionItem
+ key="3"
+ aria-label="Features That Stand Out!"
+ title={
+   <div className="accordionItemTitle1">
 <KeyboardArrowDownIcon/>Can I choose between local or toll-free {countryName} numbers?
 </div>
-        }
-        className="accordionItem1" 
-      >
-        <div className="accordionContent1">
-          <p>{defaultContent}</p>
-        </div>
-      </AccordionItem>
-      <AccordionItem
-        key="4"
-        aria-label="Features That Stand Out!"
-        title={
-          <div className="accordionItemTitle1">
+ }
+ className="accordionItem1" 
+>
+ <div className="accordionContent1">
+   <p>{defaultContent}</p>
+ </div>
+</AccordionItem>
+<AccordionItem
+ key="4"
+ aria-label="Features That Stand Out!"
+ title={
+   <div className="accordionItemTitle1">
 <KeyboardArrowDownIcon/>  Are there flexible pricing plans for {countryName} virtual numbers? 
 </div>
-        }
-        className="accordionItem1"  
-      >
-        <div className="accordionContent1">
-          <p>{defaultContent}</p>
-        </div>
-      </AccordionItem>
-      <AccordionItem
-        key="5"
-        aria-label="Features That Stand Out!"
-        title={
-          <div className="accordionItemTitle1">
+ }
+ className="accordionItem1"  
+>
+ <div className="accordionContent1">
+   <p>{defaultContent}</p>
+ </div>
+</AccordionItem>
+<AccordionItem
+ key="5"
+ aria-label="Features That Stand Out!"
+ title={
+   <div className="accordionItemTitle1">
 <KeyboardArrowDownIcon/> Can I use the {countryName} virtual number to receive calls worldwide?
 </div>
-        }
-        className="accordionItem1" 
-      >
-        <div className="accordionContent1">
-          <p>{defaultContent}</p>
-        </div>
-      </AccordionItem>
+ }
+ className="accordionItem1" 
+>
+ <div className="accordionContent1">
+   <p>{defaultContent}</p>
+ </div>
+</AccordionItem>
     </Accordion>
   </>
   );
