@@ -23,7 +23,7 @@ export default async function handler(req, res) {
       { loc: `${baseUrl}/call-center-solution`, lastmod: new Date().toISOString(), priority: 0.80 },
       { loc: `${baseUrl}/messaging-services`, lastmod: new Date().toISOString(), priority: 0.80 },
       { loc: `${baseUrl}/hosted-pbx-providers`, lastmod: new Date().toISOString(), priority: 0.80 },
-      { loc: `${baseUrl}/direct-routing-service-providers`, lastmod: new Date().toISOString(), priority: 0.80 },
+      { loc: `${baseUrl}/cloud-telephony-providers`, lastmod: new Date().toISOString(), priority: 0.80 },
       { loc: `${baseUrl}/terms-and-conditions`, lastmod: new Date().toISOString(), priority: 0.80 },
       { loc: `${baseUrl}/privacy-policy`, lastmod: new Date().toISOString(), priority: 0.80 },
       { loc: `${baseUrl}/austria-phone-number`, lastmod: new Date().toISOString(), priority: 0.80 },
