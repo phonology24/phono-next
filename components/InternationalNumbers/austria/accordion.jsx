@@ -58,13 +58,14 @@ const AustriaAccordionComponent = () => {
         // isBordered color="transparent"
         title={
           <div className="accordionItemTitle">
-What is {countryName}s virtual phone number?
+What is {countryName} virtual phone number?
           </div>
         }
         className="accordionItem" indicator={<DialpadIcon />}
       >
         <div className="accordionContent">
-          <p className="accordionP">An {countryName} Virtual Phone Number allows you to create a local presence in Austria, ensuring smooth communication without the need for an actual office.</p>
+          <p className="accordionP">An Austria Virtual Phone Number allows you to create a local presence in Austria, ensuring smooth communication without the need for an actual office.
+</p>
         </div>
       </AccordionItem>
       <AccordionItem
@@ -78,7 +79,8 @@ How does an Austrian virtual phone number work?
         className="accordionItem"  indicator={<CurrencyRupeeIcon/>}
       >
         <div className="accordionContent">
-          <p>An {countryName} Virtual Number routes calls to your phone wherever you are, providing effortless communication with Austrian customers from any country.</p>
+          <p>An Austria Virtual Phone Number allows you to create a local presence in Austria, ensuring smooth communication without the need for an actual office.
+</p>
         </div>
       </AccordionItem>
       <AccordionItem

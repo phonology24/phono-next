@@ -22,9 +22,9 @@ const AustriaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Take your business global with an Austria virtual phone number from Phonology. Establish a local presence, 
+          Take your business global with an {countryName} virtual phone number from Phonology. Establish a local presence, 
           boost customer engagement, and enjoy cost-efficient communication—all without the need for a physical office.
-           Get your Austria number today and grow internationally!
+           Get your {countryName} number today and grow internationally!
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

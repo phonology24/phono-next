@@ -41,13 +41,13 @@ const BulgariaSubHeader = () => {
         <div className={styles.textCard}>
           {/* Uncomment if you want to use a card heading */}
           <p className={styles.cardParagraph}>
-             Connect with {countryName}n Customers Instantly: By using a local {countryName} number, you’ll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
+          Connect Instantly with Bulgarian Customers: Using a local Bulgaria number helps build trust and credibility immediately, making it easier for customers to reach out to your business with confidence.
           </p>
           <ul className={styles.bulletPoints}>
-  <li><b>Increase Customer Inquiries:</b> With a local or toll-free {countryName} number, you make it easier for your customers to get in touch—leading to more inquiries and potential sales.</li>
-  <li><b>Save on Communication Costs:</b> You can reduce expensive international call charges, allowing your business to grow without the high costs of global communication.</li>
-  <li><b>Scale as Your Business Expands:</b> As your business grows, so can your virtual number system. Add more lines as needed, without the hassle of physical office expansions.</li>
-  <li><b>Offer Exceptional Service:</b> Using advanced features like call recording, IVR, and voicemail, you can provide the highest level of customer service, ensuring every call is handled professionally.</li>
+  <li><b>Boost Customer Engagement: </b> By offering a local or toll-free Bulgaria number, you make it simple for your customers to get in touch, leading to increased inquiries and more potential sales.</li>
+  <li><b>Reduce Communication Costs: </b> Lower your international call charges, making global communication more affordable while allowing your business to expand into new regions effectively.</li>
+  <li><b>Scale with Your Growing Business: </b>As your business grows, your virtual number system can easily scale to accommodate its needs. Add more lines without the hassle or cost of expanding physical office space.</li>
+  <li><b>Deliver Exceptional Service:</b> Leverage advanced features like call forwarding, IVR, call recording, and voicemail to provide top-tier customer service, ensuring that every interaction is handled smoothly and professionally.</li>
 
 
           </ul>

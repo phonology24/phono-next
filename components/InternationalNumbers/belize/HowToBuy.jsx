@@ -1,6 +1,9 @@
 import React from 'react';
 import '../../../styles/howtobuy.css'; // Assuming you'll add styles in a separate CSS file
-import ImageForInternationalNumber from "../../../public/Assets/austriaHeader1.png";
+import ImageForInternationalNumber1 from "../../../public/Assets/howtobuy1.png"; 
+import ImageForInternationalNumber2 from "../../../public/Assets/howtobuy2.png"; 
+import ImageForInternationalNumber3 from "../../../public/Assets/howtobuy3.png"; 
+import ImageForInternationalNumber4 from "../../../public/Assets/howtobuy4.png"; 
 import Image from 'next/image';
 
 const HowToBuy = () => {
@@ -16,7 +19,7 @@ const HowToBuy = () => {
       <div className="steps-container">
         <div className="step">
           <div className="step-image">
-            <Image src={ImageForInternationalNumber} alt="Step 1" />
+            <Image src={ImageForInternationalNumber1} alt="Step 1" />
           </div>
           <div className="step-content">
             <div className="step-number">1</div>
@@ -30,7 +33,7 @@ Choose between a local Belize phone number to establish a local presence or opt 
         
         <div className="step reverse">
           <div className="step-image">
-            <Image src={ImageForInternationalNumber} alt="Step 2" />
+            <Image src={ImageForInternationalNumber2} alt="Step 2" />
           </div>
           <div className="step-content">
             <div className="step-number">2</div>
@@ -44,7 +47,7 @@ Choose between a local Belize phone number to establish a local presence or opt 
 
         <div className="step">
           <div className="step-image">
-            <Image src={ImageForInternationalNumber} alt="Step 3" />
+            <Image src={ImageForInternationalNumber3} alt="Step 3" />
           </div>
           <div className="step-content">
             <div className="step-number">3</div>
@@ -57,7 +60,7 @@ Choose between a local Belize phone number to establish a local presence or opt 
 
         <div className="step reverse">
           <div className="step-image">
-            <Image src={ImageForInternationalNumber} alt="Step 4" />
+            <Image src={ImageForInternationalNumber4} alt="Step 4" />
           </div>
           <div className="step-content">
             <div className="step-number">4</div>

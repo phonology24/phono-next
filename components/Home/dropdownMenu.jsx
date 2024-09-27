@@ -77,10 +77,10 @@ const DropdownMenu = () => {
               <Col><Link href="/phonology-blogs" className={styles.itemColLink}><BookOutlinedIcon /> Blogs</Link></Col>
               <p className={styles.itemDescription}>Read our blogs on business communication solutions and more.</p>
             </Row>
-            <Row className={styles.itemRow}>
+            {/* <Row className={styles.itemRow}>
               <Col><Link href="/admin-login" className={styles.itemColLink}><BookOutlinedIcon /> Blogs Admin</Link></Col>
               <p className={styles.itemDescription}>Restricted.</p>
-            </Row>
+            </Row> */}
           </Col>
           {/* Third set of stacked columns */}
           <Col className={styles.sectionCol}>

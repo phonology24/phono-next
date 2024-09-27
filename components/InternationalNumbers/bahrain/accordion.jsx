@@ -64,7 +64,7 @@ What is {countryName}s virtual phone number?
         className="accordionItem" indicator={<DialpadIcon />}
       >
         <div className="accordionContent">
-          <p className="accordionP">An {countryName} Virtual Phone Number allows you to create a local presence in Austria, ensuring smooth communication without the need for an actual office.</p>
+          <p className="accordionP">An {countryName} Virtual Phone Number allows you to create a local presence in {countryName}, ensuring smooth communication without the need for an actual office.</p>
         </div>
       </AccordionItem>
       <AccordionItem

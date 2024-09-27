@@ -8,7 +8,7 @@ const AboutHeading = () => {
         We Make Business<br></br> Communication Simple.
       </h2>
       <p className="about-heading-text">
-        <span className="blue">Phonology</span>is a vertical specialist and a leading provider - VoIP and IP Communications in India. 
+        <span className="blue">Phonology </span>is a vertical specialist and a leading provider - VoIP and IP Communications in India. 
         We desire to connect millions over the internet protocol, which in turn results in productive cost savings and gives them a substantial monetary advantage. 
         As a complete Internet, Internet Telephony, and VoIP solution provider, we work towards building a network of subscribers all around the globe.
         Incorporated by MD Group in the IT capital of India, Bangalore,  <span className="blue">Phonology</span> is a leading provider of Internet Telephony and VoIP services in the country.
