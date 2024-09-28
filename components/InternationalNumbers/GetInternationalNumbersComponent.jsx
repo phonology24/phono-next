@@ -78,9 +78,9 @@ const phoneNumbers = {
     { country: 'Panama', path: '/panama-virtual-phone-number', flag: 'https://flagsapi.com/PA/flat/64.png' },
   ],
   Africa: [
-    { country: 'Egypt', path: '/egypt-virtual-phone-number', flag: 'https://flagsapi.com/EG/flat/64.png' },
-    { country: 'Mauritius', path: '/mauritius-virtual-phone-number', flag: 'https://flagsapi.com/MU/flat/64.png' },
-    { country: 'South Africa', path: '/south-africa-virtual-phone-number', flag: 'https://flagsapi.com/ZA/flat/64.png' },
+    { country: 'Ghana', path: '/ghana-virtual-phone-number', flag: 'https://flagsapi.com/GH/flat/64.png' },
+    { country: 'Uganda', path: '/uganda-virtual-phone-number', flag: 'https://flagsapi.com/UG/flat/64.png' },
+    { country: 'South Africa', path: '/south-africa-phone-number', flag: 'https://flagsapi.com/ZA/flat/64.png' },
   ],
 };
 
