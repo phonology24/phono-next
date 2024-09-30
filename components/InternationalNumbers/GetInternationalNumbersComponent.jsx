@@ -69,6 +69,11 @@ const phoneNumbers = {
     { country: 'USA', path: '/usa-virtual-phone-number', flag: 'https://flagsapi.com/US/flat/64.png' },
     { country: 'USA Toll Free', path: '/usa-toll-free-virtual-phone-number', flag: 'https://flagsapi.com/US/flat/64.png' },
   ],
+  Oceania: [
+    { country: 'Australia', path: '/australia-virtual-phone-number', flag: 'https://flagsapi.com/AU/flat/64.png' },
+    { country: 'Australia Toll Free', path: '/australia-toll-free-virtual-phone-number', flag: 'https://flagsapi.com/AU/flat/64.png' },
+    { country: 'New Zealand', path: '/new-zealand-virtual-phone-number', flag: 'https://flagsapi.com/NZ/flat/64.png' },
+  ],
   SouthAmerica: [
     { country: 'Argentina', path: '/argentina-virtual-phone-number', flag: 'https://flagsapi.com/AR/flat/64.png' },
     { country: 'Brazil', path: '/brazil-virtual-phone-number', flag: 'https://flagsapi.com/BR/flat/64.png' },
