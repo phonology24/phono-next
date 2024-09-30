@@ -65,7 +65,7 @@ const phoneNumbers = {
   NorthAmerica: [
     { country: 'Belize', path: '/belize-virtual-phone-number', flag: 'https://flagsapi.com/BZ/flat/64.png' },
     { country: 'Canada', path: '/canada-virtual-phone-number', flag: 'https://flagsapi.com/CA/flat/64.png' },
-    // { country: 'Mexico', path: '/mexico-virtual-phone-number', flag: 'https://flagsapi.com/MX/flat/64.png' },
+ // { country: 'Mexico', path: '/mexico-virtual-phone-number', flag: 'https://flagsapi.com/MX/flat/64.png' },
     { country: 'USA', path: '/usa-virtual-phone-number', flag: 'https://flagsapi.com/US/flat/64.png' },
     { country: 'USA Toll Free', path: '/usa-toll-free-virtual-phone-number', flag: 'https://flagsapi.com/US/flat/64.png' },
   ],
@@ -80,7 +80,7 @@ const phoneNumbers = {
   Africa: [
     { country: 'Ghana', path: '/ghana-virtual-phone-number', flag: 'https://flagsapi.com/GH/flat/64.png' },
     { country: 'Uganda', path: '/uganda-virtual-phone-number', flag: 'https://flagsapi.com/UG/flat/64.png' },
-    { country: 'South Africa', path: '/south-africa-phone-number', flag: 'https://flagsapi.com/ZA/flat/64.png' },
+    { country: 'South Africa', path: '/south-africa-virtual-phone-number', flag: 'https://flagsapi.com/ZA/flat/64.png' },
   ],
 };
 
