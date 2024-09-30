@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import ImageForInternationalNumber from "../../../public/Assets/austriaHeader1.png";
+import ImageForInternationalNumber from "../../../public/Assets/norway.png";
 import styles from "../../../styles/Internationalheader.module.css";
 import USAAccordionComponent from "./accordion";
 
