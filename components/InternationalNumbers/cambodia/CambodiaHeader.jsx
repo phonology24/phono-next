@@ -13,7 +13,7 @@ const CambodiaHeader = () => {
     <div className={styles.InternationalHeaderContainer}>
       <div className={styles.Heading}>
         <h1 className={styles.HeadingText}>
-          Get&nbsp;<span className={styles.gradientLetter}>{countryName}&nbsp;</span>
+          <span className={styles.gradientLetter}>{countryName}&nbsp;</span>
           Virtual Phone Number
         </h1>
         {/* <h2>Engage With {countryName} Customers and Prospects, Efficiently.</h2> */}
@@ -22,10 +22,10 @@ const CambodiaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Cambodia with a virtual phone number from Phonology.
+Create a local presence, build strong connections with Cambodian customers, and streamline 
+your communications—all without needing a physical office. Secure your Cambodia virtual number today and start exploring new growth opportunities in Southeast Asia!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

@@ -64,7 +64,7 @@ const FAQAccordionComponent = () => {
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p className="accordionP1">You can choose between local {countryName} numbers to establish a local presence or toll-free numbers to allow your customers to contact you free of charge.</p>
+          <p className="accordionP1">You can choose between local Bangladesh numbers for building a local presence or toll-free numbers to allow customers to contact you without incurring any charges.</p>
         </div>
       </AccordionItem>
       <AccordionItem
@@ -120,7 +120,7 @@ const FAQAccordionComponent = () => {
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p>Yes! Phonology’s {countryName} virtual numbers can be used globally, allowing you to set up a local presence in {countryName} without needing a physical office</p>
+          <p>Yes! Phonology’s Bangladesh virtual numbers can be used from anywhere in the world, enabling you to establish a local presence in Bangladesh without needing a physical office.</p>
         </div>
       </AccordionItem>
     </Accordion>

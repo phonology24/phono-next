@@ -41,13 +41,13 @@ const ChinaSubHeader = () => {
         <div className={styles.textCard}>
           {/* Uncomment if you want to use a card heading */}
           <p className={styles.cardParagraph}>
-             Connect with {countryName}n Customers Instantly: By using a local {countryName} number, you’ll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
+          Easily Connect with Chinese Clients: A local China phone number enhances your business's credibility, making it simpler for Chinese customers to contact you while increasing their confidence in your services.
           </p>
           <ul className={styles.bulletPoints}>
-  <li><b>Increase Customer Inquiries:</b> With a local or toll-free {countryName} number, you make it easier for your customers to get in touch—leading to more inquiries and potential sales.</li>
-  <li><b>Save on Communication Costs:</b> You can reduce expensive international call charges, allowing your business to grow without the high costs of global communication.</li>
-  <li><b>Scale as Your Business Expands:</b> As your business grows, so can your virtual number system. Add more lines as needed, without the hassle of physical office expansions.</li>
-  <li><b>Offer Exceptional Service:</b> Using advanced features like call recording, IVR, and voicemail, you can provide the highest level of customer service, ensuring every call is handled professionally.</li>
+  <li><b>Boost Customer Interactions:</b>With a local or toll-free China number, you provide a direct, cost-free communication channel for your clients, helping you generate more inquiries and build stronger relationships.</li>
+  <li><b>Cut Down on International Calling Costs:</b>By using a China virtual number, you can significantly reduce international call expenses, making communication more affordable as you expand into new markets.</li>
+  <li><b>Scale Your Business Effortlessly:</b> As your company grows, so can your virtual phone system. Add new lines and services without investing in additional physical infrastructure or office space.</li>
+  <li><b>Provide Excellent Customer Support:</b>Take advantage of advanced features such as call forwarding, IVR, voicemail, and call recording to ensure seamless and professional communication, enhancing the customer experience.</li>
 
 
           </ul>

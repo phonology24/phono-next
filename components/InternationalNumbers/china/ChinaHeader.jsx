@@ -22,10 +22,11 @@ const ChinaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Grow your business in China with a virtual phone number from Phonology.
+Establish a reliable local presence, streamline your communication with Chinese customers, 
+and build trust—all without the need for a physical office. Get your China virtual number today 
+and unlock new growth opportunities in this vast and dynamic market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

@@ -19,7 +19,7 @@ const BahrainSubHeader = () => {
   
   return (
     <div className={styles.subHeaderContainer}>
-      <h2 className={styles.subHeaderHeading}>Why do you need an {countryName} Virtual Number?</h2>
+      <h2 className={styles.subHeaderHeading}>Why get a {countryName} Virtual Number?</h2>
       
       <div className={styles.cardsContainer}>
         {/* Uncomment if you want to use an image card */}
@@ -42,11 +42,11 @@ const BahrainSubHeader = () => {
           {/* Uncomment if you want to use a card heading */}
           {/* <h3 className={styles.cardHeading}>Benefits of Austria Virtual Numbers</h3> */}
           <p className={styles.cardParagraph}>
-             Connect with {countryName}n Customers Instantly: A local Bahrain phone number boosts your business’s credibility, 
+          Instantly Connect with Bahraini Customers: A local Bahrain phone number boosts your business’s credibility, 
              making it easy for customers in Bahrain to connect with you, fostering trust and stronger business relationships.
           </p>
           <ul className={styles.bulletPoints}>
-  <li><b>Increase Customer Inquiries:</b>By offering a local or toll-free Bahrain number,
+  <li><b>Increase Customer Engagement:</b>By offering a local or toll-free Bahrain number,
    you provide an easy and cost-free way for customers to contact you, resulting in more inquiries and enhanced customer interactions.</li>
   <li><b>Lower Your International Calling Costs:</b> Using a Bahrain virtual number helps you minimize international call expenses, allowing your business to communicate efficiently without the high cost of international phone calls.</li>
   <li><b>Effortlessly Scale Your Operations:</b> As your business grows, your virtual phone system can grow with it. Add more lines and services seamlessly, without the need for physical infrastructure expansion.</li>

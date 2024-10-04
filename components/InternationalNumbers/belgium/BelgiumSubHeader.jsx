@@ -42,13 +42,13 @@ const BelgiumSubHeader = () => {
           {/* Uncomment if you want to use a card heading */}
           {/* <h3 className={styles.cardHeading}>Benefits of Austria Virtual Numbers</h3> */}
           <p className={styles.cardParagraph}>
-             Connect with {countryName}n Customers Instantly: By using a local Austrian number, you’ll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
+          Connect Instantly with Belgian Customers: Using a local Belgium number helps build trust and credibility right away, making it easier for your customers to feel comfortable when reaching out to your business.
           </p>
           <ul className={styles.bulletPoints}>
-  <li><b>Increase Customer Inquiries:</b> With a local or toll-free Austrian number, you make it easier for your customers to get in touch—leading to more inquiries and potential sales.</li>
-  <li><b>Save on Communication Costs:</b> You can reduce expensive international call charges, allowing your business to grow without the high costs of global communication.</li>
-  <li><b>Scale as Your Business Expands:</b> As your business grows, so can your virtual number system. Add more lines as needed, without the hassle of physical office expansions.</li>
-  <li><b>Offer Exceptional Service:</b> Using advanced features like call recording, IVR, and voicemail, you can provide the highest level of customer service, ensuring every call is handled professionally.</li>
+  <li><b>Boost Customer Engagement:</b> By offering a local or toll-free Belgium number, you provide an easy way for customers to contact you, increasing inquiries and driving potential sales.</li>
+  <li><b>Reduce Communication Costs:</b>Cut down on high international call charges, making global communication more affordable while allowing your business to expand cost-effectively.</li>
+  <li><b>Scale with Your Growing Business:</b>As your business grows, your virtual number system can grow with you. Add more lines seamlessly without the need for physical office space.</li>
+  <li><b>Deliver Superior Service:</b> Take advantage of advanced features like call forwarding, IVR, call recording, and voicemail to provide outstanding customer service, ensuring every interaction is professional and efficient.</li>
 
 
           </ul>

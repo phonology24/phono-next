@@ -41,13 +41,13 @@ const CroatiaSubHeader = () => {
         <div className={styles.textCard}>
           {/* Uncomment if you want to use a card heading */}
           <p className={styles.cardParagraph}>
-             Connect with {countryName}n Customers Instantly: By using a local {countryName} number, you’ll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
+          Instant Connection with Croatian Customers: A local Croatia phone number helps your business build immediate credibility, making customers feel confident when reaching out to you.
           </p>
           <ul className={styles.bulletPoints}>
-  <li><b>Increase Customer Inquiries:</b> With a local or toll-free {countryName} number, you make it easier for your customers to get in touch—leading to more inquiries and potential sales.</li>
-  <li><b>Save on Communication Costs:</b> You can reduce expensive international call charges, allowing your business to grow without the high costs of global communication.</li>
-  <li><b>Scale as Your Business Expands:</b> As your business grows, so can your virtual number system. Add more lines as needed, without the hassle of physical office expansions.</li>
-  <li><b>Offer Exceptional Service:</b> Using advanced features like call recording, IVR, and voicemail, you can provide the highest level of customer service, ensuring every call is handled professionally.</li>
+  <li><b>Enhance Customer Interaction: </b> Offering a local or toll-free Croatia number ensures that customers can easily get in touch, which can drive more inquiries and conversions.</li>
+  <li><b>Lower Your International Communication Costs: </b> Reduce your expenses on international calls, making your global communications more cost-efficient while helping your business expand into new regions.</li>
+  <li><b>Adapt as Your Business Grows: </b>As your company expands, your virtual phone system can grow with it. You can easily add additional lines without the complexity of expanding your physical office presence.</li>
+  <li><b>Deliver Outstanding Customer Service: </b> Use advanced features like call forwarding, IVR, call recording, and voicemail to provide excellent customer support, ensuring every call is handled effectively and professionally.</li>
 
 
           </ul>

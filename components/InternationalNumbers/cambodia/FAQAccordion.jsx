@@ -58,13 +58,13 @@ const FAQAccordionComponent = () => {
         // isBordered color="transparent"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>What types of {countryName} phone numbers are available?
+<KeyboardArrowDownIcon/>What types of Cambodia phone numbers are available?
           </div>
         }
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p className="accordionP1">You can choose between local {countryName} numbers to establish a local presence or toll-free numbers to allow your customers to contact you free of charge.</p>
+          <p className="accordionP1">You can select a local Cambodia phone number to build a strong local presence, or opt for a toll-free number to give customers a cost-free way to contact your business.</p>
         </div>
       </AccordionItem>
       <AccordionItem
@@ -78,7 +78,7 @@ const FAQAccordionComponent = () => {
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p>Your {countryName} virtual number includes features such as call forwarding, voicemail, IVR (Interactive Voice Response), call recording, and more, ensuring smooth and professional communication with your customers.</p>
+          <p>Yes! Phonology’s Cambodia virtual numbers can be used from anywhere in the world, enabling you to establish a local presence in Cambodia without the need for a physical office.</p>
         </div>
       </AccordionItem>
       <AccordionItem
@@ -86,13 +86,13 @@ const FAQAccordionComponent = () => {
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>How fast can I set up a {countryName} virtual number?
+<KeyboardArrowDownIcon/>What features come with a Cambodia virtual number?
 </div>
         }
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p>The setup process is quick and easy. Once you’ve selected your number, completed registration, and chosen your plan, your {countryName} phone number will be activated within minutes.</p>
+          <p>Your Cambodia virtual number includes essential features like call forwarding, voicemail, IVR (Interactive Voice Response), call recording, and more to ensure seamless communication with your customers.</p>
         </div>
       </AccordionItem>
       <AccordionItem

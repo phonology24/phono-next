@@ -13,7 +13,7 @@ const BangladeshHeader = () => {
     <div className={styles.InternationalHeaderContainer}>
       <div className={styles.Heading}>
         <h1 className={styles.HeadingText}>
-          Get&nbsp;<span className={styles.gradientLetter}>{countryName}&nbsp;</span>
+         <span className={styles.gradientLetter}>{countryName}&nbsp;</span>
           Virtual Phone Number
         </h1>
         {/* <h2>Engage With {countryName} Customers and Prospects, Efficiently.</h2> */}
@@ -22,10 +22,11 @@ const BangladeshHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Bangladesh with a virtual phone number from Phonology.
+Establish a local presence, improve your communication with Bangladeshi customers, 
+and build trust—all without needing a physical office. Secure your Bangladesh 
+virtual number today and explore exciting opportunities in this fast-growing market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

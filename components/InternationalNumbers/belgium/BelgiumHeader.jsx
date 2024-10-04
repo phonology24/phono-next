@@ -13,7 +13,7 @@ const BelgiumHeader = () => {
     <div className={styles.InternationalHeaderContainer}>
       <div className={styles.Heading}>
         <h1 className={styles.HeadingText}>
-          Get&nbsp;<span className={styles.gradientLetter}>{countryName}&nbsp;</span>
+         <span className={styles.gradientLetter}>{countryName}&nbsp;</span>
           Virtual Phone Number
         </h1>
         {/* <h2>Engage With {countryName} Customers and Prospects, Efficiently.</h2> */}
@@ -22,10 +22,10 @@ const BelgiumHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business reach with a Belgium virtual phone number from Phonology.
+Create a local presence, increase customer trust, and maintain cost-effective communication—without 
+the need for a physical location. Secure your Belgium number today and tap into new international markets!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

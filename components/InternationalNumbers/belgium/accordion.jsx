@@ -72,7 +72,7 @@ What is {countryName}s virtual phone number?
         aria-label="Pricing"
         title={
           <div className="accordionItemTitle">
-How does an Austrian virtual phone number work?
+How does an Belgium virtual phone number work?
           </div>
         }
         className="accordionItem"  indicator={<CurrencyRupeeIcon/>}

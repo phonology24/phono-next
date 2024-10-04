@@ -22,9 +22,10 @@ const BulgariaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-            Establish a local presence, build customer trust, and enjoy cost-effective
-            communication—without needing a physical office. Secure your Bulgaria
-            number today and tap into new international markets!
+          Broaden your company’s presence with a Bulgaria virtual phone number from Phonology.Create a local presence,
+           gain customer trust, and benefit from cost-efficient communication—all without the need for a physical office. 
+           Secure your Bulgaria number today and tap into new international markets!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

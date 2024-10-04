@@ -42,13 +42,14 @@ const BangladeshSubHeader = () => {
           {/* Uncomment if you want to use a card heading */}
           {/* <h3 className={styles.cardHeading}>Benefits of Austria Virtual Numbers</h3> */}
           <p className={styles.cardParagraph}>
-             Connect with {countryName}n Customers Instantly: By using a local Austrian number, you’ll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
+          Instantly Connect with Bangladeshi Clients: A local Bangladesh phone number boosts your credibility, 
+          making it easier for customers in Bangladesh to reach out to your business, fostering trust and driving stronger relationships.
           </p>
           <ul className={styles.bulletPoints}>
-  <li><b>Increase Customer Inquiries:</b> With a local or toll-free Austrian number, you make it easier for your customers to get in touch—leading to more inquiries and potential sales.</li>
-  <li><b>Save on Communication Costs:</b> You can reduce expensive international call charges, allowing your business to grow without the high costs of global communication.</li>
-  <li><b>Scale as Your Business Expands:</b> As your business grows, so can your virtual number system. Add more lines as needed, without the hassle of physical office expansions.</li>
-  <li><b>Offer Exceptional Service:</b> Using advanced features like call recording, IVR, and voicemail, you can provide the highest level of customer service, ensuring every call is handled professionally.</li>
+  <li><b>Enhance Customer Engagement:</b> Offering a local or toll-free Bangladesh number provides a simple, cost-effective way for your customers to contact you, increasing inquiries and improving your customer engagement.</li>
+  <li><b>Reduce International Communication Costs:</b>Using a Bangladesh virtual number helps reduce the cost of international calls, enabling your business to expand its communication capabilities without high calling expenses.</li>
+  <li><b>Seamlessly Scale Your Business:</b>As your company grows, your virtual phone system can scale easily alongside it. Add additional lines and services without the hassle of expanding physical infrastructure.</li>
+  <li><b>Deliver Top-Quality Customer Support:</b>Utilize features such as call forwarding, IVR, voicemail, and call recording to deliver seamless and professional customer service, ensuring that every interaction is managed efficiently.</li>
 
 
           </ul>

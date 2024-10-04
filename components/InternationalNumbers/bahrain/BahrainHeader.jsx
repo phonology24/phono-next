@@ -13,7 +13,7 @@ const BahrainHeader = () => {
     <div className={styles.InternationalHeaderContainer}>
       <div className={styles.Heading}>
         <h1 className={styles.HeadingText}>
-          Get&nbsp;<span className={styles.gradientLetter}>{countryName}&nbsp;</span>
+         <span className={styles.gradientLetter}>{countryName}&nbsp;</span>
           Virtual Phone Number
         </h1>
         {/* <h2>Engage With {countryName} Customers and Prospects, Efficiently.</h2> */}
@@ -22,10 +22,11 @@ const BahrainHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a strong local presence, foster trust with Bahraini customers, and enhance your 
-          communication—all without needing a physical office. Secure your Bahrain virtual number 
-          today and explore the possibilities in the growing Middle Eastern market!
+          Expand your business reach into Bahrain using a virtual phone number from Phonology.
+Establish a strong local presence, foster trust with Bahraini customers, and enhance your 
+communication—all without needing a physical office. 
+Secure your Bahrain virtual number today and explore the possibilities in the growing Middle Eastern market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

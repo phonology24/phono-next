@@ -58,13 +58,13 @@ const FAQAccordionComponent = () => {
         // isBordered color="transparent"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>What types of {countryName} phone numbers are available?
+<KeyboardArrowDownIcon/>What kinds of phone numbers are available for purchase in Croatia?
           </div>
         }
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p className="accordionP1">You can choose between local {countryName} numbers to establish a local presence or toll-free numbers to allow your customers to contact you free of charge.</p>
+          <p className="accordionP1">Phonology offers both local Croatia numbers, perfect for establishing a local presence, and toll-free numbers, ideal for customer support and inquiries.</p>
         </div>
       </AccordionItem>
       <AccordionItem
@@ -72,13 +72,13 @@ const FAQAccordionComponent = () => {
         aria-label="Pricing"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>What features come with a {countryName} virtual number?
+<KeyboardArrowDownIcon/>Is it possible to use a Croatia phone number if my business operates outside of Croatia?
 </div>
         }
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p>Your {countryName} virtual number includes features such as call forwarding, voicemail, IVR (Interactive Voice Response), call recording, and more, ensuring smooth and professional communication with your customers.</p>
+          <p>Yes! You can use Phonology's Croatia virtual phone numbers from anywhere in the world, allowing you to create a local presence without needing a physical office in Croatia.</p>
         </div>
       </AccordionItem>
       <AccordionItem

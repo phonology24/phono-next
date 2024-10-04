@@ -41,10 +41,10 @@ const BulgariaSubHeader = () => {
         <div className={styles.textCard}>
           {/* Uncomment if you want to use a card heading */}
           <p className={styles.cardParagraph}>
-          Connect Instantly with Bulgarian Customers: Using a local Bulgaria number helps build trust and credibility immediately, making it easier for customers to reach out to your business with confidence.
+          Connect Instantly with Bulgarian Customers: A local Bulgaria number immediately enhances trust and credibility, making it easier for customers to confidently reach out to your business.
           </p>
           <ul className={styles.bulletPoints}>
-  <li><b>Boost Customer Engagement: </b> By offering a local or toll-free Bulgaria number, you make it simple for your customers to get in touch, leading to increased inquiries and more potential sales.</li>
+  <li><b>Boost Customer Engagement: </b>By offering a local or toll-free Bulgaria number, you make it simple for your customers to get in touch, leading to increased inquiries and more potential sales.</li>
   <li><b>Reduce Communication Costs: </b> Lower your international call charges, making global communication more affordable while allowing your business to expand into new regions effectively.</li>
   <li><b>Scale with Your Growing Business: </b>As your business grows, your virtual number system can easily scale to accommodate its needs. Add more lines without the hassle or cost of expanding physical office space.</li>
   <li><b>Deliver Exceptional Service:</b> Leverage advanced features like call forwarding, IVR, call recording, and voicemail to provide top-tier customer service, ensuring that every interaction is handled smoothly and professionally.</li>

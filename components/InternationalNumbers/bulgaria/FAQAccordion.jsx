@@ -58,13 +58,13 @@ const FAQAccordionComponent = () => {
         // isBordered color="transparent"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>What types of {countryName} phone numbers are available?
+<KeyboardArrowDownIcon/>What kinds of Bulgaria phone numbers are available for purchase?
           </div>
         }
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p className="accordionP1">You can choose between local {countryName} numbers to establish a local presence or toll-free numbers to allow your customers to contact you free of charge.</p>
+          <p className="accordionP1">You can choose between local Bulgaria phone numbers to create a local presence or toll-free numbers to give customers a cost-free way to reach you.</p>
         </div>
       </AccordionItem>
       <AccordionItem

@@ -25,7 +25,7 @@ const HowToBuy = () => {
             <div className="step-number">1</div>
             <h2>Step 1: Select Your Number Type</h2>
             <p>
-            Explore the available options and choose the {countryName} phone number that best suits your needs—local, toll-free, or mobile.              </p>
+            Explore the available options and choose the {countryName} phone number that best suits your needs—local, toll-free, or mobile.</p>
           </div>
         </div>
         
@@ -37,7 +37,7 @@ const HowToBuy = () => {
             <div className="step-number">2</div>
             <h2>Step 2: Choose a Plan of your Choice</h2>
             <p>
-            Take up a pricing plan that aligns with your budget and call volume requirements.              </p>
+            Take up a pricing plan that aligns with your budget and call volume requirements.</p>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const HowToBuy = () => {
             <div className="step-number">3</div>
             <h2>Step 3: Sign Up & Complete Registration</h2>
             <p>
-            Create an account and provide the necessary business or personal details to complete the registration process.              </p>
+            Create an account and provide the necessary business or personal details to complete the registration process.</p>
           </div>
         </div>
 
@@ -59,9 +59,9 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">4</div>
-            <h2>Step 4: Activate & Configure: </h2>
+            <h2>Step 4: Activate & Configure</h2>
             <p>
-            After purchase, your {countryName} phone number will be activated instantly. Customize settings like call forwarding, voicemail, and more to start using your number.            </p>
+            After purchase, your {countryName} phone number will be activated instantly. Customize settings like call forwarding, voicemail, and more to start using your number.</p>
           </div>
         </div>
       </div>
