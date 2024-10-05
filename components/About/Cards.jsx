@@ -40,17 +40,17 @@ const Cards = () => {
     },
     {
       id: 6,
-      title: "DID coverage for 70+ countries",
+      title: "24*7 Customer Support",
       icon: <SatelliteAltIcon style={{ fontSize: 50, marginBottom: 10 }} />,
     },
     {
-      id: 6,
-      title: "DID coverage for 70+ countries",
+      id: 7,
+      title: "60% Cost Reduction",
       icon: <SatelliteAltIcon style={{ fontSize: 50, marginBottom: 10 }} />,
     },
     {
-      id: 6,
-      title: "DID coverage for 70+ countries",
+      id: 8,
+      title: "DID coverage for 120+ countries",
       icon: <SatelliteAltIcon style={{ fontSize: 50, marginBottom: 10 }} />,
     },
   ];

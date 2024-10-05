@@ -8,14 +8,23 @@ const AboutHeading = () => {
         We Make Business<br></br> Communication Simple.
       </h2>
       <p className="about-heading-text">
-        <span className="blue">Phonology </span>is a vertical specialist and a leading provider - VoIP and IP Communications in India. 
-        We desire to connect millions over the internet protocol, which in turn results in productive cost savings and gives them a substantial monetary advantage. 
-        As a complete Internet, Internet Telephony, and VoIP solution provider, we work towards building a network of subscribers all around the globe.
-        Incorporated by MD Group in the IT capital of India, Bangalore,  <span className="blue">Phonology</span> is a leading provider of Internet Telephony and VoIP services in the country.
-         It is a licensed provider in Bangalore by the Department of Telecom, India.
-</p>
+        Phonology is a pioneer in telecom solutions, offering cutting-edge VoIP,
+        Internet telephony, SIP trunks, cloud telephony, and virtual numbers
+        for businesses seeking reliable, scalable communication. With 19 years
+        of industry expertise, we empower enterprises to streamline their operations
+        and expand their global presence with secure and efficient solutions.
+        Our suite of services is tailored to meet the unique needs of businesses,
+        ensuring seamless communication across teams, clients, and partners—whether
+        locally or internationally. From hosted PBX systems to unified communications
+        and CPaaS, Phonology helps businesses embrace modern, cloud-based
+        telecom infrastructures that are future-proof and adaptable.
+        At Phonology, we don’t just provide technology; we build relationships,
+        ensuring our clients receive world-class support and customized solutions
+        that drive their success. Whether a small business or a large corporation,
+        Phonology is the trusted partner you need to thrive in today’s fast-paced, digitally connected world.
+      </p>
     </div>
-);
+  );
 };
 
 export default AboutHeading;

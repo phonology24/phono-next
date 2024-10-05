@@ -1,0 +1,75 @@
+/* Unified Header Styles */
+
+.uifn-header {
+    background-color: #ffffff;
+    padding: 10px 0px 20px 0px;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, #F08080, #87CEEB);
+    border-image-slice: 1;
+    padding-top: 200px;
+    animation: uifnHeader 1s ease-in 0s 1 normal none;
+  }
+  
+  @keyframes uifnHeader {
+    0% {
+      opacity: 0;
+      transform: translateY(-250px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .uifn-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .uifn-grid {
+      display: flex;
+      flex-direction: column;
+    }
+    .uifn-header {
+      padding: 80px;
+    }
+  }
+  
+  .uifn-content {
+    text-align: left;
+  }
+  
+  .uifn-content-inner {
+    padding: 20px;
+  }
+  
+  .uifn-display-4 {
+    font-size: 50px;
+    line-height: 1.3;
+    font-weight: 900;
+  }
+  
+  .uifn-gradient-ltr {
+    color: transparent;
+    background-image: url('../public/Assets/gradient.png');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  .uifn-large {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .uifn-photo-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
