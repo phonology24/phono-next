@@ -15,9 +15,7 @@ const AboutHeading = () => {
         and expand their global presence with secure and efficient solutions.
         Our suite of services is tailored to meet the unique needs of businesses,
         ensuring seamless communication across teams, clients, and partners—whether
-        locally or internationally. From hosted PBX systems to unified communications
-        and CPaaS, Phonology helps businesses embrace modern, cloud-based
-        telecom infrastructures that are future-proof and adaptable.
+        locally or internationally.
         At Phonology, we don’t just provide technology; we build relationships,
         ensuring our clients receive world-class support and customized solutions
         that drive their success. Whether a small business or a large corporation,
