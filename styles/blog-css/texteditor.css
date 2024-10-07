@@ -1,19 +1,21 @@
 .editor-wrapper {
   width: 80vw;
   border: 1px solid rgb(255, 255, 255);
-  background: #fff;
+  background: #ffffff;
   padding: 1rem;
   margin-left: 30px;
-  margin-top: 200px;
+  margin-top: 20px;
+  
 }
 
 .editor-container {
   width: 100%;
-  border: 2px solid rgb(216, 216, 216);
+  border: 2px solid rgb(0, 0, 0);
   border-top: none;
   border-left: none;
   border-right: none;
   padding: 1rem;
+  
 }
 .editor-container img{
   max-width: 100%;
@@ -25,6 +27,11 @@
   flex-basis: 1fr 1fr;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  background: #ffffff;
+
+
 }
 
 .title-input {
@@ -40,15 +47,38 @@
   flex-grow: 1;
 }
 
+.title-input1 {
+  min-width: 100%;
+  padding: 10px 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  border-bottom: 2px solid rgb(216, 216, 216);
+  flex-grow: 1;
+}
+
+
 
 #toolbar-buttons {
   margin-right: 8px;
-  font-size: 1rem;
-  padding: 10px;
+  font-size: 18px;
+  padding: 15px;
   border: none;
-  background: #fff;
   cursor: pointer;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+
+
 }
+
+#toolbar-buttons svg{
+color: rgb(94, 94, 94);
+}
+
 
 .superFancyBlockquote {
   color: #999;
@@ -99,7 +129,7 @@
   border: none;
   padding: 10px;
   border-radius: 50%;
-  font-size: 30px;
+  font-size: 0px;
   width: auto;
   height: auto;
   transition: all .3s ease-in-out;
@@ -112,8 +142,39 @@
 }
 
 .add-image-button {
-  margin-top: 10px;
-  background-color: #00000000;
+  position: fixed;
+  bottom: 125px;
+  right: 50px;
+  background-color: #e0e0e000;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  /* border: 1px solid black; */
   border: none;
-  color: #C6C7C6;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  transition: all .3s ease-in-out;
 }
+
+.add-link-button{
+  position: fixed;
+  bottom: 200px;
+  right: 50px;
+  background-color: #e0e0e000;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  /* border: 1px solid black; */
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  transition: all .3s ease-in-out;
+}
+
+

@@ -283,21 +283,21 @@ const DraftEditor = () => {
         type="text"
         value={title}
         onChange={handleTitleChange}
-        placeholder="This Is A <h1> Tag"
-        className="title-input"
+        placeholder="This Is A h1 Tag"
+        className="title-input1"
       />
       <input
         type="text"
         value={description}
         onChange={handleDescriptionChange}
-        placeholder="This Is A <meta> Tag for Description"
+        placeholder="This Is A Meta Tag for Description"
         className="title-input"
       />
             <input
         type="text"
         value={keywords}
         onChange={handleKeywordsChange}
-        placeholder="This Is A <meta> Tag for Keywords"
+        placeholder="This Is A Meta Tag for Keywords"
         className="title-input"
       />
       <div className="editor-container">
@@ -340,7 +340,7 @@ const DraftEditor = () => {
       >
         <AddPhotoAlternateOutlinedIcon />
       </button>
-      <button className="add-image-button" onClick={handleAddLink} title="HyperLink"><AddLinkIcon /></button>
+      <button className="add-link-button" onClick={handleAddLink} title="HyperLink"><AddLinkIcon /></button>
       {/* <button onClick={handleRemoveLink}>Remove Link</button> */}
       <button onClick={handleSave} className="save-post-button" title="Save">
         <SendOutlinedIcon style={{ fontSize: '44px' }} />

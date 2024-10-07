@@ -157,7 +157,7 @@ const Toolbar = ({ editorState, setEditorState, props }) => {
   };
 
   return (
-    <div className="toolbar-grid">
+    <div className="toolbar-grid" >
       {tools.map((item, idx) => (
         <button id='toolbar-buttons'
           style={{
