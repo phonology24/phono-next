@@ -8,11 +8,14 @@ import slugify from 'slugify';
 import Image from 'next/image';
 import Logo from '../../../public/Assets/logo.png';
 import '../../../styles/blog-css/userblog.css';
+import NewsModal from './NewsModal';  // Import the Modal component
 import NewsComponent from './NewsComponent';
 
 const PhonologyBlogs = () => {
   const [posts, setPosts] = useState([]);
   const [news, setNews] = useState([]);
+  const [selectedNewsItem, setSelectedNewsItem] = useState(null); // Modal state
+  const [showModal, setShowModal] = useState(false); // Modal visibility state
   const router = useRouter();
 
   useEffect(() => {
@@ -43,15 +46,25 @@ const PhonologyBlogs = () => {
     getNews();
   }, []);
 
+  const handlePostClick = (postTitle, postId) => {
+    const slugifiedTitle = slugify(postTitle, { lower: true });
+    router.push(`/phonology-blogs/${slugifiedTitle}?id=${postId}`);
+  };
+
   const extractImage = (html) => {
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const img = doc.querySelector('img');
     return img ? img.src : null;
   };
 
-  const handlePostClick = (postTitle, postId) => {
-    const slugifiedTitle = slugify(postTitle, { lower: true });
-    router.push(`/phonology-blogs/${slugifiedTitle}?id=${postId}`);
+  const openNewsModal = (newsItem) => {
+    setSelectedNewsItem(newsItem); // Set selected news item to display in the modal
+    setShowModal(true); // Show modal
+  };
+
+  const closeNewsModal = () => {
+    setShowModal(false); // Hide modal
+    setSelectedNewsItem(null); // Clear selected news item
   };
 
   return (
@@ -60,11 +73,6 @@ const PhonologyBlogs = () => {
         <a href="/">
           <Image src={Logo} className="usersideblog-logo" alt="Phonology Logo" />
         </a>
-        {/* <a href="/">
-          <Image src={Logo} className="usersideblog-logo" alt="Phonology Logo" />
-          <h2  className="usersideblog-logo">About Us</h2>
-        </a> */}
-      {/* <h2 style={{fontSize:"46px",}}>Featured Blogs</h2> */}
       </header>
 
       <NewsComponent />
@@ -106,24 +114,27 @@ const PhonologyBlogs = () => {
             <p>No news available</p>
           ) : (
             news.map((newsItem) => (
-              <div key={newsItem._id} className="side-card">
+              <div key={newsItem._id} className="side-card" onClick={() => openNewsModal(newsItem)}>
                 {newsItem.image && (
                   <Image
                     src={`https://blog.phonology.io/${newsItem.image}`}
                     alt={newsItem.title}
                     width={300}
-                    height={200}
+                    height={300}
                     className="side-card-image"
                   />
                 )}
                 <h3 className="side-card-title">{newsItem.title}</h3>
-                {/* <p className="side-card-description">{newsItem.content}</p> */}
-                {/* <p className="side-card-date">{moment(newsItem.createdAt).format('MMMM Do, YYYY')}</p> */}
               </div>
             ))
           )}
         </aside>
       </main>
+
+      {/* Modal */}
+      {selectedNewsItem && (
+        <NewsModal show={showModal} onClose={closeNewsModal} newsItem={selectedNewsItem} />
+      )}
     </div>
   );
 };
