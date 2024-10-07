@@ -368,7 +368,7 @@ const BlogPostEditor = () => {
       >
         <AddPhotoAlternateOutlinedIcon />
       </button>
-      <button className="add-image-button" onClick={handleAddLink}><AddLinkIcon /></button>
+      <button className="add-link-button" onClick={handleAddLink}><AddLinkIcon /></button>
       {/* <button onClick={handleRemoveLink}>Remove Link</button> */}
       <button onClick={handleSave} className="save-post-button" title="Save">
         <SendOutlinedIcon style={{ fontSize: '44px' }} />

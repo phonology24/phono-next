@@ -173,11 +173,7 @@ const Toolbar = ({ editorState, setEditorState, props }) => {
           {item.icon || item.label}
         </button>
       ))}
-        {/* <button
-            onClick=////////////////{() => onAddLink(editorState,setEditorState)}
-        >
-            link
-        </button> */}
+     
     </div>
   );
 };
