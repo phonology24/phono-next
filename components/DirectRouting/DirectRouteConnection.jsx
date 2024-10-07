@@ -7,13 +7,16 @@ const DirectRouteConnection = () => {
   return (
     <div className="directRouteContainer">
       <div className="directRouteText">
-        <h2 className='direcrRouteh2'>Connect <br></br><span className='gradient-ltr'> Microsoft Teams</span><br></br> to Any Service</h2>
+        <h2 className='direcrRouteh2'>Enhance Productivity with Integrated <br></br><span className='gradient-ltr'> Remote Team Communication</span></h2>
         <p className='direcrRoutep'>
-          Our Direct Routing solution is intentionally hybrid, seamlessly integrating with all our white-label VoIP services.
-          Phonology for Microsoft goes beyond the basics, providing advanced features such as cross-dialing between a customer-owned PBX
-          using a Phonology-powered SIP Trunk, Hosted Phone System, or Contact Center.
-          This flexibility enables IT teams to gradually transition from one system to another or connect
-          multiple locations using different systems.
+          Boost your team’s productivity with Phonology’s all-in-one remote communication platform
+          , designed to centralize every tool your team needs to collaborate seamlessly. Your
+          team can effortlessly connect across devices and time zones, using advanced voice,
+          video, and instant messaging features. Real-time collaboration becomes second
+          nature—whether it’s hosting virtual meetings, automatically routing calls, or
+          integrating with your CRM. No more location barriers. We bring your team
+          closer together, ensuring smooth communication, automated workflows,
+          and perfectly coordinated efforts.
         </p>
         <button className='directRouteButton'>Contact Support</button>
       </div>

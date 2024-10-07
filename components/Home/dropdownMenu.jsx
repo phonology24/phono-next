@@ -34,7 +34,7 @@ const DropdownMenu = () => {
               <p className={styles.itemDescription}>The business phone system that you love with added features for power call center users.</p>
             </Row>
             <Row className={styles.itemRow}>
-              <Col><Link href="/messaging-services" className={styles.itemColLink}><SipIcon /> Messaging Services</Link></Col>
+              <Col><Link href="/sip-trunk-providers" className={styles.itemColLink}><SipIcon /> SIP Trunking</Link></Col>
               <p className={styles.itemDescription}>Have your own phone? No problem. Digital dial tone for any phone system.</p>
             </Row>
             <Row className={styles.itemRow}>
@@ -46,8 +46,8 @@ const DropdownMenu = () => {
               <p className={styles.itemDescription}>Bring your own carrier with provisioning.</p>
             </Row>
             <Row className={styles.itemRow}>
-              <Col><Link href="#" className={styles.itemColLink}><WebhookIcon /> Communication APIs</Link></Col>
-              <p className={styles.itemDescription}>Coming Soon.</p>
+              <Col><Link href="/virtual-phone-number-providers" className={styles.itemColLink}><WebhookIcon /> Virtual Numbers</Link></Col>
+              <p className={styles.itemDescription}>120+ countries' number at your fingertips.</p>
             </Row>
           </Col>
           {/* Second set of stacked columns */}
