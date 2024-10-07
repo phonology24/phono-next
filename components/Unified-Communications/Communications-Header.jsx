@@ -1,13 +1,12 @@
+'use client';
 import React from 'react';
 import '../../styles/unified-communications.css';
-import YealinkPhone from '../../public/Assets/home-banner-image.png'
-
+import YealinkPhone from '../../public/Assets/home-banner-image.png';
 import Image from 'next/image';
+
 const CommunicationsHeader = () => {
   return (
     <div className="communications-header">
-
-
       <div className="communications-grid communications-grid-middle communications-grid-gap-large">
         <div className="communications-content">
           <div className="communications-content-inner">
@@ -22,27 +21,18 @@ const CommunicationsHeader = () => {
               we offer integrated solutions that enhance efficiency, foster teamwork, and simplify communication for businesses, ensuring seamless connectivity across all channels.
             </p>
             <ul className="communications-list">
-
               <li>
-                {/* <a className="communications-link communications-link-arrow2" target="_blank" rel="noopener noreferrer">
-                        <span className="communications-link-inner">
-                          <span className="communications-link-label"><u>Explore Our Integrations</u></span>
-                     
-                        </span>
-                      </a> */}
+                {/* Example of an additional link (commented out) */}
               </li>
             </ul>
           </div>
         </div>
         <div className="communications-photo">
           <div className="communications-photo-inner">
-            <Image className="communications-photo-image" src={YealinkPhone} alt="yealinkphone" style={{
-              width: '100%',
-              height: 'auto',
-              borderRadius: '8px',
-              margin: '20px 0',
-              objectFit: 'cover',
-            }} ></Image>
+            <video autoPlay loop muted playsInline className="uc-vid">
+              <source src="/Assets/uc-vid.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
