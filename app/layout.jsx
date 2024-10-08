@@ -43,6 +43,7 @@ export default function Layout({ children }) {
         {/* <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_6LfJjSwqAAAAACCGN5biITkYEHR4fkfXL-vhWkOI"></script> */}
 
         <link rel="icon" href="/favicon.ico" />
+        <script src="https://cdn-in.pagesense.io/js/phonology/e13bd7015ee44d6da3db0e837cce6739.js"></script>
       </Head>
       <body>
         {/* Google Tag Manager (noscript) */}
