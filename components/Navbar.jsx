@@ -71,7 +71,7 @@ const Navbar = () => {
     {
       text: "Book A Meeting",
       icon: <PhoneRoundedIcon />,
-      href: "https://nilesh-phonology60.zohobookings.in/#/208025000000027072"
+      href: "https://phonology.zohobookings.in/#/phonologybookameeting"
     }
   ];
 
@@ -108,7 +108,7 @@ const Navbar = () => {
         <Link href="/phonology-blogs" className={styles.navlink1}>
           Blogs
         </Link>
-        <Link href="/" target="_blank" rel="noopener noreferrer nofollow">
+        <Link href="https://phonology.zohobookings.in/#/phonologybookameeting" target="_blank" rel="noopener noreferrer nofollow">
           <button className={styles.primaryButtonBook}>Book a Meeting</button>
         </Link>
       </div>
