@@ -93,7 +93,9 @@ const Page = () => {
         <link rel="apple-touch-icon" href="/favicon.ico"/>
 
         <meta name="robots" content={metadata.robots} />
+
       </Head>
+        <Script src="https://cdn-in.pagesense.io/js/phonology/e13bd7015ee44d6da3db0e837cce6739.js"/>
 
       {/* JSON-LD for WebSite */}
       <Script
