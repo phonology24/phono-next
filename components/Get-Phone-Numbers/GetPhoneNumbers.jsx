@@ -7,7 +7,6 @@ import InfoIcon from '@mui/icons-material/Info';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 import AnchorTemporaryDrawer from './Drawer';
 import PlanCards from './PlanCards';
-import { event } from 'jquery';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import countriesData from '../../public/jsonFiles/countries.json'

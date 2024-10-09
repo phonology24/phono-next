@@ -28,7 +28,7 @@ const Work = () => {
     },
     {
       image: Messaging,
-      endpoint: "/direct-routing-service-providers",
+      endpoint: "/cloud-telephony-providers",
       title: "Cloud Telephony",
       text: "Takes your business communication to the cloud, giving you flexible, scalable phone services that work wherever you do..",
     },
