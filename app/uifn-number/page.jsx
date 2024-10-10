@@ -1,8 +1,8 @@
 import React from 'react'
-import UifnHeader from '@/components/uifn/Uifn-header'
-import UifnTwoCards from '@/components/uifn/Uifn-twoCards'
-import UifnHowItWorks from '@/components/uifn/Uifn-howItWorks'
-import UifnPainPoints from '@/components/uifn/Uifn-Points'
+import UifnHeader from '@/components/Uifn/Uifn-header'
+import UifnTwoCards from '@/components/Uifn/Uifn-twoCards'
+import UifnHowItWorks from '@/components/Uifn/Uifn-howItWorks'
+import UifnPainPoints from '@/components/Uifn/Uifn-Points'
 import Footer from '@/components/Footer'
 const page = () => {
   return (
