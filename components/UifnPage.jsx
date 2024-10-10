@@ -1,20 +1,20 @@
 import React from 'react'
-import UifnHeader from './Uifn/Uifn-header'
-import UifnTwoCards from './Uifn/Uifn-twoCards'
-import UifnHowItWorks from './Uifn/Uifn-howItWorks'
-import UifnPainPoints from './Uifn/Uifn-Points'
-import Footer from 'react-bootstrap-modal/lib/Footer'
+import UifnHeader from '../components/Uifn/UifnHeader'
+import UifnTwoCards from '../components/Uifn/UifnTwoCards'
+import UifnHowItWorks from '../components/Uifn/UifnHowItWorks'
+import UifnPainPoints from '../components/Uifn/UifnPoints'
+import Footer from './Footer'
 
 const UifnPage = () => {
-  return (
-    <div>
-         <UifnHeader />
-      <UifnTwoCards/>
-      <UifnHowItWorks/>
-      <UifnPainPoints/>
-      <Footer/>
-    </div>
-  )
+    return (
+        <div>
+            <UifnHeader />
+            <UifnTwoCards />
+            <UifnHowItWorks />
+            <UifnPainPoints />
+            <Footer />
+        </div>
+    )
 }
 
 export default UifnPage
