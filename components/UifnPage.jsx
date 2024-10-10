@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import UifnHeader from '../components/Uifn/UifnHeader'
 import UifnTwoCards from '../components/Uifn/UifnTwoCards'
