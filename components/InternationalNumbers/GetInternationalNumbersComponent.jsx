@@ -100,7 +100,7 @@ const phoneNumbers = {
               {phoneNumbers[region].map(({ country, path, flag }) => (
                 <li key={country} className="country-card">
                   <a href={path}>
-                    <img src={flag} alt={`${country} Flag`} className="flag-icon" />
+                    <Image src={flag} alt={`${country} Flag`} className="flag-icon"  />
                     <span>{country}</span>
                   </a>
                 </li>

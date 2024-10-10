@@ -94,8 +94,8 @@ const Page = () => {
 
         <meta name="robots" content={metadata.robots} />
 
-        <Script src="https://cdn-in.pagesense.io/js/phonology/e13bd7015ee44d6da3db0e837cce6739.js"/>
       </Head>
+        <Script src="https://cdn-in.pagesense.io/js/phonology/e13bd7015ee44d6da3db0e837cce6739.js"/>
 
       {/* JSON-LD for WebSite */}
       <Script
@@ -117,7 +117,7 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-    <script
+    <Script
             type="text/javascript"
             id="zsiqchat"
             dangerouslySetInnerHTML={{

@@ -13,7 +13,7 @@ const AdminSignIn = () => {
 
   useEffect(() => {
     setIsClient(true);
-  }, []);
+  });
 
   useEffect(() => {
     if (isClient) {

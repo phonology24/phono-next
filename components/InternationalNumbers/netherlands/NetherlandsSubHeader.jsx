@@ -27,7 +27,7 @@ const NetherlandsSubHeader = () => {
           <Image src={ImageForCard} alt={countryName} width={5000} height={5000} className={styles.cardImage} />
         </div> */}
         
-        <Image className={styles.contactCard} src={ImageForCard}>
+        <Image className={styles.contactCard} src={ImageForCard} alt='imagecard'>
            {/* {contactNumbers.map((number, index) => (
             <div key={index} className={styles.contactRow}>
               <Image src={countryFlag} alt={`${countryName} flag`} width={32} height={32} className={styles.flagIcon} />
