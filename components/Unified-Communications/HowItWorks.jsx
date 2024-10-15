@@ -9,11 +9,12 @@ const HowItWorks = () => {
     <div className="how-it-works-container">
       <h3 className="how-it-works-heading">How It Works</h3>
       <p className="how-it-works-paragraph">
-      Partners have the flexibility to create and tailor quotes for their customized UCaaS service.
-            <br></br>
-            Customers can review and approve quotes through a branded web page.
-            <br></br>
-            An activation wizard automatically creates customer profiles, sets up services, and applies subscription and one-time charges based on quote specifics.
+      Unified Communications platform integrates voice, video, messaging, and collaboration into 
+      one seamless cloud-based solution. By connecting SIP trunks and PBX systems, it allows users 
+      to communicate effortlessly across any device. Designed for businesses of all sizes, this scalable
+       and secure platform ensures efficient and reliable communication, enhancing productivity 
+       and collaboration. With Phonology’s cutting-edge technology, your business can stay connected 
+       anytime, anywhere, with complete confidence in the performance and security of your communication infrastructure.
                   </p>
 
       <div
