@@ -10,29 +10,40 @@ const PainPoints = () => {
         </h3>
         <ul className="painpointsul">
           <li>
-            Constraining your income potential.
-            <p className="painpoints-p">
-              Cease earning minimal commissions on another entity&apos;s service.<br />
-              Commence earning 70% margins or even higher.
+          Fragmented Communication Channels
+          <p className="painpoints-p">
+          Unified Communications consolidates voice, video,<br/>
+           messaging, and collaboration into a single platform, <br/>
+          eliminating the need to juggle multiple tools and <br/>
+          enhancing efficiency across all communication channels.
+
             </p>
           </li>
           <li>
-            Assisting for a system beyond your control.
+          Device and Location Incompatibility
             <p className="painpoints-p">
-              Take ownership of the solution and acquire the control necessary <br />to support your customers effectively.
-            </p>
+            By integrating with SIP trunks and PBX systems,<br/>
+             Unified Communications allows users to communicate <br/>
+             seamlessly across any device, ensuring consistent <br/>
+             communication whether employees are in the office <br/>
+             or working remotely            </p>
           </li>
           <li>
-            Relinquishing your customers to others.
+          Scalability Issues for Growing Businesses
             <p className="painpoints-p">
-              Instead of directing your customers to other vendors,<br /> provide them with a solution branded for your business.
-            </p>
+            Unified Communications provides a cloud-based, scalable <br/>
+            solution that grows with your business, enabling easy <br/>
+            expansion without the need for complex infrastructure upgrades.
+
+</p>
           </li>
           <li>
-            Training your team
+            Security and Data Privacy Concerns
             <p className="painpoints-p">
-              Training your employees becomes effortless with our user-friendly web portal.
-            </p>
+            Phonology’s Unified Communications ensures end-to-end<br/>
+             encryption and secure data handling, protecting sensitive <br/>
+             information and ensuring compliance with industry standards,<br/> 
+             no matter the size of your business.            </p>
           </li>
         </ul>
       </div>
