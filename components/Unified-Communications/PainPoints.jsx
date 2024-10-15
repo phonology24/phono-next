@@ -51,7 +51,7 @@ const PainPoints = () => {
       <div className="right-section">
         <div className="client-feedback">
           <p className="feedback-paragraph">
-            &quot;Embracing UCaaS has been a game-changer for our business. It not only slashed costs but also enhanced our agility, enabling swift access to cutting-edge collaboration features. A truly transformative solution!&quot;
+            &quot;Unified Communications is the key to transforming modern workplaces – enhancing flexibility, boosting efficiency, and enabling teams to work together more effectively, no matter where they are."&quot;
           </p>
           <p>- TechTarget</p>
         </div>
