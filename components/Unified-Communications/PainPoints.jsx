@@ -51,9 +51,8 @@ const PainPoints = () => {
       <div className="right-section">
         <div className="client-feedback">
           <p className="feedback-paragraph">
-            &quot;Unified Communications is the key to transforming modern workplaces – enhancing flexibility, boosting efficiency, and enabling teams to work together more effectively, no matter where they are."&quot;
+            &quot;Unified Communications is the key to transforming modern workplaces – enhancing flexibility, boosting efficiency, and enabling teams to work together more effectively, no matter where they are.&quot;
           </p>
-          <p>- TechTarget</p>
         </div>
       </div>
     </div>
