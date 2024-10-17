@@ -14,6 +14,15 @@
 }
 
 .hosted-call-center-image  {
+  max-width: 50%;
+  height: auto;
+  border-radius: 80px;
+  margin-right: 20px;
+  animation: hcc-img 1s ease-in 0s 1 normal none;
+  /* border: 1px solid red;  */
+}
+.hosted-call-center-image img {
+  /* border: 1px solid red;  */
   max-width: 100%;
   height: auto;
   border-radius: 80px;

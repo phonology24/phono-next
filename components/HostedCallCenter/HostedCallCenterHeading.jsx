@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/hostedcallcenter.css";
-import CallCenterImage from "../../public/Assets/HostedCC.png";
+import CallCenterImage from "../../public/Assets/ccsolution1.png";
 import Image from "next/image";
 const HostedCallCenterHeading = () => {
   return (<>  
@@ -8,7 +8,7 @@ const HostedCallCenterHeading = () => {
     <div className="hosted-call-center-content">
 
       <div className="hosted-call-center-image">
-        <Image src={CallCenterImage} alt="Call Center" />
+        <Image src={CallCenterImage} alt="Call Center"  />
       </div>
       <div className="hosted-call-center-text">
         <h1 className="hosted-call-center-heading-main">Call Center Solutions</h1>
