@@ -30,7 +30,7 @@ const CommunicationsHeader = () => {
         <div className="communications-photo">
           <div className="communications-photo-inner">
             <video autoPlay loop muted playsInline className="uc-vid">
-              <source src="/Assets/uc-vid2.mp4" type="video/mp4" />
+              <source src="/Assets/ucvid.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
