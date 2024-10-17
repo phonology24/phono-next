@@ -30,24 +30,28 @@ const DropdownMenu = () => {
               <p className={styles.itemDescription}>Enable your customer to call from anywhere.</p>
             </Row>
             <Row className={styles.itemRow}>
-              <Col><Link href="/call-center-solution" className={styles.itemColLink}><CallSplitIcon />  Hosted Call Centers</Link></Col>
-              <p className={styles.itemDescription}>The business phone system that you love with added features for power call center users.</p>
-            </Row>
-            <Row className={styles.itemRow}>
               <Col><Link href="/sip-trunk-providers" className={styles.itemColLink}><SipIcon /> SIP Trunking</Link></Col>
               <p className={styles.itemDescription}>Have your own phone? No problem. Digital dial tone for any phone system.</p>
             </Row>
             <Row className={styles.itemRow}>
-              <Col><Link href="/hosted-pbx-providers" className={styles.itemColLink}><Groups2Icon /> Hosted Phone Systems</Link></Col>
-              <p className={styles.itemDescription}>Everything you expect from Link business phone system, hosted through cloud technology</p>
+              <Col><Link href="/virtual-phone-number-providers" className={styles.itemColLink}><WebhookIcon /> Virtual Numbers</Link></Col>
+              <p className={styles.itemDescription}>120+ countries' number at your fingertips.</p>
             </Row>
             <Row className={styles.itemRow}>
               <Col><Link href="/cloud-telephony-providers" className={styles.itemColLink}><VideoCallIcon /> Cloud Telephony</Link></Col>
               <p className={styles.itemDescription}>Bring your own carrier with provisioning.</p>
             </Row>
             <Row className={styles.itemRow}>
-              <Col><Link href="/virtual-phone-number-providers" className={styles.itemColLink}><WebhookIcon /> Virtual Numbers</Link></Col>
-              <p className={styles.itemDescription}>120+ countries' number at your fingertips.</p>
+              <Col><Link href="/hosted-pbx-providers" className={styles.itemColLink}><Groups2Icon /> Hosted Phone Systems</Link></Col>
+              <p className={styles.itemDescription}>Everything you expect from Link business phone system, hosted through cloud technology</p>
+            </Row>
+            <Row className={styles.itemRow}>
+              <Col><Link href="/call-center-solution" className={styles.itemColLink}><CallSplitIcon />  Hosted Call Centers</Link></Col>
+              <p className={styles.itemDescription}>The business phone system that you love with added features for power call center users.</p>
+            </Row>
+            <Row className={styles.itemRow}>
+              <Col><Link href="/uifn-number" className={styles.itemColLink}><CallSplitIcon />UIFN Numbers</Link></Col>
+              <p className={styles.itemDescription}>A UIFN number is a single phone number that can be dialled across multiple countries.</p>
             </Row>
           </Col>
           {/* Second set of stacked columns */}

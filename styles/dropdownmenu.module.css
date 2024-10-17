@@ -1,10 +1,10 @@
 .dropdownMenu {
   position: absolute;
   left: 0%;
-  top: 10%;
+  top: 5%;
   transform: translate(-51%, 6%);
   width: 90vw;
-  height: 80vh;
+  height: 85vh;
   background-color: #ffffff !important;
   border: 1px solid #ffffff !important;
   padding: 0px 30px 30px 30px !important;
@@ -14,7 +14,7 @@
   transition: all .5s ease-in-out;
   border-bottom-left-radius: 17px;
   border-bottom-right-radius: 17px;
-  background: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   background: -moz-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(224, 255, 217, 1) 100%);
   background: -webkit-radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(224, 255, 217, 1) 100%);
   background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(224, 255, 217, 1) 100%);
@@ -28,7 +28,7 @@
 
 .sectionHeadingDropdown {
   font-size: 24px;
-  margin: 15px 10px;
+  margin: 0px 10px;
   border-bottom: 2px solid black;
   padding-bottom: 5px;
   text-align: left;
@@ -36,15 +36,15 @@
 
 .sectionRow {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: nowrap;
 }
 
 .sectionCol {
   background-color: rgba(240, 240, 240, 0);
-  margin: 0px 20px;
+  margin: 0px 10px;
   border-radius: 10px;
-  padding: 10px;
+  padding: 30px;
   flex: 1;
 }
 
@@ -64,7 +64,7 @@
   justify-content: center;
   margin-top: 0px;
   padding:10px 0px;
-  font-size: 2px;
+
 }
 
 .itemColLink svg{
