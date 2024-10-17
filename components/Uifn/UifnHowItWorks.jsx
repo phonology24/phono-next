@@ -1,41 +1,25 @@
 import React from "react";
-import MessageIcon from "@mui/icons-material/Message";
-import CallToActionIcon from "@mui/icons-material/CallToAction";
-import ImportantDevicesIcon from "@mui/icons-material/ImportantDevices";
+// import MessageIcon from "@mui/icons-material/Message";
+// import CallToActionIcon from "@mui/icons-material/CallToAction";
+// import ImportantDevicesIcon from "@mui/icons-material/ImportantDevices";
 
 const UifnHowItWorks = () => {
   return (
-    <div className="how-it-works-container">
-      <h3 className="how-it-works-heading">Heading</h3>
-      <p className="how-it-works-paragraph">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel est mollis, accumsan justo eu, molestie sem.
-       Donec in nibh neque. Praesent eget orci sed nisi molestie scelerisque eget eu velit. Cras enim sem, auctor sed dui ac,
-        vehicula pellentesque nibh. Vivamus 
-      consectetur odio hendrerit neque consectetur, quis lacinia lorem volutpat. Nam imperdiet risus in sollicitudin vestibulum. Sed eros arc
+    <div className="how-it-works-container-uifn">
+      <div className="text-container-uifn">
+      <h3 className="how-it-works-heading-uifn">Enhancing Customer Experience with UIFN Toll-Free Numbers</h3>
+      <p className="how-it-works-paragraph-uifn">
+      UIFN toll-free numbers put your customers first, offering them a hassle-free way to
+       connect with your business from anywhere, without worrying about call charges. A single, 
+       recognizable number creates trust and ensures seamless access across multiple countries,
+        making your business easy to reach. With 24/7 availability and intelligent call routing
+         based on time zones or languages, every interaction feels timely and personalized.
+          Centralized call management ensures fast responses, reducing wait times and enhancing
+           satisfaction. UIFN numbers elevate the customer experience by making communication
+            simple, accessible, and reliable—strengthening loyalty with every seamless interaction.
                   </p>
-
-      <div
-        className="unified-cards-wrapper"
-        style={{ justifyContent: "space-between" }}
-      >
-        {/* Card 1 */}
-        <div className="unified-card">
-          <MessageIcon style={{ width: "90px", height: "90px" }} />
-          <p style={{ fontSize: "24px" }}>Lorem Ipsum</p>
-        </div>
-
-        {/* Card 2 */}
-        <div className="unified-card">
-          <CallToActionIcon style={{ width: "90px", height: "90px" }} />
-          <p style={{ fontSize: "24px" }}>Lorem Ipsum</p>
-        </div>
-
-        {/* Card 3 */}
-        <div className="unified-card">
-          <ImportantDevicesIcon style={{ width: "90px", height: "90px" }} />
-          <p style={{ fontSize: "24px" }}>Lorem Ipsum</p>
-        </div>
-      </div>
+                  </div>
+      <div className="image-container-uifn"></div>
     </div>
   );
 };
