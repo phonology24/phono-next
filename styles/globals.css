@@ -17,6 +17,7 @@ body {
 
   .video-container video{
     min-width: 500px;
+    max-width: 500px;
     height: auto;
     border-radius: 17px;
   }
