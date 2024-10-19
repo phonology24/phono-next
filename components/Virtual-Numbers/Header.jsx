@@ -41,17 +41,12 @@ const HeaderVirtualNumbers = () => {
 
 </p>
         </div>
-        <Image
-  src={HeaderImg}
-  alt="Network"
-  style={{
-    width: '100%',
-    height: 'auto',
-    borderRadius: '8px',
-    margin: '20px 0',
-    objectFit: 'cover',
-  }}
-/>
+        <div className="video-container">
+        <video autoPlay loop muted playsInline className="uc-vid">
+              <source src="/Assets/virtualvid.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            </div>
 
       </div>
       <div className="button-groupvn">

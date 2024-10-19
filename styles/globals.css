@@ -14,3 +14,9 @@ body {
     margin: 0rem auto;  
     overflow-x: hidden !important;
   }
+
+  .video-container video{
+    min-width: 500px;
+    height: auto;
+    border-radius: 17px;
+  }

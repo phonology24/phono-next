@@ -10,25 +10,20 @@ const HeaderVirtualNumbers = () => {
   return (
     <div className="heading">
       <div className="hero">
-        <div>
+        <div className="sip-text-content">
           <h1 className="heading-text-h2">Your Trusted SIP Trunk Provider for Seamless Connectivity.</h1>
           <p className="heading-text-p">
           As your trusted SIP trunk provider, we ensure seamless connectivity for your business. Our advanced SIP trunking services offer reliable,
            high-quality communication solutions, enhancing your global reach and operational efficiency, making us the leading SIP trunk provider in the industry.
           </p>
         </div>
-        <Image
-          src={HeaderImg}
-          alt="Network"
-          className="header-img-virtual-numbers"
-          style={{
-            width: '100%',
-            height: 'auto',
-            borderRadius: '8px',
-            margin: '20px 0',
-            objectFit: 'cover',
-          }}
-        ></Image>
+
+      <div className="video-container">
+        <video autoPlay loop muted playsInline className="uc-vid">
+              <source src="/Assets/siptrunkvid.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            </div>
       </div>
       <div className="button-group">
         <FreeTrialForm className="button" />
