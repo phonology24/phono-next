@@ -58,7 +58,7 @@ const BahrainAccordionComponent = () => {
         // isBordered color="transparent"
         title={
           <div className="accordionItemTitle">
-What is {countryName}s virtual phone number?
+Why Get a Bahrain Virtual Number?
           </div>
         }
         className="accordionItem" indicator={<DialpadIcon />}
@@ -78,7 +78,7 @@ How does an Bahrain virtual phone number work?
         className="accordionItem"  indicator={<CurrencyRupeeIcon/>}
       >
         <div className="accordionContent">
-          <p>An {countryName} Virtual Number routes calls to your phone wherever you are, providing effortless communication with Austrian customers from any country.</p>
+          <p>An {countryName} Virtual Number routes calls to your phone wherever you are, providing effortless communication with Bahrain customers from any country.</p>
         </div>
       </AccordionItem>
       <AccordionItem

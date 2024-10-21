@@ -22,10 +22,9 @@ const PolandHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Poland with a virtual phone number from Phonology.
+Establish a strong local presence, enhance your communication with Polish customers, and build trust—all without needing a physical office. Secure your Poland virtual number today and unlock new opportunities in the heart of Europe!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

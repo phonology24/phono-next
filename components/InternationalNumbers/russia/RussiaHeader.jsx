@@ -22,10 +22,9 @@ const RussiaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Russia using a virtual phone number from Phonology.
+Create a local presence, strengthen your communication with Russian customers, and increase your brand’s credibility—all without needing a physical office. Get your Russia virtual number today and you will be able to access new business opportunities in the Russian market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

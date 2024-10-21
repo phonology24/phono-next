@@ -23,9 +23,9 @@ const BelgiumHeader = () => {
         <div className={styles.ContentCard}>
           <p>
           Expand your business reach with a Belgium virtual phone number from Phonology.
-Create a local presence, increase customer trust, and maintain cost-effective communication—without 
-the need for a physical location. Secure your Belgium number today and tap into new international markets!
-
+          Create a local presence, increase customer trust, and maintain cost-effective 
+          communication—without the need for a physical location. Secure your Belgium 
+          number today and tap into new international markets!
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

@@ -22,10 +22,9 @@ const PhilippinessHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Grow your business in the Philippines using a virtual phone number from Phonology.
+Establish a local presence, improve communication with your Filipino customers, and strengthen your brand’s credibility—all without the need for a physical office. Secure your Philippines virtual number today and start exploring new opportunities in this fast-growing Southeast Asian market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

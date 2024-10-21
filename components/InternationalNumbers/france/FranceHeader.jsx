@@ -22,15 +22,16 @@ const FranceHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+            Expand your business into France with a virtual phone number from Phonology.
+            Create a local presence, build trust with your French customers, and streamline your
+            communications—all without the need for a physical office. Get your France virtual
+            number today and unlock new international market opportunities!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>
         <div className={styles.ImageCard}>
-          <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage}/>
+          <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage} />
         </div>
       </div>
       <USAAccordionComponent />

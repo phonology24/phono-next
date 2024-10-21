@@ -13,7 +13,7 @@ const BangladeshHeader = () => {
     <div className={styles.InternationalHeaderContainer}>
       <div className={styles.Heading}>
         <h1 className={styles.HeadingText}>
-         <span className={styles.gradientLetter}>{countryName}&nbsp;</span>
+          <span className={styles.gradientLetter}>{countryName}&nbsp;</span>
           Virtual Phone Number
         </h1>
         {/* <h2>Engage With {countryName} Customers and Prospects, Efficiently.</h2> */}
@@ -22,16 +22,15 @@ const BangladeshHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business into Bangladesh with a virtual phone number from Phonology.
-Establish a local presence, improve your communication with Bangladeshi customers, 
-and build trust—all without needing a physical office. Secure your Bangladesh 
-virtual number today and explore exciting opportunities in this fast-growing market!
-
+            Expand your business into Bangladesh with a virtual phone number from Phonology.
+            Establish a local presence, improve your communication with Bangladeshi customers,
+            and build trust—all without needing a physical office. Secure your Bangladesh virtual
+            number today and explore exciting opportunities in this fast-growing market!
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>
         <div className={styles.ImageCard}>
-          <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage}/>
+          <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage} />
         </div>
       </div>
       <AustriaAccordionComponent />

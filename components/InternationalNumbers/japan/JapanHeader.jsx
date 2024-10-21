@@ -22,10 +22,9 @@ const JapanHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Japan using Phonology's virtual phone number solution.
+Build a local presence, enhance communication with your Japanese customers, and strengthen your brand credibility—all without a physical office. Get your Japan virtual number today and start tapping into new opportunities in this thriving market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

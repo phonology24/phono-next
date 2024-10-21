@@ -22,15 +22,15 @@ const LatviaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+            Grow your business in Latvia using a virtual phone number from Phonology.
+            Establish a local presence, build credibility with Latvian customers, and simplify
+            your business communication—all without the need for a physical office.
+            Secure your Latvia virtual number today and explore new growth opportunities across the Baltic region!
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>
         <div className={styles.ImageCard}>
-          <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage}/>
+          <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage} />
         </div>
       </div>
       <USAAccordionComponent />

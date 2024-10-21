@@ -22,10 +22,9 @@ const PakistanHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Pakistan using a virtual phone number from Phonology.
+Build a local presence, enhance communication with your Pakistani customers, and establish credibility—all without needing a physical office. Get your Pakistan virtual number today and take advantage of new growth opportunities in this vibrant market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

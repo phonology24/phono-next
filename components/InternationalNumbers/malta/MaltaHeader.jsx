@@ -22,10 +22,9 @@ const MaltaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Malta with a virtual phone number from Phonology.
+Create a local presence, enhance your communication with Maltese customers, and build trust—all without needing a physical office. Secure your Malta virtual number today and take advantage of new business opportunities across the Mediterranean!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

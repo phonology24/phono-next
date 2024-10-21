@@ -22,10 +22,9 @@ const IcelandHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business to Iceland with a virtual phone number from Phonology.
+Establish a local presence, strengthen customer trust, and improve communication with Icelandic clients—all without a physical office. Get your Iceland virtual number today and explore new opportunities in the Nordic region!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

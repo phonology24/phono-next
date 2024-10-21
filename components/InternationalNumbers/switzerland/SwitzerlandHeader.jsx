@@ -22,10 +22,9 @@ const SwitzerlandHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Grow your business presence in Switzerland with a virtual phone number from Phonology.
+Establish a local footprint, enhance customer trust, and streamline your communications—all without the need for a physical office. Secure your Switzerland virtual number today and take advantage of new opportunities in this thriving market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

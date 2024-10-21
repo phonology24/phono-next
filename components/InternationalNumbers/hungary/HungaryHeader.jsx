@@ -22,10 +22,9 @@ const HungaryHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business reach in Hungary with a virtual phone number from Phonology.
+Establish a local presence, strengthen your credibility with Hungarian customers, and streamline your communication—without the need for a physical office. Secure your Hungary virtual number today and unlock opportunities in the Central European market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

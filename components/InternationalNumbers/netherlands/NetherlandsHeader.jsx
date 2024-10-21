@@ -22,10 +22,9 @@ const NetherlandsHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into the Netherlands with a virtual phone number from Phonology.
+Create a local presence, improve communication with Dutch customers, and build credibility—all without needing a physical office. Get your Netherlands virtual number today and open the door to new opportunities in this thriving European market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

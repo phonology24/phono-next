@@ -64,7 +64,7 @@ const FAQAccordionComponent = () => {
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p className="accordionP1">You can choose between local {countryName} numbers to establish a local presence or toll-free numbers to allow your customers to contact you free of charge.</p>
+          <p className="accordionP1">You can choose between local Bahrain numbers to create a local presence or toll-free numbers that provide customers with a free way to contact your business.</p>
         </div>
       </AccordionItem>
       <AccordionItem
@@ -72,13 +72,13 @@ const FAQAccordionComponent = () => {
         aria-label="Pricing"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>What features come with a {countryName} virtual number?
+<KeyboardArrowDownIcon/>Can I use a Bahrain virtual number if my business is based outside of Bahrain?
 </div>
         }
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p>Your {countryName} virtual number includes features such as call forwarding, voicemail, IVR (Interactive Voice Response), call recording, and more, ensuring smooth and professional communication with your customers.</p>
+          <p>Yes! Phonology’s Bahrain virtual numbers can be used from anywhere in the world, allowing you to establish a local presence in Bahrain without needing a physical office.</p>
         </div>
       </AccordionItem>
       <AccordionItem
@@ -86,13 +86,13 @@ const FAQAccordionComponent = () => {
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>How fast can I set up a {countryName} virtual number?
+<KeyboardArrowDownIcon/>What features come with a Bahrain virtual number?
 </div>
         }
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p>The setup process is quick and easy. Once you’ve selected your number, completed registration, and chosen your plan, your {countryName} phone number will be activated within minutes.</p>
+          <p>Your Bahrain virtual number includes key features such as call forwarding, voicemail, IVR (Interactive Voice Response), call recording, and more, ensuring professional and seamless communication with your customers.</p>
         </div>
       </AccordionItem>
       <AccordionItem
@@ -100,13 +100,13 @@ const FAQAccordionComponent = () => {
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>  Can my virtual phone system grow as my business expands?
+<KeyboardArrowDownIcon/> How fast can I set up my Bahrain virtual number?
 </div>
         }
         className="accordionItem1"  
       >
         <div className="accordionContent1">
-          <p>Absolutely! Phonology’s virtual phone system is built to grow alongside your business. You can easily add more {countryName} numbers or lines as your business grows, without needing additional infrastructure.</p>
+          <p>The setup process is quick and simple. Once you’ve chosen your number, completed the registration, and selected your plan, your Bahrain phone number can be activated within minutes.</p>
         </div>
       </AccordionItem>
       <AccordionItem
@@ -114,13 +114,13 @@ const FAQAccordionComponent = () => {
         aria-label="Features That Stand Out!"
         title={
           <div className="accordionItemTitle1">
-<KeyboardArrowDownIcon/>Can I use a {countryName} virtual number if my business operates outside of {countryName}?
+<KeyboardArrowDownIcon/>Can my virtual phone system scale as my business grows?
 </div>
         }
         className="accordionItem1" 
       >
         <div className="accordionContent1">
-          <p>Yes! Phonology’s {countryName} virtual numbers can be used globally, allowing you to set up a local presence in {countryName} without needing a physical office</p>
+          <p>Absolutely! Phonology’s virtual phone system is built to scale with your business. You can easily add additional Bahrain numbers or lines as your business expands without needing any complex infrastructure.</p>
         </div>
       </AccordionItem>
     </Accordion>

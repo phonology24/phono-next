@@ -22,10 +22,9 @@ const SwedenHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Sweden using a virtual phone number from Phonology.
+Establish a local presence, build trust with Swedish customers, and streamline communication—all without needing a physical office. Get your Sweden virtual number today and access exciting opportunities in the Scandinavian market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

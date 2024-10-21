@@ -54,7 +54,7 @@ const BangladeshAccordionComponent = () => {
     >
 <AccordionItem
         key="1" 
-        aria-label="What Is a Austria Virtual Number?"
+        aria-label="What Is a Bnegladesh Virtual Number?"
         // isBordered color="transparent"
         title={
           <div className="accordionItemTitle">
@@ -78,7 +78,7 @@ How does an Bangladesh virtual phone number work?
         className="accordionItem"  indicator={<CurrencyRupeeIcon/>}
       >
         <div className="accordionContent">
-          <p>An {countryName} Virtual Number routes calls to your phone wherever you are, providing effortless communication with Austrian customers from any country.</p>
+          <p>An {countryName} Virtual Number routes calls to your phone wherever you are, providing effortless communication with Bangladeshi customers from any country.</p>
         </div>
       </AccordionItem>
       <AccordionItem

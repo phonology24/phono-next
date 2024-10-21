@@ -7,66 +7,70 @@ import ImageForInternationalNumber4 from "../../../public/Assets/howtobuy4.png";
 import Image from 'next/image';
 
 const HowToBuy = () => {
-    let countryName = "Malta"
-  return (
-    <div className="how-to-buy-container">
-      <div className="heading-section">
-        <h2>How to Buy {countryName} Phone Numbers Online in 4 Simple Steps:</h2>
-        <p>Phonology makes it easy and affordable to buy phone numbers you need online.
-        Set up your VoIP number service in four easy steps!</p>
-      </div>
-      
-      <div className="steps-container">
-        <div className="step">
-          <div className="step-image">
-            <Image src={ImageForInternationalNumber1} alt="Step 1" />
-          </div>
-          <div className="step-content">
-            <div className="step-number">1</div>
-            <h2>Step 1: Select Your Number Type</h2>
-            <p>
-            Explore the available options and choose the {countryName} phone number that best suits your needs—local, toll-free, or mobile.              </p>
-          </div>
-        </div>
-        
-        <div className="step reverse">
-          <div className="step-image">
-            <Image src={ImageForInternationalNumber2} alt="Step 2" />
-          </div>
-          <div className="step-content">
-            <div className="step-number">2</div>
-            <h2>Step 2: Choose a Plan of your Choice</h2>
-            <p>
-            Take up a pricing plan that aligns with your budget and call volume requirements.              </p>
-          </div>
-        </div>
+    let countryName = "Malta";
+    
+    return (
+        <div className="how-to-buy-container">
+            <div className="heading-section">
+                <h2>How to Get a {countryName} Phone Number in 4 Easy Steps:</h2>
+                <p>Phonology makes it easy and affordable to buy phone numbers you need online. Set up your VoIP number service in four simple steps!</p>
+            </div>
+            
+            <div className="steps-container">
+                <div className="step">
+                    <div className="step-image">
+                        <Image src={ImageForInternationalNumber1} alt="Step 1" />
+                    </div>
+                    <div className="step-content">
+                        <div className="step-number">1</div>
+                        <h2>Step 1: Choose Your Number Type</h2>
+                        <p>
+                            Choose a local {countryName} phone number to establish a local presence, or opt for a toll-free number to let customers reach you at no cost. Phonology provides flexible options to suit your business needs.
+                        </p>
+                    </div>
+                </div>
+                
+                <div className="step reverse">
+                    <div className="step-image">
+                        <Image src={ImageForInternationalNumber2} alt="Step 2" />
+                    </div>
+                    <div className="step-content">
+                        <div className="step-number">2</div>
+                        <h2>Step 2: Pick a Pricing Plan That Fits Your Business</h2>
+                        <p>
+                            Explore our flexible pricing plans designed to meet the needs of businesses, whether you're a small startup or a large company. Phonology offers solutions that match your communication goals.
+                        </p>
+                    </div>
+                </div>
 
-        <div className="step">
-          <div className="step-image">
-            <Image src={ImageForInternationalNumber3} alt="Step 3" />
-          </div>
-          <div className="step-content">
-            <div className="step-number">3</div>
-            <h2>Step 3: Sign Up & Complete Registration</h2>
-            <p>
-            Create an account and provide the necessary business or personal details to complete the registration process.              </p>
-          </div>
-        </div>
+                <div className="step">
+                    <div className="step-image">
+                        <Image src={ImageForInternationalNumber3} alt="Step 3" />
+                    </div>
+                    <div className="step-content">
+                        <div className="step-number">3</div>
+                        <h2>Step 3: Register & Complete the Simple Sign-Up Process</h2>
+                        <p>
+                            Register your business details and complete the fast and easy sign-up process. You’ll be ready to activate your {countryName} virtual number in just a few minutes.
+                        </p>
+                    </div>
+                </div>
 
-        <div className="step reverse">
-          <div className="step-image">
-            <Image src={ImageForInternationalNumber4} alt="Step 4" />
-          </div>
-          <div className="step-content">
-            <div className="step-number">4</div>
-            <h2>Step 4: Activate & Configure: </h2>
-            <p>
-            After purchase, your {countryName} phone number will be activated instantly. Customize settings like call forwarding, voicemail, and more to start using your number.            </p>
-          </div>
+                <div className="step reverse">
+                    <div className="step-image">
+                        <Image src={ImageForInternationalNumber4} alt="Step 4" />
+                    </div>
+                    <div className="step-content">
+                        <div className="step-number">4</div>
+                        <h2>Step 4: Activate & Personalize Your Number</h2>
+                        <p>
+                            Once registered, activate your {countryName} phone number and configure essential features like call forwarding, voicemail, and IVR. Phonology’s intuitive platform allows you to easily customize your virtual phone system to fit your exact needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default HowToBuy;

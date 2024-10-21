@@ -22,10 +22,10 @@ const GeorgiaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Georgia with a virtual phone number from Phonology.
+Establish a local presence, build trust with Georgian customers, and streamline your 
+communication processes—all without needing a physical office. Get your Georgia virtual number today and begin expanding into new global markets!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

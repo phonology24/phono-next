@@ -64,7 +64,7 @@ What is {countryName}s virtual phone number?
         className="accordionItem" indicator={<DialpadIcon />}
       >
         <div className="accordionContent">
-          <p className="accordionP">An {countryName} Virtual Phone Number allows you to create a local presence in Austria, ensuring smooth communication without the need for an actual office.</p>
+          <p className="accordionP">An {countryName} Virtual Phone Number allows you to create a local presence in Belgium, ensuring smooth communication without the need for an actual office.</p>
         </div>
       </AccordionItem>
       <AccordionItem
@@ -78,7 +78,7 @@ How does an Belgium virtual phone number work?
         className="accordionItem"  indicator={<CurrencyRupeeIcon/>}
       >
         <div className="accordionContent">
-          <p>An {countryName} Virtual Number routes calls to your phone wherever you are, providing effortless communication with Austrian customers from any country.</p>
+          <p>An {countryName} Virtual Number routes calls to your phone wherever you are, providing effortless communication with Belgian customers from any country.</p>
         </div>
       </AccordionItem>
       <AccordionItem

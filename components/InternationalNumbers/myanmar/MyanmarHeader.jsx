@@ -22,10 +22,9 @@ const MyanmarHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Myanmar with Phonology’s virtual phone number.
+Establish a local presence, streamline communication with Myanmar customers, and build your brand's credibility—all without the need for a physical office. Get your Myanmar virtual number today and explore new business opportunities in this rapidly growing market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

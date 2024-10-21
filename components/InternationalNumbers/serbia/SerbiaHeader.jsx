@@ -22,10 +22,9 @@ const SerbiaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Serbia with a virtual phone number from Phonology.
+Establish a local presence, enhance communication with Serbian customers, and boost your brand’s credibility—all without needing a physical office. Secure your Serbia virtual number today and unlock new opportunities in the Balkan market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

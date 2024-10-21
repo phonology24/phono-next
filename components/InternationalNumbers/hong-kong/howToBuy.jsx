@@ -7,13 +7,16 @@ import ImageForInternationalNumber4 from "../../../public/Assets/howtobuy4.png";
 import Image from 'next/image';
 
 const HowToBuy = () => {
-    let countryName = "Hong Kong"
+  const countryName = "Hong Kong";
+
   return (
     <div className="how-to-buy-container">
       <div className="heading-section">
-        <h2>How to Buy {countryName} Phone Numbers Online in 4 Simple Steps:</h2>
-        <p>Phonology makes it easy and affordable to buy phone numbers you need online.
-        Set up your VoIP number service in four easy steps!</p>
+        <h2>How to Set Up a {countryName} Phone Number in 4 Easy Steps</h2>
+        <p>
+          Phonology makes it easy and affordable to buy phone numbers you need online.
+          Set up your VoIP number service in four simple steps!
+        </p>
       </div>
       
       <div className="steps-container">
@@ -23,9 +26,11 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">1</div>
-            <h2>Step 1: Select Your Number Type</h2>
+            <h2>Select Your Number Type</h2>
             <p>
-            Explore the available options and choose the {countryName} phone number that best suits your needs—local, toll-free, or mobile.              </p>
+              Choose between a local {countryName} number to build a strong local presence or opt for a toll-free number to allow customers to reach you without incurring costs. 
+              Phonology offers a variety of options to suit your business needs.
+            </p>
           </div>
         </div>
         
@@ -35,9 +40,11 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">2</div>
-            <h2>Step 2: Choose a Plan of your Choice</h2>
+            <h2>Choose the Correct Plan for Your Business</h2>
             <p>
-            Take up a pricing plan that aligns with your budget and call volume requirements.              </p>
+              Explore our versatile pricing plans, crafted to accommodate the needs of businesses of all sizes. Whether you’re a startup or an established enterprise, 
+              Phonology has a plan that fits your communication requirements.
+            </p>
           </div>
         </div>
 
@@ -47,9 +54,10 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">3</div>
-            <h2>Step 3: Sign Up & Complete Registration</h2>
+            <h2>Complete the Simple Registration Process</h2>
             <p>
-            Create an account and provide the necessary business or personal details to complete the registration process.              </p>
+              Register your business details and complete our quick, easy sign-up process. Your {countryName} virtual number will be ready to use within just a few minutes.
+            </p>
           </div>
         </div>
 
@@ -59,9 +67,11 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">4</div>
-            <h2>Step 4: Activate & Configure: </h2>
+            <h2>Activate & Customize Your Phone System</h2>
             <p>
-            After purchase, your {countryName} phone number will be activated instantly. Customize settings like call forwarding, voicemail, and more to start using your number.            </p>
+              Once registered, activate your {countryName} number and configure features like call forwarding, voicemail, and IVR. 
+              Phonology’s user-friendly platform allows you to easily tailor your virtual phone system to your business needs.
+            </p>
           </div>
         </div>
       </div>

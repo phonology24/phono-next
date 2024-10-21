@@ -22,10 +22,9 @@ const NorwayHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business presence in Norway using a virtual phone number from Phonology.
+Create a strong local connection, enhance communication with Norwegian customers, and boost your credibility—all without needing a physical office. Secure your Norway virtual number today and tap into new opportunities in the Scandinavian market!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>

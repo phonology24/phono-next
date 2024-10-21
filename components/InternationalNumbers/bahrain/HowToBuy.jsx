@@ -23,11 +23,9 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">1</div>
-            <h2>Step 1: Select Your Number Type</h2>
+            <h2>Step 1. Choose Your Number Type</h2>
             <p>
-              Select between a local Bahrain phone number to build a local presence
-              or opt for a toll-free number to allow customers to contact you without
-              any charges. Phonology offers customizable options to suit your business requirements.
+            Select between a local Bahrain phone number to build a local presence or opt for a toll-free number to allow customers to contact you without any charges. Phonology offers customizable options to suit your business requirements.
             </p>
           </div>
         </div>
@@ -38,10 +36,11 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">2</div>
-            <h2>Step 2: Choose a Plan of your Choice</h2>
+            <h2>Step 2. Pick the Ideal Plan for Your Business</h2>
             <p>
-              Explore our flexible pricing plans designed for businesses of all sizes.
-              Whether you’re a startup or an established company, Phonology has a solution that meets your communication needs.
+            Explore our flexible pricing plans designed for businesses of all sizes. 
+            Whether you’re a startup or an established company, Phonology has 
+            a solution that meets your communication needs.
             </p>
           </div>
         </div>
@@ -52,7 +51,7 @@ const HowToBuy = () => {
           </div>
           <div className="step-content">
             <div className="step-number">3</div>
-            <h2>Step 3: Sign Up & Complete Registration</h2>
+            <h2>Step 3. Complete the Simple Registration Process</h2>
             <p>
               Register your business details and complete the quick and hassle-free sign-up process.
               Your Bahrain virtual number will be ready for activation in just a few minutes.

@@ -22,15 +22,17 @@ const CambodiaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business into Cambodia with a virtual phone number from Phonology.
-Create a local presence, build strong connections with Cambodian customers, and streamline 
-your communications—all without needing a physical office. Secure your Cambodia virtual number today and start exploring new growth opportunities in Southeast Asia!
+            Expand your business into Cambodia with a virtual phone number from Phonology.
+            Create a local presence, build strong connections with Cambodian customers, and streamline
+            your communications—all without needing a physical office. Secure your Cambodia virtual
+            number today and start exploring new growth opportunities in Southeast Asia!
+
 
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>
         <div className={styles.ImageCard}>
-          <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage}/>
+          <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage} />
         </div>
       </div>
       <USAAccordionComponent />

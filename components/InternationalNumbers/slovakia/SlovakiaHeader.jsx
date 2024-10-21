@@ -22,10 +22,9 @@ const SlovakiaHeader = () => {
         <div className="visualElement"></div>
         <div className={styles.ContentCard}>
           <p>
-          Expand your business globally with an {countryName} virtual phone number from Phonology. 
-          Establish a local presence, boost customer engagement, and enjoy cost-efficient
-           communication—all without the need for a physical office. Get your {countryName} number
-            today and grow internationally!
+          Expand your business into Slovakia using a virtual phone number from Phonology.
+Establish a local presence, improve communication with Slovak customers, and enhance your brand’s credibility—all without needing a physical office. Secure your Slovakia virtual number today and explore new opportunities in the heart of Central Europe!
+
           </p>
           <button className={styles.InternationalButton}>Start Demo</button>
         </div>
