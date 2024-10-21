@@ -11,7 +11,7 @@ import BannerCards from "../BannerCards";
 
 const HeaderVirtualNumbers = () => {
   return (
-    <div className="heading">
+    <div className="vn-header">
       <Helmet>
         <title>
           Virtual Phone Number Providers
@@ -27,8 +27,7 @@ const HeaderVirtualNumbers = () => {
         virtual number free,virtual phone number sms,virtual phone number,onoff number virtual,virtual dubai number,virtualphonenumber,virtual mobile number"/>
       </Helmet>
       <div className="hero-vn">
-      {/* <h1 style={{display:"none"}}>Virtual Phone Number Providers</h1> */}
-      {/* <ReactTitle title="Virtual Phone Number Providers"/> */}
+
 
         <div>
           <h1 className="heading-text-vn">
