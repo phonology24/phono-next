@@ -66,8 +66,21 @@
     font-size: 18px;
     /* border: 1px solid red; */
 }
-
 .footer-section-two {
     text-align: center;
     margin-top: 20px;
+}
+
+@media(max-width:768px){
+.footer-section-one{
+    justify-content: flex-start;
+    min-width: 100%;    
+    /* border: 1px solid red; */
+}
+
+.footer-section-columns{
+    font-size: 14px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 }
