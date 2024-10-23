@@ -25,7 +25,7 @@ const FranceSubHeader = () => {
         
         <div className={styles.textCard}>
           <p className={styles.cardParagraph}>
-            Connect with {countryName} Customers Instantly: By using a local {countryName} number, you’ll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
+            Connect with {countryName} Customers Instantly: By using a local {countryName} number, you willll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
           </p>
           <ul className={styles.bulletPoints}>
             <li><b>Increase Customer Inquiries:</b> With a local or toll-free {countryName} number, you make it easier for your customers to get in touch—leading to more inquiries and potential sales.</li>

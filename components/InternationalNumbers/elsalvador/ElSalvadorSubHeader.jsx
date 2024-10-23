@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import ImageForCard from '../../../public/Assets/HostedCallCenter.png';
-import styles from '../../../styles/Internationalsubheader.module.css';
+import styles from '../../../styles/Internationalsubheader.css';
 
 const ElSalvadorSubHeader = () => {
   let countryName = "El Salvador";
