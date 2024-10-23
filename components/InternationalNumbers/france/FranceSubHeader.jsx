@@ -10,22 +10,12 @@ const FranceSubHeader = () => {
       <h2 className={styles.subHeaderHeading}>Why do you need a {countryName} Virtual Number?</h2>
       
       <div className={styles.cardsContainer}>
- 
         
-        <div className={styles.contactCard}>
-          <Image src={ImageForCard} alt={`Contact Card for ${countryName}`} layout="responsive" />
-          {contactNumbers.map((number, index) => (
-            <div key={index} className={styles.contactRow}>
-              <Image src={countryFlag} alt={`${countryName} flag`} width={32} height={32} className={styles.flagIcon} />
-              <span className={styles.contactNumber}>{number}</span>
-              <button className={styles.buyNowButton} disabled>Buy Now</button>
-            </div>
-          ))}
-        </div>
+       
         
         <div className={styles.textCard}>
           <p className={styles.cardParagraph}>
-            Connect with {countryName} Customers Instantly: By using a local {countryName} number, you willll build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
+            Connect with {countryName} Customers Instantly: By using a local {countryName} number, you will build immediate trust and credibility with your customers, making them feel more comfortable reaching out to you.
           </p>
           <ul className={styles.bulletPoints}>
             <li><b>Increase Customer Inquiries:</b> With a local or toll-free {countryName} number, you make it easier for your customers to get in touch—leading to more inquiries and potential sales.</li>
