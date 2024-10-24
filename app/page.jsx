@@ -5,6 +5,7 @@ import Home from '@/components/Home.jsx';
 import styles from '../styles/App.module.css';
 import Head from 'next/head';
 import Script from 'next/script';
+import { GoogleTagManager } from '@next/third-parties/google';
 // import favicon from '../app/favicon.ico'
 // Metadata for the page
 export const metadata = {
@@ -93,10 +94,12 @@ const Page = () => {
         <link rel="apple-touch-icon" href="/favicon.ico"/>
 
         <meta name="robots" content={metadata.robots} />
-
       </Head>
         <Script src="https://cdn-in.pagesense.io/js/phonology/e13bd7015ee44d6da3db0e837cce6739.js"/>
 
+        <GoogleTagManager gtmId="GTM-T4FS3L3Q" />
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4FS3L3Q"
+          height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
       {/* JSON-LD for WebSite */}
       <Script
         id="website-schema"

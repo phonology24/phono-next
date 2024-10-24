@@ -23,15 +23,13 @@ export default function Layout({ children }) {
   return (
     <html lang="en">
       <Head>
-        
+
 
 
         <link rel="icon" href="/favicon.ico" />
 
 
-        <GoogleTagManager gtmId="GTM-T4FS3L3Q" />
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4FS3L3Q"
-height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
+
       </Head>
       <body>
 
