@@ -20,7 +20,7 @@ export const metadata = {
 
 const BelizePhoneNumbersPage = () => {
   return (
-    <div>
+    <div style={{maxWidth:"85vw", margin:"0 auto"}}>
       <BelizeHeader />
       <BelizeSubHeader />
       <BenefitsOfBelizeNumber />

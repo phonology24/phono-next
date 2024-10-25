@@ -39,7 +39,7 @@ const AddNews = () => {
   };
 
   return (
-    <div className="add-news-container">
+    <div className="add-news-container" style={{maxWidth:"85vw", margin:"0 auto"}}>
       <h2>Add News</h2>
       {message && <p>{message}</p>}
       <form onSubmit={handleSubmit}>

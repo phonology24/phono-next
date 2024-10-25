@@ -20,7 +20,7 @@ export const metadata = {
   
 const page = () => {
     return (
-        <div>
+        <div style={{maxWidth:"85vw", margin:"0 auto"}}>
             <USATollFreeHeader />
             <USATollFreeSubHeader />
             <BenefitsOfUSATollFreeNumber />

@@ -5,7 +5,7 @@ const BlogPostEditor = dynamic(() => import('../../../components/Blog/Admin-Blog
 
 const Page = () => {
   return (
-    <div>
+    <div style={{maxWidth:"85vw", margin:"0 auto"}}>
       <BlogPostEditor />
     </div>
   );

@@ -85,7 +85,7 @@ const breadcrumbSchema = {
 
 const Page = () => {
   return (
-    <div>
+    <div >
       <Head>
         {/* Using metadata */}
         <title>{metadata.title}</title>

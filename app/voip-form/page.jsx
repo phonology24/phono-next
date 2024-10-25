@@ -95,7 +95,7 @@ const Page = () => {
         }}
       />
 
-      <div>
+      <div style={{maxWidth:"85vw", margin:"0 auto"}}>
         <Campaign1 />
       </div>
     </>

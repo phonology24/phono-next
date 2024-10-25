@@ -12,10 +12,8 @@ import { GoogleTagManager } from '@next/third-parties/google'
 export default function Layout({ children }) {
   const pathname = usePathname();
 
-  // Routes where the navbar should not be displayed
   const noNavbarRoutes = ['/voip-form', '/admin-post-editor'];
 
-  // Check if the current path starts with '/phonology-blogs/', '/edit-post/', or is in noNavbarRoutes
   const shouldHideNavbar = noNavbarRoutes.includes(pathname) ||
     pathname.startsWith('/phonology-blogs/') ||
     pathname.startsWith('/edit-post/');
@@ -25,11 +23,7 @@ export default function Layout({ children }) {
       <Head>
 
 
-
         <link rel="icon" href="/favicon.ico" />
-
-
-
       </Head>
       <body>
 

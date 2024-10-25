@@ -9,9 +9,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    max-width: 85vw;
+    /* max-width: 85vw; */
     /* align-self: center; */
-    margin: 0rem auto;  
+    /* margin: 0rem auto;   */
     overflow-x: hidden !important;
   }
 

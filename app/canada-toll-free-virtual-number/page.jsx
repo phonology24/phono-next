@@ -21,7 +21,7 @@ export const metadata = {
 
 const CanadaTollFreePage = () => {
   return (
-    <div>
+    <div style={{maxWidth:"85vw", margin:"0 auto"}}>
       <CanadaTollFreeHeader/>
       <CanadaTollFreeSubHeader />
       <BenefitsOfCanadaTollFreeNumber />
