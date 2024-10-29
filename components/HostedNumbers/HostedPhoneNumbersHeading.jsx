@@ -30,7 +30,7 @@ const HostedPhoneNumbers = () => {
           <div className="hosted-phone-numbers-photo">
             <div className="hosted-phone-numbers-photo-inner">
               {/* <MyGlobe /> */}
-              <Image src={HostedPBXIMG} height={500} width={500}/>
+              <Image src={HostedPBXIMG} height={500} width={500} alt="hosted-pbx-image"/>
             </div>
           </div>
         </div>
