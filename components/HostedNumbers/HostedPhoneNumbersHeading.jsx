@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../styles/hostedphonenumbers.css';
 import MyGlobe from '../MyGlobe';
-
+import HostedPBXIMG from '../../public/Assets/hostedpbxhero.png'
+import Image from 'next/image';
 
 const HostedPhoneNumbers = () => {
   return (
@@ -28,7 +29,8 @@ const HostedPhoneNumbers = () => {
           </div>
           <div className="hosted-phone-numbers-photo">
             <div className="hosted-phone-numbers-photo-inner">
-              <MyGlobe />
+              {/* <MyGlobe /> */}
+              <Image src={HostedPBXIMG} height={500} width={500}/>
             </div>
           </div>
         </div>
