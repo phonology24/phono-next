@@ -4,7 +4,7 @@ import React from 'react'
 
 const page = () => {
   return (
-<div >
+<div style={{maxWidth:"85vw", margin:"0 auto"}}>
    <UifnPage/>
     </div>
   )

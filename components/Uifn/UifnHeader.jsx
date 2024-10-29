@@ -1,7 +1,7 @@
 
 import React from 'react';
 import '../../styles/uifn.css';
-import YealinkPhone from '../../public/Assets/virtual-numbers1.png';
+import YealinkPhone from '../../public/Assets/uifn.png';
 import Image from 'next/image';
 
 const UifnHeader = () => {

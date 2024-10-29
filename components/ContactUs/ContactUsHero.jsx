@@ -16,16 +16,9 @@ const ContactUsHero = () => {
               Contact our sales representatives at info@phonology.io</p>
               <div className="contact-us-button-div">
             <button className='contact-us-button '>Start a conversation</button>
-            <button className='contact-us-button dark'>Talk to support</button>
+            <button className='contact-us-button dark'>Get support</button>
             </div>
           </div>
-          {/* <div className='contactus-card'>
-            <h3 className='contactus-card-heading'>Contact Support</h3>
-            <p className='contactus-card-text'>Any technical questions ?<br />
-            We are here to lend a hand.
-            </p>
-            <button className='contact-us-button dark'>Get support</button>
-            </div> */}
         </div>
             <div className='contact-us-hero-img'>
               <Image src={CallCenterImage} width={1000} height={500} />

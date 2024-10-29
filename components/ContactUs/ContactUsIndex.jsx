@@ -1,6 +1,5 @@
 import React from 'react'
 import ContactUsHero from './ContactUsHero'
-import '../../styles/contactus/contactusIndex.css'
 import Footer from '../Footer'
 
 const ContactUsIndex = () => {
