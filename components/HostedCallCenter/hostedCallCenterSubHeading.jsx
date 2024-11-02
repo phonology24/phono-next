@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/hostedcallcenter.css";
-import HostedCallCenterImage from "../../public/Assets/HostedCallCenter.png";
+import HostedCallCenterImage from "../../public/Assets/ccc1.png";
 import Image from "next/image";
 
 const HostedCallCenterSubHeading = () => {
@@ -21,7 +21,7 @@ const HostedCallCenterSubHeading = () => {
         <Image
           src={HostedCallCenterImage}
           alt="Descript"
-          style={{ width: "100%", height: "auto" }}
+          style={{ width: "100%", height: "auto" , borderRadius:"17px"}}
         />
       </div>
     </div>

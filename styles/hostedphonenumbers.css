@@ -205,16 +205,21 @@
 .hosted-numbers-two-cards .card-hosted {
   text-align: left;
   flex: 1;
-  margin: 10px;
+  /* margin: 10px; */
   border: none;
+  padding: 0px 20px; 
   }
 
   .card-hosted img {
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    /* margin-top: 40px; */
     max-width: 100%;
     z-index: auto;
   height: auto;
-  scale: 1.1;
+  scale: 1;
   border-radius: 10px;
   /* z-index: -999; */
   overflow-y: hidden;

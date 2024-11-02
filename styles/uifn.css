@@ -195,6 +195,9 @@
 
   .how-it-works-container-uifn {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
   }
 
   .how-it-works-paragraph-uifn {
@@ -232,7 +235,6 @@
 
 .image-container-uifn{
 min-width: 50%;
-border: 1px solid red;
 }
 
 .unified-card {

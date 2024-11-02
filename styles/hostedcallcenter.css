@@ -113,6 +113,7 @@
 
 .hostedCallCenterText {
   flex: 1;
+  padding: 20px;
 }
 
 
@@ -127,7 +128,7 @@
     opacity: 0;
     transform: translateX(250px);
   }
-
+  
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -137,7 +138,8 @@
 .hostedCallCenterP {
   animation: hcc-subh2 1s ease-in 0s 1 normal none;
   font-size: 18px;
-
+  /* padding: 20px; */
+  
 }
 
 .hostedCallCenterImage {
@@ -145,6 +147,7 @@
   height: auto;
   margin: 0 auto;
   animation: hcc-img 1s ease-in 0s 1 normal none;
+  border-radius: 17px;
 }
 
 @media (max-width: 768px) {
