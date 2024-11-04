@@ -18,7 +18,7 @@ const HeaderVirtualNumbers = () => {
           </p>
         </div>
 
-      <div className="video-container">
+      <div className="video-container threepages">
         <video autoPlay loop muted playsInline className="uc-vid">
               <source src="/Assets/siptrunkvid.mp4" type="video/mp4" />
               Your browser does not support the video tag.

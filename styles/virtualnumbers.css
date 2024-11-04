@@ -10,7 +10,8 @@ min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    justify-content: center;
+    padding-top: 250px;
     text-align: left;
     height: 80vh;
 }
@@ -76,11 +77,12 @@ min-height: 100%;
         flex-direction: row;
         align-items: center;
         text-align: left;
-   
-    }
-    
-    .heading-text-vn{
+        padding-top: 0px;
+      }
+      
+      .heading-text-vn{
         font-size: 50px;
+        justify-content: center;
         text-align: left;
         position: relative;     
         text-shadow: 3px -2px 0px #5fc72f98;        
@@ -115,16 +117,16 @@ min-height: 100%;
         
         padding: 8px;
         border-radius: 10px;
-        position: relative;
+        /* position: relative; */
         background-color: rgba(251, 251, 251, 0.404);
         color: #000000;
         border: 1px solid rgba(0, 0, 0, 0.125);
-        align-self: center;
+        align-self: flex-start;
         font-weight: 500;
     }
     
     .button-groupvn {
-        margin-top: 30px;
+        margin-top: 0px !important;
         align-items: center;
         /* z-index: -999; */
 
@@ -190,7 +192,6 @@ min-height: 100%;
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
-    position: relative;
     transition: 0.5s;
     background-color: #8cff84;
     background-size: 200% auto;
@@ -200,22 +201,23 @@ min-height: 100%;
     font-weight: 500;    
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-
   }
   
+  
+  .button-groupvn button:hover {
+    border: 2px solid rgb(201, 201, 201);
+    background-position: right center; 
+    color: #000000;
+    text-decoration: none;    
+  }
   .button-groupvn {
     margin-top: 250px;
     align-items: center;
     display: flex;
     flex-direction: row;
+
+
   }
-  
-  .button-groupvn button:hover {
-  border: 2px solid rgb(201, 201, 201);
-    background-position: right center; 
-            color: #000000;
-            text-decoration: none;    
-}
 
 
 .banner-card-container {

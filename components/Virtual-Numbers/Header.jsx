@@ -40,21 +40,21 @@ const HeaderVirtualNumbers = () => {
 
 </p>
         </div>
-        <div className="video-container">
+        <div className="video-container threepages">
         <video autoPlay loop muted playsInline className="uc-vid">
               <source src="/Assets/virtualvid.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             </div>
 
+      </div>
       <div className="button-groupvn">
         <FreeTrialForm />
         <Link href="https://zfrmz.in/uVhtnQbhSsWHU9Z8Xy8T" target="_blank" rel="noopener noreferrer nofollow">
           <button>Get Pricing</button>
         </Link>{" "}
       </div>
-      </div>
-<BannerCards/>
+<BannerCards />
     </div>
   );
 };
