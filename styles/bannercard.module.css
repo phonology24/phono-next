@@ -26,12 +26,18 @@
     /* height: 150px !important; */
     color: 00ccff;
     text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
   }
   
   .bannerCard .headingbannercard{
     font-size: 45px;
     font-weight: bold;
-    /* margin-top: -10px; */
+    margin-bottom: auto;
+    /* border: 1px solid red; */
     flex-wrap: nowrap;
     color: transparent;
     background-image: url('/Assets/gradient.png');
