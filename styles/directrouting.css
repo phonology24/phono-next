@@ -56,6 +56,8 @@
   animation: descdr 2s ease 0s 1 normal forwards;
 }
 
+
+
 @keyframes descdr {
 	0% {
 		opacity: 0;
@@ -109,20 +111,19 @@
 .directRouteContainer {
   background-color: #0F0140;
   margin: 8rem 0 3rem 0;
-  padding: 100px;
+  padding: 50px;
   display: flex;
   color: rgb(255, 255, 255);
   border-radius: 17px;
-  align-items: flex-start; 
+  align-items: center; 
+  gap: 50px;
+  border: 1px solid red;
 }
 
-.directRouteText {
-  flex: 1;
-  align-self: flex-start; 
-}
+
 
 .direcrRouteh2{
-  font-size: 45px;
+  font-size: 32px;
   font-weight: 900;
   animation: dr-h2 1s ease-in 0s 1 normal none;
 }
@@ -161,6 +162,7 @@
   padding: 15px;
   border-radius: 80px;
   background-color: rgb(255, 255, 255);
+  font-family: "Poppins";
   font-weight: 700;
   font-size: 16px;
   animation: dr-b 1s ease-in 0s 1 normal none;
@@ -221,15 +223,28 @@
 		transform: translateY(0);
 	}
 }
+
+.directRouteImage{
+	display: flex;
+	height: auto;
+}
+
+.directRouteImage img{
+	max-width: 500px;
+	height: auto;
+	border-radius: 17px;
+}
+
 @media (max-width: 767px) {
 
-  .direct-routing-image img {
-    width: 100%;
+  .directRouteImage img {
+    max-width: 100%;
     height: auto;
   }
   .directRouteContainer{
     max-width: 100%;
     align-items: center;
+	flex-direction: column;
   
   }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/directrouting.css';
-import DirectRoutingImage from '../../public/Assets/teamsinfographic.svg'
+import DirectRoutingImage from '../../public/Assets/hosted1.png'
 import Image from 'next/image';
 
 const DirectRouteConnection = () => {
@@ -20,14 +20,13 @@ const DirectRouteConnection = () => {
         </p>
         <button className='directRouteButton'>Contact Support</button>
       </div>
-
       <div className="directRouteImage">
         <Image
           src={DirectRoutingImage}
           alt="Description of the image"
-          style={{ width: '600px', height: 'auto' }}
         />
       </div>
+
     </div>
   );
 };

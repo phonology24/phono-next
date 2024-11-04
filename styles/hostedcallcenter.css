@@ -114,6 +114,7 @@
 .hostedCallCenterText {
   flex: 1;
   padding: 20px;
+  /* border: 1px solid red; */
 }
 
 
@@ -151,7 +152,6 @@
 }
 
 @media (max-width: 768px) {
-
   /* Change to column layout on smaller screens */
   .hostedCallCenterContainer {
     flex-direction: column;

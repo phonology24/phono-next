@@ -16,9 +16,14 @@ const HostedNumbersTwoCards = () => {
 
         <h3>Streamlined Operations: Quoting, Activate, Billings, and Supporting – All in a Place</h3>
         <p>
-        Leave behind the inefficiencies of swivel-chair operations and the challenges of managing loosely integrated systems.
-         Embrace a unified solution tailored specifically for MSPs. Provide your customer with a branded cloud PBX service that is easy to set up and manage.
-          It is equipped with in-built billing and support tools, putting you firmly in control.
+          With a Hosted PBX system, managing communication across multiple locations becomes effortless.
+          This cloud-based solution centralizes operations, ensuring your entire network stays connected
+          and maintains the same service quality across every branch. By moving away from
+          on-site hardware, you’ll reduce costs, simplify upkeep, and enjoy the flexibility
+          to add new locations seamlessly. Key features like centralized call routing,
+          unified messaging, and real-time analytics empower your team to handle multi-location
+          interactions with ease, boosting both internal collaboration and customer experience.
+          Perfect for growing businesses that need reliable, scalable communication solutions.
         </p>
 
       </div>
