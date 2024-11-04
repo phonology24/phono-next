@@ -47,12 +47,12 @@ const HeaderVirtualNumbers = () => {
             </video>
             </div>
 
-      </div>
       <div className="button-groupvn">
         <FreeTrialForm />
         <Link href="https://zfrmz.in/uVhtnQbhSsWHU9Z8Xy8T" target="_blank" rel="noopener noreferrer nofollow">
           <button>Get Pricing</button>
         </Link>{" "}
+      </div>
       </div>
 <BannerCards/>
     </div>

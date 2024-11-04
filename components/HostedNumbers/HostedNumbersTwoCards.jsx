@@ -11,7 +11,7 @@ const HostedNumbersTwoCards = () => {
       </div>
       <div className="card-hosted">
         <h2>
-          <span className="gradient-ltr">Empowering Growth with Our VoIP & UC Platform</span>
+       Hosted PBX for Multi-Location Businesses
         </h2>
 
         <h3>Streamlined Operations: Quoting, Activate, Billings, and Supporting – All in a Place</h3>
