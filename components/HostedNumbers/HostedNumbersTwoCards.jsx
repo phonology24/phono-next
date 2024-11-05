@@ -13,8 +13,6 @@ const HostedNumbersTwoCards = () => {
         <h2>
        Hosted PBX for Multi-Location Businesses
         </h2>
-
-        <h3>Streamlined Operations: Quoting, Activate, Billings, and Supporting – All in a Place</h3>
         <p>
           With a Hosted PBX system, managing communication across multiple locations becomes effortless.
           This cloud-based solution centralizes operations, ensuring your entire network stays connected
