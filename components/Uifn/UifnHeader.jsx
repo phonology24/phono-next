@@ -10,14 +10,13 @@ const UifnHeader = () => {
 
       <div className="uifn-grid uifn-grid-middle uifn-grid-gap-large">
         <div className="uifn-content">
-          <div className="uifn-content-inner">
+          <div className="uifn-content-inner" >
             <h1 className="uifn-display-4">
               <span className="uifn-gradient-ltr">
-                UIFN Toll-Free Numbers,             </span>
-              One Solution for Worldwide Accessibility.
+              UIFN Numbers</span> for Global Reach 
             </h1>
             <p className="uifn-large">
-              UIFN Numbers for Global Reach
+    
               Universal International Freephone Numbers (UIFN) provide businesses with a single,
               toll-free number accessible from multiple countries, making it easier for customers
               worldwide to reach you without incurring costs. Perfect for companies with a global

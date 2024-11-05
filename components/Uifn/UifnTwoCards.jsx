@@ -6,7 +6,7 @@ const UifnTwoCards = () => {
     <div className="uifn-two-cards">
 
       <div className="uifn-card uifn-right-card">
-        <h3>How UIFN Toll-Free Numbers Work        </h3>
+        <h3>How UIFN Numbers Work</h3>
         <ul className="uifn-ul">
           <li className="uifn-li">
           <b>Single Global Toll-Free Number: </b>UIFN offers a single, toll-free number that customers can dial from various countries, enabling them to connect with your business at no cost to them.
