@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/directrouting.css';
-import DirectRoutingImage from '../../public/Assets/hosted1.png'
+import DirectRoutingImage from '../../public/Assets/hosted2.png'
 import Image from 'next/image';
 
 const DirectRouteConnection = () => {
