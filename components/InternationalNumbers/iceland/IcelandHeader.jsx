@@ -26,8 +26,9 @@ const IcelandHeader = () => {
 Establish a local presence, strengthen customer trust, and improve communication with Icelandic clients—all without a physical office. Get your Iceland virtual number today and explore new opportunities in the Nordic region!
 
           </p>
-          <button className={styles.InternationalButton}>Start Demo</button>
-        </div>
+          <a href="https://zfrmz.in/kfmeFeFIEst6LHtun8nj" target="_blank" rel="noopener noreferrer">
+    <button className={styles.InternationalButton}>Start Demo</button>
+</a>        </div>
         <div className={styles.ImageCard}>
           <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage}/>
         </div>

@@ -26,8 +26,9 @@ const MaltaHeader = () => {
 Create a local presence, enhance your communication with Maltese customers, and build trust—all without needing a physical office. Secure your Malta virtual number today and take advantage of new business opportunities across the Mediterranean!
 
           </p>
-          <button className={styles.InternationalButton}>Start Demo</button>
-        </div>
+          <a href="https://zfrmz.in/kfmeFeFIEst6LHtun8nj" target="_blank" rel="noopener noreferrer">
+    <button className={styles.InternationalButton}>Start Demo</button>
+</a>        </div>
         <div className={styles.ImageCard}>
           <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage}/>
         </div>

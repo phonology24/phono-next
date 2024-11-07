@@ -40,7 +40,9 @@ const BenefitsOfArgentinaNumber = () => {
           benefits, including nationwide coverage, lowered expenses, and
           improved customer support.
         </p>
-        <button className="benefitsButton">Get A Trial</button>
+        <a href="https://zfrmz.in/kfmeFeFIEst6LHtun8nj" target="_blank" rel="noopener noreferrer">
+          <button className="benefitsButton">Get A Trial</button>
+        </a>
       </div>
       <div className="BenefitsCardContainer">
         {/* {benefits.map((benefit, index) => (

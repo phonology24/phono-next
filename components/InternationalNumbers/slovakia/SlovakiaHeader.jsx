@@ -26,8 +26,9 @@ const SlovakiaHeader = () => {
 Establish a local presence, improve communication with Slovak customers, and enhance your brand’s credibility—all without needing a physical office. Secure your Slovakia virtual number today and explore new opportunities in the heart of Central Europe!
 
           </p>
-          <button className={styles.InternationalButton}>Start Demo</button>
-        </div>
+          <a href="https://zfrmz.in/kfmeFeFIEst6LHtun8nj" target="_blank" rel="noopener noreferrer">
+    <button className={styles.InternationalButton}>Start Demo</button>
+</a>        </div>
         <div className={styles.ImageCard}>
           <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage}/>
         </div>

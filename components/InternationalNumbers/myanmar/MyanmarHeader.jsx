@@ -26,8 +26,9 @@ const MyanmarHeader = () => {
 Establish a local presence, streamline communication with Myanmar customers, and build your brand's credibility—all without the need for a physical office. Get your Myanmar virtual number today and explore new business opportunities in this rapidly growing market!
 
           </p>
-          <button className={styles.InternationalButton}>Start Demo</button>
-        </div>
+          <a href="https://zfrmz.in/kfmeFeFIEst6LHtun8nj" target="_blank" rel="noopener noreferrer">
+    <button className={styles.InternationalButton}>Start Demo</button>
+</a>        </div>
         <div className={styles.ImageCard}>
           <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage}/>
         </div>

@@ -26,8 +26,9 @@ const JapanHeader = () => {
 Build a local presence, enhance communication with your Japanese customers, and strengthen your brand credibility—all without a physical office. Get your Japan virtual number today and start tapping into new opportunities in this thriving market!
 
           </p>
-          <button className={styles.InternationalButton}>Start Demo</button>
-        </div>
+          <a href="https://zfrmz.in/kfmeFeFIEst6LHtun8nj" target="_blank" rel="noopener noreferrer">
+    <button className={styles.InternationalButton}>Start Demo</button>
+</a>        </div>
         <div className={styles.ImageCard}>
           <Image src={ImageForInternationalNumber} alt="Background" className={styles.flagImage}/>
         </div>
