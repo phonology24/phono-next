@@ -212,7 +212,7 @@
 
   .card-hosted img {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     object-fit: cover;
     /* margin-top: 40px; */

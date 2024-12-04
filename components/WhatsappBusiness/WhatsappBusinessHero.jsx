@@ -15,8 +15,8 @@ const WhatsappBusinessHero = () => {
                             <h1 className="hosted-phone-numbers-display-4">
                                 <span className="gradient-ltr">
                                     <br />
-                                    Watel by Phonology
-                                </span>
+                                    Transform Conversations with WhatsApp Business API            
+                                                            </span>
                              
                             </h1>
                             <p className="hosted-phone-numbers-large">
