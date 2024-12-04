@@ -12,18 +12,14 @@ const WhatsappBusinessTwoCards = () => {
                 <h2>
                     Transforming Communication Across Industries
                 </h2>
-                <p>                  
-                    At Phonology, we know every industry has unique communication needs,
-                    so we designed Watel to adapt to your business. Whether you’re
-                    in e-commerce, offering real-time order updates and personalized
-                    promotions, or in healthcare, simplifying appointment scheduling
-                    and patient follow-ups, Watel ensures seamless, secure, and efficient interactions.
-                    <br />
-                    From education, and enhancing learning with interactive updates, to banking,
-                    providing real-time alerts and support, and retailer logistics, optimizing
-                    promotions and shipment tracking, Watel is your trusted partner. Let us
-                    help you deliver exceptional customer experiences that drive engagement,
-                    loyalty, and success in your industry.
+                <p>
+                    <b>Education</b>: Streamline student communication, automate notifications, and enhance engagement through instant updates and reminders.<br />
+                    <b>Travel and Hospitality</b>: Simplify bookings, share itineraries, and provide real-time support for an unforgettable customer experience.<br />
+                    <b>Healthcare</b>: Enable appointment scheduling, send health reminders, and provide timely patient support via secure messaging.<br />
+                    <b>E-commerce</b>: Boost sales with instant order updates, personalized promotions, and quick customer support.<br />
+                    <b>Sales and Marketing</b>: Drive conversions with targeted campaigns, lead follow-ups, and real-time communication.<br />
+                    <b>Customer Support</b>: Deliver 24/7 support, automate FAQs, and resolve issues quickly with personalized assistance.<br />
+                    <b>Real Estate</b>: Engage leads with property details, schedule viewings, and nurture prospects with tailored messaging.<br />
 
                 </p>
 
