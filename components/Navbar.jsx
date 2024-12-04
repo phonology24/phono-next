@@ -102,8 +102,11 @@ const Navbar = () => {
         <Link href="/about-phonology" state={[]} className={styles.navlink1}>
           Company
         </Link>
-        <Link href="/get-phone-numbers" className={styles.navlink1}>
+        {/* <Link href="/get-phone-numbers" className={styles.navlink1}>
           Buy Now
+        </Link> */}
+        <Link href="/contact-us" className={styles.navlink1}>
+          Contact Us
         </Link>
         <Link href="/phonology-blogs" className={styles.navlink1}>
           Blogs

@@ -1,9 +1,15 @@
+"use client"
 import React from 'react';
+import { useRouter } from "next/navigation";
 import '../../styles/contactus/contacthero.css';
 import Image from 'next/image';
 import CallCenterImage from "../../public/Assets/blurry-gradient-haikei.png";
 
 const ContactUsHero = () => {
+  const router = useRouter(); 
+  const handleRedirect = () => {
+    router.push("/contact-us/support"); 
+  };
   return (
     <div className='contactus-hero'>
       <h2 className='contactus-hero-heading'>How Can We Support You?</h2>
@@ -16,7 +22,7 @@ const ContactUsHero = () => {
               Contact our sales representatives at info@phonology.io</p>
               <div className="contact-us-button-div">
             <button className='contact-us-button '>Start a conversation</button>
-            <button className='contact-us-button dark'>Get support</button>
+            <button className='contact-us-button dark' onClick={handleRedirect} >Get support</button>
             </div>
           </div>
         </div>

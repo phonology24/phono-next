@@ -8,6 +8,13 @@
   
 }
 
+.cat-dropdown-box{
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  margin-bottom: 50px;
+}
+
 .editor-container {
   width: 100%;
   border: 2px solid rgb(0, 0, 0);

@@ -16,7 +16,7 @@ export default function Layout({ children }) {
 
   const shouldHideNavbar = noNavbarRoutes.includes(pathname) ||
     pathname.startsWith('/phonology-blogs/') ||
-    pathname.startsWith('/edit-post/');
+    pathname.startsWith('/edit-post/') ||  pathname.includes('support-document-admin')
 
   return (
     <html lang="en">

@@ -1,0 +1,179 @@
+/* Combined Layout Styling */
+.combined-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Left Section and Right Section */
+  .left-section,
+  .right-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  /* Resource Links Container */
+  .resource-links-container {
+    padding: 100px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .resource-links-heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.resource-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.resource-card {
+    font-size: 14px !important;
+    border: 0px solid #ddd;
+    background-color: #cdffdc;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .resource-card-title{
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .read-button {
+    background-color: #bddeff;
+    color: rgb(0, 0, 0);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  /* Contact Us Categories */
+  .contactus-categories{
+ padding-top: 100px;
+  }
+
+  .category-box-heading{
+font-size: 22px;
+}
+  
+  /* Title Styling */
+  .categories-title {
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+    color: #333;
+    text-align: left;
+    font-weight: 500;
+  }
+  
+  /* Search Bar Styling */
+  .search-bar-container {
+    margin-bottom: 1rem;
+    justify-content: left;
+    margin-top: 0px;
+    display: flex;
+    min-width: 100%;
+  }
+  
+  .search-bar {
+    width: 100%;
+    max-width: 450px;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: 0px solid #ffffff;
+    border-radius: 50px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-top: 0px;
+  }
+  
+  .search-bar:focus {
+    border-color: #0073e6;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  .search-bar::placeholder {
+    color: #dadada;
+  }
+  
+  /* Grid Layout for Categories */
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding-top: 0px;
+  }
+  
+  /* Card Styling */
+  .category-card {
+    background-color: #e1f0ff;
+    border: 0px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 100px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling inside Card */
+  .category-title {
+    font-size: 18px;
+    margin: 10px auto 0px auto;
+    color: #000000;
+    font-weight: 700;
+  }
+  
+  /* Description Styling inside Card */
+  .category-description {
+    margin: 0px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Chat Component Styling (Optional Placeholder) */
+  .chat-comp-contact {
+    max-width: 50%;
+    margin: 30px auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .categories-title {
+      font-size: 14px;
+    }
+  
+    .category-card {
+      padding: 15px;
+    }
+  
+    .search-bar {
+      max-width: 100%;
+    }
+  
+    /* Adjust combined layout for smaller screens */
+    .combined-layout {
+      flex-direction: column;
+    }
+  }
+  

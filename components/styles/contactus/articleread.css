@@ -1,0 +1,80 @@
+.article-container {
+    max-width: 100vw;
+    max-height: auto;
+    margin: 5rem 0rem 0rem 0rem; /* Adjusts the margin to push the container to the left */
+    padding: 10px 100px 100px 100px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.article-content {
+    font-size: 1.1rem;
+    padding: 0rem 20rem;
+    line-height: 1.8;
+    color: #555;
+    border-radius: 30px;
+}
+
+.article-content img {
+    max-width: 500px;
+    border-radius: 10px;
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Makes the image block-level */
+    margin: 1rem auto; /* Centers the image within the content */
+}
+
+.article-content p {
+    margin: 0rem;
+}
+
+.error-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+    margin-top: 2rem;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .article-container {
+        padding: 1.5rem;
+        margin: 4rem 0rem 1rem 0rem; /* Adjust margin for smaller screens */
+    }
+
+    .article-title {
+        font-size: 2rem; /* Slightly smaller title size */
+    }
+
+    .article-content {
+        padding: 0rem 2rem; /* Reduce side padding for smaller screens */
+        font-size: 1.1rem; /* Adjust font size for better readability */
+    }
+
+    .article-content img {
+        max-width: 100%; /* Make images responsive */
+    }
+}
+
+@media (max-width: 480px) {
+    .article-title {
+        font-size: 1.8rem; /* Further reduce title size for very small screens */
+    }
+
+
+    .article-content {
+        padding: 0rem 1rem; /* Minimal padding for very small screens */
+    }
+
+    .article-container {
+        margin: 4rem 0rem 1rem 0rem; /* Adjust spacing for compact layout */
+    }
+}

@@ -1,0 +1,131 @@
+.subcategories-container {
+  padding: 5rem 2rem 2rem 2rem; /* Reduced left and right padding for better alignment */
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex; /* Center content horizontally */
+  flex-direction: column;
+  justify-content: flex-start; /* Align items in the center horizontally */
+  align-items: flex-start; /* Align items to the top vertically */
+}
+
+/* Title style */
+.page-title {
+  font-size: 22px; /* Adjusted title size for better balance */
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 1.5rem; /* Reduced bottom margin */
+  color: #333;
+  /* border: 1px solid red; */
+  min-width: 100%;
+  text-align: center;
+
+}
+
+.search-bar-container {
+  margin-bottom: 1rem;
+  justify-content: center;
+  margin-top: 0px;
+  display: flex;
+  min-width: 100%;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 450px;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: 0px solid #ffffff;
+  border-radius: 50px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-top: 0px;
+}
+
+.search-bar:focus {
+  border-color: #0073e6;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.search-bar::placeholder {
+  color: #dadada;
+}
+
+
+/* Grid layout for the subcategories */
+.subcategories-grid {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Vertical alignment */
+  gap: .5rem; /* Reduced gap to make the layout more compact */
+  width: 100%; /* Ensures the grid takes up full width */
+  max-width: 900px; /* Optional: to limit max width of the grid */
+}
+
+/* Subcategory card style */
+.subcategory-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem; /* Reduced padding for a more compact card */
+  border: 0px solid #ddd; /* Changed border color for a softer appearance */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* Full width for each card */
+  max-height: 80px; /* Set a max height for compactness */
+  text-align: left;
+  display: flex;
+  justify-content: space-between; /* Ensures title and description are spaced */
+  align-items: center; /* Vertically center content */
+}
+
+/* Card hover effect */
+.subcategory-card:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title inside the card */
+.subcategory-title {
+  font-size: 16px; /* Adjusted font size */
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem; /* Small margin for a tight layout */
+  white-space: nowrap; /* Prevent text overflow */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Ensures long text doesn't overflow */
+}
+
+/* Description inside the card */
+.subcategory-description {
+  font-size: 14px; /* Smaller font for description to reduce space */
+  color: #666;
+  line-height: 1.4;
+  margin-top: 0.2rem; /* Tight margin for description */
+}
+
+/* Handling cases with no subcategories */
+.subcategories-list p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* Responsive adjustments for mobile view */
+@media (max-width: 768px) {
+  .page-title {
+      font-size: 1.5rem; /* Smaller title on mobile */
+  }
+
+  .subcategory-card {
+      padding: 0.8rem 1rem; /* Slightly smaller padding on mobile */
+      max-height: 70px; /* Further reduce height on smaller screens */
+  }
+
+  .subcategory-title {
+      font-size: 14px; /* Adjust title size for mobile */
+  }
+
+  .subcategory-description {
+      font-size: 12px; /* Smaller description on mobile */
+  }
+}

@@ -1,0 +1,147 @@
+/* DocumentPage.css */
+.documents-container {
+  padding: 5rem 2rem 2rem 2rem; /* Reduced left and right padding for better alignment */
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex; /* Center content horizontally */
+  flex-direction: column;
+  justify-content: flex-start; /* Align items in the center horizontally */
+  align-items: flex-start; /* Align items to the top vertically */
+}
+
+/* Title style */
+.documents-title {
+  font-size: 22px; /* Adjusted title size for better balance */
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 1.5rem; /* Reduced bottom margin */
+  color: #333;
+  min-width: 100%;
+  text-align: center;
+}
+
+/* Grid layout for the documents */
+.documents-grid {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; /* Vertical alignment */
+  gap: .5rem; /* Reduced gap to make the layout more compact */
+  width: 100%; /* Ensures the grid takes up full width */
+  max-width: 900px; /* Optional: to limit max width of the grid */
+}
+
+/* Document card style */
+.document-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem; /* Reduced padding for a more compact card */
+  border: 0px solid #ddd; /* Changed border color for a softer appearance */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* Full width for each card */
+  max-height: 100px; /* Set a max height for compactness */
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline; /* Ensures title and description are spaced */
+  align-items: flex-end; /* Vertically center content */
+}
+
+/* Card hover effect */
+.document-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* Title inside the document card */
+.document-title {
+  min-width: 100%;
+  text-align: left;
+  font-size: 16px; /* Adjusted font size */
+  font-weight: bold;
+  color: #333;
+  margin: 0rem; /* Reduced bottom margin */
+  white-space: nowrap; /* Prevent text overflow */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Ensures long text doesn't overflow */
+}
+
+/* Description inside the document card */
+.document-description {
+  font-size: 14px; /* Smaller font for description */
+  min-width: 100%;
+  text-align: left;
+  color: #555;
+  margin: 0rem; /* Tight margin for description */
+  line-height: 1.4;
+  flex-grow: 1; /* Allow description to take up available space */
+}
+
+
+.search-bar-container {
+  margin-bottom: 1rem;
+  justify-content: center;
+  margin-top: 0px;
+  display: flex;
+  min-width: 100%;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 450px;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: 0px solid #ffffff;
+  border-radius: 50px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-top: 0px;
+}
+
+.search-bar:focus {
+  border-color: #0073e6;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.search-bar::placeholder {
+  color: #dadada;
+}
+
+
+
+/* Link style inside the document card */
+.document-link {
+  min-width: 100%;
+  text-align: left;
+  font-size: 0.9rem; /* Adjust link size */
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Link hover effect */
+.document-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments for mobile view */
+@media (max-width: 768px) {
+  .documents-title {
+    font-size: 1.5rem; /* Slightly smaller title on mobile */
+  }
+
+  .document-card {
+    padding: 1rem; /* Consistent padding on mobile */
+    height: 150px; /* Further reduce height on smaller screens */
+  }
+
+  .document-title {
+    font-size: 1.1rem; /* Smaller title on mobile */
+  }
+
+  .document-description {
+    font-size: 0.85rem; /* Smaller description text */
+  }
+
+  .document-link {
+    font-size: 0.85rem; /* Smaller link text */
+  }
+}
