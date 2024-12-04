@@ -12,8 +12,7 @@ const WhatsappBusinessTwoCards = () => {
                 <h2>
                     Transforming Communication Across Industries
                 </h2>
-                <p>
-                    Transforming Communication Across Industries
+                <p>                  
                     At Phonology, we know every industry has unique communication needs,
                     so we designed Watel to adapt to your business. Whether you’re
                     in e-commerce, offering real-time order updates and personalized
