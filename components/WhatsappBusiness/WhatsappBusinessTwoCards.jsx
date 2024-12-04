@@ -1,5 +1,5 @@
 import React from "react";
-import BackImage from "../../public/Assets/empowerpbx.jpg";
+import BackImage from "../../public/Assets/whatsappbusiness2.png";
 import "../../styles/hostedphonenumbers.css";
 import Image from "next/image";
 const WhatsappBusinessTwoCards = () => {
