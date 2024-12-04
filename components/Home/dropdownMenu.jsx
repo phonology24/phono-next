@@ -78,6 +78,10 @@ const DropdownMenu = () => {
               <p className={styles.itemDescription}>Tools to ensure your agents maximize potential.</p>
             </Row>
             <Row className={styles.itemRow}>
+              <Col><Link href="/whatsapp-business" className={styles.itemColLink}><BookOutlinedIcon /> Whatsapp Business</Link></Col>
+              <p className={styles.itemDescription}>Whatsapp Thirdd Party APIs For Business</p>
+            </Row>
+            <Row className={styles.itemRow}>
               <Col><Link href="/phonology-blogs" className={styles.itemColLink}><BookOutlinedIcon /> Blogs</Link></Col>
               <p className={styles.itemDescription}>Read our blogs on business communication solutions and more.</p>
             </Row>
