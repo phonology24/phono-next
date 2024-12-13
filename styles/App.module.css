@@ -74,17 +74,38 @@
 .nav {
   font-family: 'Poppins', sans-serif;
   display: flex;
-  top: 40px;
+  top: 0px;
   align-items: center;
   justify-content: space-between;
   min-height: 0px;
-  max-height: 50px;
+  max-height: 70px;
   min-width: 100%;
-  background-color: #ffffff;
-  position: fixed;
+  background: transparent;
+   position: fixed;
   left: 0;
   z-index: 1;
   color: #4C555B;
+  transition: all .5s ease-in-out ;
+}
+
+.nav-glass{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  top: 0px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 0px;
+  max-height: 70px;
+  min-width: 100%;
+  background: rgba(230, 230, 230, 0.35);
+  backdrop-filter: blur( 10.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+   position: fixed;
+  left: 0;
+  z-index: 1;
+  color: #4C555B;
+  transition: all .5s ease-in-out ;
+
 }
 
 .contact-div{
@@ -106,7 +127,7 @@ margin: 20px 0px 20px 0px;
   margin-right: 3rem;
   text-decoration: none;
   color: #4C555B;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   padding: 5px;
 }
@@ -117,7 +138,7 @@ margin: 20px 0px 20px 0px;
   outline: none;
   border: none;
   border-radius: 5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   cursor: pointer;
   font-weight: 600;
   transition: 0.2s;
@@ -589,6 +610,8 @@ margin: 20px 0px 20px 0px;
   border-radius: 7px;
   margin-right: 1rem;
   font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  background-color: #98FFC5;
 
 }
 

@@ -30,7 +30,7 @@ export default function Layout({ children }) {
 
         {!shouldHideNavbar && (
           <>
-            <TopContactBar />
+            {/* <TopContactBar /> */}
             <Navbar />
           </>
         )}

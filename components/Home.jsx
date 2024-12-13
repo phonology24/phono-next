@@ -16,6 +16,7 @@ import { Helmet } from "react-helmet";
 // import { MetaTags, ReactTitle } from "react-meta-tags";
 import styles from "../styles/App.module.css";
 import PhoneNumbers from "./InternationalNumbers/GetInternationalNumbersComponent";
+import Hero from "./Home/Hero";
 
 const cardVariants = {
   whileHover: {
@@ -96,75 +97,75 @@ const Home = () => {
   ) : null;
 
 
-    const text = "Connecting Conversations Worldwide.";
-  const text2 = text.split(" ");
+  //   const text = "Connecting Conversations Worldwide.";
+  // const text2 = text.split(" ");
 
-  useEffect(() => {
-    const $card = document.querySelector(`.${styles.homeTextSection}`);
-    let bounds;
+  // useEffect(() => {
+  //   const $card = document.querySelector(`.${styles.homeTextSection}`);
+  //   let bounds;
 
-    function rotateToMouse(e) {
-      const mouseX = e.clientX;
-      const mouseY = e.clientY;
-      const leftX = mouseX - bounds.x;
-      const topY = mouseY - bounds.y;
-      const center = {
-        x: leftX - bounds.width / 2,
-        y: topY - bounds.height / 2,
-      };
-      const distance = Math.sqrt(center.x * 2 + center.y ** 2);
+  //   function rotateToMouse(e) {
+  //     const mouseX = e.clientX;
+  //     const mouseY = e.clientY;
+  //     const leftX = mouseX - bounds.x;
+  //     const topY = mouseY - bounds.y;
+  //     const center = {
+  //       x: leftX - bounds.width / 2,
+  //       y: topY - bounds.height / 2,
+  //     };
+  //     const distance = Math.sqrt(center.x * 2 + center.y ** 2);
 
-      $card.style.transform = `
-        scale3d(1.01, 1.01, 1.01)
-        rotate3d(
-          ${center.y / 100},
-          ${-center.x / 100},
-          0,
-          ${Math.log(distance) * 2}deg
-        )
-      `;
-    }
+  //     $card.style.transform = `
+  //       scale3d(1.01, 1.01, 1.01)
+  //       rotate3d(
+  //         ${center.y / 100},
+  //         ${-center.x / 100},
+  //         0,
+  //         ${Math.log(distance) * 2}deg
+  //       )
+  //     `;
+  //   }
 
-    $card.addEventListener("mouseenter", () => {
-      bounds = $card.getBoundingClientRect();
-      document.addEventListener("mousemove", rotateToMouse);
-    });
+  //   $card.addEventListener("mouseenter", () => {
+  //     bounds = $card.getBoundingClientRect();
+  //     document.addEventListener("mousemove", rotateToMouse);
+  //   });
 
-    $card.addEventListener("mouseleave", () => {
-      document.removeEventListener("mousemove", rotateToMouse);
-      $card.style.transform = "";
-      $card.style.background = "";
-    });
-  });
+  //   $card.addEventListener("mouseleave", () => {
+  //     document.removeEventListener("mousemove", rotateToMouse);
+  //     $card.style.transform = "";
+  //     $card.style.background = "";
+  //   });
+  // });
 
-  const cardData = [
-    {
-      icon: GraphicEqIcon,
-      heading: "Enterprise VoIP Solution",
-      text: "Empower your enterprise with seamless, scalable, and reliable VoIP communication.",
-      linkTo: "/voip-service-providers-in-india",
-      gradientColor: "linear-gradient(360deg, #fffd8d, #fffd8d, #ffffff)",
-    },
-    {
-      icon: TagIcon,
-      heading: "Virtual Numbers",
-      text: "Global presence made easy with virtual numbers—connect anywhere, instantly. Both local and toll-free numbers available.",
-      linkTo: "/virtual-phone-number-providers",
-      gradientColor: "linear-gradient(360deg, #FAAFBA, #FAAFBA, #ffffff)",
-    },
-    {
-      icon: MessageIcon,
-      heading: "SIP Trunk",
-      text: "Streamline your communication with cost-effective, scalable SIP Trunking solutions.",
-      linkTo: "/sip-trunk-providers",
-      gradientColor: "linear-gradient(360deg, #87CEEB, #87CEEB, #FFFFFF)",
-    },
-  ];
+  // const cardData = [
+  //   {
+  //     icon: GraphicEqIcon,
+  //     heading: "Enterprise VoIP Solution",
+  //     text: "Empower your enterprise with seamless, scalable, and reliable VoIP communication.",
+  //     linkTo: "/voip-service-providers-in-india",
+  //     gradientColor: "linear-gradient(360deg, #fffd8d, #fffd8d, #ffffff)",
+  //   },
+  //   {
+  //     icon: TagIcon,
+  //     heading: "Virtual Numbers",
+  //     text: "Global presence made easy with virtual numbers—connect anywhere, instantly. Both local and toll-free numbers available.",
+  //     linkTo: "/virtual-phone-number-providers",
+  //     gradientColor: "linear-gradient(360deg, #FAAFBA, #FAAFBA, #ffffff)",
+  //   },
+  //   {
+  //     icon: MessageIcon,
+  //     heading: "SIP Trunk",
+  //     text: "Streamline your communication with cost-effective, scalable SIP Trunking solutions.",
+  //     linkTo: "/sip-trunk-providers",
+  //     gradientColor: "linear-gradient(360deg, #87CEEB, #87CEEB, #FFFFFF)",
+  //   },
+  // ];
 
   return (
     <div className={styles.homeContainer}>   
 
-      <div className={styles.homeBannerContainer}>
+      {/* <div className={styles.homeBannerContainer}>
         <div className={styles.homeBannerImageContainer}></div>
         {cardData.map((card, index) => (
           <HomeImageSection key={index} {...card} />
@@ -205,8 +206,9 @@ const Home = () => {
         rel="noopener noreferrer nofollow"
       >
         {" "}
-      </Link>
+      </Link> */}
       {/* <PopupButton /> */}
+      <Hero/>
       <Banner />
       <TelecomBanner />
       {additionalComponents}

@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const fetchCategories = async () => {
   try {
-    const response = await axios.get("http://localhost:7000/api/categories");
+    const response = await axios.get("https://blog.phonology.io/api/categories");
     return response.data;
   } catch (error) {
     console.error("Error fetching categories:", error);
@@ -12,7 +12,7 @@ export const fetchCategories = async () => {
 
 export const addCategory = async (categoryData) => {
   try {
-    const response = await axios.post("http://localhost:7000/api/categories", categoryData);
+    const response = await axios.post("https://blog.phonology.io/api/categories", categoryData);
     return response.data;
   } catch (error) {
     console.error("Error adding category:", error);
@@ -22,7 +22,7 @@ export const addCategory = async (categoryData) => {
 
 export const fetchSubCategories = async (categoryId) => {
   try {
-    const response = await axios.post('http://localhost:7000/api/get-subcategories',{
+    const response = await axios.post('https://blog.phonology.io/api/get-subcategories',{
       categoryId: categoryId
     });
     return response.data;
@@ -36,7 +36,7 @@ export const fetchSubCategories = async (categoryId) => {
 export const addSubCategory = async ({ name,  category}) => {
 
   try {
-    const response = await axios.post("http://localhost:7000/api/subcategories", {
+    const response = await axios.post("https://blog.phonology.io/api/subcategories", {
       name,
       category,
     });
@@ -52,7 +52,7 @@ export const addSubCategory = async ({ name,  category}) => {
 
 export const deleteCategory = async (categoryId) => {
   try {
-    const response = await axios.delete(`http://localhost:7000/api/categories/${categoryId}`);
+    const response = await axios.delete(`https://blog.phonology.io/categories/${categoryId}`);
     return response.data;
   } catch (error) {
     console.error("Failed to delete category:", error);
@@ -63,7 +63,7 @@ export const deleteCategory = async (categoryId) => {
 
 export const deleteSubCategory = async (categoryId, subCategoryId) => {
   try {
-    const response = await axios.delete(`http://localhost:7000/api/subcategories/${categoryId}/${subCategoryId}`);
+    const response = await axios.delete(`https://blog.phonology.io/api/subcategories/${categoryId}/${subCategoryId}`);
     return response.data;
   } catch (error) {
     console.error("Failed to delete subcategory:", error);
@@ -74,7 +74,7 @@ export const deleteSubCategory = async (categoryId, subCategoryId) => {
 
 export const getDocuments = async () => {
   try {
-    const response = await axios.get('http://localhost:7000/api/support-documents')
+    const response = await axios.get('https://blog.phonology.io/api/support-documents')
   } catch (error) {
     console.error("Failed to get documents:", error);
     throw error;
@@ -83,7 +83,7 @@ export const getDocuments = async () => {
 
 export const getDocumentsBySubCategory = async(subCategoryId) => {
   try {
-    const response = await axios.post('http://localhost:7000/api/get-docs-by-id',{
+    const response = await axios.post('https://blog.phonology.io/api/get-docs-by-id',{
       subCategoryId:subCategoryId
     })
     console.log(response.data)
@@ -97,7 +97,7 @@ export const getDocumentsBySubCategory = async(subCategoryId) => {
 export const getArticleById = async(articleId) => {
   try {
     console.log(articleId,"🎈")
-    const response = await axios.post("http://localhost:7000/api/get-article",{
+    const response = await axios.post("https://blog.phonology.io/api/get-article",{
       documentId:articleId
     })
     console.log(response.data)

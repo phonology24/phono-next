@@ -70,9 +70,7 @@ const PhonologyBlogs = () => {
   return (
     <div className="usersideblog-container">
       <header className="usersideblog-header">
-        <a href="/">
-          <Image src={Logo} className="usersideblog-logo" alt="Phonology Logo" />
-        </a>
+     
       </header>
 
       <NewsComponent />
