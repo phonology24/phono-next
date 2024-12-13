@@ -19,7 +19,7 @@ import CallSplitIcon from '@mui/icons-material/CallSplit';
 import Groups2Icon from '@mui/icons-material/Groups2';
 import SipIcon from '@mui/icons-material/Sip';
 import { ShoppingBag } from "@mui/icons-material";
-import DropdownMenuSolutions from "./Home/dropdownMenuSolutions";
+// import DropdownMenuSolutions from "./Home/dropdownMenuSolutions";
 import styles from '../styles/App.module.css' 
 import Logo from '../public/Assets/logo.png'
 import Image from "next/image";
