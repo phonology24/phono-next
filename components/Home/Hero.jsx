@@ -2,7 +2,6 @@ import React from "react";
 import PublicIcon from "@mui/icons-material/Public";
 import "../../styles/hero.css";
 import Image from "next/image";
-import DropdownMenuSolutions from "./dropdownMenuSolutions";
 
 import HeroImage from "../../public/Assets/home-hero.png"
 const Hero = () => {
