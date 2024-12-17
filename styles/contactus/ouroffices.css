@@ -48,7 +48,7 @@
 }
 
 .cityname{
-  padding: 20px;
+  padding: 0px;
   font-size: 24px
 }
 
@@ -71,11 +71,11 @@
   justify-content:flex-start;
   position: relative;
   overflow: hidden;
-}
+} 
 
 .right-section img {
   max-width: 700px;
-  height: 500px;
+  height: 600px;
   object-fit: cover;
   transition: opacity 0.5s ease;
   border-radius: 20px;

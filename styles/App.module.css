@@ -615,6 +615,21 @@ margin: 20px 0px 20px 0px;
 
 }
 
+@media(max-width: 768px){
+  .primaryButtonBook {
+    font-size: 17.6px;
+    font-weight: bold;
+    color: #000000;
+    border: none;
+    border-radius: 7px;
+    margin-right: -9rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 10px;
+    background-color: #98FFC5;
+  
+  }
+}
+
 .primary-button-book:hover {
   background-color: rgb(210, 210, 210);
   color: #001aff;

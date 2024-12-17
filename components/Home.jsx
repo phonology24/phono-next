@@ -210,7 +210,7 @@ const Home = () => {
       {/* <PopupButton /> */}
       <Hero/>
       <Banner />
-      {/* <TelecomBanner /> */}
+      <TelecomBanner />
       {/* <Products/> */}
       {additionalComponents}
       <Testimonials />

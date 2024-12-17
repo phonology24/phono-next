@@ -15,31 +15,31 @@ const DropdownMenuProducts = () => {
   const businessCommunications = [
     {
       name: 'Unified Communications',
-      description: 'Enable your customer to call from anywhere.',
+      description: 'One platform for all your voice, video, and collaboration needs.',
       link: '/unified-communication-providers',
       icon: <CallIcon />
     },
     {
       name: 'SIP Trunking',
-      description: 'Got a phone? Enjoy digital dial tone on any system.',
+      description: 'Scalable and affordable voice solutions designed to meet your business needs.',
       link: '/sip-trunk-providers',
       icon: <PhoneIcon />
     },
     {
       name: 'Virtual Numbers',
-      description: "120+ countries' number at your fingertips.",
+      description: "Reach customers worldwide using local and toll-free numbers.",
       link: '/virtual-phone-number-providers',
       icon: <ContactPhoneIcon />
     },
     {
       name: 'Cloud Telephony',
-      description: 'Bring your own carrier with provisioning.',
+      description: 'Reliable and efficient cloud telephony for effortless business communication.',
       link: '/cloud-telephony-providers',
       icon: <CloudIcon />
     },
     {
       name: 'Hosted Phone Systems',
-      description: 'Complete business phone system, powered by cloud technology.',
+      description: 'Scalable, cloud-hosted call center solutions.',
       link: '/hosted-pbx-providers',
       icon: <PhoneAndroidIcon />
     },
@@ -51,7 +51,7 @@ const DropdownMenuProducts = () => {
     },
     {
       name: 'UIFN Numbers',
-      description: 'A UIFN number is a single phone number usable across multiple countries.',
+      description: ' Global customer access through one easy-to-use toll-free number.',
       link: '/uifn-number',
       icon: <PublicIcon />
     },
