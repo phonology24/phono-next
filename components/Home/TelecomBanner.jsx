@@ -13,9 +13,9 @@ const TelecomBanner = () => {
     <section className={styles.telecomBanner}>
       <div className={styles.telecomColumns}>
         <div className={styles.telecomColumnLeft}>
-          <h2 className={styles.telecomH3} style={{ textAlign: "left", fontWeight: 700, fontSize: "30px" }}>
+          <h2 className={styles.telecomH3}>
             VoIP service provider in India
-            <p style={{ fontSize: "30px", marginTop:0}}>- Cutting Edge Communication Solutions</p>
+            <p className={styles.telecomH3}>- Cutting Edge Communication Solutions</p>
           </h2>
           <p className={styles.telecomP} style={{ textAlign: "left" }}>
             High-quality voice and video calls, advanced call forwarding,

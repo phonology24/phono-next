@@ -85,3 +85,73 @@
     line-height: 1.5;
   }
   
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+  .features-grid {
+      grid-template-columns: 1fr; /* 1 column for small screens */
+      gap: 15px;
+  }
+
+  .feature-card {
+      padding: 15px;
+      min-height: 200px;
+      transition: transform 0.3s ease;
+      border: 2px solid #ccc;
+  }
+
+  .feature-card:nth-child(1) {
+    grid-column: 1 / span 1; /* Starts in column 1 and spans 2 columns */
+  }
+  
+  .feature-card:nth-child(2) {
+    grid-column: 1 / span 1 /* Starts in column 3 */
+  }
+  .feature-card:nth-child(3) {
+    grid-column: 1 / span 1; /* Starts in column 3 */
+  }
+  .feature-card:nth-child(4) {
+    grid-column: 1 / span 1; /* Starts in column 3 */
+  }
+  .feature-card:nth-child(5) {
+    grid-column: 1 / span 1; /* Starts in column 3 */
+  }
+  .feature-card:nth-child(6) {
+    grid-column: 1 / span 2; /* Starts in column 3 */
+  }
+
+  .feature-card:hover {
+      transform: scale(1.02);
+  }
+
+  .feature-card h3 {
+      font-size: 20px;
+      padding: 10px 0;
+  }
+
+  .feature-card p {
+      font-size: 14px;
+      padding: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-heading {
+      font-size: 28px;
+      padding: 10px;
+  }
+
+  .feature-card {
+      padding: 10px;
+      min-height: 180px;
+  }
+
+  .feature-card h3 {
+      font-size: 18px;
+  }
+
+  .feature-card p {
+      font-size: 12px;
+      line-height: 1.4;
+  }
+}

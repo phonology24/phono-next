@@ -1,0 +1,103 @@
+/* Container with background and full height */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px;
+    height: 50vh;
+    background: url('/Assets/dot-grid.webp') repeat;
+    /* backdrop-filter: blur(10px); */
+    position: relative;
+    overflow: hidden;
+    margin:0px auto 0px auto;
+
+}
+
+/* Contact Container to hold all the cards */
+.contact-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 1rem; */
+    /* border: 1px solid red; */
+}
+
+/* Contact Card with Glassmorphism */
+.contact-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    color: #000000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+/* Hover Effect */
+.contact-card:hover {
+    transform: scale(1.05);
+}
+
+/* Flag aligned in center on the left */
+.flag {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 30%;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform-origin: left center;
+    transform: translateY(-50%);
+}
+
+.talkh2{
+    font-size: 44px;
+    margin: 10px;
+}
+
+/* Text Content */
+.card-content {
+    margin: 0px;
+    text-align: left;
+}
+.card-content h3{
+    margin-bottom: 0px;
+    text-align: left;
+}
+.card-content p{
+    margin-top: 0px;
+    text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .talkh2{
+        font-size: 24px;
+        margin: 10px;
+        text-wrap: wrap;
+    }
+}

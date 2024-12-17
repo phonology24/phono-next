@@ -4,7 +4,7 @@
     flex-direction: column;
     min-width: 100vw;
     min-height: 50vh;
-    margin:80px auto;
+    margin:80px auto 0px auto;
    background: #C4E1F6;
     padding:  50px 0px;
     align-items: center;
@@ -93,29 +93,31 @@
 @media (max-width: 768px) {
     .contactus-hero {
         flex-direction: column;
-        padding: 20px;
+        padding: 0px;
+        margin-left: -10px;
     }
 
     .hero-row {
         flex-direction: column;
-        padding: 0;
+        padding:20px;
         align-items: center;
         text-align: center;
     }
 
     .contact-us-hero-img {
         max-width: 100%;
-        margin-top: 20px;
+        margin: 20px 0px;
         justify-content: center;
     }
 
     .contact-us-hero-img img {
         width: 100%;
         height: auto;
+
     }
 
     .contactus-hero-heading {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .contactus-card-container {
@@ -128,7 +130,6 @@
         min-width: 90%;
         padding: 20px;
         font-size: 14px;
-        border: 2px solid red;
     }
 
     .contact-us-button {

@@ -1003,9 +1003,7 @@ margin: 20px 0px 20px 0px;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
 
-.telecomh3{
-  font-size: 36px !important;
-}
+
 /* 
 .telecomBanner:hover{
   transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
@@ -1082,8 +1080,8 @@ margin: 20px 0px 20px 0px;
     margin-bottom: 1rem;
 
   }
-  .telecomBanner h3 {
-    font-size: 30px;
+  .telecomBanner h2 {
+    font-size: 24px;
     padding-top: 0;
     color: #000000;
   }

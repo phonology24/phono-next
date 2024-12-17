@@ -210,8 +210,8 @@ const Home = () => {
       {/* <PopupButton /> */}
       <Hero/>
       <Banner />
-      <TelecomBanner />
-      <Products/>
+      {/* <TelecomBanner /> */}
+      {/* <Products/> */}
       {additionalComponents}
       <Testimonials />
       <Form />

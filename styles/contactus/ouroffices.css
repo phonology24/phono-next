@@ -1,0 +1,114 @@
+.offices-container {
+  display: flex;
+  height: 90vh;
+}
+
+.office-heading{
+  display: flex;
+  border: 1px solid red;
+  flex-direction: row;
+}
+
+/* Left section with office addresses */
+.left-section {
+  width: 50%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+/* Office Card */
+.office-card {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 0px;
+  margin: 10px;
+  border-radius: 0px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  width: 90%;
+  max-width:100%;
+  align-self: center;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+
+/* Avatar Image */
+.avatar {
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cityname{
+  padding: 20px;
+  font-size: 24px
+}
+
+/* Text Information */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0;
+}
+.info p{
+ margin: 0;
+}
+
+/* Right section with dynamic image */
+.right-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  position: relative;
+  overflow: hidden;
+}
+
+.right-section img {
+  max-width: 700px;
+  height: 500px;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+  border-radius: 20px;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .offices-container {
+    flex-direction: column;
+  }
+
+  .left-section {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .right-section {
+    display: none;
+  }
+
+  .office-card {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .avatar {
+    margin-right: 0px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+  }
+}
