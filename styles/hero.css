@@ -202,3 +202,68 @@
   border-radius: 10px;
 }
 
+/* General Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column; /* Stack sections vertically */
+    height: auto; /* Adjust height for better scrolling on small screens */
+    margin-top: 50px; /* Reduce top margin */
+  }
+
+  .hero-section-1,
+  .hero-section-2 {
+    flex: unset; /* Remove flex behavior for sections */
+    width: 100%; /* Make sections take full width */
+    height: auto; /* Allow sections to adjust based on content */
+    padding: 10px; /* Add some padding for smaller screens */
+  }
+
+  .hero-content {
+    max-width: 100%; /* Allow content to use full width */
+    text-align: center; /* Center-align text for better readability */
+  }
+
+  .hero-heading {
+    font-size: 2rem; /* Slightly reduce font size */
+  }
+
+  .hero-paragraph {
+    font-size: 0.9rem; /* Slightly reduce font size */
+  }
+
+  .hero-box {
+    margin-top: 20px; /* Reduce margin */
+    padding: 15px; /* Adjust padding */
+  }
+
+  .hero-box-heading {
+    font-size: 1rem; /* Reduce heading size */
+  }
+
+  .hero-box-paragraph {
+    font-size: 0.9rem; /* Reduce paragraph font size */
+  }
+
+  .hero-box-footer {
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Adjust gap */
+  }
+
+  .watel-button {
+    font-size: 16px; /* Reduce button font size */
+    padding: 8px 12px; /* Adjust padding */
+    width: auto; /* Allow button to adjust size */
+  }
+
+  .hero-image {
+    width: 100%; /* Use full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Adjust radius for smaller screens */
+  }
+
+  .button-85 {
+    width: auto; /* Adjust width for better fit */
+    padding: 8px 12px; /* Adjust padding */
+    font-size: 16px; /* Reduce font size */
+  }
+}

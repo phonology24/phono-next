@@ -4,11 +4,9 @@
     flex-direction: column;
     min-width: 100vw;
     min-height: 50vh;
-    margin: 100px -45px 0 0 ;
-
-    /* border-radius: 17px; */
-    background: #C4E1F6;
-    padding: 0;
+    margin:80px auto;
+   background: #C4E1F6;
+    padding:  50px 0px;
     align-items: center;
 }
 
@@ -84,7 +82,7 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .contact-us-button.dark {
@@ -130,6 +128,7 @@
         min-width: 90%;
         padding: 20px;
         font-size: 14px;
+        border: 2px solid red;
     }
 
     .contact-us-button {

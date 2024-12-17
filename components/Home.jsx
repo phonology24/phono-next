@@ -12,11 +12,11 @@ import Work from "@/components/Home/Work";
 import Testimonials from "@/components/Home/Testimonial";
 import PopupButton from "@/components/PopupContact";
 import Form from "@/components/Form";
-import { Helmet } from "react-helmet";
 // import { MetaTags, ReactTitle } from "react-meta-tags";
 import styles from "../styles/App.module.css";
 import PhoneNumbers from "./InternationalNumbers/GetInternationalNumbersComponent";
 import Hero from "./Home/Hero";
+import Products from "./Home/Products";
 
 const cardVariants = {
   whileHover: {
@@ -211,6 +211,7 @@ const Home = () => {
       <Hero/>
       <Banner />
       <TelecomBanner />
+      <Products/>
       {additionalComponents}
       <Testimonials />
       <Form />
