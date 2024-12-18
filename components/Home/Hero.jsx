@@ -3,7 +3,7 @@ import PublicIcon from "@mui/icons-material/Public";
 import "../../styles/hero.css";
 import Image from "next/image";
 
-import HeroImage from "../../public/Assets/home-hero.png"
+import HeroImage from "../../public/Assets/home-hero3.png"
 const Hero = () => {
 
   const Redirector = () => {
