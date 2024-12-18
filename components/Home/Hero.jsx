@@ -7,7 +7,7 @@ import HeroImage from "../../public/Assets/home-hero.png"
 const Hero = () => {
 
   const Redirector = () => {
-    window.open("https://www.watel.io", "_blank");
+    window.open("https://app.watel.io/register", "_blank");
   };
 
   const RedirectorToDemo= ()=> {
@@ -38,7 +38,7 @@ const Hero = () => {
               {/* <span><PublicIcon className="span-icon" />Point 1</span>
               <span><PublicIcon className="span-icon" />Point 2</span>
               <span><PublicIcon className="span-icon" />Point 3</span> */}
-              <button className="watel-button" onClick={Redirector}>Get Free Trial</button>
+              <button className="button-86" onClick={Redirector}>Get Free Trial</button>
             </div>
           </div>
         </div>
