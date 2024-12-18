@@ -17,19 +17,35 @@
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
   }
+
+  @keyframes paraAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
   
   
   .hero-content {
     max-width: 600px;
+    
   }
   
   .hero-heading {
     margin-bottom: 20px;
+    animation: paraAnim 1s ease-out;
     font-size: 2.5rem;
     font-weight: bold;
   }
   
   .hero-paragraph {
+    animation: paraAnim 1.5s ease 0s 1 normal forwards;
     margin-bottom: 20px;
     line-height: 1.6;
     font-size: 1rem;
@@ -49,9 +65,22 @@
     justify-content: left;
     text-align: left;
     margin-top: 30px;
+    animation: box 1s ease 0s 1 normal forwards;
   } 
 
+  @keyframes box {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
   
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
   .hero-icon{
     font-size: 50px;
     margin-right: 10px;
@@ -105,12 +134,26 @@
     height: 90%;
     object-fit: contain;
     border-radius: 17px;
+    animation: imageanim 3s ease 0s 1 normal forwards;
   }
   
+
+  @keyframes imageanim {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
   
 /* CSS */
 .button-85 {
+  animation: paraAnim 2s ease 0s 1 normal forwards;
   font-family: "Poppins", sans-serif;
   margin: 20px 0px;
   padding: 10px 10px;

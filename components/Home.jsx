@@ -17,6 +17,8 @@ import styles from "../styles/App.module.css";
 import PhoneNumbers from "./InternationalNumbers/GetInternationalNumbersComponent";
 import Hero from "./Home/Hero";
 import Products from "./Home/Products";
+import SubHero from "./Home/SubHero";
+import TwelveCards from "./TwelveCards";
 
 const cardVariants = {
   whileHover: {
@@ -210,7 +212,9 @@ const Home = () => {
       {/* <PopupButton /> */}
       <Hero/>
       <Banner />
-      <TelecomBanner />
+      {/* <TelecomBanner /> */}
+      <SubHero/>
+      {/* <TwelveCards/> */}
       {/* <Products/> */}
       {additionalComponents}
       <Testimonials />

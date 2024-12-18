@@ -1,0 +1,60 @@
+.subhero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    background-color: #f5f5f5; /* Optional background color */
+    border-radius: 17px;
+    margin-bottom: 50px;
+  }
+  
+  .subhero-text {
+    max-width: 50%;
+    /* border: 1px solid red; */
+  }
+  
+  .subhero-text h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .subhero-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+  }
+  
+  .subhero-image img {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    .subhero-container {
+      flex-direction: column-reverse; /* Stack text and image vertically */
+      text-align: left; /* Center-align text for better readability */
+      padding: 20px;
+    }
+  
+    .subhero-text {
+      max-width: 100%; /* Take full width on mobile */
+    }
+  
+    .subhero-text h2 {
+      font-size: 1.5rem; /* Reduce heading size */
+    }
+  
+    .subhero-text p {
+      font-size: 0.9rem; /* Adjust paragraph font size */
+    }
+  
+    .subhero-image img {
+      max-width: 300px; /* Ensure image scales with screen size */
+      max-height: 300px; /* Ensure image scales with screen size */
+    }
+  }

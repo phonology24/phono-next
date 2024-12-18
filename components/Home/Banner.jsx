@@ -8,8 +8,8 @@ const Banner = () => {
       className={styles.banner}
       style={{
         display: "flex",
-        justifyContent: "space-between",
         alignItems: "center",
+        marginTop: "100px"
       }}
     >
       <div>
