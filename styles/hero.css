@@ -40,9 +40,9 @@
 
   
   .hero-box {
-    background-color: #bbffca;
+    background-color: #83ee9a;
     border-radius: 8px;
-    padding: 20px;
+    padding: 40px 20px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -80,6 +80,7 @@
     font-size: 16px;
     color: #777;
   }
+
   
   .hero-box-footer span {
     display: flex; /* Allows children to align in a row */
@@ -185,7 +186,7 @@
 
 .button-86 {
   font-family: "Poppins", sans-serif;
-  margin: 20px 0px;
+  margin: 10px 0px;
   padding: 10px 0px;
   text-wrap: nowrap;
   width: 30%;
