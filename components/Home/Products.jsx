@@ -11,7 +11,7 @@ const Products = () => {
   return (
     <div className="features-container">
       <h1 className="features-heading">
-        Our Innovative Solutions-Trusted by Businesses Worldwide
+        Our Innovative Solutions-Trusted by Businesses Worldwide
       </h1>
       <div className="features-grid">
         <div className="feature-card">
