@@ -214,8 +214,8 @@ const Home = () => {
       <Banner />
       {/* <TelecomBanner /> */}
       <SubHero/>
-      {/* <TwelveCards/> */}
-      {/* <Products/> */}
+      <Products/>
+      <TwelveCards/>
       {additionalComponents}
       <Testimonials />
       <Form />

@@ -14,11 +14,11 @@
   .features-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 10px; /* Space between cards */
+    gap: 5px; /* Space between cards */
   }
   
   .feature-card {
-    background: #e7e7e7;
+    background: #f1f1f1;
     border-radius:17px;
     padding: 20px 0px 20px 0px;
     text-align: center;
@@ -72,15 +72,17 @@
   .feature-card h3 {
     font-size: 22px;
     color: #333;
-    margin-bottom: 10px;
-    padding: 20px;
+    margin-bottom: 5px;
+    padding: 0px 30px;
+    margin-top: 10px;
     text-align: left;
   }
   
   .feature-card p {
     text-align: left;
-    padding: 20px;
+    padding: 0px 30px;
     font-size: 14px;
+    margin: 0;
     color: #666;
     line-height: 1.5;
   }
