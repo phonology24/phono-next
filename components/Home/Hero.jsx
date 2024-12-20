@@ -1,5 +1,4 @@
 import React from "react";
-import PublicIcon from "@mui/icons-material/Public";
 import "../../styles/hero.css";
 import Image from "next/image";
 
@@ -19,19 +18,19 @@ const Hero = () => {
     <div className="hero-container">
       <div className="hero-section-1">
         <div className="hero-content">
-          <h1 className="hero-heading">Redefining Connectivity as a leading VoIP Service Provider</h1>
+          <h1 className="hero-heading">Redefining Connectivity as a leading VoIP Service Provider</h1>
           <p className="hero-paragraph">
             Phonology brings you the future of connectivity with advanced VoIP solutions designed for performance,
-            reliability, and cost-effectiveness. Transform your communication and unlock endless possibilities.
+            reliability, and cost-effectiveness. Transform your communication and unlock endless possibilities.
           </p>
           <button className="button-85" onClick={RedirectorToDemo}>Book Your Demo Now</button>
           <div className="hero-box">
             <div className="hero-box-header">
               {/* <Image className="hero-icon" /> */}
-              <h4 className="hero-box-heading">Transform Engagement with Watel’s WhatsApp Business API Solutions
+              <h4 className="hero-box-heading">Transform Engagement with Watel WhatsApp Business API Solutions
               </h4>
               <p className="hero-box-paragraph">
-              Watel’s WhatsApp Business API solutions help you connect effortlessly with your customers. Automate replies, personalize interactions, and keep them engaged every step of the way.
+              Watel WhatsApp Business API solutions help you connect effortlessly with your customers. Automate replies, personalize interactions, and keep them engaged every step of the way.
               </p>
             </div>
             <div className="hero-box-footer">
