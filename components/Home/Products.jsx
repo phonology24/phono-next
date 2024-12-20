@@ -5,6 +5,7 @@ import vn from "../../public/Assets/vn1.png"
 import uf from "../../public/Assets/uf.png"
 import ct from "../../public/Assets/ct.png"
 import wapi from "../../public/Assets/wapi.png"
+import sip from "../../public/Assets/sip.png"
 import Image from "next/image";
 const Products = () => {
   return (
@@ -21,7 +22,7 @@ const Products = () => {
           </p>
         </div>
         <div className="feature-card">
-          <Image src={uf} alt="SIP Trunkinge" width={1000} height={1000} />
+          <Image src={sip} alt="SIP Trunkinge" width={1000} height={1000} />
           <h3>Unlock seamless connectivity with SIP Trunking</h3>
           <p>
             Unlock seamless connectivity with SIP Trunking—reliable, scalable, and cost-effective voice solutions that integrate effortlessly with your existing PBX systems, empowering global communication.
