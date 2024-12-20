@@ -1,6 +1,6 @@
 import React from "react";
 import DashboardIcon from "@mui/icons-material/Dashboard";
-import "../../styles/twelvecards.css";
+import "../styles/twelvecards.css";
 
 const cardsData = [
     {
