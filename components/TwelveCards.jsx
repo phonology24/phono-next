@@ -139,7 +139,7 @@ const cardsData = [
 const TwelveCards = () => {
   return (
     <div className="cards-section">
-      <h3 className="section-heading">Cards Section</h3>
+      <h3 className="section-heading">Features</h3>
 
       <div className="cards-container">
         {cardsData.map((card) => (
