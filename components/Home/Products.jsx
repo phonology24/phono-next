@@ -17,7 +17,7 @@ const Products = () => {
       </h1>
       <div className="features-grid">
         <div className="feature-card">
-          <Link href="/enterprise-voice">
+          <Link href="/unified-communication-providers">
             <div>
               <Image src={Voice} alt="Enterprise Voice Solution" width={1000} height={1000} />
               <h3>Enterprise Voice Solutions: Affordable, Scalable, and Secure Communication</h3>
@@ -28,7 +28,7 @@ const Products = () => {
           </Link>
         </div>
         <div className="feature-card">
-          <Link href="/sip-trunking">
+          <Link href="/sip-trunk-providers">
             <div>
               <Image src={sip} alt="SIP Trunking" width={1000} height={1000} />
               <h3>Unlock seamless connectivity with SIP Trunking</h3>
@@ -39,7 +39,7 @@ const Products = () => {
           </Link>
         </div>
         <div className="feature-card">
-          <Link href="/virtual-numbers">
+          <Link href="/virtual-phone-number-providers">
             <div>
               <Image src={vn} alt="Virtual Number" width={1000} height={1000} />
               <h3>Stay connected with Virtual Numbers</h3>
@@ -50,7 +50,7 @@ const Products = () => {
           </Link>
         </div>
         <div className="feature-card">
-          <Link href="/unified-communication">
+          <Link href="/unified-communication-providers">
             <div>
               <Image src={uf} alt="Unified Communication" width={1000} height={1000} />
               <h3>Empower your business with Unified Communication</h3>
@@ -61,7 +61,7 @@ const Products = () => {
           </Link>
         </div>
         <div className="feature-card">
-          <Link href="/cloud-telephony">
+          <Link href="/cloud-telephony-providers">
             <div>
               <Image src={ct} alt="Cloud Telephony" width={1000} height={1000} />
               <h3>Experience the power of Cloud Telephony</h3>
@@ -72,7 +72,7 @@ const Products = () => {
           </Link>
         </div>
         <div className="feature-card">
-          <Link href="/whatsapp-api">
+          <Link href="/whatsapp-business">
             <div>
               <Image src={wapi} alt="WhatsApp API" width={1000} height={1000} />
               <h3>Watel: Empowering Business Communication with WhatsApp API</h3>

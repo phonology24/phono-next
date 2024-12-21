@@ -61,6 +61,12 @@ const DropdownMenuProducts = () => {
   const appsSection = [
 
     {
+      name: 'Whatsapp Business',
+      description: 'Whatsapp third-party integration platform for business owners.',
+      link: '/whatsapp-business', // Use the full URL here
+      icon: <CallIcon />
+    },
+    {
       name: 'Watel',
       description: 'Whatsapp third-party integration platform for business owners.',
       link: 'https://www.watel.io', // Use the full URL here
