@@ -5,6 +5,10 @@
     margin-bottom: 20px;
   }
   
+a{
+  text-decoration: none;
+}
+
   .features-heading {
     font-size: 35px;
     color: #333;
