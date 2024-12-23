@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d8f8ff;
+  background-color: #dff9ff;
   padding: 40px 20px;
   height: fit-content;
   flex-direction: column;
@@ -19,7 +19,7 @@
 /* Testimonial Card */
 .testimonial-card {
   text-align: center;
-  background-color: #a4ddf5;
+  background-color: #dfffd3;
   padding: 20px;
   border-radius: 10px;
   width: 90%;

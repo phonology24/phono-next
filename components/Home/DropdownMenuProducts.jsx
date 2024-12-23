@@ -7,6 +7,8 @@ import CloudIcon from '@mui/icons-material/Cloud';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import CallCenterIcon from '@mui/icons-material/HeadsetMic';
 import PublicIcon from '@mui/icons-material/Public';
+import drop from "../../public/Assets/drop.jpg"
+import Image from 'next/image';
 
 const DropdownMenuProducts = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -124,7 +126,7 @@ const DropdownMenuProducts = () => {
 
           {/* Placeholder Image Section */}
           <div className="dropdownCol image-section">
-            <img src={placeholderImageUrl} alt="Placeholder" />
+            <Image src={drop} alt="Placeholder"  height={1000} width={1000}/>
           </div>
         </div>
       )}

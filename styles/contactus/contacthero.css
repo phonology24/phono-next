@@ -23,14 +23,17 @@
     padding: 0;
     min-width: 50%;
     max-width: 50%;
+    max-height: 10%;
     overflow: hidden;
-    border: none;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: end;
     align-items: center;
+    /* border-radius: 102px; */
 }
 
 .contact-us-hero-img img {
+    /* border: 1px solid red; */
     border-radius: 17px;
     width: 90%;
     height: 60vh;

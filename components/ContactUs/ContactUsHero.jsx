@@ -3,7 +3,7 @@ import React from 'react';
 import { useRouter } from "next/navigation";
 import '../../styles/contactus/contacthero.css';
 import Image from 'next/image';
-import CallCenterImage from "../../public/Assets/blurry-gradient-haikei.png";
+import CallCenterImage from "../../public/Assets/contact.jpg";
 
 const ContactUsHero = () => {
   const router = useRouter(); 
