@@ -7,7 +7,7 @@ import CloudIcon from '@mui/icons-material/Cloud';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import CallCenterIcon from '@mui/icons-material/HeadsetMic';
 import PublicIcon from '@mui/icons-material/Public';
-import drop from "../../public/Assets/drop.jpg"
+import drop from "../../public/Assets/drop.png"
 import Image from 'next/image';
 
 const DropdownMenuProducts = () => {
