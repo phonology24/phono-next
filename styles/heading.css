@@ -1,7 +1,7 @@
 .about-heading {
   background: #ffffff00;
   max-width: 85vw;
-  margin-bottom: 30vh;
+  margin-bottom: 50vh;
   margin-top: 3vh;
 }
 
@@ -10,8 +10,8 @@
 }
 
 .about-heading__title {
-  padding: 2rem 10rem 0rem 0rem;
-  text-align: left;
+  padding: 2rem 0rem 1rem 0rem;
+  text-align: center;
   font-size: 40px;
   font-weight: bold;
   color: #000;
@@ -39,7 +39,7 @@
   background: #83EE9A;
   color: #000000;
   max-width: 85vw;
-  padding: 7rem 2rem;
+  padding: 9rem 2rem;
   position: absolute;
   margin-top: 4rem;
   top: 450px;

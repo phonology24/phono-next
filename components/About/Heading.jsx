@@ -25,7 +25,6 @@ const AboutHeading = () => {
             className="about-heading__image"
             width={1000}
             height={400}
-            unoptimized
           />
         </div>
         {/* <button className="about-heading__play-button">
