@@ -7,6 +7,7 @@ import Head from 'next/head';
 import { usePathname } from 'next/navigation';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { GoogleTagManager } from '@next/third-parties/google'
+import { SmoothScrollWrapper } from '@/utils/ScrollWrapper';
 
 
 export default function Layout({ children }) {
@@ -25,6 +26,7 @@ export default function Layout({ children }) {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <SmoothScrollWrapper>
       <body>
 
 
@@ -36,6 +38,7 @@ export default function Layout({ children }) {
         )}
         {children}
       </body>
+      </SmoothScrollWrapper>
     </html>
   );
 }

@@ -1,27 +1,44 @@
 import React from "react";
 import "../../styles/heading.css";
+import Image from "next/image";
+import HeroImage from "../../public/Assets/home-hero3.png";
+
+// Placeholder image URL
+const PlaceHolderImage = "https://via.placeholder.com/800x400";
+
 const AboutHeading = () => {
   return (
-    <div className="about-heading">
-      <h1>Best VOIP Service Providers</h1>
-      <h2 className="h2about-heading">
-        We Make Business<br></br> Communication Simple.
-      </h2>
-      <p className="about-heading-text">
-        Phonology is a pioneer in telecom solutions, offering cutting-edge VoIP,
-        Internet telephony, SIP trunks, cloud telephony, and virtual numbers
-        for businesses seeking reliable, scalable communication. With 19 years
-        of industry expertise, we empower enterprises to streamline their operations
-        and expand their global presence with secure and efficient solutions.
-        Our suite of services is tailored to meet the unique needs of businesses,
-        ensuring seamless communication across teams, clients, and partners—whether
-        locally or internationally.
-        At Phonology, we don’t just provide technology; we build relationships,
-        ensuring our clients receive world-class support and customized solutions
-        that drive their success. Whether a small business or a large corporation,
-        Phonology is the trusted partner you need to thrive in today’s fast-paced, digitally connected world.
-      </p>
-    </div>
+    <section className="about-heading">
+      <div className="about-heading__content">
+        <h2 className="about-heading__title">
+          We are passionate about revolutionizing the way businesses operate through the power of technology.
+        </h2>
+      </div>
+      <div className="about-heading__image-container">
+        {/* <div className="about-heading__badge">
+          <span className="about-heading__year">2023</span>
+        </div> */}
+        <div className="about-heading__image-wrapper">
+          <Image
+            src={PlaceHolderImage}
+            alt="Team working in an office"
+            className="about-heading__image"
+            width={1000}
+            height={400}
+            unoptimized
+          />
+        </div>
+        {/* <button className="about-heading__play-button">
+          ▶
+        </button> */}
+      </div>
+      <div className="about-heading__description">
+        <h3>We have rules to create a product start from scratch</h3>
+        <p>
+          Our products are designed with the user in mind, and are tailored to provide custom solutions for businesses of all sizes. Whether you're looking for cloud-based software or mobile applications, our products are intuitive, flexible, and designed to meet your specific needs.
+        </p>
+      </div>
+    </section>
   );
 };
 
