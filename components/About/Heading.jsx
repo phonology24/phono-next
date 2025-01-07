@@ -4,7 +4,7 @@ import Image from "next/image";
 import HeroImage from "../../public/Assets/home-hero3.png";
 
 // Placeholder image URL
-const PlaceHolderImage = "https://via.placeholder.com/800x400";
+import PlaceHolderImage from  "../../public/Assets/about.jpg";
 
 const AboutHeading = () => {
   return (
