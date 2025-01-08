@@ -36,15 +36,17 @@ const AboutHeading = () => {
         <p>
           At Phonology, we believe communication is the cornerstone of every successful business. For over 19 years,
           we’ve been at the forefront of telecom innovation, delivering cutting-edge solutions like VoIP, cloud
-          telephony, SIP trunks, and hosted PBX to businesses across the globe. Our mission is simple: to redefine
+          telephony, SIP trunks, and hosted PBX to businesses across the globe. 
+          <br/>
+<br/>
+          Our mission is simple: to redefine
           how the world communicates by providing seamless, scalable, and secure communication systems tailored
           to your needs. With a proven track record of excellence, we’re more than a service provider—we’re
           your trusted partner in transforming communication into a competitive advantage. Step into the
           future of connection with Phonology.
 <br/>
-          Our mission is rooted in understanding the dynamic needs of today’s businesses and crafting 
-          solutions that meet them head-on. At Phonology, we emphasize innovation, reliability, 
-          and a customer-first approach in everything we do. Whether you’re a budding startup 
+<br/>
+           Whether you’re a budding startup 
           striving for recognition or a global enterprise expanding your reach, our advanced 
           communication solutions are designed to keep you ahead of the curve. From fostering 
           seamless team collaboration to delivering unparalleled customer interactions, we 

@@ -36,10 +36,10 @@
 
 
 .about-heading__description {
-  background: #83EE9A;
-  color: #000000;
+  background: #2b75c9;
+  color: #ffffff;
   max-width: 85vw;
-  padding: 9rem 2rem;
+  padding: 9rem 2rem 2rem 2rem;
   position: absolute;
   margin-top: 4rem;
   top: 450px;
@@ -52,6 +52,7 @@
 }
 
 .about-heading__description p {
+  color: #ffffff;
   font-size: 1rem;
   line-height: 1.5;
 }
