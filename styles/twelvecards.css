@@ -14,7 +14,7 @@
   }
   
   /* Container for the Grid of Cards */
-  .cards-container {
+  .cards-container1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -22,7 +22,7 @@
   }
   
   /* Individual Card */
-  .card {
+  .card1 {
     height: 150px;
     padding: 25px;
     display: flex;
