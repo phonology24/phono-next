@@ -1,11 +1,8 @@
-/* Main Section Wrapper */
 .cards-section {
     padding: 20px;
-    /* border: 1px solid red; */
     text-align: center;
   }
   
-  /* Heading for the Section */
   .section-heading {
     font-weight: bold;
     margin: 20px;
@@ -13,7 +10,6 @@
     font-size: 40px;
   }
   
-  /* Container for the Grid of Cards */
   .cards-container1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

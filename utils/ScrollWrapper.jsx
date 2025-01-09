@@ -8,10 +8,8 @@ export const SmoothScrollWrapper = ({ children }) => {
     <ReactLenis
       root
       options={{
-        lerp: 0.1,          // Controls the smoothness
-        duration: 1.5,      // Duration of the scroll effect
-        smoothTouch: true,  // Enable smooth scrolling on touch devices
-        touchMultiplier: 1.5, // Adjust sensitivity for mobile scroll
+        lerp: .1,          // Controls the smoothness
+        duration: 1,      // Duration of the scroll effect
       }}
     >
       {children}

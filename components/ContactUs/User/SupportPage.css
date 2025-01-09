@@ -1,0 +1,91 @@
+.supportpage-support-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #ffffff 100%);
+    margin: 50px 20px; /* Reduced margin for smaller screens */
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border-radius: 17px;
+  }
+  
+  .supportpage-content-container {
+    max-width: 90%; /* Ensure content fits on smaller screens */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .supportpage-heading {
+    font-size: 3rem; /* Adjust for smaller screens */
+    margin: 1rem;
+  }
+  
+  .supportpage-paragraph {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .supportpage-search-bar {
+    display: flex;
+    flex-direction: column; /* Stack input and button on smaller screens */
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .supportpage-search-input {
+    width: 70%; /* Input takes full width on mobile */
+    padding: 12px; /* Adjust padding for better fit */
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  .supportpage-search-button {
+    width: 100%; /* Button takes full width on mobile */
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px; /* Matches the input style */
+    background-color: #2575fc;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .supportpage-search-button:hover {
+    background-color: #6a11cb;
+  }
+  
+  @media (max-width: 768px) {
+    .supportpage-support-page {
+      margin: 20px 10px; /* Further reduce margin for small screens */
+    }
+  
+    .supportpage-heading {
+      font-size: 2.5rem;
+    }
+  
+    .supportpage-paragraph {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+  
+    .supportpage-search-bar {
+      flex-direction: column; /* Ensure proper stacking on mobile */
+    }
+  
+    .supportpage-search-input,
+    .supportpage-search-button {
+      font-size: 0.9rem;
+    }
+  }
+  

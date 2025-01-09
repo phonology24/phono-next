@@ -1,0 +1,56 @@
+.quickfind-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 150px; 
+  }
+  
+
+  .quickfind-container a{
+    text-decoration: none;
+  }
+
+  .quick-heading{
+    font-size: 1.8rem;
+    text-align: center;
+
+  }
+  .quickfind-card {
+    flex: 1 1 calc(25.33% - 20px); 
+    width: 250px;
+    padding: 30px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #e6ffec;
+    transition: transform 0.3s ease;
+  }  
+
+  .quickfind-icon {
+    font-size: 35px;
+    color: #000000;
+    margin: 0px;
+    border: 1px solid rgb(168, 168, 168);
+    padding: 10px; 
+    border-radius:20px;
+}
+
+  .quickfind-heading {
+      font-size: 1.2rem;
+      color: #000000;
+    margin: 0px 0;
+}
+
+.quickfind-subheading {
+    font-size: .8rem;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .quickfind-card {
+      width: 100%;
+    }
+  }
+  

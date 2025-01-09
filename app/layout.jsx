@@ -26,7 +26,7 @@ export default function Layout({ children }) {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <SmoothScrollWrapper>
+      {/* <SmoothScrollWrapper> */}
       <body>
 
 
@@ -38,7 +38,7 @@ export default function Layout({ children }) {
         )}
         {children}
       </body>
-      </SmoothScrollWrapper>
+      {/* </SmoothScrollWrapper> */}
     </html>
   );
 }

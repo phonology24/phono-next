@@ -61,7 +61,7 @@ const ContactUsCategories = () => {
                 <div
                   key={index}
                   className={`category-card category-card-${index}`}
-                  style={{ backgroundColor: fixedColors[index % fixedColors.length] }} // Apply color based on index
+                  style={{ backgroundColor: "#E1F0FF"}} // Apply color based on index
                   onClick={() => handleCategoryClick(category._id)}
                 >
                   <h3 className="category-title">{category.name}</h3>
