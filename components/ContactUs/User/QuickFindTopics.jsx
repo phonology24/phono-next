@@ -4,7 +4,7 @@ import "./QuickFindTopics.css";
 
 const QuickFindTopics = () => {
   const generateUrl = (heading) => {
-    return `/${heading.toLowerCase().replace(/\s+/g, '-')}`; // Convert heading to lowercase and replace spaces with hyphens
+    return `support/${heading.toLowerCase().replace(/\s+/g, '-')}`; // Convert heading to lowercase and replace spaces with hyphens
   };
 
   return (
