@@ -1,0 +1,44 @@
+/* CardComponent.css */
+.stepHero-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;/* 70% of the viewport width */
+    margin:40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .stepHero-card {
+    width: 100%; /* Full width of the container */
+    min-width: 900px;/* Optional: Limit the width of each card */
+    background-color: #eeeeee;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .stepHero-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stepHero-card-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .stepHero-card-subheading {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .stepHero-card-description {
+    font-size: 1rem;
+    color: #777;
+  }
+  
