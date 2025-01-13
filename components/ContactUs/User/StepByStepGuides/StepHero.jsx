@@ -11,9 +11,9 @@ const StepHero = () => {
       url: "/contact-us/support/step-by-step-guides/sip-trunk-guidelines"
     },
     {
-      heading: "How to Set Up a SIP Trunk with Phonology?",
+      heading: "Setting Up IVR for Your Business: A Simple and Effective Guide.",
       subheading: "Subheading 1",
-      description: "Set up your SIP trunk with Phonology effortlessly and enjoy enhanced call quality, flexible scalability, and cost-effective communication, all designed around your business goals.",
+      description: "Learn to create a professional IVR system that automates call handling and enhances customer service. Our guide walks you through the process with ease.",
       url: "/contact-us/support/step-by-step-guides/ivr-guidelines"
     },
     {
