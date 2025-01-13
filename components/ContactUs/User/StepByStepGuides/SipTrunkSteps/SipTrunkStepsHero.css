@@ -1,0 +1,104 @@
+/* Container that wraps everything */
+.sipTrunkSteps-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    /* Slight off-white to give some contrast */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Image on top */
+.sipTrunkSteps-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.sipTrunkSteps-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Main content wrapper */
+.sipTrunkSteps-content {
+    padding: 1rem;
+}
+
+/* Title for the entire section */
+.sipTrunkSteps-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #0E3735;
+    margin-bottom: 2rem;
+}
+
+/* Container for the step-by-step cards */
+.sipTrunkSteps {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* space between each card */
+}
+
+/* Each individual step card */
+.step {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    gap: 1rem;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+
+
+.steps-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.step-icon {
+    font-size: 2.5rem;
+    color: #666666;
+    min-width: 40px;
+    padding: 10px;
+
+}
+
+.step-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0E3735;
+    margin-bottom: 0.5rem;
+}
+
+.step p {
+    font-size: .8rem;
+    color: #555555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .step {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .step-icon {
+        margin-bottom: 1rem;
+    }
+
+    .steps-content {
+        align-items: center;
+    }
+}

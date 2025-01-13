@@ -7,18 +7,19 @@ import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutl
 import LoadingSpinner from "@/utils/LoadingSpinner"; // Import the loading spinner
 
 const ContactUsDocs = () => {
-    const [documents, setDocuments] = useState([]);
-    const [isLoading, setIsLoading] = useState(true); // State for loading
-    const [searchQuery, setSearchQuery] = useState(""); // State for search query
-    const params = useParams(); // Extract route params
-    const subCategoryId = params.subCategoryId; // Access subCategoryId from dynamic route
+    const [documents, setDocuments] = useState([]); 
+    const [isLoading, setIsLoading] = useState(true); 
+    const [searchQuery, setSearchQuery] = useState(""); 
+    const params = useParams(); 
+    const elo = 1;    
+    const subCategoryId = params.subCategoryId;  
     const router = useRouter();
 
     useEffect(() => {
         const fetchDocuments = async () => {
-            try {
+            try { 
                 const data = await getDocumentsBySubCategory(subCategoryId);
-                setDocuments(data); // Set the documents state
+                setDocuments(data); // Set the documents  state
             } catch (error) {
                 console.error("Failed to fetch documents:", error);
             } finally {

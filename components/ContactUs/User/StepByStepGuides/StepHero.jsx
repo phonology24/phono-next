@@ -1,34 +1,67 @@
 import React from 'react';
+import Link from 'next/link';
 import './stepHero.css'; // Import the CSS file
 
 const StepHero = () => {
   const cards = [
     {
-      heading: "Card 1",
-      subheading: "Subheading 1", 
-      description: "This is the description for Card 1.",
+      heading: "How to Set Up a SIP Trunk with Phonology?",
+      subheading: "Subheading 1",
+      description: "Set up your SIP trunk with Phonology effortlessly and enjoy enhanced call quality, flexible scalability, and cost-effective communication, all designed around your business goals.",
+      url: "/contact-us/support/step-by-step-guides/sip-trunk-guidelines"
     },
     {
-      heading: "Card 2",
-      subheading: "Subheading 2",
-      description: "This is the description for Card 2.",
+      heading: "How to Set Up a SIP Trunk with Phonology?",
+      subheading: "Subheading 1",
+      description: "Set up your SIP trunk with Phonology effortlessly and enjoy enhanced call quality, flexible scalability, and cost-effective communication, all designed around your business goals.",
+      url: "/contact-us/support/step-by-step-guides/sip-trunk-guidelines"
     },
     {
-      heading: "Card 3",
-      subheading: "Subheading 3",
-      description: "This is the description for Card 3.",
+      heading: "How to Set Up a SIP Trunk with Phonology?",
+      subheading: "Subheading 1",
+      description: "Set up your SIP trunk with Phonology effortlessly and enjoy enhanced call quality, flexible scalability, and cost-effective communication, all designed around your business goals.",
+      url: "/contact-us/support/step-by-step-guides/sip-trunk-guidelines"
     },
+    {
+      heading: "How to Set Up a SIP Trunk with Phonology?",
+      subheading: "Subheading 1",
+      description: "Set up your SIP trunk with Phonology effortlessly and enjoy enhanced call quality, flexible scalability, and cost-effective communication, all designed around your business goals.",
+      url: "/contact-us/support/step-by-step-guides/sip-trunk-guidelines"
+    },
+    {
+      heading: "How to Set Up a SIP Trunk with Phonology?",
+      subheading: "Subheading 1",
+      description: "Set up your SIP trunk with Phonology effortlessly and enjoy enhanced call quality, flexible scalability, and cost-effective communication, all designed around your business goals.",
+      url: "/contact-us/support/step-by-step-guides/sip-trunk-guidelines"
+    },
+    {
+      heading: "How to Set Up a SIP Trunk with Phonology?",
+      subheading: "Subheading 1",
+      description: "Set up your SIP trunk with Phonology effortlessly and enjoy enhanced call quality, flexible scalability, and cost-effective communication, all designed around your business goals.",
+      url: "/contact-us/support/step-by-step-guides/sip-trunk-guidelines"
+    },
+    {
+      heading: "How to Set Up a SIP Trunk with Phonology?",
+      subheading: "Subheading 1",
+      description: "Set up your SIP trunk with Phonology effortlessly and enjoy enhanced call quality, flexible scalability, and cost-effective communication, all designed around your business goals.",
+      url: "/contact-us/support/step-by-step-guides/sip-trunk-guidelines"
+    },
+
+
+    // Add more cards as needed
   ];
 
   return (
     <div className="stepHero-card-container">
-     <h1>Step By Step Guidelines</h1>
+      <h1>Step By Step Guidelines</h1>
       {cards.map((card, index) => (
-        <div className="stepHero-card" key={index}>
-          <h2 className="stepHero-card-heading">{card.heading}</h2>
-          <h4 className="stepHero-card-subheading">{card.subheading}</h4>
-          <p className="stepHero-card-description">{card.description}</p>
-        </div>
+        <Link href={card.url} key={index}>
+          <div className="stepHero-card">
+            <h2 className="stepHero-card-heading">{card.heading}</h2>
+            {/* <h4 className="stepHero-card-subheading">{card.subheading}</h4> */}
+            <p className="stepHero-card-description">{card.description}</p>
+          </div>
+        </Link>
       ))}
     </div>
   );

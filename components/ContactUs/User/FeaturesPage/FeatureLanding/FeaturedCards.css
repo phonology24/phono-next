@@ -1,0 +1,66 @@
+.featuredCards-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap into a new line */
+    gap: 20px;
+    max-width: 100vw;
+    margin: auto;
+    padding: 100px 30px;
+    background-color: #D9D5D2;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.featuredCards-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #F7F2EF;
+    border: 1px solid #e0e0e0;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    /* Set card width to 45% to fit two cards in one row */
+    box-sizing: border-box;
+    /* Ensure padding is included in the width calculation */
+}
+
+.featuredCards-icon {
+    flex: 0 0 300px;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.featuredCards-muiIcon {
+    font-size: 8rem;
+    color: #020083;
+}
+
+.featuredCards-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.featuredCards-content {
+    flex: 1;
+}
+
+.featuredCards-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0E3735;
+    margin: 0;
+}
+
+.featuredCards-text {
+    font-size: 1rem;
+    color: #555555;
+    margin-top: 10px;
+    line-height: 1.5;
+}
