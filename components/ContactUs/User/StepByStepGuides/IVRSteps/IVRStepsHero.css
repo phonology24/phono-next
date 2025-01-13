@@ -82,6 +82,19 @@
     margin: 0;
 }
 
+.sipTrunkSteps-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.sipTrunkSteps-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 12px;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .ivrStep {

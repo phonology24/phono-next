@@ -12,10 +12,20 @@ import {
     HeadsetMic
 } from '@mui/icons-material';
 import './IVRStepsHero.css';
+import SipImage from '/public/Assets/ccc1.png';
+import Image from 'next/image';
 
 const IVRStepsHero = () => {
     return (
         <div className="ivrSteps-container">
+                        <div className="sipTrunkSteps-image">
+                            <Image
+                                src={SipImage}
+                                alt="SIP Trunking"
+                                width={500}
+                                height={500}
+                            />
+                        </div>
             <div className="ivrSteps-content">
                 <h2 className="ivrSteps-title">
                     Setting Up Your IVR with Phonology: A Step-by-Step Guide
