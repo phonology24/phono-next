@@ -11,19 +11,24 @@ const AIVoiceApiHeading = () => {
           <Image src={CallCenterImage} alt="AI Voice API" />
         </div>
         <div className="ai-voice-api-text">
-          <h1 className="ai-voice-api-heading-main">AI Voice API Solutions</h1>
+          <h1 className="ai-voice-api-heading-main">Phonology’s AI Voice API</h1>
           <p className="ai-voice-api-description">
-            Revolutionize Communication with AI-Driven Voice API Solutions
+            Elevating AI Platforms with Intelligent Communication
           </p>
           <p className="ai-voice-api-details">
-            Are you ready to transform your communication strategy? 
-            <br />
-            Phonology’s AI Voice API delivers cutting-edge voice capabilities for businesses of all sizes.
-            <br />
-            Whether it’s automated voice responses, text-to-speech, or real-time analytics, our API makes integration seamless.
-            Enhance customer interactions, reduce operational costs, and scale effortlessly as your business grows.
-            With Phonology’s AI Voice API, innovation meets simplicity, ensuring your business stays ahead in a competitive landscape.
-            Let’s redefine how you connect with your audience.
+            Phonology’s Voice API empowers AI companies with intelligent voice capabilities
+            that integrate seamlessly into AI-driven platforms. Designed to complement
+            advanced technologies like conversational AI, virtual assistants, and
+            machine learning models, our API delivers natural language processing (NLP),
+            real-time speech recognition, and text-to-speech (TTS) features for lifelike
+            interactions.
+            <br/>
+             With support for multilingual communication, intelligent call
+            routing, and actionable call analytics, Phonology’s Voice API enhances user
+            engagement, streamlines operations, and enables global scalability. Trusted
+            for its reliability and developer-friendly integration, our solution equips
+            AI companies with the tools to create smarter, more efficient, personalized
+            communication experiences.
           </p>
         </div>
       </div>
