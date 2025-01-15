@@ -1,0 +1,129 @@
+.ai-benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+/* Desktop styles */
+.ai-benefits-content {
+    flex: 1;
+    max-width: 600px;
+    padding: 1rem;
+}
+
+.ai-benefits-header {
+    margin-bottom: 2rem;
+}
+
+.ai-benefits-title {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.ai-benefits-subtitle {
+    margin: 0rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.ai-benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ai-benefits-item {
+    border-radius: 8px;
+    padding: 0rem;
+}
+
+.ai-benefits-item-title {
+    font-size: 1.25rem;
+    color: #333;
+    margin: 0rem;
+}
+
+.ai-benefits-item-description {
+    font-size: 1rem;
+    margin: 0rem;
+    color: #666;
+}
+
+.ai-benefits-image {
+    flex: 1;
+    max-width: 500px;
+    padding: 1rem;
+}
+
+.ai-benefits-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Tablet and below styles */
+@media (max-width: 768px) {
+    .ai-benefits-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .ai-benefits-content,
+    .ai-benefits-image {
+        max-width: 100%;
+        text-align: center; /* Center align for better readability */
+    }
+
+    .ai-benefits-title {
+        font-size: 1.8rem;
+    }
+
+    .ai-benefits-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .ai-benefits-item-title {
+        font-size: 1.1rem;
+    }
+
+    .ai-benefits-item-description {
+        font-size: 0.9rem;
+    }
+
+    .ai-benefits-image img{
+        max-width: 100%; 
+        max-height: 100%; 
+    }
+}
+
+/* Mobile-specific styles */
+@media (max-width: 480px) {
+    .ai-benefits-container {
+        padding: 1rem 0.5rem; /* Reduce padding further for small screens */
+    }
+
+    .ai-benefits-title {
+        font-size: 1.5rem;
+    }
+
+    .ai-benefits-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .ai-benefits-item-title {
+        font-size: 1rem;
+    }
+
+    .ai-benefits-item-description {
+        font-size: 0.8rem;
+    }
+
+    .ai-benefits-image {
+        border-radius: 5px; /* Smaller border radius for compact view */
+    }
+}

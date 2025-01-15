@@ -3,7 +3,6 @@
     background-color: #e0e0e0;
     padding: 30px;
     border-radius: 80px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: row;
     margin: 120px 20px 50px 20px;
@@ -187,24 +186,18 @@
   
   /* Responsive styles */
   @media (max-width: 768px) {
-    .aiVoiceApiContainer {
-      flex-direction: column;
-      padding: 20px;
-      margin: 5rem 0;
-    }
-  
-    .aiVoiceApiImage {
-      max-width: 100%;
-      margin: 20px 0 0 0;
-    }
-  
-    .aiVoiceApih2 {
-      font-size: 35px;
-    }
-  
-    .aiVoiceApiP {
-      font-size: 16px;
-    }
+.ai-voice-api-content{
+  min-width: 100%;
+  flex-direction: column;
+background-color: white;
+  margin: 120px auto 50px -40px;
+}
+
+.aiVoiceApiImage img {
+  width: 100%;
+  height: 100%;
+}
+
   }
   
 

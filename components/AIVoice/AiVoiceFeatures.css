@@ -1,0 +1,81 @@
+/* Section container */
+.ai-voice-features {
+    text-align: center;
+    padding: 0px 20px;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Main heading */
+  .ai-main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  /* Cards container */
+  .ai-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  }
+  
+  /* Individual feature card */
+  .ai-feature-card {
+    width: 350px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for cards */
+  .ai-feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card content */
+  .ai-card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Card icon */
+  .ai-card-icon {
+    font-size: 40px;
+    color: #ff6b00;
+    margin-bottom: 10px;
+  }
+  
+  /* Card heading */
+  .ai-card-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Card description */
+  .ai-card-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .ai-cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ai-feature-card {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+  }
+  
