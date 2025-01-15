@@ -113,7 +113,7 @@
   
   /* Heading styles */
   .aiVoiceApih2 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 900;
     margin-bottom: 20px;
     animation: aiVoiceApi-heading 1s ease-in-out;
@@ -138,6 +138,7 @@
     font-weight: 900;
   }
   
+
   /* Paragraph text styles */
   .aiVoiceApiP {
     font-size: 18px;
@@ -206,3 +207,13 @@
     }
   }
   
+
+.voice-li{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0px auto;
+  }
+  .voicep{
+    
+    margin: 5px auto;
+  }

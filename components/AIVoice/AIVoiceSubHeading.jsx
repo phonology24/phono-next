@@ -8,15 +8,42 @@ const AIVoiceApiSubHeading = () => {
     <div className="aiVoiceApiContainer">
       <div className="aiVoiceApiText">
         <h2 className="aiVoiceApih2">
-          Transform Communication with <br></br>{" "}
-          <span className="ltr-gradient">Innovation & Intelligence.</span>
+          Why AI Companies Choose
+          <br></br>{" "}
+          <span className="ltr-gradient">Phonology’s Voice API</span>
         </h2>
         <p className="aiVoiceApiP">
-          Our AI-powered voice API solutions are designed to enhance communication with unmatched precision and efficiency.
-          Seamlessly integrate AI capabilities into your existing systems, empowering your team with text-to-speech, voice recognition, and real-time analytics.
-          <br></br>{" "}
-          Leverage intelligent routing and scalable APIs to manage high call volumes without compromising quality. Phonology ensures top-tier security with advanced encryption and robust authentication protocols.
-          As your business evolves, our solutions adapt dynamically, providing you with a flexible and future-ready communication framework.
+          <ul >
+            <li className="voice-li">
+              Built for AI Systems
+            </li>
+            <p className="voicep">
+              Our Voice API is optimized for integration with AI technologies, empowering conversational AI, virtual assistants, and machine learning platforms with natural and intelligent voice communication.
+            </p>
+            <li className="voice-li">
+              Human-Like Voice Interactions
+            </li>
+            <p className="voicep">
+              Equip your AI solutions with natural language processing (NLP) and text-to-speech (TTS) capabilities to deliver lifelike and engaging voice responses.
+            </p>
+            <li className="voice-li">
+              Scalable Voice Solutions
+            </li>
+            <p className="voicep">
+              Handle high call volumes effortlessly, ensuring smooth, uninterrupted communication for your AI-powered platforms.
+            </p>
+            <li className="voice-li">
+              Global Accessibility
+            </li>
+            <p className="voicep">
+              With multi-language support, Phonology’s Voice API helps AI companies expand globally, catering to users in multiple languages and accents.
+            </p>
+            <li className="voice-li">
+              Developer-Friendly Integration
+            </li>
+            <p className="voicep">
+              Enjoy fast deployment and customization with Phonology’s robust API documentation and support.                  </p>
+          </ul>
         </p>
       </div>
       <div className="aiVoiceApiImage">
