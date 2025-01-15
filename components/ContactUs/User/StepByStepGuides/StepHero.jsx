@@ -23,10 +23,10 @@ const StepHero = () => {
       url: "/contact-us/support/step-by-step-guides/virtual-number-guidelines"
     },
     {
-      heading: "How to Set Up a SIP Trunk with Phonology?",
+      heading: "How to Set Up and Use Call Recording for Your Team?",
       subheading: "Subheading 1",
-      description: "Set up your SIP trunk with Phonology effortlessly and enjoy enhanced call quality, flexible scalability, and cost-effective communication, all designed around your business goals.",
-      url: "/contact-us/support/step-by-step-guides/sip-trunk-guidelines"
+      description: "Set up and utilize call recording to boost team efficiency and maintain compliance. Discover how to activate, access, and maximize recordings for training and quality improvement.",
+      url: "/contact-us/support/step-by-step-guides/call-record-guidelines"
     },
     {
       heading: "How to Set Up a SIP Trunk with Phonology?",
