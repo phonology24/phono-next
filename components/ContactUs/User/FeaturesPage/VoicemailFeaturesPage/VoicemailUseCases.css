@@ -1,0 +1,136 @@
+.use-cases-container {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    padding: 50px;
+    min-height: 50vh;
+    background-color: #ffffff;
+    margin: 0px 50px;
+    
+}
+
+.casestudyHeading{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #ffffff;
+    margin: 20px 50px;
+    margin-bottom: 0;
+}
+
+.use-cases-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .use-cases-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin: 10px;
+}
+
+.use-cases-content h3 {
+    font-size: 1.5rem;
+    margin: 10px;
+    color: #555;
+}
+
+.use-cases-content p {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px;
+}
+
+.use-cases-content ul {
+    list-style-type: disc;
+    margin: 10px;
+    padding-left: 20px;
+  }
+  
+  .use-cases-tabs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .use-cases-tab {
+    padding: 15px;
+    background-color: #e0e0e0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .use-cases-tab:hover {
+    background-color: #c0ffce;
+    color: rgb(0, 0, 0);
+  }
+  
+  .use-cases-tab.active {
+    background-color: #c0ffce;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+
+  /* Mobile-specific Styles */
+@media (max-width: 768px) {
+    .use-cases-container {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        padding: 20px; /* Reduce padding for smaller screens */
+    }
+
+    .use-cases-content {
+        flex: 1;
+        margin-bottom: 20px; /* Add some space between content and tabs */
+        text-align: center; /* Center text on mobile */
+    }
+
+    .use-cases-content h2 {
+        font-size: 1.8rem; /* Slightly smaller heading on mobile */
+    }
+
+    .use-cases-content h3 {
+        font-size: 1.2rem; /* Slightly smaller subheading */
+    }
+
+    .use-cases-content p {
+        font-size: 0.9rem; /* Slightly smaller paragraph text */
+    }
+
+    .use-cases-tabs {
+        width: 100%; /* Ensure tabs take full width on mobile */
+    }
+
+    .use-cases-tab {
+        padding: 12px; /* Adjust tab padding */
+    }
+}
+
+/* Further adjustments for very small screens (e.g., phones in portrait mode) */
+@media (max-width: 480px) {
+    .use-cases-content h2 {
+        font-size: 1.5rem; /* Further reduce font size */
+    }
+
+    .use-cases-content h3 {
+        font-size: 1rem; /* Further reduce font size */
+    }
+
+    .use-cases-content p {
+        font-size: 0.8rem; /* Further reduce paragraph font size */
+    }
+
+    .use-cases-tab {
+        padding: 10px; /* Adjust padding for very small screens */
+    }
+}
+ 
