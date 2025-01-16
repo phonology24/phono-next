@@ -77,14 +77,14 @@
   }
   
   .usecase-title {
-    font-size: 18px;
+    font-size: 28px;
     color: #003366;
     margin: 10px 0;
     font-weight: bold;
   }
   
   .usecase-content {
-    font-size: 14px;
+    font-size: 18px;
     color: #555;
     line-height: 1.6;
   }
