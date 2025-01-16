@@ -15,7 +15,7 @@ const VoiceKeyBenefits = () => {
           <div className="key-benefits-card-content">
             <AccessAlarm className="key-benefits-card-icon" />
             <h3 className="key-benefits-card-heading">
-            Enhanced Productivity
+             Enhanced Productivity
             </h3>
             <p className="key-benefits-card-description">
             Save time with features like transcription and centralized storage, allowing your team to focus on priorities without missing key messages.

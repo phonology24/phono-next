@@ -18,11 +18,11 @@ const FeaturedCards = () => {
             url: "features-explained/voicemail-features",
         },
         {
-            title: "Enhance Coverage",
+            title: "IVR",
             content: `Deploy cutting-edge solutions to expand network coverage in remote and underserved areas, ensuring accessibility for everyone.`,
             icon: <SignalCellularAltIcon className="featuredCards-muiIcon" />,
             image: "/Assets/australia.png",
-            url: "features-explained/optimize-network",
+            url: "features-explained/ivr-features",
         },
         {
             title: "Boost Security",
