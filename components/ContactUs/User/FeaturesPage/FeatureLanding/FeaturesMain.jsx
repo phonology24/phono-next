@@ -52,6 +52,48 @@ const FeaturedCards = () => {
             image: "/Assets/belgium.png",
             url: "features-explained/call-barging-features",
         },
+        {
+            title: "Call Recording",
+            content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
+            icon: <SecurityIcon className="featuredCards-muiIcon" />,
+            image: "/Assets/belgium.png",
+            url: "features-explained/call-recording-features",
+        },
+        {
+            title: "Call Barging",
+            content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
+            icon: <SecurityIcon className="featuredCards-muiIcon" />,
+            image: "/Assets/belgium.png",
+            url: "features-explained/call-barging-features",
+        },
+        {
+            title: "Call Barging",
+            content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
+            icon: <SecurityIcon className="featuredCards-muiIcon" />,
+            image: "/Assets/belgium.png",
+            url: "features-explained/call-barging-features",
+        },
+        {
+            title: "Call Barging",
+            content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
+            icon: <SecurityIcon className="featuredCards-muiIcon" />,
+            image: "/Assets/belgium.png",
+            url: "features-explained/call-barging-features",
+        },
+        {
+            title: "Call Barging",
+            content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
+            icon: <SecurityIcon className="featuredCards-muiIcon" />,
+            image: "/Assets/belgium.png",
+            url: "features-explained/call-barging-features",
+        },
+        {
+            title: "Call Barging",
+            content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
+            icon: <SecurityIcon className="featuredCards-muiIcon" />,
+            image: "/Assets/belgium.png",
+            url: "features-explained/call-barging-features",
+        },
     ];
 
 const redirector = (url)=> {
@@ -72,7 +114,7 @@ const redirector = (url)=> {
                         </div>
                         <div className="featuredCards-content">
                             <h3 className="featuredCards-title" onClick={() => redirector( card.url)}>{card.title}</h3>
-                            <p className="featuredCards-text">{card.content}</p>
+                            {/* <p className="featuredCards-text">{card.content}</p> */}
                         </div>
                 {/* </Link> */}
                     </div>

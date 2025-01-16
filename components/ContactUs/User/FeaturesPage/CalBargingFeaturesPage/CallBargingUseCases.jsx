@@ -1,4 +1,7 @@
-import React from 'react'
+import React from "react";
+import "/components/AIVoice/UseCasesAI.css";
+import Image from "next/image";
+import image from "../../../../../public/Assets/belgium.png"
 
 const CallBargingUseCases = () => {
   return (
