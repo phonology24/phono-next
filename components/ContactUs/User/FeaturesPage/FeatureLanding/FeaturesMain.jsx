@@ -39,18 +39,18 @@ const FeaturedCards = () => {
             url: "features-explained/call-transfer-features",
         },
         {
-            title: "Boost Security",
+            title: "Call Queueing",
             content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
             icon: <SecurityIcon className="featuredCards-muiIcon" />,
             image: "/Assets/belgium.png",
-            url: "features-explained/optimize-network",
+            url: "features-explained/call-queueing-features",
         },
         {
-            title: "Boost Security",
+            title: "Call Barging",
             content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
             icon: <SecurityIcon className="featuredCards-muiIcon" />,
             image: "/Assets/belgium.png",
-            url: "features-explained/optimize-network",
+            url: "features-explained/call-barging-features",
         },
     ];
 
