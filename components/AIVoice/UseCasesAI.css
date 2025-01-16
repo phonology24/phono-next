@@ -89,3 +89,72 @@
     line-height: 1.6;
   }
   
+
+  @media (max-width: 768px) {
+    .usecase-container {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on medium-sized screens */
+      grid-template-areas: 
+        "card1 card2"
+        "card3 card4";
+      gap: 15px;
+      padding: 15px;
+    }
+  
+    .usecase-h4 {
+      font-size: 36px; /* Adjust font size for smaller screens */
+      margin: 0;
+    }
+  
+    .usecase-card {
+      max-height: none; /* Remove max-height on mobile */
+      padding: 15px; /* Less padding on mobile */
+    }
+  
+    .usecase-card.row {
+      flex-direction: column; /* Stack content vertically on smaller screens */
+      text-align: center;
+    }
+  
+    .usecase-card.row img {
+      max-width: 100%; /* Make image responsive */
+      margin-bottom: 10px; /* Add spacing between image and content */
+    }
+  
+    .usecase-title {
+      font-size: 16px; /* Adjust font size for title */
+    }
+  
+    .usecase-content {
+      font-size: 12px; /* Adjust font size for content */
+    }
+  }
+  
+  /* Further adjustment for very small screens (e.g., mobile phones) */
+  @media (max-width: 480px) {
+    .usecase-container {
+      grid-template-columns: 1fr; /* Single column on small screens */
+      grid-template-areas: 
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+      gap: 10px;
+      padding: 10px;
+    }
+  
+    .usecase-h4 {
+      font-size: 30px; /* Smaller font size for very small screens */
+    }
+  
+    .usecase-card {
+      padding: 10px; /* Even less padding for very small screens */
+    }
+  
+    .usecase-title {
+      font-size: 14px; /* Smaller font size for very small screens */
+    }
+  
+    .usecase-content {
+      font-size: 12px; /* Smaller content font size for very small screens */
+    }
+  }
