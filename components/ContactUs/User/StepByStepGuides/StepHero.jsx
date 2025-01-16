@@ -41,10 +41,10 @@ const StepHero = () => {
       url: "/contact-us/support/step-by-step-guides/call-queue-guidelines"
     },
     {
-      heading: "How to Set Up a SIP Trunk with Phonology?",
+      heading: "How to Monitor Call Quality and Improve Performance.",
       subheading: "Subheading 1",
-      description: "Set up your SIP trunk with Phonology effortlessly and enjoy enhanced call quality, flexible scalability, and cost-effective communication, all designed around your business goals.",
-      url: "/contact-us/support/step-by-step-guides/sip-trunk-guidelines"
+      description: "Learn to evaluate call quality and resolve issues quickly with monitoring tools and analytics. Optimize your communication systems for consistent, high-quality performance.",
+      url: "/contact-us/support/step-by-step-guides/call-quality-monitor-guides"
     },
 
 
