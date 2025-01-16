@@ -1,74 +1,91 @@
 .usecase-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Define 4 equal columns */
-  grid-template-rows: auto; /* Rows will adjust dynamically */
-  grid-template-areas: 
-    "card1 card2 card2 card2"
-    "card3 card3 card3 card4";
-  gap: 20px;
-  padding: 20px;
-  background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Define 4 equal columns */
+    grid-template-rows: auto; /* Rows will adjust dynamically */
+    grid-template-areas: 
+      "card1 card2 card2 card2"
+      "card3 card3 card3 card4";
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
 
-.usecase-card {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.3s, box-shadow 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  max-height: 300px;
+.usecase-h4{
+    background-color: #f9f9f9;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
 }
 
-.usecase-card .row {  
-    flex-direction: row;
+  .usecase-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-
+    align-items: center;
+    max-height: 600px;
   }
-
-/* Assign specific areas for zigzag layout */
-.usecase-card:nth-child(1) {
-  grid-area: card1;
-}
-
-.usecase-card:nth-child(2) {
+  
+  .usecase-card.row {
+    flex-direction: row; /* Set row direction */
+    text-align: left;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .usecase-card.row img {
+    max-width: 40%; /* Smaller image size for row layout */
+    margin-right: 20px; /* Add spacing between image and content */
+  }
+  
+  .usecase-card .usecase-header {
+    width: 100%; /* Ensure header spans full width */
+  }
+  
+  .usecase-card:nth-child(1) {
+    grid-area: card1;
+  }
+  
+  .usecase-card:nth-child(2) {
     grid-area: card2;
-}
-
-.usecase-card:nth-child(3) {
-  grid-area: card3;
-}
-
-.usecase-card:nth-child(4) {
-  grid-area: card4;
-}
-
-.usecase-header h4 {
-  font-size: 16px;
-  color: #888;
-  margin-bottom: 10px;
-}
-
-.usecase-image {
-  max-width: 50%;
-  max-height: 50%;
-  margin: 10px 0;
-}
-
-.usecase-title {
-  font-size: 18px;
-  color: #003366;
-  margin: 10px 0;
-  font-weight: bold;
-}
-
-.usecase-content {
-  font-size: 14px;
-  color: #555;
-  line-height: 1.6;
-  border: 1px solid red;
-}
+  }
+  
+  .usecase-card:nth-child(3) {
+    grid-area: card3;
+  }
+  
+  .usecase-card:nth-child(4) {
+    grid-area: card4;
+  }
+  
+  .usecase-header h4 {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .usecase-image {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px 0;
+  }
+  
+  .usecase-title {
+    font-size: 18px;
+    color: #003366;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .usecase-content {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
