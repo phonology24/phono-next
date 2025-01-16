@@ -11,11 +11,11 @@ const FeaturedCards = () => {
     const router = useRouter();
     const cards = [
         {
-            title: "Optimize Network",
+            title: "Voicemail",
             content: `Improve network efficiency by leveraging advanced analytics to identify bottlenecks and ensure seamless connectivity for customers.`,
             icon: <NetworkCheckIcon className="featuredCards-muiIcon" />,
             image: "/Assets/australia.png",
-            url: "features-explained/optimize-network",
+            url: "features-explained/voicemail-features",
         },
         {
             title: "Enhance Coverage",
