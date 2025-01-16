@@ -2,9 +2,10 @@ import React from "react";
 import "/components/AIVoice/UseCasesAI.css";
 import Image from "next/image";
 import image from "../../../../../public/Assets/belgium.png"
-const CallTransferUseCases = () => {
-    return (
-        <>
+
+const CallQueueingUseCases = () => {
+  return (
+  <>
             <h4 className="usecase-h4">
                 Use Cases
             </h4>
@@ -14,13 +15,14 @@ const CallTransferUseCases = () => {
                         {/* <h4>Conversational AI</h4> */}
                     </div>
                     <Image className="usecase-image" src={image} alt="Shop" width={500} height={500} />
-                    <h3 className="usecase-title">Customer Support and Escalations
+                    <h3 className="usecase-title">Customer Support Centers
+
 
 
 
                     </h3>
                     <p className="usecase-content">
-                        Quickly transfer calls to the appropriate support agent or manager to resolve customer issues without unnecessary wait times.
+                    Manage high volumes of support calls during peak hours, ensuring every customer is attended to without delays or frustration.
                     </p>
                 </div>
                 <div className="usecase-card row">
@@ -29,12 +31,13 @@ const CallTransferUseCases = () => {
                         <div className="usecase-header">
                             {/* <h4>Payment</h4> */}
                         </div>
-                        <h3 className="usecase-title">Sales and Lead Management
+                        <h3 className="usecase-title">Sales and Lead Generation
+
 
 
                         </h3>
                         <p className="usecase-content">
-                            Connect leads to the right sales representatives instantly, improving response times and boosting conversion rates.
+                        Keep leads engaged in a queue while connecting them to the next available sales representative, ensuring no potential opportunity is missed.
 
                         </p>
                     </div>
@@ -46,12 +49,12 @@ const CallTransferUseCases = () => {
                             {/* <h4>Experience</h4> */}
                         </div>
                         <h3 className="usecase-title">
-                            Healthcare and Service Coordination
+                        Healthcare and Appointment Scheduling
 
 
                         </h3>
                         <p className="usecase-content">
-                            Allow patients or clients to reach specific departments or specialists seamlessly through well-managed call transfers.
+                        Organize patient inquiries and appointment requests efficiently, reducing wait times and improving service delivery.
                         </p>
                     </div>
                 </div>
@@ -60,16 +63,16 @@ const CallTransferUseCases = () => {
                         {/* <h4>Rating</h4> */}
                     </div>
                     <Image className="usecase-image" src={image} alt="Shop" width={500} height={500} />
-                    <h3 className="usecase-title">Team Collaboration in Distributed Workplaces
+                    <h3 className="usecase-title">E-Commerce and Order Management
+
 
                     </h3>
                     <p className="usecase-content">
-                        Transfer calls between remote team members to ensure smooth communication, no matter where your team is located.
-                    </p>
+                    Handle inquiries about orders, shipping, or returns systematically, providing customers with a smooth and reliable service experience.                    </p>
                 </div>
             </div>
         </>
-    )
+  )
 }
 
-export default CallTransferUseCases
+export default CallQueueingUseCases
