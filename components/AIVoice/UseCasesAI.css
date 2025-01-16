@@ -1,142 +1,74 @@
-.use-cases-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 30px 50px;
-    min-height: 50vh;
-    background-color: #ffffff;
-    margin: 0px 50px;
+.usecase-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Define 4 equal columns */
+  grid-template-rows: auto; /* Rows will adjust dynamically */
+  grid-template-areas: 
+    "card1 card2 card2 card2"
+    "card3 card3 card3 card4";
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
 
-.casestudyHeading {
-    text-align: center;
-    font-size: 2rem;
-    background-color: #ffffff;
-    margin: 20px 50px;
-    margin-bottom: 0;
+.usecase-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-height: 300px;
 }
 
-.use-cases-content {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
+.usecase-card .row {  
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    text-align: left;
+
+  }
+
+/* Assign specific areas for zigzag layout */
+.usecase-card:nth-child(1) {
+  grid-area: card1;
 }
 
-.use-cases-content h2 {
-    font-size: 2rem;
-    color: #333;
-    margin: 10px;
+.usecase-card:nth-child(2) {
+    grid-area: card2;
 }
 
-.use-cases-content h3 {
-    font-size: 1.5rem;
-    margin: 10px;
-    color: #555;
+.usecase-card:nth-child(3) {
+  grid-area: card3;
 }
 
-.use-cases-content p {
-    font-size: 1rem;
-    color: #666;
-    margin: 10px;
+.usecase-card:nth-child(4) {
+  grid-area: card4;
 }
 
-.use-cases-content ul {
-    list-style-type: disc;
-    margin: 10px;
-    padding-left: 20px;
+.usecase-header h4 {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 10px;
 }
 
-.use-cases-tabs {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center; /* Center tabs for smaller screens */
+.usecase-image {
+  max-width: 50%;
+  max-height: 50%;
+  margin: 10px 0;
 }
 
-.use-cases-tab {
-    padding: 15px;
-    background-color: #e0e0e0;
-    text-align: center;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    min-width: 300px;
+.usecase-title {
+  font-size: 18px;
+  color: #003366;
+  margin: 10px 0;
+  font-weight: bold;
 }
 
-.use-cases-tab:hover {
-    background-color: #c0ffce;
-    color: rgb(0, 0, 0);
-}
-
-.use-cases-tab.active {
-    background-color: #c0ffce;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-.use-cases-tab:focus {
-    outline: 2px solid #c0ffce;
-    outline-offset: 2px;
-}
-
-/* Mobile-specific Styles */
-@media (max-width: 768px) {
-    .use-cases-container {
-        flex-direction: column;
-        padding: 20px;
-        margin: 0px auto;
-
-    }
-
-    .use-cases-content {
-        flex: 1;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .use-cases-content h2 {
-        font-size: 1.8rem;
-    }
-
-    .use-cases-content h3 {
-        font-size: 1.2rem;
-    }
-
-    .use-cases-content p {
-        font-size: 0.9rem;
-    }
-
-    .use-cases-tabs {
-        width: 100%;
-    }
-
-    .use-cases-tab {
-        padding: 12px;
-    }
-}
-
-/* Further adjustments for very small screens (e.g., phones in portrait mode) */
-@media (max-width: 480px) {
-    .use-cases-content h2 {
-        font-size: 1.5rem;
-    }
-
-    .use-cases-content h3 {
-        font-size: 1rem;
-    }
-
-    .use-cases-content p {
-        font-size: 0.8rem;
-    }
-
-    .use-cases-tab {
-        padding: 10px;
-    }
+.usecase-content {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  border: 1px solid red;
 }
