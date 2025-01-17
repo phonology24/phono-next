@@ -93,34 +93,54 @@ const FeaturedCards = () => {
             icon: <SecurityIcon className="featuredCards-muiIcon" />,
             image: "/Assets/belgium.png",
             url: "features-explained/call-whispering-features",
-        },
+        }, 
+        {
+            title: "Personalised Greetings",
+            content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
+            icon: <SecurityIcon className="featuredCards-muiIcon" />,
+            image: "/Assets/belgium.png",
+            url: "features-explained/personalised-greetings-features",
+        }, 
+        {
+            title: "Sticky Agents",
+            content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
+            icon: <SecurityIcon className="featuredCards-muiIcon" />,
+            image: "/Assets/belgium.png",
+            url: "features-explained/sticky-agent-features",
+        }, 
+        {
+            title: "Toll Free & Virtual Numbers",
+            content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
+            icon: <SecurityIcon className="featuredCards-muiIcon" />,
+            image: "/Assets/belgium.png",
+            url: "features-explained/sticky-agent-features",
+        }, 
     ];
 
-const redirector = (url)=> {
-    router.push(url)
-}
 
-    return (
-        <div className="featuredCards-container">
-            {cards.map((card, index) => (
-                <div className="featuredCards-card" style={{ cursor: "pointer" }}>
-                        {/* <Link href={card.url} key={index} passHref> */}
-                        <div className="featuredCards-icon">
-                            {card.image ? (
-                                <img src={card.image} alt={card.title} className="featuredCards-image" />
-                            ) : (
-                                card.icon
-                            )}
-                        </div>
-                        <div className="featuredCards-content">
-                            <h3 className="featuredCards-title" onClick={() => redirector( card.url)}>{card.title}</h3>
-                            {/* <p className="featuredCards-text">{card.content}</p> */}
-                        </div>
-                {/* </Link> */}
-                    </div>
-            ))}
+  const handleRedirect = (url) => {
+    router.push(url);
+  };
+
+  return (<>
+        <h1 className="heading-features">Features</h1>
+    <div className="featured-cards-container">
+      {cards.map((card, index) => (
+        <div 
+          className="featured-card" 
+          key={index} 
+          onClick={() => handleRedirect(card.url)}
+        >
+          <div className="card-icon">{card.icon}</div>
+          <h3 className="card-title">{card.title}</h3>
+          {/* <p className="card-content">{card.content}</p> */}
         </div>
-    );
+      ))}
+    </div>
+    </>
+  );
 };
 
 export default FeaturedCards;
+
+
