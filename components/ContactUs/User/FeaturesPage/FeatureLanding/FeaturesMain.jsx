@@ -81,11 +81,11 @@ const FeaturedCards = () => {
             url: "features-explained/call-conference-features",
         },
         {
-            title: "Call Barging",
+            title: "Call Masking",
             content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
             icon: <SecurityIcon className="featuredCards-muiIcon" />,
             image: "/Assets/belgium.png",
-            url: "features-explained/call-barging-features",
+            url: "features-explained/call-masking-features",
         },
         {
             title: "Call Barging",
