@@ -113,7 +113,7 @@ const FeaturedCards = () => {
             content: `Implement robust security protocols to safeguard customer data and prevent unauthorized access across telecom networks.`,
             icon: <SecurityIcon className="featuredCards-muiIcon" />,
             image: "/Assets/belgium.png",
-            url: "features-explained/sticky-agent-features",
+            url: "features-explained/toll-free-and-virtual-numbers-features",
         }, 
     ];
 

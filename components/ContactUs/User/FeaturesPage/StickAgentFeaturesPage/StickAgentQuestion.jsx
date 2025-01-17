@@ -1,5 +1,6 @@
 import React from 'react';
 import '../VoicemailFeaturesPage/FAQSection.css'; // Importing the CSS file for styling
+
 const StickAgentQuestion = () => {
     return (
         <div>
