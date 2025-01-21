@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/aivoiceapi.css";
-import CallCenterImage from "../../public/Assets/ccsolution1.png";
+import CallCenterImage from "../../public/Assets/voiceapi.png";
 import Image from "next/image";
 
 const AIVoiceApiHeading = () => {
@@ -22,6 +22,7 @@ const AIVoiceApiHeading = () => {
             machine learning models, our API delivers natural language processing (NLP),
             real-time speech recognition, and text-to-speech (TTS) features for lifelike
             interactions.
+            <br/>
             <br/>
              With support for multilingual communication, intelligent call
             routing, and actionable call analytics, Phonology’s Voice API enhances user

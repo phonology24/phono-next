@@ -10,7 +10,7 @@
   }
   
   .ai-voice-api-image {
-    max-width: 40%;
+    max-width: 45%;
     height: auto;
     border-radius: 80px;
     margin-right: 20px;
@@ -36,6 +36,8 @@
   
   .ai-voice-api-text {
     flex: 1;
+    /* border: 1px solid red; */
+    padding: 0px 10px;
   }
   
   .ai-voice-api-heading-main {
@@ -58,7 +60,7 @@
   
   .ai-voice-api-description {
     animation: ai-voice-api-des 1s ease-in 0s 1 normal none;
-    font-size: 24px;
+    font-size: 22px;
     color: #000000;
     font-weight: 700;
     margin-bottom: 10px;
@@ -76,7 +78,7 @@
   }
   
   .ai-voice-api-details {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     animation: ai-voice-api-p 1s ease-in 0s 1 normal none;
   }
@@ -140,7 +142,7 @@
 
   /* Paragraph text styles */
   .aiVoiceApiP {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.8;
     animation: aiVoiceApi-paragraph 1s ease-in-out;
   }

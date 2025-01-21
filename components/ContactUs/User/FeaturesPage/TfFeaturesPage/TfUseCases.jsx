@@ -13,11 +13,7 @@ const TfUseCases = () => {
               {/* <h4>Conversational AI</h4> */}
             </div>
             <Image className="usecase-image" src={image} alt="Shop" width={500} height={500} />
-            <h3 className="usecase-title">Global Business Expansion
-
- 
- 
- 
+            <h3 className="usecase-title">Global Business Expansion 
             </h3>
             <p className="usecase-content">
             Use virtual numbers to create a local presence in international markets, fostering trust and accessibility for global clients.
