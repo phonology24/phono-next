@@ -1,5 +1,5 @@
 .key-benefits-section {
-    text-align: center;
+    text-align: left;
     padding: 40px 20px;
     background-color: #f4f4f4;
   }
@@ -33,7 +33,7 @@
   
   .key-benefits-card-content {
     padding: 20px;
-    text-align: center;
+    text-align: left;
   }
   
   .key-benefits-card-icon {

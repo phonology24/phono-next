@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left; 
     height: auto; /* Takes full height of the viewport */
     background-color: #f4f4f4; /* Light background color */
     padding: 50px;
   }
   
   .faq-container {
-    text-align: center; /* Center-align the text */
+    text-align: left; /* Center-align the text */ 
     ; /* Set a max width for readability */
     width: 100%;
     padding: 20px;
