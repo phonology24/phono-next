@@ -55,13 +55,14 @@ const StepHero = () => {
     <div className="stepHero-container">
       {/* Image Section */}
       <div className="stepHero-image-container">
-        <Image
-          src="/Assets/steps-bg.png" // Replace with your image path
-          alt="Step By Step Guide"
-          className="stepHero-image"
-          width={2000}
-          height={2000}
-        />
+      <Image
+  src="/Assets/steps-bg.svg"
+  alt="Step By Step Guide"
+  className="stepHero-image"
+  layout="fill"
+  objectFit="cover" // Or 'cover', depending on your needs
+/>
+
       </div>
 
       {/* Card Section */}
