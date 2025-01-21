@@ -4,9 +4,7 @@ import AIVoiceFeatures from '@/components/AIVoice/AIVoiceCards'
 import AIVoiceApiSubHeading from '@/components/AIVoice/AIVoiceSubHeading'
 import AIUseCases from '@/components/AIVoice/UseCasesForCompanies'
 import WhyUse from '@/components/AIVoice/WhyUse'
-import DemoForm from '@/components/DemoRequestForm'
 import Footer from '@/components/Footer'
-import HostedPbxCards from '@/components/HostedNumbers/HostedPbxCards'
 import React from 'react'
 
 const page = () => {

@@ -5,24 +5,24 @@ import Image from "next/image";
 const AiBenefits = () => {
   const benefits = [
     {
-      title: "Smarter Interactions",
-      description: "Create lifelike conversations that improve user engagement and satisfaction.",
+      title: "Enhanced Customer Experience",
+      description: "Deliver seamless interactions with features like voice chat APIs and programmable IVRs, building trust and loyalty.",
     },
     {
-      title: "Enhanced AI Applications",
-      description: "Add intelligent voice capabilities to virtual assistants, chatbots, and smart devices.",
+      title: "Increased Efficiency",
+      description: "Automate repetitive tasks using AI voice APIs, enabling teams to focus on more critical tasks.",
     },
     {
-      title: "Real-Time Adaptability",
-      description: "Use call data insights to refine AI systems and improve learning models.",
+      title: "Global Connectivity",
+      description: "Expand your reach with VoIP phone APIs and local or toll-free numbers, ensuring communication without boundaries.",
     },
     {
-      title: "Global Reach",
-      description: "Cater to a diverse user base with multilingual voice support.",
+      title: "Cost Savings",
+      description: "Reduce operational expenses with voice-over APIs, eliminating hardware and lowering call rates.",
     },
     {
-      title: "Cost Efficiency",
-      description: "Automate repetitive tasks, reducing operational costs while maintaining high-quality interactions.",
+      title: "Real-Time Insights",
+      description: "Analyze call performance with real-time analytics, optimizing communication strategies.",
     },
   ];
 
@@ -30,10 +30,10 @@ const AiBenefits = () => {
     <section className="ai-benefits-container">
       <div className="ai-benefits-content">
         <div className="ai-benefits-header">
-          <h2 className="ai-benefits-title">Benefits of AI-Driven Solutions</h2>
-          <p className="ai-benefits-subtitle">
+          <h2 className="ai-benefits-title">The Key Benefits of Phonology’s Voice API  </h2>
+          {/* <p className="ai-benefits-subtitle">
             Leverage cutting-edge technology to transform user experiences and streamline operations.
-          </p>
+          </p> */}
         </div>
         <div className="ai-benefits-list">
           {benefits.map((benefit, index) => (

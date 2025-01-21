@@ -13,7 +13,7 @@ const AIVoiceFeatures = () => {
   return (
     <section className="ai-voice-features">
       <h2 className="ai-main-heading">
-        Key Features of AI Voice
+      Powerful Features of Phonology’s Voice API
       </h2>
       <div className="ai-cards-container">
         {/* Card 1 */}
@@ -21,10 +21,10 @@ const AIVoiceFeatures = () => {
           <div className="ai-card-content">
             <IntegrationInstructionsIcon className="ai-card-icon" />
             <h3 className="ai-card-heading">
-            Advanced NLP Integration
+            Call Management
             </h3>
             <p className="ai-card-description">
-            Enable your AI applications to understand and respond to user queries in real time with our NLP technology.
+            Easily manage phone calls with advanced call-handling tools, ensuring smooth communication.
             </p>
           </div>
         </div>
@@ -33,23 +33,23 @@ const AIVoiceFeatures = () => {
           <div className="ai-card-content">
             <HdrStrongIcon className="ai-card-icon" />
             <h3 className="ai-card-heading">
-               Dynamic Text-to-Speech (TTS)
+            Global Reach
 
             </h3>
             <p className="ai-card-description">
-            Generate natural voice responses tailored to your application’s tone, delivering engaging and brand-aligned interactions            </p>
-          </div>
+            Leverage VoIP phone APIs to connect with customers worldwide using local and toll-free numbers.
+            </p>
+            </div>
         </div>
         {/* Card 3 */}
         <div className="ai-feature-card">
           <div className="ai-card-content">
             <TtyIcon className="ai-card-icon" />
             <h3 className="ai-card-heading">
-            Real-Time Speech Recognition
+            Programmable IVR
             </h3>
             <p className="ai-card-description">
-            nstantly convert spoken language into text for fast, accurate communication with your AI platform.
-            </p>
+            Customize voice calling APIs to build intelligent menus that streamline caller interactions.            </p>
           </div>
         </div>
         {/* Card 4 */}
@@ -57,10 +57,10 @@ const AIVoiceFeatures = () => {
           <div className="ai-card-content">
             <AltRouteIcon className="ai-card-icon" />
             <h3 className="ai-card-heading">
-            Intelligent Call Routing
+            Real-Time Call Analytics
             </h3>
             <p className="ai-card-description">
-            Leverage AI to route calls based on user intent, preferences, or geographic location.
+            Use real-time insights to track call performance and identify areas for improvement.
             </p>
           </div>
         </div>
@@ -68,10 +68,10 @@ const AIVoiceFeatures = () => {
           <div className="ai-card-content">
             <FilterNoneIcon className="ai-card-icon" />
             <h3 className="ai-card-heading">
-            Multi-Language and Accent Support
+            Voice Transcription
             </h3>
             <p className="ai-card-description">
-            Communicate effectively with global users by providing voice services in multiple languages.
+            Convert voice messages into text for easy documentation and analysis.
             </p>
           </div>
         </div>
@@ -79,11 +79,11 @@ const AIVoiceFeatures = () => {
           <div className="ai-card-content">
             <AutoGraphIcon className="ai-card-icon" />
             <h3 className="ai-card-heading">
-            Actionable Insights with Analytics
+            Secure and Scalable
             </h3>
             <p className="ai-card-description">
-            Gain valuable data from user interactions to train AI algorithms and improve overall system performance.
-                        </p>
+            Phonology ensures enterprise-grade security and scalability for businesses of all sizes.
+            </p>
           </div>
         </div>
       </div>

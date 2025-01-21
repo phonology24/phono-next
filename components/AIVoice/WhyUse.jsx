@@ -1,21 +1,25 @@
-import React from 'react'
+import React from 'react';
 import '../VoicemailFeaturesPage/FAQSection.css'; // Importing the CSS file for styling
 
 const WhyUse = () => {
     return (
-        <div>
-               <section className="faq-section">
+        <section className="faq-section">
             <div className="faq-container">
-              <h2 className="faq-question">
-              Why Do You Need to use Voice Api from Phonology?
-              </h2>
-              <p className="faq-answer">
-              Call masking ensures secure and confidential communication by concealing personal phone numbers during interactions. Ideal for e-commerce, delivery, and customer support, it protects privacy, fosters trust, and enables seamless connections between customers and agents, maintaining professionalism and security at all times.    
-              </p>
+                <h2 className="faq-question">
+                    Why Choose Phonology’s Voice API?
+                </h2>
+                <p className="faq-answer">
+                    Phonology’s Voice API sets itself apart by delivering a seamless integration experience, high performance, and robust tools. Here’s why businesses trust Phonology:
+                </p>
+                <ul className="faq-benefits-list">
+                    <li><strong>Developer-Friendly:</strong> Simple SDKs and detailed documentation ensure quick integration of APIs, including voice-over APIs and phone call APIs.</li>
+                    <li><strong>Global Reliability:</strong> Enjoy superior voice quality with 99.99% uptime.</li>
+                    <li><strong>Advanced Features:</strong> Access innovative tools like AI voice APIs for smart call handling and sentiment analysis.</li>
+                    <li><strong>Dedicated Support:</strong> Phonology’s 24/7 support ensures smooth implementation and ongoing operations.</li>
+                </ul>
             </div>
-          </section>
-        </div>
-      )
-}
+        </section>
+    );
+};
 
-export default WhyUse
+export default WhyUse;

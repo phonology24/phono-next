@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import './stepHero.css'; // Import the CSS file
+import Image from 'next/image'; // Import the Next.js Image component
 
 const StepHero = () => {
   const cards = [
@@ -50,19 +51,31 @@ const StepHero = () => {
 
     // Add more cards as needed
   ];
-
   return (
-    <div className="stepHero-card-container">
-      <h1>Step By Step Guidelines</h1>
-      {cards.map((card, index) => (
-        <Link href={card.url} key={index}>
-          <div className="stepHero-card">
-            <h2 className="stepHero-card-heading">{card.heading}</h2>
-            {/* <h4 className="stepHero-card-subheading">{card.subheading}</h4> */}
-            <p className="stepHero-card-description">{card.description}</p>
-          </div>
-        </Link>
-      ))}
+    <div className="stepHero-container">
+      {/* Image Section */}
+      <div className="stepHero-image-container">
+        <Image
+          src="/Assets/steps-bg.png" // Replace with your image path
+          alt="Step By Step Guide"
+          className="stepHero-image"
+          width={2000}
+          height={2000}
+        />
+      </div>
+
+      {/* Card Section */}
+      <div className="stepHero-card-wrapper">
+        <h1 className="stepHero-title">Step By Step Guidelines</h1>
+        {cards.map((card, index) => (
+          <Link href={card.url} key={index}>
+            <div className="stepHero1-card">
+              <h2 className="stepHero-card-heading">{card.heading}</h2>
+              <p className="stepHero-card-description">{card.description}</p>
+            </div>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };
