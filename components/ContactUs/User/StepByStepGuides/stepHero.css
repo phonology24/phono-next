@@ -8,7 +8,7 @@
 .stepHero-image-container {
   position: relative;
   width: 100%;
-  height: 50vh; /* Adjust height for better control */
+  height: 50vh; 
   overflow: hidden;
   left: -10px;
   top: -10px;
@@ -17,12 +17,12 @@
 .stepHero-image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Changed to 'cover' for better fill */
+  object-fit: cover; 
 }
 
 .stepHero-card-wrapper {
   position: relative;
-  top: -200px; /* Reduced overlap */
+  top: -200px; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,13 +35,13 @@
   margin-bottom: 30px;
   font-size: 4rem;
   font-weight: bold;
-  color: #ff8800; /* Text fill color */
+  color: #eeeeee; 
   text-align: center;
   text-shadow: 
-    -1px -1px 0 #ffffff, 
-     1px -1px 0 #ffffff, 
-     -1px 1px 0 #ffffff, 
-     1px 1px 0 #ffffff; /* Adds a stroke-like shadow */
+    -1px -1px 0 #000000, 
+     1px -1px 0 #000000, 
+     -1px 1px 0 #000000, 
+     1px 1px 0 #000000; 
 }
 
 
@@ -68,31 +68,30 @@
   margin: 10px 0;
 }
 
-/* Hover effect for cards */
 .stepHero-card:hover {
   box-shadow: rgba(60, 64, 67, 0.4) 0px 4px 8px 0px, rgba(60, 64, 67, 0.2) 0px 4px 16px 4px;
 }
 
 @media (max-width: 480px) {
   .stepHero-title {
-    font-size: 2rem; /* Further reduce title size on very small screens */
+    font-size: 2rem; 
   }
 
   .stepHero-card-wrapper {
-    top: -20px; /* Adjust for extra small screens */
+    top: -20px; 
   }
 
   .stepHero-card {
-    width: 95%; /* Further adjust card width */
-    padding: 10px; /* Further reduce padding */
+    width: 95%;
+    padding: 10px; 
   }
 
   .stepHero-card-heading {
-    font-size: 1rem; /* Smaller card heading */
+    font-size: 1rem; 
   }
 
   .stepHero-card-description {
-    font-size: 0.8rem; /* Smaller card description */
+    font-size: 0.8rem; 
   }
 }
 

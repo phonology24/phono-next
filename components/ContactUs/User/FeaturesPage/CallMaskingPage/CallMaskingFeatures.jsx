@@ -1,6 +1,6 @@
 import React from 'react'
-import { Home, Build, Business, Security } from '@mui/icons-material'; // You can use icons from MUI or replace them with your own
-import '../VoicemailFeaturesPage/VoiceKeyFeatures.css'; // Importing the CSS file for styling
+import { Home, Build, Business, Security } from '@mui/icons-material'; 
+import '../VoicemailFeaturesPage/VoiceKeyFeatures.css'; 
 const CallMaskingFeatures = () => {
  return (
     <div>
@@ -10,6 +10,7 @@ const CallMaskingFeatures = () => {
                         Key Features
                         </h2>
                         <div className="cards-container">
+
                             {/* Card 1 */}
                             <div className="feature-card">
                                 <div className="card-content">
@@ -22,6 +23,7 @@ const CallMaskingFeatures = () => {
                                     </p>
                                 </div>
                             </div>
+
                             {/* Card 2 */}
                             <div className="feature-card">
                                 <div className="card-content">
@@ -34,6 +36,7 @@ const CallMaskingFeatures = () => {
                                     </p>
                                     </div>
                             </div>
+
                             {/* Card 3 */}
                             <div className="feature-card">
                                 <div className="card-content">
@@ -46,6 +49,7 @@ const CallMaskingFeatures = () => {
                                                 </p>
                                     </div>
                             </div>
+                            
                             {/* Card 4 */}
                             <div className="feature-card">
                                 <div className="card-content">

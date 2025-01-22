@@ -3,7 +3,6 @@ import "../../styles/heading.css";
 import Image from "next/image";
 import HeroImage from "../../public/Assets/home-hero3.png";
 
-// Placeholder image URL
 import PlaceHolderImage from "../../public/Assets/about.png";
 
 const AboutHeading = () => {

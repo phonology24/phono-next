@@ -1,5 +1,5 @@
 import React from 'react'
-import '../VoicemailFeaturesPage/FAQSection.css'; // Importing the CSS file for styling
+import '../VoicemailFeaturesPage/FAQSection.css'; 
 
 const CallMaskingQuestion = () => {
     return (

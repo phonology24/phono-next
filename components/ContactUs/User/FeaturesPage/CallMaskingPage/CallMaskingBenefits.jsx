@@ -1,6 +1,6 @@
 import React from 'react'
-import { AccessAlarm, Speed, ThumbUp, Build } from '@mui/icons-material'; // You can use these icons or replace them
-import '../VoicemailFeaturesPage/VoiceKeyBenefits.css'; // Importing the CSS file for styling
+import { AccessAlarm, Speed, ThumbUp, Build } from '@mui/icons-material'; 
+import '../VoicemailFeaturesPage/VoiceKeyBenefits.css'; 
 const CallMaskingBenefits = () => {
 return (
    <section className="key-benefits-section">
@@ -8,7 +8,6 @@ return (
          Key Benefits  
          </h2>
          <div className="key-benefits-cards-container">
-           {/* Card 1 */}
            <div className="key-benefits-card">
              <div className="key-benefits-card-content">
                <AccessAlarm className="key-benefits-card-icon" />
@@ -21,6 +20,7 @@ return (
                </p>
              </div>
            </div>
+
            {/* Card 2 */}
            <div className="key-benefits-card">
              <div className="key-benefits-card-content">
@@ -32,6 +32,7 @@ return (
                </p>
                </div>
            </div>
+
            {/* Card 3 */}
            <div className="key-benefits-card">
              <div className="key-benefits-card-content">
@@ -44,6 +45,7 @@ return (
                </p>
              </div>
            </div>
+           
            {/* Card 4 */}
            <div className="key-benefits-card">
              <div className="key-benefits-card-content">

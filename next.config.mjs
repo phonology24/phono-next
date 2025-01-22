@@ -19,7 +19,7 @@ const nextConfig = {
 
     return config;
   },
-  // Rewrites for the dynamic sitemap
+
   async rewrites() {
     return [
       {

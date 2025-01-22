@@ -3,35 +3,34 @@
     justify-content: center;
     align-items: center;
     text-align: left; 
-    height: auto; /* Takes full height of the viewport */
-    background-color: #f4f4f4; /* Light background color */
+    height: auto; 
+    background-color: #f4f4f4; 
     padding: 50px;
   }
   
   .faq-container {
-    text-align: left; /* Center-align the text */ 
-    ; /* Set a max width for readability */
+    text-align: left; 
+  
     width: 100%;
     padding: 20px;
-    background-color: #fff; /* White background for the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    border-radius: 8px; /* Rounded corners for the container */
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
   }
   
   .faq-question {
     font-size: 2rem;
     font-weight: bold;
-    color: #333; /* Dark color for the question */
-    margin-bottom: 20px; /* Space between question and answer */
+    color: #333; 
+    margin-bottom: 20px; 
   }
   
   .faq-answer {
-    font-size: 1.1rem; /* Smaller font size for the answer */
-    color: #555; /* Light gray color for the answer */
+    font-size: 1.1rem;
+    color: #555; 
     line-height: 1.6;
   }
   
-  /* Media Query for Mobile Responsiveness */
   @media (max-width: 768px) {
     .faq-question {
       font-size: 1.6rem;
