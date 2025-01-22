@@ -1,136 +1,164 @@
-.use-cases-container {
-    display: flex;
-    justify-content:center;
+.usecase-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Define 4 equal columns */
+    grid-template-rows: auto; /* Rows will adjust dynamically */
+    grid-template-areas: 
+      "card1 card2 card2 card2"
+      "card3 card3 card3 card4";
     gap: 20px;
-    padding: 50px;
-    min-height: 50vh;
-    background-color: #ffffff;
-    margin: 0px 50px;
-    
+    padding: 50px 100px;
+    background-color: #f9f9f9;
 }
 
-.casestudyHeading{
+.usecase-h4{
+    background-color: #f9f9f9;
+    /* border: 1px solid red; */
     text-align: center;
-    font-size: 2rem;
-    background-color: #ffffff;
-    margin: 20px 50px;
-    margin-bottom: 0;
+    font-size: 45px;
+    margin: 0;
 }
 
-.use-cases-content {
-    flex: 2;
+  .usecase-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
+    align-items: center;
+    max-height: 400px;
+  }
+  
+  .usecase-card.row {
+    flex-direction: row; /* Set row direction */
     text-align: left;
+    justify-content: flex-start;
+    align-items: center;
   }
   
-  .use-cases-content h2 {
-    font-size: 2rem;
-    color: #333;
-    margin: 10px;
-}
-
-.use-cases-content h3 {
-    font-size: 1.5rem;
-    margin: 10px;
-    color: #555;
-}
-
-.use-cases-content p {
-    font-size: 1rem;
-    color: #666;
-    margin: 10px;
-}
-
-.use-cases-content ul {
-    list-style-type: disc;
-    margin: 10px;
-    padding-left: 20px;
+  .usecase-card.row img {
+    max-width: 50%; /* Smaller image size for row layout */
+    margin-right: 20px; /* Add spacing between image and content */
+  }
+  .usecase-card img {
+    max-width: 60%; /* Smaller image size for row layout */
+    margin-right: 20px; /* Add spacing between image and content */
   }
   
-  .use-cases-tabs {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  .usecase-card .usecase-header {
+    width: 100%; /* Ensure header spans full width */
   }
   
-  .use-cases-tab {
-    padding: 15px;
-    background-color: #e0e0e0;
-    text-align: center;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  .usecase-card:nth-child(1) {
+    grid-area: card1;
   }
   
-  .use-cases-tab:hover {
-    background-color: #c0ffce;
-    color: rgb(0, 0, 0);
+  .usecase-card:nth-child(2) {
+    grid-area: card2;
   }
   
-  .use-cases-tab.active {
-    background-color: #c0ffce;
-    color: rgb(0, 0, 0);
+  .usecase-card:nth-child(3) {
+    grid-area: card3;
+  }
+  
+  .usecase-card:nth-child(4) {
+    grid-area: card4;
+  }
+  
+  .usecase-header h4 {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .usecase-image {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px 0;
+  }
+  
+  .usecase-title {
+    font-size: 24px;
+    color: #003366;
+    margin: 10px 0;
     font-weight: bold;
   }
   
+  .usecase-content {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
 
-  /* Mobile-specific Styles */
-@media (max-width: 768px) {
-    .use-cases-container {
-        flex-direction: column; /* Stack content vertically on smaller screens */
-        padding: 20px; /* Reduce padding for smaller screens */
+  @media (max-width: 768px) {
+    .usecase-container {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on medium-sized screens */
+      grid-template-areas: 
+        "card1 card2"
+        "card3 card4";
+      gap: 15px;
+      padding: 15px;
     }
-
-    .use-cases-content {
-        flex: 1;
-        margin-bottom: 20px; /* Add some space between content and tabs */
-        text-align: center; /* Center text on mobile */
+  
+    .usecase-h4 {
+      font-size: 36px; /* Adjust font size for smaller screens */
+      margin: 0;
     }
-
-    .use-cases-content h2 {
-        font-size: 1.8rem; /* Slightly smaller heading on mobile */
+  
+    .usecase-card {
+      max-height: none; /* Remove max-height on mobile */
+      padding: 15px; /* Less padding on mobile */
     }
-
-    .use-cases-content h3 {
-        font-size: 1.2rem; /* Slightly smaller subheading */
+  
+    .usecase-card.row {
+      flex-direction: column; /* Stack content vertically on smaller screens */
+      text-align: center;
     }
-
-    .use-cases-content p {
-        font-size: 0.9rem; /* Slightly smaller paragraph text */
+  
+    .usecase-card.row img {
+      max-width: 100%; /* Make image responsive */
+      margin-bottom: 10px; /* Add spacing between image and content */
     }
-
-    .use-cases-tabs {
-        width: 100%; /* Ensure tabs take full width on mobile */
+  
+    .usecase-title {
+      font-size: 16px; /* Adjust font size for title */
     }
-
-    .use-cases-tab {
-        padding: 12px; /* Adjust tab padding */
+  
+    .usecase-content {
+      font-size: 12px; /* Adjust font size for content */
     }
-}
-
-/* Further adjustments for very small screens (e.g., phones in portrait mode) */
-@media (max-width: 480px) {
-    .use-cases-content h2 {
-        font-size: 1.5rem; /* Further reduce font size */
+  }
+  
+  /* Further adjustment for very small screens (e.g., mobile phones) */
+  @media (max-width: 480px) {
+    .usecase-container {
+      grid-template-columns: 1fr; /* Single column on small screens */
+      grid-template-areas: 
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+      gap: 10px;
+      padding: 10px;
     }
-
-    .use-cases-content h3 {
-        font-size: 1rem; /* Further reduce font size */
+  
+    .usecase-h4 {
+      font-size: 30px; /* Smaller font size for very small screens */
     }
-
-    .use-cases-content p {
-        font-size: 0.8rem; /* Further reduce paragraph font size */
+  
+    .usecase-card {
+      padding: 10px; /* Even less padding for very small screens */
     }
-
-    .use-cases-tab {
-        padding: 10px; /* Adjust padding for very small screens */
+  
+    .usecase-title {
+      font-size: 14px; /* Smaller font size for very small screens */
     }
-}
- 
+  
+    .usecase-content {
+      font-size: 12px; /* Smaller content font size for very small screens */
+    }
+  }

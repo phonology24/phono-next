@@ -1,5 +1,5 @@
 import React from "react";
-import "/components/AIVoice/UseCasesAI.css";
+import '../VoicemailFeaturesPage/VoicemailUseCases.css'; // Importing the CSS file for styling
 import Image from "next/image";
 import image from "../../../../../public/Assets/belgium.png";
 
