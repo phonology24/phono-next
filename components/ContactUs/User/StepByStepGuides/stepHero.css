@@ -1,7 +1,7 @@
 .stepHero-container {
   position: relative;
   width: 100vw;
-  background-color: #fff2d0;
+  background-color: #ffffff;
   left: -10px;
 }
 
@@ -48,10 +48,10 @@
 .stepHero1-card {
   width: 80vw;
   max-width: 1200px;
-  background-color: #ffedbd;
+  background-color: #dbdbdb;
   border-radius: 8px;
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px 0 20px;
   text-align: center;
   transition: box-shadow 0.3s ease-in-out;
 }
