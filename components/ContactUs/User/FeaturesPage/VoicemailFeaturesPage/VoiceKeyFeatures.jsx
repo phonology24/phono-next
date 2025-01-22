@@ -6,7 +6,7 @@ const VoiceKeyFeatures = () => {
     return (
         <section className="key-features">
             <h2 className="main-heading">
-            4 Key Features of Phonology’s Voicemail
+         Key Features 
             </h2>
             <div className="cards-container">
                 {/* Card 1 */}
