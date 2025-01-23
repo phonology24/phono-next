@@ -17,7 +17,7 @@
 
 .features-hero-image {
     flex: 1;
-    min-width: 300px; /* Ensures the image does not get too small */
+    min-width: 400px; /* Ensures the image does not get too small */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
   
   .features-hero-image img {
     width: 100%;
-    max-width: 400px; /* Controls the max width of the image */
+    max-width: 500px; /* Controls the max width of the image */
     height: auto;
     border-radius: 8px; /* Rounded corners for the image */
   }
