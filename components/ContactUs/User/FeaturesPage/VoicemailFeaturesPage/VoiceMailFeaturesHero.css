@@ -21,16 +21,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border : 1px solid rgb(0, 0, 0); */
-    
+
   }
   
   .features-hero-image img {
-    /* border : 1px solid rgb(0, 0, 0); */
     width: 100%;
-    max-width: 500px; /* Controls the max width of the image */
+    max-width: 500px; 
     height: auto;
-    border-radius: 8px; /* Rounded corners for the image */
+    border-radius: 8px;
   }
   
   .features-hero-content {
@@ -43,6 +41,7 @@
     background-color: rgba(36, 32, 32, 0);
     border-radius: 8px;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
     /* border : 1px solid red; */
 
   }
