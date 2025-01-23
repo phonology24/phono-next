@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 100px 20px;
+    padding: 50px 20px 0px 20px;
     background-color: #f4f4f4;
     margin-top: 0px;
 }
@@ -17,13 +17,16 @@
 
 .features-hero-image {
     flex: 1;
-    min-width: 400px; /* Ensures the image does not get too small */
+    min-width: fit-content; /* Ensures the image does not get too small */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border : 1px solid rgb(0, 0, 0); */
+    
   }
   
   .features-hero-image img {
+    /* border : 1px solid rgb(0, 0, 0); */
     width: 100%;
     max-width: 500px; /* Controls the max width of the image */
     height: auto;
@@ -36,10 +39,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 50px;
-    background-color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 50px; 
+    background-color: rgba(36, 32, 32, 0);
     border-radius: 8px;
+    text-align: center;
+    /* border : 1px solid red; */
 
   }
   
