@@ -18,7 +18,7 @@ const ContactUsHero = () => {
         {/* <p className='contact-us-sub-heading'>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p> */}
           <div className='contactus-card'>
             <h3 className='contactus-card-heading'>Talk to us.</h3>
-            <p className='contactus-card-text'>Interested in learning more about Phonology?<br />
+            <p className='contactus-card-text' style={{fontSize: "16px"}}>Interested in learning more about Phonology?<br />
               Contact our sales representatives at info@phonology.io</p>
               <div className="contact-us-button-div">
             <button className='contact-us-button '>Start a conversation</button>
