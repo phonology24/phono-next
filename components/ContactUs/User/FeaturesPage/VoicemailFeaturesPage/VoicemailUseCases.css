@@ -40,10 +40,13 @@
   }
   
   .usecase-card.row img {
-    max-width: 50%; /* Smaller image size for row layout */
+    height: auto;
+    max-width: 40%; /* Smaller image size for row layout */
     margin-right: 20px; /* Add spacing between image and content */
+    border-radius: 18px;
   }
   .usecase-card img {
+    border-radius: 18px;
     max-width: 60%; /* Smaller image size for row layout */
     margin-right: 20px; /* Add spacing between image and content */
   }

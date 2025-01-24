@@ -1,7 +1,7 @@
 import React from "react";
 import "./VoicemailUseCases.css";
 import Image from "next/image";
-import image from "../../../../../public/Assets/belgium.png"
+import image from "../../../../../public/Assets/bc.jpg"
 const UseCaseComp = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const UseCaseComp = () => {
         <div className="usecase-header">
           {/* <h4>Conversational AI</h4> */}
         </div>
-        <Image className="usecase-image" src={image} alt="Shop" width={500} height={500} />
+        <Image className="usecase-image" src="/Assets/bc.jpg" alt="Shop" width={500} height={500} />
         <h3 className="usecase-title">Busy Sales Professionals
         </h3>
         <p className="usecase-content">
@@ -19,7 +19,7 @@ const UseCaseComp = () => {
         </p>
       </div>
       <div className="usecase-card row">
-      <Image className="usecase-image" src={image} alt="Shop" width={400} height={500} />
+      <Image className="usecase-image" src="/Assets/abc.jpg" alt="Shop" width={400} height={500} />
       <div>
           <div className="usecase-header">
             {/* <h4>Payment</h4> */}
