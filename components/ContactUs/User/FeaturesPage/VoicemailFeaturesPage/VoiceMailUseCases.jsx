@@ -32,7 +32,7 @@ const UseCaseComp = () => {
         </div>
       </div>
       <div className="usecase-card row">
-      <Image className="usecase-image" src={image} alt="Shop" width={400} height={500}/>
+      <Image className="usecase-image" src="/Assets/usecase1.png" alt="Shop" width={400} height={500}/>
       <div>
           <div className="usecase-header">
             {/* <h4>Experience</h4> */}
@@ -48,7 +48,7 @@ const UseCaseComp = () => {
         <div className="usecase-header">
           {/* <h4>Rating</h4> */} 
         </div>
-        <Image className="usecase-image" src={image} alt="Shop" width={500} height={500} />
+        <Image className="usecase-image" src="/Assets/smallbusiness.jpg" alt="Shop" width={500} height={500} />
         <h3 className="usecase-title">Small Businesses and Startups
         </h3>
         <p className="usecase-content">

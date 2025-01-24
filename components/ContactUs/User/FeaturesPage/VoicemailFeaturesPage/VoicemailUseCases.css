@@ -47,7 +47,7 @@
   }
   .usecase-card img {
     border-radius: 18px;
-    max-width: 60%; /* Smaller image size for row layout */
+    max-width: 100%; /* Smaller image size for row layout */
     margin-right: 20px; /* Add spacing between image and content */
   }
   
@@ -84,9 +84,9 @@
   }
   
   .usecase-title {
-    font-size: 24px;
+    font-size: 20px;
     color: #003366;
-    margin: 10px 0;
+    margin: 0px 0;
     font-weight: bold;
   }
   

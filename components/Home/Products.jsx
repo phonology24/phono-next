@@ -12,9 +12,9 @@ import Image from "next/image";
 const Products = () => {
   return (
     <div className="features-container">
-      <h1 className="features-heading">
+      <h2 className="features-heading">
         Our Innovative Solutions - Trusted by Businesses Worldwide
-      </h1>
+      </h2>
       <div className="features-grid">
         <div className="feature-card">
           <Link href="/unified-communication-providers">
