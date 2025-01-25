@@ -11,9 +11,9 @@ const page = () => {
     return (
         <div style={{ maxWidth: "85vw", margin: "0 auto" }}>
             <AIVoiceApiHeading />
+            <AIVoiceApiSubHeading />
             <WhyUse />
             <AIVoiceFeatures />
-            <AIVoiceApiSubHeading />
             <AiBenefits />
             <AIUseCases />
             <Footer />
