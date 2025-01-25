@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/aivoiceapi.css";
-import CallCenterImage from "../../public/Assets/voiceapi.png";
+import CallCenterImage from "../../public/Assets/whatis.jpg";
 import Image from "next/image";
 
 const AIVoiceApiSubHeading = () => {
