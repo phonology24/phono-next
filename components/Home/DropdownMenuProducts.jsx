@@ -73,6 +73,12 @@ const DropdownMenuProducts = () => {
       description: 'Whatsapp third-party integration platform for business owners.',
       link: 'https://www.watel.io', // Use the full URL here
       icon: <CallIcon />
+    },
+    {
+      name: 'Voice API',
+      description: 'Whatsapp third-party integration platform for business owners.',
+      link: '/voice-api', // Use the full URL here
+      icon: <CallIcon />
     }
   ];
 
@@ -101,7 +107,7 @@ const DropdownMenuProducts = () => {
         <div className="dropdownMenu">
           {/* Products Section */}
           <div className="dropdownCol">
-            <h4>Learn</h4>
+            <h4></h4>
             {businessCommunications.map((item, index) => (
               <div className="dropdownItem" key={index}>
                 <a href={item.link}>
@@ -114,7 +120,7 @@ const DropdownMenuProducts = () => {
 
           {/* Apps Section */}
           <div className="dropdownCol">
-            <h4>Apps</h4>
+            <h4></h4>
             {appsSection.map((app, index) => (
               <div className="dropdownItem" key={index}>
                 <a href={app.link} target="_blank" rel="noopener noreferrer">
