@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import './AiVoiceBenefits.css'; // Importing the CSS file
 import CallCenterImage from "../../public/Assets/benefitva.png";
