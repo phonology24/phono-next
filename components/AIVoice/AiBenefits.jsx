@@ -1,6 +1,6 @@
 import React from "react";
 import './AiVoiceBenefits.css'; // Importing the CSS file
-import CallCenterImage from "../../public/Assets/ccsolution1.png";
+import CallCenterImage from "../../public/Assets/benefitva.png";
 import Image from "next/image";
 const AiBenefits = () => {
   const benefits = [
