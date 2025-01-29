@@ -1,6 +1,6 @@
 import React from 'react';
 import '../VoicemailFeaturesPage/FAQSection.css';
-import chooseImg from "../../public/Assets/benefitva.png"; // Importing the image
+import chooseImg from "../../public/Assets/why.png"; // Importing the image
 import Image from 'next/image';
 
 const WhyUse = () => {
