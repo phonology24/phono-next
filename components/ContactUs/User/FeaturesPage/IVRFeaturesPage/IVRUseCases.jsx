@@ -2,6 +2,10 @@ import React from "react";
 import '../VoicemailFeaturesPage/VoicemailUseCases.css'; // Importing the CSS file for styling
 import Image from "next/image";
 import image from "../../../../../public/Assets/belgium.png"
+import image1 from "../../../../../public/Assets/customsup.jpg"
+import image2 from "../../../../../public/Assets/sales.jpg"
+import image3 from "../../../../../public/Assets/healthcare1.png"
+import image4 from "../../../../../public/Assets/ecom.png"
 const IVRUseCases = () => {
   return (
     <>
@@ -12,7 +16,7 @@ const IVRUseCases = () => {
            <div className="usecase-header">
              {/* <h4>Conversational AI</h4> */}
            </div>
-           <Image className="usecase-image" src={image} alt="Shop" width={500} height={500} />
+           <Image className="usecase-image" src={image1} alt="Shop" width={500} height={500} />
            <h3 className="usecase-title">Customer Support Services
 
            </h3>
@@ -21,7 +25,7 @@ const IVRUseCases = () => {
            </p>
          </div>
          <div className="usecase-card row">
-         <Image className="usecase-image" src={image} alt="Shop" width={400} height={500} />
+         <Image className="usecase-image" src={image2} alt="Shop" width={400} height={500} />
          <div>
              <div className="usecase-header">
                {/* <h4>Payment</h4> */}
@@ -35,7 +39,7 @@ const IVRUseCases = () => {
            </div>
          </div>
          <div className="usecase-card row">
-         <Image className="usecase-image" src={image} alt="Shop" width={400} height={500}/>
+         <Image className="usecase-image" src={image3} alt="Shop" width={400} height={500}/>
          <div>
              <div className="usecase-header">
                {/* <h4>Experience</h4> */}
@@ -53,7 +57,7 @@ Healthcare and Appointment Scheduling
            <div className="usecase-header">
              {/* <h4>Rating</h4> */} 
            </div>
-           <Image className="usecase-image" src={image} alt="Shop" width={500} height={500} />
+           <Image className="usecase-image" src={image4} alt="Shop" width={500} height={500} />
            <h3 className="usecase-title">E-Commerce and Order Tracking
 
            </h3>

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import './stepHero.css';
 import Image from 'next/image';
-
+ 
 const StepHero = () => {
   const cards = [
     {
@@ -59,7 +59,8 @@ const StepHero = () => {
   className="stepHero-image"
   layout="fill"
   objectFit="cover" 
-/>
+  
+/> 
 
       </div>
 

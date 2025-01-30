@@ -40,13 +40,14 @@
   
   .usecase-card.row img {
     height: auto;
-    max-width: 40%; 
+    max-width:40%; 
+    max-height: 50%; 
     margin-right: 20px; 
     border-radius: 18px;
   }
   .usecase-card img {
     border-radius: 18px;
-    max-width: 80%;
+    max-width: 90%;
     margin-right: 20px; 
   }
   
