@@ -58,9 +58,7 @@ Healthcare and Appointment Scheduling
              {/* <h4>Rating</h4> */} 
            </div>
            <Image className="usecase-image" src={image4} alt="Shop" width={500} height={500} />
-           <h3 className="usecase-title">E-Commerce and Order Tracking
-
-           </h3>
+           <h3 className="usecase-title">E-Commerce and Order Tracking</h3>
            <p className="usecase-content">
            Enable customers to track orders, check delivery status, or update account details through self-service IVR, enhancing convenience.   </p> 
          </div>
