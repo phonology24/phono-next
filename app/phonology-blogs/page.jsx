@@ -17,7 +17,7 @@ const page = () => {
     <div>
       <PostsList/>
     </div>
-  )
+  ) 
 }
 
 export default page
