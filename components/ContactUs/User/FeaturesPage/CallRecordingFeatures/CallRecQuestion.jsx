@@ -7,19 +7,11 @@ const CallRecQuestion = () => {
     <section className="faq-section">
         <div className="faq-container">
             <h2 className="faq-question">
-                Why Do You Need to Call Queueing?
+            Why Do You Need Call Recording?
 
             </h2>
             <p className="faq-answer">
-                Call queueing is vital for businesses managing
-                high call volumes while ensuring customer
-                satisfaction. It organizes callers in virtual
-                queues, reducing dropped calls and long wait
-                times. By providing updates, estimated wait
-                times, and engaging on-hold messages, call
-                queueing enhances customer experience and
-                keeps your communication flow efficient,
-                even during peak hours.
+            Call recording is vital for ensuring quality assurance, compliance, and better customer interactions. By capturing and storing conversations, it helps monitor service quality, resolve disputes, and train teams effectively. It provides valuable insights and ensures your business operates transparently and efficiently.
 
             </p>
         </div>

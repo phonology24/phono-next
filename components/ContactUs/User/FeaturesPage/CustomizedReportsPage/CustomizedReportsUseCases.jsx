@@ -1,7 +1,8 @@
 import React from "react";
 import '../VoicemailFeaturesPage/VoicemailUseCases.css'; // Importing the CSS file for styling
 import Image from "next/image";
-import image from "../../../../../public/Assets/belgium.png"
+import image from "../../../../../public/Assets/col.jpg"
+import image1 from "../../../../../public/Assets/peeps.jpg"
 const CustomizedReportsUseCases = () => {
   return (
 <>
@@ -24,7 +25,7 @@ const CustomizedReportsUseCases = () => {
                     </p>
                 </div>
                 <div className="usecase-card row">
-                    <Image className="usecase-image" src={image} alt="Shop" width={400} height={500} />
+                    <Image className="usecase-image" src={image1} alt="Shop" width={400} height={500} />
                     <div>
                         <div className="usecase-header">
                             {/* <h4>Payment</h4> */}

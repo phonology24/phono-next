@@ -6,7 +6,7 @@ const CallRecFeatures = () => {
   return (
 <section className="key-benefits-section">
          <h2 className="key-benefits-heading">
-         Key Benefits  
+         Key Features  
          </h2>
          <div className="key-benefits-cards-container">
            {/* Card 1 */}

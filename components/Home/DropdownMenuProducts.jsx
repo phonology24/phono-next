@@ -82,7 +82,6 @@ const DropdownMenuProducts = () => {
     }
   ];
 
-  const placeholderImageUrl = 'https://via.placeholder.com/750x500'; // Placeholder Image URL
 
   useEffect(() => {
     const handleClickOutside = (event) => {
