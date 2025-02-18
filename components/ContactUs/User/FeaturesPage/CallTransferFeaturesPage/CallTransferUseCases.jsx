@@ -4,7 +4,8 @@ import Image from "next/image";
 import image from "../../../../../public/Assets/col.jpg"
 import image1 from "../../../../../public/Assets/peeps.jpg"
 import image2 from "../../../../../public/Assets/doc-on-phone.jpg"
-import image3 from "../../../../../public/Assets/team-collab.jpg"const CallTransferUseCases = () => {
+import image3 from "../../../../../public/Assets/team-collab.jpg"
+const CallTransferUseCases = () => {
     return (
         <>
             <h4 className="usecase-h4">
