@@ -3,6 +3,8 @@ import '../VoicemailFeaturesPage/VoicemailUseCases.css'; // Importing the CSS fi
 import Image from "next/image";
 import image from "../../../../../public/Assets/col.jpg"
 import image1 from "../../../../../public/Assets/peeps.jpg"
+import image2 from "../../../../../public/Assets/doc-on-phone.jpg"
+import image3 from "../../../../../public/Assets/team-collab.jpg"
 const CustomizedReportsUseCases = () => {
   return (
 <>
@@ -41,7 +43,7 @@ const CustomizedReportsUseCases = () => {
                     </div>
                 </div>
                 <div className="usecase-card row">
-                    <Image className="usecase-image" src={image} alt="Shop" width={400} height={500} />
+                    <Image className="usecase-image" src={image2} alt="Shop" width={400} height={500} />
                     <div>
                         <div className="usecase-header">
                             {/* <h4>Experience</h4> */}
@@ -60,7 +62,7 @@ const CustomizedReportsUseCases = () => {
                     <div className="usecase-header">
                         {/* <h4>Rating</h4> */}
                     </div>
-                    <Image className="usecase-image" src={image} alt="Shop" width={500} height={500} />
+                    <Image className="usecase-image" src={image3} alt="Shop" width={500} height={500} />
                     <h3 className="usecase-title">Team Collaboration in Distributed Workplaces
 
                     </h3>
