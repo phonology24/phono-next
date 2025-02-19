@@ -4,7 +4,7 @@ import Image from "next/image";
 import image from "../../../../../public/Assets/cq1.jpg"
 import image1 from "../../../../../public/Assets/cq2.png"
 import image2 from "../../../../../public/Assets/cq3.jpg"
-import image3 from "../../../../../public/Assets/cq4.jpg"
+import image3 from "../../../../../public/Assets/cq4.png"
 import image4 from "../../../../../public/Assets/cq6.jpg"
 
 const CallQueueingUseCases = () => {

@@ -4,7 +4,7 @@ import Image from "next/image";
 import image from "../../../../../public/Assets/cb1.jpg"
 import image1 from "../../../../../public/Assets/cb2.png"
 import image2 from "../../../../../public/Assets/cb3.jpg"
-import image3 from "../../../../../public/Assets/cb4.png"
+import image3 from "../../../../../public/Assets/cb4.jpg"
 
 const CallBargingUseCases = () => {
   return (
