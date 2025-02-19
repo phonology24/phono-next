@@ -1,7 +1,8 @@
 import React from "react";
 import '../VoicemailFeaturesPage/VoicemailUseCases.css'; // Importing the CSS file for styling
 import Image from "next/image";
-import image from "../../../../../public/Assets/belgium.png"
+import image from "../../../../../public/Assets/cb1.jpg"
+import image1 from "../../../../../public/Assets/cb2.jpg"
 
 const CallBargingUseCases = () => {
   return (
@@ -14,7 +15,7 @@ const CallBargingUseCases = () => {
                  <div className="usecase-header">
                    {/* <h4>Conversational AI</h4> */}
                  </div>
-                 <Image className="usecase-image" src={image} alt="Shop" width={500} height={500} />
+                 <Image className="usecase-image" src={image1} alt="Shop" width={500} height={500} />
                  <h3 className="usecase-title">Customer Support Escalations
 
 
