@@ -1,7 +1,7 @@
 import React from 'react';
 import '../VoicemailFeaturesPage/VoiceMailFeaturesHero.css'; // Importing the CSS file for styling
 import Image from 'next/image';
-import HeroImage from "/public/Assets/home-hero3.png"
+import HeroImage from "../../../../../public/Assets/CCR.png"
 
 const CustomizedReportsHero = () => {
   return (
