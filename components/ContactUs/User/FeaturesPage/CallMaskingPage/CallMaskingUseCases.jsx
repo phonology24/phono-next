@@ -1,7 +1,10 @@
 import React from "react";
 import '../VoicemailFeaturesPage/VoicemailUseCases.css'; // Importing the CSS file for styling
 import Image from "next/image";
-import image from "../../../../../public/Assets/belgium.png"
+import image from "../../../../../public/Assets/cm.png"
+import image1 from "../../../../../public/Assets/cm2.jpg"
+import image2 from "../../../../../public/Assets/cm3.jpg"
+import image3 from "../../../../../public/Assets/cm4.jpg"
 
 const CallMaskingUseCases = () => {
   return (
@@ -25,7 +28,7 @@ const CallMaskingUseCases = () => {
                   </p>
                 </div>
                 <div className="usecase-card row">
-                <Image className="usecase-image" src={image} alt="Shop" width={400} height={500} />
+                <Image className="usecase-image" src={image1} alt="Shop" width={400} height={500} />
                 <div>
                     <div className="usecase-header">
                       {/* <h4>Payment</h4> */}
@@ -42,7 +45,7 @@ const CallMaskingUseCases = () => {
                   </div>
                 </div>
                 <div className="usecase-card row">
-                <Image className="usecase-image" src={image} alt="Shop" width={400} height={500}/>
+                <Image className="usecase-image" src={image2} alt="Shop" width={400} height={500}/>
                 <div>
                     <div className="usecase-header">
                       {/* <h4>Experience</h4> */}
@@ -59,7 +62,7 @@ const CallMaskingUseCases = () => {
                   <div className="usecase-header">
                     {/* <h4>Rating</h4> */} 
                   </div>
-                  <Image className="usecase-image" src={image} alt="Shop" width={500} height={500} />
+                  <Image className="usecase-image" src={image3} alt="Shop" width={500} height={500} />
                   <h3 className="usecase-title">Healthcare and Teleconsultation
 
  
