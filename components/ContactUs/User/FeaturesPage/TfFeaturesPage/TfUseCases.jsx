@@ -3,8 +3,8 @@ import '../VoicemailFeaturesPage/VoicemailUseCases.css'; // Importing the CSS fi
 import Image from "next/image";
 import image from "../../../../../public/Assets/tf1.jpg"
 import image1 from "../../../../../public/Assets/tf2.jpg"
-import image2 from "../../../../../public/Assets/tf3.jpg"
-import image3 from "../../../../../public/Assets/tf4.jpg"
+import image2 from "../../../../../public/Assets/tf4.jpg"
+import image3 from "../../../../../public/Assets/tf5.jpg"
 const TfUseCases = () => {
   return (
      <>
