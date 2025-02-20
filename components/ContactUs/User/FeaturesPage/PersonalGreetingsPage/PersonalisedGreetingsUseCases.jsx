@@ -3,7 +3,7 @@ import '../VoicemailFeaturesPage/VoicemailUseCases.css'; // Importing the CSS fi
 import Image from "next/image";
 import image from "../../../../../public/Assets/pg1.jpg"
 import image1 from "../../../../../public/Assets/pg2.jpg"
-import image2 from "../../../../../public/Assets/pg3.jpg"
+import image2 from "../../../../../public/Assets/pg3.png"
 import image3 from "../../../../../public/Assets/pg4.jpg"
 
 const PersonalisedGreetingsUseCases = () => {
