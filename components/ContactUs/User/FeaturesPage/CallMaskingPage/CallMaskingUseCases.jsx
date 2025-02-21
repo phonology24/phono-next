@@ -4,7 +4,7 @@ import Image from "next/image";
 import image from "../../../../../public/Assets/cm.png"
 import image1 from "../../../../../public/Assets/cm2.jpg"
 import image2 from "../../../../../public/Assets/cm3.jpg"
-import image3 from "../../../../../public/Assets/cm4.jpg"
+import image3 from "../../../../../public/Assets/cm4.png"
 
 const CallMaskingUseCases = () => {
   return (
