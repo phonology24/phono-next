@@ -1,7 +1,7 @@
 // components/TwoCardAi.jsx
 import React from "react";
 import Image from "next/image";
-import BackImage from "../../public/Assets/empowerpbx.jpg";
+import BackImage from "../../public/Assets/agent2.avif";
 import "./twoCardAi.css";   // ← new stylesheet
 
 const TwoCardAi = () => (

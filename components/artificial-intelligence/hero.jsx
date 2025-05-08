@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/hostedphonenumbers.css';
 import MyGlobe from '../MyGlobe';
-import HostedPBXIMG from '../../public/Assets/hostedpbxhero.png'
+import HostedPBXIMG from '../../public/Assets/agent1.jpg'
 import Image from 'next/image';
 
 const AiHero = () => {
