@@ -46,4 +46,4 @@ const TwoCardAi = () => (
   </section>
 );
 
-export default TwoCardAi;
+export default TwoCardAi; 

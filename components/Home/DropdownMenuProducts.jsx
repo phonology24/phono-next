@@ -79,6 +79,12 @@ const DropdownMenuProducts = () => {
       description: 'Whatsapp third-party integration platform for business owners.',
       link: '/voice-api', // Use the full URL here
       icon: <CallIcon />
+    },
+    {
+      name: 'AI Voice Agent',
+      description: 'Whatsapp third-party integration platform for business owners.',
+      link: '/ai-voice-agents', // Use the full URL here
+      icon: <CallIcon />
     }
   ];
 
