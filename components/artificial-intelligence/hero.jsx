@@ -31,7 +31,7 @@ At Phonology, we empower businesses with cutting-edge AI Voice Agents designed t
           <div className="hosted-phone-numbers-photo">
             <div className="hosted-phone-numbers-photo-inner">
               {/* <MyGlobe /> */}
-              <Image src={HostedPBXIMG} height={500} width={500} alt="hosted-pbx-image"/>
+              <Image src={HostedPBXIMG} height={400} width={500} alt="hosted-pbx-image"/>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ const TwoCardAi = () => (
   <section className="two-card-ai">
     {/* Left – image */}
     <div className="two-card-ai__image">
-      <Image src={BackImage} alt="Phonology AI Voice Agent" priority />
+      <Image src={BackImage} alt="Phonology AI Voice Agent" height={400} width={500} priority />
     </div>
 
     {/* Right – text */}
