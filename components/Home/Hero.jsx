@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../../styles/hero.css";
 import Image from "next/image";
-import { VocalCallSDK } from "vocal-call-sdk";
+// @ts-ignore
+import { VocalCallSDK } from "vocalcallsdk";
 import HeroImage from "../../public/Assets/home-hero3.png";
 
 const Hero = () => {
