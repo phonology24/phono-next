@@ -1,5 +1,5 @@
 
-// src/types/vocal-call-sdk.d.ts
+
 
 declare module 'vocal-call-sdk' {
   export class VocalCallSDK {
