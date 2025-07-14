@@ -1,7 +1,8 @@
   /** @type {import('next').NextConfig} */
   const nextConfig = {
     images: {
-      domains: ['blog.phonology.io', 'flagsapi.com', 'www.phonology.io','images.unsplash.com', 'plus.unsplash.com', 'via.placeholder.com', 'placehold.co'],
+          unoptimized: true,
+      domains: ['blog.phonology.io', 'flagsapi.com', 'phonology.io','images.unsplash.com', 'plus.unsplash.com', 'via.placeholder.com', 'placehold.co'],
     },
     webpack: (config, { isServer }) => {
       config.module.rules.push({
