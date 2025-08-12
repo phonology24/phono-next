@@ -69,15 +69,14 @@ const Hero = () => {
           <div className="hero-box">
             <div className="hero-box-header">
               <h4 className="hero-box-heading">
-                Transform Engagement with Watel WhatsApp Business API Solutions
+Comprehensive Business Communication Solutions
               </h4>
               <p className="hero-box-paragraph">
-                Watel WhatsApp Business API solutions help you connect effortlessly with your customers. Automate replies, personalize interactions, and keep them engaged every step of the way.
-              </p>
+From SIP Trunking to Cloud Telephony and Virtual Numbers, we offer scalable, reliable tools to power all your voice and collaboration needs.              </p>
             </div>
             <div className="hero-box-footer">
-              <button className="button-86" onClick={Redirector}>
-                Get Free Trial
+              <button className="button-86" onClick={RedirectorToDemo}>
+                Talk To Us
               </button>
             </div>
           </div>
