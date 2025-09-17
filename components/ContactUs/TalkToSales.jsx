@@ -4,10 +4,10 @@ import '../../styles/contactus/talktosales.css';
 const TalkToSales = () => {
 
     const contactData = [
-        { country: "USA", number: "+1 123 456 7890", flagUrl: "https://flagcdn.com/w320/us.png" },
-        { country: "UK", number: "+44 20 7946 0958", flagUrl: "https://flagcdn.com/w320/gb.png" },
-        { country: "India", number: "+91 987 654 3210", flagUrl: "https://flagcdn.com/w320/in.png" },
-        { country: "Australia", number: "+61 400 123 456", flagUrl: "https://flagcdn.com/w320/au.png" },
+        // { country: "USA", number: "+1 123 456 7890", flagUrl: "https://flagcdn.com/w320/us.png" },
+        // { country: "UK", number: "+44 20 7946 0958", flagUrl: "https://flagcdn.com/w320/gb.png" },
+        { country: "India", number: "+91 98456 33355 / +91 98459 77788", flagUrl: "https://flagcdn.com/w320/in.png" },
+        // { country: "Australia", number: "+61 400 123 456", flagUrl: "https://flagcdn.com/w320/au.png" },
     ];
 
     return (

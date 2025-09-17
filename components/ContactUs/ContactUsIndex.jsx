@@ -10,7 +10,7 @@ const ContactUsIndex = () => {
     <div className='contactusIndex'>
       <ContactUsHero />
       <TalkToSales/>
-      <OurOffices/>
+      {/* <OurOffices/> */}
       <Footer/>
     </div>
   )
