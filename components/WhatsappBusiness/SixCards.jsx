@@ -25,9 +25,9 @@ const SixCards = () => {
                     <div className={styles.columnPbx}>
                         <Diversity1Icon className={styles.iconPbx} alt="web-meetings" />
                         <div className={styles.columnContent}>
-                            <h3 className={styles.gradientLtr}>Bulk Messaging</h3>
+                            <h3 className={styles.gradientLtr}>AI Calling</h3>
                             <p className={styles.large}>
-                                Reach your audience instantly with personalized, large-scale WhatsApp broadcasts.
+                                Intelligent AI calling agents that speak naturally, understand perfectly, and never take a day off..
                             </p>
                         </div>
                     </div>

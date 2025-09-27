@@ -19,7 +19,8 @@ const TalkToSales = () => {
                         <img src={contact.flagUrl} alt={`${contact.country} flag`} className="flag" />
                               <div className='card-content'>                           
                         <h3>{contact.country}</h3>
-                        <p>{contact.number}</p>
+# 2 ,2nd Floor, 
+RR Chambers 11th Main, Millers Rd, Bengaluru, Karnataka 560001                        <p>{contact.number}</p>
                         </div> 
                     </div>
                 ))}
