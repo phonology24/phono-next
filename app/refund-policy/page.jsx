@@ -33,13 +33,13 @@ const RefundPolicy = () => {
 
       <p style={paragraphStyle}><b>Effective Date:</b> 01 January 2025</p>
       <p style={paragraphStyle}>
-        This Refund Policy applies to all telecommunications and VoIP services provided by <b>Phonology IT Solutions</b>. 
+        This Refund Policy applies to all telecommunications services provided by <b>Phonology IT Solutions</b>. 
         By using our services, you acknowledge and agree to this policy.
       </p>
 
       <p style={paragraphStyle}><b>1. Overview</b></p>
       <p style={paragraphStyle}>
-        Phonology IT Solutions strives to ensure customer satisfaction by delivering high-quality telecom and VoIP services.
+        Phonology IT Solutions strives to ensure customer satisfaction by delivering high-quality telecom services.
         This Refund Policy explains the circumstances under which refunds may be issued for our services.
       </p>
 
@@ -54,7 +54,6 @@ const RefundPolicy = () => {
         <li>Service activation failure due to a technical issue originating from Phonology IT Solutions.</li>
         <li>Duplicate payment for the same transaction.</li>
         <li>Billing or accounting error resulting in incorrect charges.</li>
-        <li>Unutilized prepaid VoIP balance, evaluated on a case-by-case basis.</li>
       </ul>
 
       <p style={paragraphStyle}><b>4. Non-Refundable Scenarios</b></p>
