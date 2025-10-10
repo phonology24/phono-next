@@ -39,7 +39,7 @@ const RefundPolicy = () => {
 
       <p style={paragraphStyle}><b>1. Overview</b></p>
       <p style={paragraphStyle}>
-        Phonology IT Solutions strives to ensure customer satisfaction by delivering high-quality telecom services.
+        Phonology IT Solutions strives to ensure customer satisfaction by delivering high-quality services.
         This Refund Policy explains the circumstances under which refunds may be issued for our services.
       </p>
 
@@ -66,8 +66,7 @@ const RefundPolicy = () => {
 
       <p style={paragraphStyle}><b>5. Refund Request Process</b></p>
       <p style={paragraphStyle}>
-        To request a refund, please contact us at <a href="mailto:info@phonology.io">info@phonology.io</a> 
-        within <b>7 calendar days</b> of your payment. Include the following details:
+        To request a refund, please contact us at <a href="mailto:info@phonology.io">info@phonology.io</a>  within <b>7 calendar days</b> of your payment. Include the following details:
       </p>
       <ul style={listStyle}>
         <li>Full name and registered email address</li>
