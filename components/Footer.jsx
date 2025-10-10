@@ -88,6 +88,9 @@ const Footer = () => {
           <span>
             <Link href="/privacy-policy">Privacy Policy</Link>
           </span>
+          <span>
+            <Link href="/refund-policy">Refund Policy</Link>
+          </span>
         </div>
       </div>
       <div className="footer-section-two">
