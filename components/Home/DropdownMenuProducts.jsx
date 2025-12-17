@@ -63,6 +63,18 @@ const DropdownMenuProducts = () => {
   const appsSection = [
 
     {
+      name: 'Vocal Stack',
+      description: 'Instant DIDs, ultra low latency media, studio grade noise cancellation, all API-first.',
+      link: 'https://www.vocalstack.site', // Use the full URL here
+      icon: <CallIcon />
+    },
+    {
+      name: 'Eazy Reach',
+      description: 'AI contact finder for B2B teams. Instantly uncover CXO-level phone numbers, verified emails.',
+      link: 'https://www.eazyreach.app', // Use the full URL here
+      icon: <CallIcon />
+    },
+    {
       name: 'Whatsapp Business',
       description: 'Whatsapp third-party integration platform for business owners.',
       link: '/whatsapp-business', // Use the full URL here
