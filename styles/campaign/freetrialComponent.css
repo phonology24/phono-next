@@ -9,7 +9,7 @@
     padding: 45px;
     font-weight: 800;
     margin:0px 0px 0px 0px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-sans);
     border-bottom-left-radius: 17px;
     border-bottom-right-radius: 17px;
     transition: all .3s ease-in-out;

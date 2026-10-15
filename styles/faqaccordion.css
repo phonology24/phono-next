@@ -33,7 +33,7 @@
 
 .accordionItemTitle1 {
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-sans);
   white-space: normal; /* Allow text to wrap */
   text-align: left;
   font-size: 18px; /* Reduced font size for mobile */

@@ -68,7 +68,7 @@ p {
   cursor: pointer;
   font-size: 18px;
   font-weight: 800;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-sans);
 }
 
 @media (max-width: 768px) {

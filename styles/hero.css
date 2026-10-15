@@ -154,7 +154,7 @@
 /* CSS */
 .button-85 {
   animation: paraAnim 2s ease 0s 1 normal forwards;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-sans);
   margin: 20px 0px;
   padding: 10px 10px;
   text-wrap: nowrap;
@@ -228,7 +228,7 @@
 
 
 .button-86 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-sans);
   margin: 10px 0px;
   padding: 10px 0px;
   text-wrap: nowrap;

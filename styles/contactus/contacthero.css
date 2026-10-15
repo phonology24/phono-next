@@ -74,7 +74,7 @@
 }
 
 .contact-us-button {
-    font-family: "Poppins";
+    font-family: var(--font-sans);
     font-size: 18px;
     padding: 15px;
     border-radius: 50px;

@@ -1,6 +1,6 @@
 .topContactBar {
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-sans);
   justify-content: space-between;
   align-items: center;
   background-color: rgb(223, 255, 216);

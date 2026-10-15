@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 .login-container {
     display: flex;
     justify-content: right;
@@ -70,7 +71,7 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-sans);
 
   }
   
@@ -83,7 +84,7 @@
     cursor: pointer;
     margin-top: 10px;
     transition: all .2s ease-in-out;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-sans);
 
   }
   

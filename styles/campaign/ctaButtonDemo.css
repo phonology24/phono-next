@@ -20,7 +20,7 @@
     background-color:   #fffc5b;
     font-size: 22px;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-sans);
     transition: all .3s ease-in-out;
     color: rgb(73, 73, 73);
 }
