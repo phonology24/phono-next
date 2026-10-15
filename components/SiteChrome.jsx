@@ -5,6 +5,10 @@ import Navbar from './Navbar';
 
 const NO_NAVBAR = ['/voip-form', '/admin-post-editor'];
 
+// Routes fully on design tokens get the dark theme (see the gate in globals.css).
+// ponytail: grows phase by phase; admin routes never match.
+const THEMED = /^\/([a-z-]+-virtual-phone-number|canada-toll-free-virtual-number)?$/;
+
 export default function SiteChrome() {
   const pathname = usePathname();
   const hideNavbar = NO_NAVBAR.includes(pathname) ||
@@ -12,5 +16,10 @@ export default function SiteChrome() {
     pathname.startsWith('/edit-post/') ||
     pathname.includes('support-document-admin');
 
-  return hideNavbar ? null : <Navbar />;
+  return (
+    <>
+      {THEMED.test(pathname) && <i data-theme-ready="" hidden />}
+      {!hideNavbar && <Navbar />}
+    </>
+  );
 }
