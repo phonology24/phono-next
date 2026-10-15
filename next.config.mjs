@@ -1,5 +1,6 @@
   /** @type {import('next').NextConfig} */
   const nextConfig = {
+    output: 'standalone',
     images: {
           unoptimized: true,
       domains: ['blog.phonology.io', 'flagsapi.com', 'phonology.io','images.unsplash.com', 'plus.unsplash.com', 'via.placeholder.com', 'placehold.co'],
