@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Logo from "../public/Assets/logo.png";
 import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";

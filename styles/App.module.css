@@ -14,10 +14,6 @@
   padding: 0;
 } */
 
-.logo {
-  max-width: 10%;
-  height: auto;
-}
 
 .App {
   min-height: 100vh;
@@ -72,32 +68,20 @@
   min-height: 0px;
   max-height: 70px;
   min-width: 100%;
+  min-height: 70px;
   background: transparent;
-   position: fixed;
+  border-bottom: 1px solid transparent;
+  position: fixed;
   left: 0;
   z-index: 1;
-  color: #4C555B;
-  transition: all .5s ease-in-out ;
+  color: var(--ink);
+  transition: background-color var(--motion), border-color var(--motion);
 }
 
-.nav-glass{
-  font-family: var(--font-sans);
-  display: flex;
-  top: 0px;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 0px;
-  max-height: 70px;
-  min-width: 100%;
-  background: rgba(230, 230, 230, 0.35);
-  backdrop-filter: blur( 10.5px );
-  -webkit-backdrop-filter: blur( 7.5px );
-   position: fixed;
-  left: 0;
-  z-index: 1;
-  color: #4C555B;
-  transition: all .5s ease-in-out ;
-
+.nav-glass {
+  composes: nav;
+  background: var(--surface);
+  border-bottom-color: var(--line);
 }
 
 .contact-div{
@@ -108,7 +92,7 @@ margin: 20px 0px 20px 0px;
 }
 
 .nav:hover {
-  background-color: #ffffff;
+  background-color: var(--surface);
 }
 
 .navbarMenuContainer {
@@ -116,12 +100,12 @@ margin: 20px 0px 20px 0px;
 }
 
 .navbarLinksContainer a {
-  margin-right: 3rem;
+  margin-right: 2rem;
   text-decoration: none;
-  color: #4C555B;
+  color: var(--ink);
   font-size: 1rem;
   font-weight: 600;
-  padding: 5px;
+  padding: var(--space-2) var(--space-3);
 }
 
 .primary-button {
@@ -596,37 +580,15 @@ margin: 20px 0px 20px 0px;
 
 
 .primaryButtonBook {
-  font-size: 17.6px;
-  font-weight: bold;
-  color: #000000;
-  border: none;
-  border-radius: 7px;
-  margin-right: 1rem;
-  font-family: var(--font-sans);
-  padding: 10px 20px;
-  background-color: #83ee9a;
-
+  composes: ph-btn ph-btn--primary from global;
+  margin-right: var(--space-6);
 }
 
 @media(max-width: 768px){
   .primaryButtonBook {
-    font-size: 17.6px;
-    font-weight: bold;
-    color: #000000;
-    border: none;
-    border-radius: 7px;
     margin-right: -9rem;
-    font-family: var(--font-sans);
-    padding: 10px 10px;
-    background-color: #98FFC5;
-  
+    padding: 0 var(--space-4);
   }
-}
-
-.primary-button-book:hover {
-  background-color: rgb(210, 210, 210);
-  color: #001aff;
-  cursor: pointer;
 }
 
 
@@ -780,42 +742,24 @@ margin: 20px 0px 20px 0px;
   justify-content: space-between;
 }
 
-.logo {
-  max-height: auto;
-  margin-top: 10px;
-  max-width: 210px;
-}
-
 .workSectionWrapper {
   min-height: fit-content;
   padding-top: 50px;
   margin-bottom: 50px;
-  border-radius: 17px;
-  background-color: whitesmoke ;
+  border-radius: var(--radius-lg);
+  background-color: var(--surface-sunken);
 }
 
-.navLogoContainer Link {
-  text-decoration: none;
-  color: inherit;
+.navLogoContainer {
+  display: flex;
+  align-items: center;
+  padding-left: var(--space-6);
+  cursor: pointer;
 }
-
-.-logo-container Link:hover {
-  text-decoration: none;
-}
-
-.navLogoContainer p {
-  text-decoration: none !important;
-  color: #000000;
-  padding: 20px 0px 0px 20px;
-  font-size: 25px;
-  font-family: 'Alfa Slab One', serif;
-}
-
 
 @media (max-width: 1024px) {
   .navLogoContainer {
-    max-width: 80px;
-    margin-left: -20px;
+    padding-left: var(--space-4);
   }
 
   .navbarLinksContainer {
@@ -981,17 +925,17 @@ margin: 20px 0px 20px 0px;
 
 .dropbutton {
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: var(--ink);
 }
 
 
-.navlink1 {  
-  border-radius: 17px;
-  border: 1px solid rgba(0, 0, 0, 0);
+.navlink1 {
+  border-radius: var(--radius-full);
+  transition: background-color var(--motion);
 }
 
 .navlink1:hover {
-  background-color: #ebebeb;
+  background-color: var(--surface-sunken);
 }
 
 /* TelecomBanner.css */

@@ -6,7 +6,6 @@ import { useRouter } from 'next/navigation';
 import moment from 'moment';
 import slugify from 'slugify';
 import Image from 'next/image';
-import Logo from '../../../public/Assets/logo.png';
 import '../../../styles/blog-css/userblog.css';
 import NewsModal from './NewsModal';  // Import the Modal component
 import NewsComponent from './NewsComponent';

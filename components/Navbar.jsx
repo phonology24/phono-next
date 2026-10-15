@@ -21,8 +21,7 @@ import SipIcon from '@mui/icons-material/Sip';
 import { ShoppingBag } from "@mui/icons-material";
 // import DropdownMenuSolutions from "./Home/dropdownMenuSolutions";
 import styles from '../styles/App.module.css' 
-import Logo from '../public/Assets/logo.png'
-import Image from "next/image";
+import BrandLogo from "./BrandLogo";
 import DropdownMenuResources from "./Home/DropdownMenuResources";
 import DropdownMenuProducts from "./Home/DropdownMenuProducts";
 
@@ -113,7 +112,7 @@ const Navbar = () => {
     <nav className={isScrolled ? styles["nav-glass"] : styles.nav}>
       <div className={styles.navLogoContainer} onClick={scrollToTop}>
         <Link href="/">
-        <Image src={Logo} alt="" className={styles.logo} />
+          <BrandLogo height={30} />
         </Link>
       </div>
 
@@ -144,6 +143,7 @@ const Navbar = () => {
         open={openMenu}
         onClose={() => setOpenMenu(false)}
         anchor="right"
+        PaperProps={{ sx: { bgcolor: 'var(--surface-raised)', color: 'var(--ink)', boxShadow: 'var(--shadow-pop)', '& .MuiListItemIcon-root': { color: 'var(--mint-text)' }, '& .MuiDivider-root': { borderColor: 'var(--line)' } } }}
       >
         <Box
           sx={{ width: 400 }}

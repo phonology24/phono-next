@@ -280,12 +280,10 @@
 
 
 
-.phono-img img {
-    max-height: 120px;
+.phono-img svg {
     position: absolute;
-    top: 0vh;
+    top: var(--space-6);
     left: 7vw;
-    max-width: 250px;
 }
 
 

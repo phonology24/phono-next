@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../../../styles/campaign/campaign1.css';
-import logo from '../../../public/Assets/logo.png';
+import BrandLogo from '../../BrandLogo';
 import LandingPageImage from '../../../public/Assets/cloud.png'
 import AcUnitOutlinedIcon from '@mui/icons-material/AcUnitOutlined';
 import AutoAwesomeMotionOutlinedIcon from '@mui/icons-material/AutoAwesomeMotionOutlined';
@@ -29,7 +29,7 @@ const CampaignHeader = () => {
         <>
             <div className="campaignHeaderContainer">
                 <div className="phono-img">
-                    <a href='/'><Image src={logo} alt="phono-img" /></a>
+                    <a href='/'><BrandLogo height={36} /></a>
                 </div>
                 {/* <div className='button-campaign-div'>
                 <button>Talk To An Expert &nbsp;  &rarr;</button>

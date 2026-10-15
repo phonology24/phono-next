@@ -1,5 +1,5 @@
 .support-category-list, button{
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-sans);
 }
 
 .category-header {
