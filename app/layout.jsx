@@ -1,6 +1,6 @@
+import '../styles/globals.css'; // first, so component CSS can override the primitives
 import { Unbounded, Figtree, Martian_Mono } from 'next/font/google';
 import SiteChrome from '@/components/SiteChrome';
-import '../styles/globals.css';
 
 const display = Unbounded({ subsets: ['latin'], weight: '500', variable: '--font-display' });
 const sans = Figtree({ subsets: ['latin'], variable: '--font-sans' });

@@ -540,10 +540,17 @@ margin: 20px 0px 20px 0px;
   margin-right: var(--space-6);
 }
 
-@media(max-width: 768px){
+@media (max-width: 1024px) {
   .primaryButtonBook {
-    margin-right: -9rem;
-    padding: 0 var(--space-4);
+    margin-right: var(--space-2);
+  }
+}
+
+@media (max-width: 480px) {
+  .primaryButtonBook {
+    min-height: 36px;
+    padding: 0 var(--space-3);
+    font-size: 14px;
   }
 }
 
@@ -716,6 +723,12 @@ margin: 20px 0px 20px 0px;
 @media (max-width: 1024px) {
   .navLogoContainer {
     padding-left: var(--space-4);
+    margin-right: auto;
+  }
+
+  .navLogoContainer svg {
+    height: 26px;
+    width: auto;
   }
 
   .navbarLinksContainer {
@@ -724,6 +737,7 @@ margin: 20px 0px 20px 0px;
 
   .navbarMenuContainer {
     display: flex;
+    padding-right: var(--space-4);
   }
 
   .homeBannerImageContainer  {

@@ -93,9 +93,11 @@ body {
   outline-offset: 2px;
 }
 
-/* Primitives. `composes: ph-btn ph-btn--primary from global` hooks CSS-module buttons in. */
-.ph-btn,
-.benefitsButton, .button-86 /* ponytail: legacy aliases, drop in Phase 3 */ {
+/* Primitives. `composes: ph-btn ph-btn--primary from global` hooks CSS-module buttons in.
+   Wrapped in :where() (zero specificity) so any component class overrides them,
+   whatever order Next loads the CSS chunks in.
+   .benefitsButton, .button-86: ponytail: legacy aliases, drop in Phase 3. */
+:where(.ph-btn, .benefitsButton, .button-86) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -110,16 +112,16 @@ body {
   text-decoration: none;
   transition: background-color var(--motion), filter var(--motion);
 }
-.ph-btn--primary, .benefitsButton, .button-86 { background: var(--mint); color: var(--on-mint); }
-.ph-btn--primary:hover, .benefitsButton:hover, .button-86:hover { filter: brightness(.94); }
-.ph-btn--secondary { background: var(--surface-raised); color: var(--ink); border-color: var(--line-strong); }
-.ph-btn--ghost { background: transparent; color: var(--ink); }
-.ph-btn--secondary:hover, .ph-btn--ghost:hover { background: var(--surface-sunken); }
-.ph-btn--danger { background: var(--status-missed); color: var(--on-status-missed); }
-.ph-btn:disabled { opacity: .45; cursor: not-allowed; filter: none; }
+:where(.ph-btn--primary, .benefitsButton, .button-86) { background: var(--mint); color: var(--on-mint); }
+:where(.ph-btn--primary, .benefitsButton, .button-86):hover { filter: brightness(.94); }
+:where(.ph-btn--secondary) { background: var(--surface-raised); color: var(--ink); border-color: var(--line-strong); }
+:where(.ph-btn--ghost) { background: transparent; color: var(--ink); }
+:where(.ph-btn--secondary, .ph-btn--ghost):hover { background: var(--surface-sunken); }
+:where(.ph-btn--danger) { background: var(--status-missed); color: var(--on-status-missed); }
+:where(.ph-btn):disabled { opacity: .45; cursor: not-allowed; filter: none; }
 
-.ph-mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; letter-spacing: .01em; }
-.ph-chip {
+:where(.ph-mono) { font-family: var(--font-mono); font-variant-numeric: tabular-nums; letter-spacing: .01em; }
+:where(.ph-chip) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -133,7 +135,7 @@ body {
   font: 500 11px/1 var(--font-mono);
   letter-spacing: .04em;
 }
-.ph-label { font: var(--type-label); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-muted); }
+:where(.ph-label) { font: var(--type-label); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-muted); }
 
 .video-container video {
   min-width: 500px;
