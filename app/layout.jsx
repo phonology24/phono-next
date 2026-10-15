@@ -1,44 +1,18 @@
-"use client";
+import { Unbounded, Figtree, Martian_Mono } from 'next/font/google';
+import SiteChrome from '@/components/SiteChrome';
+import '../styles/globals.css';
 
-import Navbar from '../components/Navbar';
-import TopContactBar from '@/components/TopContactBar';
-import '../styles/globals.css'; // Ensure your global styles are imported
-import Head from 'next/head';
-import { usePathname } from 'next/navigation';
-import { GoogleAnalytics } from '@next/third-parties/google';
-import { GoogleTagManager } from '@next/third-parties/google'
-import { SmoothScrollWrapper } from '@/utils/ScrollWrapper';
+const display = Unbounded({ subsets: ['latin'], weight: '500', variable: '--font-display' });
+const sans = Figtree({ subsets: ['latin'], variable: '--font-sans' });
+const mono = Martian_Mono({ subsets: ['latin'], weight: ['400', '500'], variable: '--font-mono' });
 
-
-export default function Layout({ children }) {
-  const pathname = usePathname();
-
-  const noNavbarRoutes = ['/voip-form', '/admin-post-editor'];
-
-  const shouldHideNavbar = noNavbarRoutes.includes(pathname) ||
-    pathname.startsWith('/phonology-blogs/') ||
-    pathname.startsWith('/edit-post/') ||  pathname.includes('support-document-admin')
-
+export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <Head>
-
-
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      {/* <SmoothScrollWrapper> */}
+    <html lang="en" className={`${display.variable} ${sans.variable} ${mono.variable}`}>
       <body>
-
-
-        {!shouldHideNavbar && (
-          <>
-            {/* <TopContactBar /> */}
-            <Navbar />
-          </>
-        )}
+        <SiteChrome />
         {children}
       </body>
-      {/* </SmoothScrollWrapper> */}
     </html>
   );
 }
