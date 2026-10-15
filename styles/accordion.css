@@ -1,93 +1,95 @@
+/* @nextui-org/accordion renders unstyled here (no provider/Tailwind). Item DOM:
+   .accordionItem > h2 > button > [div > span > .accordionItemTitle] + span(indicator svg), then section > div > .accordionContent */
 .accordionContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    gap: 10px;
-    flex-wrap: nowrap;
-    /* background-color: #eeeeee; */
-    border-radius: 17px;
-    transition: all .3s ease-in-out;
-    
-  }
-  
-  .accordionItem svg{
-    padding: 0px 10px;
-  }
-  
-  .accordionItem button {
-   transition: all .3s ease-in-out;
-    background-color: #ffffff00;
-    border-radius: 17px; 
-    border: 2px solid #d8d8d8;
-    padding: 10px 15px;
-    /* max-width: 22rem; */
-    min-width: 25rem;
-    /* font-size: 12px; */
-    transition: all .5s ease-in-out;
-  }  
-  
-  .accordionItem button:hover{
-    border: 2px solid #ffffff;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start; /* bordered items: an open item must not stretch its siblings */
+  gap: 10px;
+  flex-wrap: nowrap;
+}
 
+.accordionItem {
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--motion);
+}
 
-  .accordionItemTitle {
-    /* background-color: #ffffff; */
-  /* border: 1px solid black; */
-    cursor: pointer;
-    font-family: var(--font-sans);
-    /* border: 10px solid black; */
-    font-weight: 600;
-    text-wrap: nowrap;
-    /* text-decoration: underline; */
-    font-size: 16px;
-    user-select: none; 
-    /* min-width: 14rem; */
-    /* background-color: #DFFFD8; */
-  }
-  
-  .accordionContent {
-    max-width: 20rem;
-    /* min-width: 15rem; */
-     padding: 30px;
-    background-color:#f0f0f000;
-    color: rgb(46, 46, 46);
-    border-radius: 50px;
-    /* background-colorgb(228, 228, 228)ff0000; */
+.accordionItem:hover {
+  border-color: var(--line-strong);
+}
 
-  }
-  
-  .accordionContent p {
-    margin: 0;
-    /* background-color: #ff0000; */
-    padding: 0.5rem 0; 
-  }
-  
-  @media (max-width: 768px) {
-  .accordionContainer{
+.accordionItem h2 {
+  margin: 0;
+}
+
+.accordionItem section {
+  overflow: hidden;
+}
+
+.accordionItem svg {
+  padding: 0px 10px;
+  color: var(--ink-muted);
+}
+
+.accordionItem button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-radius: var(--radius-lg);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  padding: 10px 15px;
+  min-width: 25rem;
+}
+
+.accordionItemTitle {
+  cursor: pointer;
+  font: var(--type-title);
+  text-wrap: nowrap;
+  user-select: none;
+}
+
+.accordionContent {
+  max-width: 20rem;
+  padding: 0 15px 15px;
+  font: var(--type-body);
+  color: var(--ink-muted);
+}
+
+.accordionContent p {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .accordionContainer {
     flex-direction: column;
   }
+}
+
+@media (max-width: 980px) {
+  .accordionContainer {
+    flex-direction: column;
+    align-items: stretch;
   }
 
-  @media (max-width: 980px) {
-
-    .accordionContainer{
-      flex-direction: column;
-    }
-    .accordionItem button {
-      transition: all 0.3s ease-in-out;
-      background-color: #ffffff00; /* Transparent background */
-      border-radius: 17px;
-      border: 1px solid #d8d8d8;
-      padding: 10px 15px;
-      min-width: 20rem; /* Minimum width set for the button */
-    }
-  
-    .accordionContent {
-      max-width: 20rem;
-      padding: 30px;
-      color: rgb(46, 46, 46);
-      border-radius: 50px; /* Rounded corners for the content */
-    }
+  .accordionItem button {
+    padding: 10px 15px;
+    min-width: min(20rem, 80vw); /* ponytail: 20rem overflowed the 85vw page column on <400px phones */
   }
-  
+
+  .accordionItemTitle {
+    text-wrap: wrap;
+  }
+
+  .accordionContent {
+    max-width: 20rem;
+  }
+}
