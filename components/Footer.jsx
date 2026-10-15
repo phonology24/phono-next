@@ -4,18 +4,13 @@ import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Link from "next/link";
-import Image from "next/image";
+import BrandLogo from "./BrandLogo";
 import '../styles/footer.css'
 
 const Footer = () => {
   return (
     <div className="footer-wrapper">
       <div className="footer-section-one">
-        {/* <div className="footer-logo-container">
-          <Link href="/">
-            <Image src={Logo} alt="Phonology Logo" className="footer-logo" width={1000} height={100} />
-          </Link>
-        </div> */}
         <div className="footer-links">
           <h4>Bussiness Communications</h4>
           <span>
@@ -94,24 +89,25 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-      <div className="footer-icons">
-          <a href="https://twitter.com/phonology" target="_blank" rel="noopener noreferrer nofollow">
-            <BsTwitter />
-          </a>
-          <a href="https://www.linkedin.com/company/phonology-it-solutions" target="_blank" rel="noopener noreferrer nofollow">
-            <SiLinkedin />
-          </a>
-          <a href="https://www.facebook.com/phonologyvoip" target="_blank" rel="noopener noreferrer nofollow">
-            <FaFacebookF />
-          </a>
-          <a href="https://www.instagram.com/phonology_voip/" target="_blank" rel="noopener noreferrer nofollow">
-            <FaInstagram />
-          </a>
-        </div>
+          <BrandLogo height={28} />
+          <div className="footer-icons">
+            <a href="https://twitter.com/phonology" target="_blank" rel="noopener noreferrer nofollow" aria-label="Twitter">
+              <BsTwitter />
+            </a>
+            <a href="https://www.linkedin.com/company/phonology-it-solutions" target="_blank" rel="noopener noreferrer nofollow" aria-label="LinkedIn">
+              <SiLinkedin />
+            </a>
+            <a href="https://www.facebook.com/phonologyvoip" target="_blank" rel="noopener noreferrer nofollow" aria-label="Facebook">
+              <FaFacebookF />
+            </a>
+            <a href="https://www.instagram.com/phonology_voip/" target="_blank" rel="noopener noreferrer nofollow" aria-label="Instagram">
+              <FaInstagram />
+            </a>
+          </div>
           <span>info@phonology.io</span>
-          <span>Sales: +91 98459 77788 / +91 98456 33355</span>
-          <span>Support: +91 99865 09709 / +91 97404 54742</span>
-          <span>Billing: +91 91085 40675</span>
+          <span>Sales: <span className="ph-mono">+91 98459 77788</span> / <span className="ph-mono">+91 98456 33355</span></span>
+          <span>Support: <span className="ph-mono">+91 99865 09709</span> / <span className="ph-mono">+91 97404 54742</span></span>
+          <span>Billing: <span className="ph-mono">+91 91085 40675</span></span>
         </div>
       </div>
     </div>
