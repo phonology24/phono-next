@@ -33,7 +33,7 @@ const ContactForm = () => {
           <br />
           Having a technical problem?
           <br />
-          <Link href="mailto:support@phonology.io" style={{color:'grey'}}>Contact the technical support team.</Link>
+          <Link href="mailto:support@phonology.io">Contact the technical support team.</Link>
         </p>
         <p>
           <b>General Enquiries:</b>

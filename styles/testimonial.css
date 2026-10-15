@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #dff9ff;
+  background-color: var(--surface-sunken);
   padding: 40px 20px;
   height: fit-content;
   flex-direction: column;
@@ -11,21 +11,23 @@
 }
 
 .testimonial-heading {
-  font-size: 32px;
-  margin-bottom: 20px;
+  font: var(--type-display-md);
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 20px;
   text-align: center;
 }
 
 /* Testimonial Card */
 .testimonial-card {
   text-align: center;
-  background-color: #dfffd3;
+  background-color: var(--mint-soft);
+  border: 1px solid var(--line);
   padding: 20px;
-  border-radius: 10px;
+  border-radius: var(--radius-lg);
   width: 90%;
   max-width: 500px;
   height: auto;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Navigation */
@@ -45,14 +47,18 @@
   font-size: 24px;
   font-weight: bold;
   cursor: pointer;
-  color: #333;
+  color: var(--ink);
+  transition: color var(--motion);
+}
+
+.arrow:hover {
+  color: var(--mint-text);
 }
 
 /* Pagination */
 .pagination {
-  font-size: 14px;
-  font-weight: 800;
-  color: #333;
+  font: var(--type-number);
+  color: var(--ink-muted);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -61,10 +67,9 @@
 
 /* Quote */
 .quote {
-  font-size: 18px;
-  font-weight: 500;
-  color: #333;
-  margin-bottom: 20px;
+  font: var(--type-body-lg);
+  color: var(--ink);
+  margin: 0 0 20px;
 }
 
 /* Profile Section */
@@ -82,25 +87,20 @@
   border-radius: 50%;
 }
 
-h4 {
+.profile h4 {
   margin: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
+  font: var(--type-title);
+  color: var(--ink);
 }
 
-p {
+.profile p {
   margin: 0;
-  font-size: 12px;
-  color: #666;
+  font: var(--type-body-sm);
+  color: var(--ink-muted);
 }
 
 /* 📱 Mobile Responsiveness */
 @media (max-width: 768px) {
-  .testimonial-heading {
-    font-size: 28px;
-  }
-
   .testimonial-card {
     width: 95%;
     padding: 15px;
@@ -111,7 +111,7 @@ p {
   }
 
   .quote {
-    font-size: 16px;
+    font: var(--type-body);
   }
 
   .profile {
@@ -122,21 +122,9 @@ p {
     width: 35px;
     height: 35px;
   }
-
-  h4 {
-    font-size: 14px;
-  }
-
-  p {
-    font-size: 12px;
-  }
 }
 
 @media (max-width: 480px) {
-  .testimonial-heading {
-    font-size: 24px;
-  }
-
   .testimonial-card {
     width: 100%;
     padding: 10px;
@@ -151,20 +139,8 @@ p {
     font-size: 20px;
   }
 
-  .quote {
-    font-size: 14px;
-  }
-
   .profile-image {
     width: 30px;
     height: 30px;
-  }
-
-  h4 {
-    font-size: 12px;
-  }
-
-  p {
-    font-size: 10px;
   }
 }

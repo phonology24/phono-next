@@ -25,27 +25,14 @@
 
 
 @media (max-width: 1024px) {
-  .banner {       
-    color: rgb(255, 255, 255);
-    border-radius: 17px;
-    border: 1px solid #000000;
-    background-color: #451E94;
-    letter-spacing: 1px;
-    margin-bottom: 5rem;
+  .banner {
     display: flex;
-    text-align: center;
     flex-direction: column;
     align-items: center;
   }
   
   .bannerButton {
-    color: #4C555B;
-    background-color: #F9D054;
-    border-radius: 10px;
-    font-weight: bolder;
-    letter-spacing: 1px;
     margin-top: 20px;
-    align-items: center;
   }
 
 }
@@ -500,21 +487,11 @@ margin: 20px 0px 20px 0px;
   position: relative;
   overflow: hidden; 
   animation: bannerAnim 0.6s ease-in 0s 1 normal none;
-  color: rgb(0, 0, 0);
+  color: var(--ink);
   padding: 30px;
-  border-radius: 17px;
-  background-color: #ffffff00;
-  letter-spacing: 1px;
   margin-top: 1rem;
   margin-bottom: 6rem;
   text-align: center;
-  /* border-image: linear-gradient( to right,#bfffa8, rgb(255, 255, 255)) 10;
-  border-width: 100px; */
-  border-style: solid; 
-  border-right: none; 
-  border-left: none;
-  border-top: none;
-  border-bottom: none;
 }
 
 
@@ -523,13 +500,9 @@ margin: 20px 0px 20px 0px;
 
 .h4banner{
   animation: bannerAnimh4 .6s ease-in 0s 1 normal none;
-  font-size: 21px;
-  font-weight: 500;
-  /* background-color: #f0f0f0; */
-  /* margin-top: 50px; */
-  margin-bottom: 10px;
-  margin-right: 10px;
-  /* padding: 5px; */
+  font: var(--type-body-lg);
+  color: var(--ink);
+  margin: 0 10px 10px 0;
 }
 
 @keyframes bannerAnimh4 {
@@ -544,25 +517,8 @@ margin: 20px 0px 20px 0px;
 	}
 }
 .bannerButton {
+  composes: ph-btn ph-btn--primary from global;
   animation: bannerAnimh4 .6s ease-in-out 0s 1 normal none;
-  color: rgb(0, 0, 0);
-  border-radius: 10px;
-  padding: 20px;
-  font-size: 16px;
-  white-space: nowrap;
-  font-weight: bold;
-  letter-spacing: 1px;
-  background-image: linear-gradient(to right,  #fcff49  0%, #ffffff  51%, #fffc43 100%);
-  background-size: 200% auto;
-  transition: 0.5s;
-
-}
-
-.bannerButton:hover {
-  background-position: right center;
-  cursor: pointer;
-  color: black;
-  border: 2px solid rgba(255, 255, 255, 0);
 }
 
 

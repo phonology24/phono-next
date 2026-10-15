@@ -4,7 +4,7 @@
     height: 85vh;
     margin-top: 75px;
   }
-  
+
   .hero-section-1 {
     flex: 1;
     display: flex;
@@ -12,10 +12,6 @@
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    background-image: url('/Assets/hero-bg-maybe.png');
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
   }
 
   @keyframes paraAnim {
@@ -23,41 +19,42 @@
       opacity: 0;
       transform: translateX(-100px);
     }
-  
+
     100% {
       opacity: 1;
       transform: translateX(0);
     }
   }
 
-  
-  
+
+
   .hero-content {
     max-width: 600px;
-    
+
   }
-  
+
   .hero-heading {
-    margin-bottom: 20px;
+    margin: 0 0 20px;
     animation: paraAnim 1s ease-out;
-    font-size: 2.5rem;
-    font-weight: bold;
+    font: var(--type-display-xl);
+    letter-spacing: -0.025em;
+    color: var(--ink);
   }
-  
+
   .hero-paragraph {
     animation: paraAnim 1.5s ease 0s 1 normal forwards;
-    margin-bottom: 20px;
-    line-height: 1.6;
-    font-size: 1rem;
+    margin: 0 0 20px;
+    font: var(--type-body-lg);
+    color: var(--ink-muted);
   }
-  
-  
-  
 
-  
+
+
+
+
   .hero-box {
-    background-color: #83ee9a;
-    border-radius: 8px;
+    background-color: var(--mint-soft);
+    border-radius: var(--radius-lg);
     padding: 40px 20px;
     position: relative;
     display: flex;
@@ -66,14 +63,14 @@
     text-align: left;
     margin-top: 30px;
     animation: box 1s ease 0s 1 normal forwards;
-  } 
+  }
 
   @keyframes box {
     0% {
       opacity: 0;
       transform: translateY(100px);
     }
-  
+
     100% {
       opacity: 1;
       transform: translateY(0);
@@ -84,40 +81,40 @@
   .hero-icon{
     font-size: 50px;
     margin-right: 10px;
-    background-color: #f1f1f1;
+    background-color: var(--surface-sunken);
     padding: 5px;
-    border-radius: 10px;
+    border-radius: var(--radius-md);
   }
-  
+
   .hero-box-heading {
-    font-size: 1.2rem;
-    font-weight: bold;
+    font: var(--type-title);
+    color: var(--ink);
     margin: 0;
-  } 
-  
-  .hero-box-paragraph {
-    font-size:16px;
-    margin: 10px 0;
-    color: #555;
   }
-  
+
+  .hero-box-paragraph {
+    font: var(--type-body);
+    margin: 10px 0;
+    color: var(--ink-muted);
+  }
+
   .hero-box-footer {
     display: flex;
     align-items: center;
     justify-items: center;
     gap: 40px;
     font-size: 16px;
-    color: #777;
+    color: var(--ink-muted);
   }
 
-  
+
   .hero-box-footer span {
     display: flex; /* Allows children to align in a row */
     align-items: center; /* Vertically centers the icon and text */
     gap: 0px; /* Adds space between the icon and the text */
   }
 
- 
+
 
 .span-icon{
   font-size: 20px;
@@ -128,176 +125,37 @@
     flex: 1;
     height: 100vh;
   }
-  
+
   .hero-image {
     width: 90%;
     height: 90%;
     object-fit: contain;
-    border-radius: 17px;
+    border-radius: var(--radius-lg);
     animation: imageanim 3s ease 0s 1 normal forwards;
   }
-  
+
 
   @keyframes imageanim {
     0% {
       opacity: 0;
       transform: translateX(100px);
     }
-  
+
     100% {
       opacity: 1;
       transform: translateX(0);
     }
   }
 
-  
-/* CSS */
-.button-85 {
-  animation: paraAnim 2s ease 0s 1 normal forwards;
-  font-family: var(--font-sans);
-  margin: 20px 0px;
-  padding: 10px 10px;
-  text-wrap: nowrap;
-  width: 50%;
-  font-size: 20px;
-  font-weight: 700;
-  border: none;
-  outline: none;
-  color: rgb(0, 0, 0);
-  background: #f6020200;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  /* border-radius: 50px; */
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-85:before {
-  content: "";
-  background: linear-gradient(45deg,
-          #ff0000,
-          #ff7300,
-          #fffb00,
-          #48ff00,
-          #00ffd5,
-          #002bff,
-          #7a00ff,
-          #ff00c8,
-          #ff0000);
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing-button-85 20s linear infinite;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
-}
-
-@keyframes glowing-button-85 {
-  0% {
-      background-position: 0 0;
-  }
-
-  50% {
-      background-position: 400% 0;
-  }
-
-  100% {
-      background-position: 0 0;
-  }
-}
-
-.button-85:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #ffffffce;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-}
-
-
+/* Visuals come from the .button-86 alias in globals.css; layout only here. */
 .button-86 {
-  font-family: var(--font-sans);
   margin: 10px 0px;
-  padding: 10px 0px;
-  text-wrap: nowrap;
-  width: 30%;
-  font-size: 16px;
-  font-weight: 700;
-  border: none;
-  outline: none;
-  color: rgb(0, 0, 0);
-  background: #f6020200;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  /* border-radius: 50px; */
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
 
-.button-86:before {
-  content: "";
-  background: linear-gradient(120deg,
-          #ffffff,
-          #00ff73,
-          #00ff2a,
-          #48ff00,
-          #41dfc4,
-          #00ffaa,
-          #00ff88,
-          #26ca99,
-          #ffffff);
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing-button-86 20s linear infinite;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
-}
-
-@keyframes glowing-button-86 {
-  0% {
-      background-position: 0 0;
+@media (max-width: 1024px) {
+  .hero-heading {
+    font: var(--type-display-lg);
   }
-
-  50% {
-      background-position: 400% 0;
-  }
-
-  100% {
-      background-position: 0 0;
-  }
-}
-
-.button-86:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #ffffffce;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
 }
 
 /* General Media Query for Mobile Devices */
@@ -322,11 +180,11 @@
   }
 
   .hero-heading {
-    font-size: 2rem; /* Slightly reduce font size */
+    font: var(--type-display-md);
   }
 
   .hero-paragraph {
-    font-size: 0.9rem; /* Slightly reduce font size */
+    font: var(--type-body);
   }
 
   .hero-box {
@@ -334,12 +192,8 @@
     padding: 15px; /* Adjust padding */
   }
 
-  .hero-box-heading {
-    font-size: 1rem; /* Reduce heading size */
-  }
-
   .hero-box-paragraph {
-    font-size: 0.9rem; /* Reduce paragraph font size */
+    font: var(--type-body-sm);
   }
 
   .hero-box-footer {
@@ -352,18 +206,5 @@
   .hero-image {
     width: 100%; /* Use full width for images */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Adjust radius for smaller screens */
-  }
-
-  .button-85 {
-    width: auto; /* Adjust width for better fit */
-    padding: 8px 12px; /* Adjust padding */
-    font-size: 16px; /* Reduce font size */
-  }
-  .button-86 {
-    width: 50%; /* Adjust width for better fit */
-    padding: 8px 12px; /* Adjust padding */
-    font-size: 16px; /* Reduce font size */
   }
 }
-/* Custom styling for the VocalCallSDK button */

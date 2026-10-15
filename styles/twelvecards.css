@@ -2,21 +2,21 @@
     padding: 20px;
     text-align: center;
   }
-  
+
   .section-heading {
-    font-weight: bold;
+    font: var(--type-display-lg);
+    letter-spacing: -0.025em;
     margin: 20px;
-    color: #333;
-    font-size: 40px;
+    color: var(--ink);
   }
-  
+
   .cards-container1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
   }
-  
+
   /* Individual Card */
   .card1 {
     height: 150px;
@@ -24,58 +24,52 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: var(--surface-raised);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
     overflow: hidden;
     text-align: left;
   }
-  
-  /* Hover Effect */
-  .card:hover {
-    transform: scale(1.01);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-  }
-  
+
   /* Card Header */
   .card-header {
     display: flex;
     align-items: center;
   }
-  
+
 
   .card-header svg {
-    background-color: rgb(255, 255, 255);
+    color: var(--mint-text);
+    background-color: var(--mint-soft);
     padding: 5px;
     border-radius: 50%;
   }
   /* Icon and Title on the Same Line */
   .card-title {
-    font-weight: bold;
-    margin-left: 5px;
-    font-size: 18px;
+    font: var(--type-title);
+    color: var(--ink);
+    margin-left: 8px;
   }
-  
+
   /* Card Description */
   .card-description {
-    font-size: 14px;
-    color: #555;
+    font: var(--type-body-sm);
+    color: var(--ink-muted);
+    margin: var(--space-2) 0 0;
   }
-  
+
   /* Mobile Responsiveness */
   @media screen and (max-width: 768px) {
-    .cards-container {
+    .section-heading {
+      font: var(--type-display-md);
+    }
+
+    .cards-container1 {
       grid-template-columns: 1fr;
     }
-  
-    .card {
+
+    .card1 {
       padding: 12px;
       height: auto;
     }
-  
-    .card-title {
-      font-size: 1rem;
-    }
   }
-  

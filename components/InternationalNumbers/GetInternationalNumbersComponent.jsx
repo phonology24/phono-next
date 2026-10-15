@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../styles/InternationalNumbers/allCountries.css';
-import Image from 'next/image';
 
 const phoneNumbers = {
   Europe: [
@@ -91,7 +90,7 @@ const phoneNumbers = {
 
   const PhoneNumbers = () => (
     <>
-      <h3 style={{ fontSize: '30px', textAlign: 'center', marginTop:"20px", fontWeight: 600 }}>Gain Access To International Phone Numbers</h3>
+      <h3 className="phone-numbers-heading">Gain Access To International Phone Numbers</h3>
       <div className="phone-numbers">
         {Object.keys(phoneNumbers).map(region => (
           <div key={region} className="region">
@@ -100,7 +99,7 @@ const phoneNumbers = {
               {phoneNumbers[region].map(({ country, path, flag }) => (
                 <li key={country} className="country-card">
                   <a href={path}>
-                    <Image src={flag} alt={`${country} Flag`} className="flag-icon" width={1000} height={1000} />
+                    <span className="ph-chip" aria-hidden="true">{flag.split('/')[3]}</span>
                     <span>{country}</span>
                   </a>
                 </li>
