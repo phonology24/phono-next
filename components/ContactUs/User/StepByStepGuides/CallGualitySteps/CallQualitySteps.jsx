@@ -10,14 +10,14 @@ import {
     Help,
     Support,
 } from '@mui/icons-material';
-import './CallQualityMonitoringGuide.css'; 
+import '../StepGuides.css'; 
 import Image from 'next/image';
 import CallQualityImage from '/public/Assets/ccc1.png';
 
 const CallQualityMonitoringGuide = () => {
     return (
-        <div className="callQualityMonitoringGuide-container">
-            <div className="callQualityMonitoringGuide-image">
+        <div className="stepGuide">
+            <div className="stepGuide-image">
                 <Image
                     src={CallQualityImage}
                     alt="Call Quality Monitoring Guide"
@@ -25,12 +25,12 @@ const CallQualityMonitoringGuide = () => {
                     height={500}
                 />
             </div>
-            <div className="callQualityMonitoringGuide-content">
-                <h2 className="callQualityMonitoringGuide-title">
+            <div className="stepGuide-content">
+                <h2 className="stepGuide-title">
                     Ensuring Superior Call Quality: How to Monitor and Optimize Performance
                 </h2>
 
-                <div className="callQualitySteps">
+                <div className="stepGuide-steps">
                     {/* Step 1 */}
                     <div className="step">
                         <Call className="step-icon" />

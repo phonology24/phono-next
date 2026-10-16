@@ -1,57 +1,59 @@
 .key-benefits-section {
-    text-align: left;
-    padding: 40px 20px;
-    background-color: #f4f4f4;
-  }
-  
-  .key-benefits-heading {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  .key-benefits-cards-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .key-benefits-card {
-    width: 350px;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 18px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .key-benefits-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  .key-benefits-card-content {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .key-benefits-card-icon {
-    font-size: 40px;
-    color: #ff6b00;
-    /* margin-bottom: 10px; */
-  }
-  
-  .key-benefits-card-heading {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .key-benefits-card-description {
-    font-size: 1rem;
-    color: #555;
-  }
-  
+  text-align: left;
+  padding: 40px 20px;
+  background: var(--surface);
+}
+
+.key-benefits-heading {
+  font: var(--type-display-md);
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.key-benefits-cards-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.key-benefits-card {
+  width: 350px;
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: border-color var(--motion);
+}
+
+.key-benefits-card:hover {
+  border-color: var(--line-strong);
+}
+
+.key-benefits-card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.key-benefits-card-icon {
+  box-sizing: content-box;
+  width: 24px;
+  height: 24px;
+  padding: var(--space-3);
+  border-radius: var(--radius-full);
+  background: var(--mint-soft);
+  color: var(--mint-text);
+}
+
+.key-benefits-card-heading {
+  font: var(--type-title);
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+
+.key-benefits-card-description {
+  font: var(--type-body);
+  color: var(--ink-muted);
+}

@@ -1,100 +1,61 @@
 .stepHero-container {
-  position: relative;
-  width: 100vw;
-  background-color: #ffffff;
-  left: -10px;
+  background: var(--surface);
 }
 
-.stepHero-image-container {
-  position: relative;
-  width: 100%;
-  height: 70vh; 
-  overflow: hidden;
-  left: -10px;
-  top: -10px;
-}
-
-.stepHero-image {
-  width: 100%;
-  height: 150%;
-  object-fit: cover; 
+.stepHero-container a {
+  text-decoration: none;
 }
 
 .stepHero-card-wrapper {
-  position: relative;
-  top: -400px; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 20px;
-  height: auto;
+  padding: var(--space-16) 20px;
 }
 
 .stepHero-title {
-  margin-bottom: 30px;
-  font-size: 4rem;
-  font-weight: bold;
-  color: #ffffff; 
+  margin: 0 0 30px;
+  font: var(--type-display-lg);
+  letter-spacing: -0.025em;
+  color: var(--ink);
   text-align: center;
-  text-shadow: 
-    -1px -1px 0 #000000, 
-     1px -1px 0 #000000, 
-     -1px 1px 0 #000000, 
-     1px 1px 0 #000000; 
 }
 
-
 .stepHero1-card {
+  box-sizing: border-box;
   width: 80vw;
   max-width: 1200px;
-  background-color: #dbdbdb;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 20px 0 20px;
+  margin: 20px 0;
+  padding: var(--space-6);
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
   text-align: center;
-  transition: box-shadow 0.3s ease-in-out;
+  transition: border-color var(--motion);
+}
+
+.stepHero1-card:hover {
+  border-color: var(--line-strong);
 }
 
 .stepHero-card-heading {
-  font-size: 1.4rem;
+  font: var(--type-title);
+  color: var(--ink);
   margin: 10px 0;
-  color: #333;
 }
 
 .stepHero-card-description {
-  font-size: 1rem;
-  color: #000000;
+  font: var(--type-body);
+  color: var(--ink-muted);
   margin: 10px 0;
 }
 
-.stepHero-card:hover {
-  box-shadow: rgba(60, 64, 67, 0.4) 0px 4px 8px 0px, rgba(60, 64, 67, 0.2) 0px 4px 16px 4px;
-}
-
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .stepHero-title {
-    font-size: 2rem; 
+    font: var(--type-display-md);
   }
 
-  .stepHero-card-wrapper {
-    top: -20px; 
+  .stepHero1-card {
+    padding: var(--space-4);
   }
-
-  .stepHero-card {
-    width: 95%;
-    padding: 10px; 
-  }
-
-  .stepHero-card-heading {
-    font-size: 1rem; 
-  }
-
-  .stepHero-card-description {
-    font-size: 0.8rem; 
-  }
-}
-
-a {
-  text-decoration: none;
 }

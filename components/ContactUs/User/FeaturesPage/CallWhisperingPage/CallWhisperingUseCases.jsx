@@ -1,5 +1,5 @@
 import React from "react";
-import "/components/AIVoice/UseCasesAI.css";
+import "../VoicemailFeaturesPage/VoicemailUseCases.css";
 import Image from "next/image";
 import image from "../../../../../public/Assets/cw1.png"
 import image1 from "../../../../../public/Assets/cw2.png"

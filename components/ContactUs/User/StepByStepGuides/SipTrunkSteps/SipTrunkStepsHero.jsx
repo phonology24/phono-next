@@ -12,13 +12,13 @@ import {
 } from '@mui/icons-material';
 import Image from 'next/image';
 import SipImage from '/public/Assets/ccc1.png';
-import './SipTrunkStepsHero.css';
+import '../StepGuides.css';
 
 const SipTrunkStepsHero = () => {
     return (
-        <div className="sipTrunkSteps-container">
+        <div className="stepGuide">
             {/* Image on top */}
-            <div className="sipTrunkSteps-image">
+            <div className="stepGuide-image">
                 <Image
                     src={SipImage}
                     alt="SIP Trunking"
@@ -27,13 +27,13 @@ const SipTrunkStepsHero = () => {
                 />
             </div>
 
-            <div className="sipTrunkSteps-content">
-                <h2 className="sipTrunkSteps-title">
+            <div className="stepGuide-content">
+                <h2 className="stepGuide-title">
                     Setting Up Your SIP Trunk with Phonology: A Straightforward Guide
                 </h2>
 
                 {/* Step-by-step guide with icons */}
-                <div className="sipTrunkSteps">
+                <div className="stepGuide-steps">
 
                     <div className="step">
                         <CheckCircle className="step-icon" />

@@ -1,73 +1,72 @@
+/* Generic card names scoped under .key-features: they also exist in other global CSS. */
 .key-features {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #f4f4f4;
-    font-family: var(--font-sans);
+  text-align: center;
+  padding: 40px 20px;
+  background: var(--surface);
+}
+
+.key-features .main-heading {
+  font: var(--type-display-md);
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin-bottom: 30px;
+}
+
+.key-features .cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.key-features .feature-card {
+  width: 350px;
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: border-color var(--motion);
+}
+
+.key-features .feature-card:hover {
+  border-color: var(--line-strong);
+}
+
+.key-features .card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.key-features .card-icon {
+  box-sizing: content-box;
+  width: 24px;
+  height: 24px;
+  padding: var(--space-3);
+  border-radius: var(--radius-full);
+  background: var(--mint-soft);
+  color: var(--mint-text);
+}
+
+.key-features .card-heading {
+  font: var(--type-title);
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+
+.key-features .card-description {
+  font: var(--type-body);
+  color: var(--ink-muted);
+}
+
+@media (max-width: 768px) {
+  .key-features .cards-container {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .main-heading {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
+
+  .key-features .feature-card {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
   }
-  
-  .cards-container {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-  
-  .feature-card {
-    width: 350px;
-    background-color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 18px; 
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .feature-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card-content {
-    padding: 20px 20px;
-    text-align: center;
-  }
-  
-  .card-icon {
-    font-size: 40px;
-    color: #ff6b00;
-    margin-bottom: 0px;
-  }
-  
-  .card-heading {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-    /* text-align: center; */
-  }
-  
-  .card-description {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.5;
-  }
-  
-  /* Mobile Responsiveness */
-  @media (max-width: 768px) {
-    .cards-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .feature-card {
-      width: 100%;
-      max-width: 300px;
-      margin-bottom: 20px;
-    }
-  }
-  
+}

@@ -8,14 +8,14 @@ import {
     Security,
     School,
 } from '@mui/icons-material';
-import './CallRecordingGuideHero.css';
+import '../StepGuides.css';
 import Image from 'next/image';
 import SipImage from '/public/Assets/ccc1.png';
 
 const CallRecordingGuideHero = () => {
     return (
-        <div className="callRecordingGuide-container">
-            <div className="callRecordingGuide-image">
+        <div className="stepGuide">
+            <div className="stepGuide-image">
                 <Image
                     src={SipImage}
                     alt="Call Recording Guide"
@@ -23,12 +23,12 @@ const CallRecordingGuideHero = () => {
                     height={500}
                 />
             </div>
-            <div className="callRecordingGuide-content">
-                <h2 className="callRecordingGuide-title">
+            <div className="stepGuide-content">
+                <h2 className="stepGuide-title">
                     A Simple Guide to Activating and Using Call Recording for Your Team
                 </h2>
 
-                <div className="callRecordingSteps">
+                <div className="stepGuide-steps">
                     {/* Step 1 */}
                     <div className="step">
                         <LocalPhone className="step-icon" />

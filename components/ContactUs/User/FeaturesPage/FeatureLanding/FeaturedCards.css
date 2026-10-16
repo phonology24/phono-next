@@ -1,69 +1,62 @@
-/* FeaturedCards.css */
-.featured-cards-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    padding: 4rem;
-    background-color: #f9f9f9;
+.heading-features {
+  margin: 0;
+  padding: 70px 0 0;
+  text-align: center;
+  font: var(--type-display-lg);
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  background: var(--surface);
 }
 
+.featured-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 4rem;
+  background: var(--surface);
+}
 
-.heading-features{
-      background-color: #f9f9f9;
-    text-align: center;
-    padding: 70px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+.featured-card {
+  padding: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--motion);
+}
 
-    
+.featured-card:hover {
+  border-color: var(--line-strong);
+}
 
+/* .card-icon / .card-title also exist in other global CSS; scoped. */
+.featured-card .card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-full);
+  background: var(--mint-soft);
+  color: var(--mint-text);
+}
 
+.featured-card .card-title {
+  font: var(--type-title);
+  color: var(--ink);
+  margin: 0 0 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .heading-features {
+    font: var(--type-display-md);
   }
-  .featured-card {
-    background: #e9ffe3;
-    border: 1px solid #e0e0e0;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
-    text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .featured-cards-container {
+    padding: 1rem;
   }
-  
-  .featured-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  .card-icon {
-    font-size: 2.5rem;
-    color: #4caf50;
-    margin-bottom: 1rem;
-  }
-  
-  .card-title {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #333333;
-    margin-bottom: 0.5rem;
-  }
-  
-  .card-content {
-    font-size: 0.9rem;
-    color: #666666;
-    line-height: 1.4;
-  }
-  
-  @media (max-width: 600px) {
-    .featured-cards-container {
-      padding: 1rem;
-    }
-  
-    .card-title {
-      font-size: 1rem;
-    }
-  
-    .card-content {
-      font-size: 0.8rem;
-    }
-  }
-  
+}

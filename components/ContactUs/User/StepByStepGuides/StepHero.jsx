@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import './stepHero.css';
-import Image from 'next/image';
  
 const StepHero = () => {
   const cards = [
@@ -52,18 +51,6 @@ const StepHero = () => {
   ];
   return (
     <div className="stepHero-container">
-      <div className="stepHero-image-container">
-      <Image
-  src="/Assets/steps-bg.jpg"
-  alt="Step By Step Guide"
-  className="stepHero-image"
-  layout="fill"
-  objectFit="cover" 
-  
-/> 
-
-      </div>
-
       <div className="stepHero-card-wrapper">
         <h1 className="stepHero-title">Step By Step Guidelines</h1>
         {cards.map((card, index) => (

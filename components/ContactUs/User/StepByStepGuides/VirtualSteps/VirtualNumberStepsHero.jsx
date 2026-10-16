@@ -11,14 +11,14 @@ import {
     School,
     HeadsetMic
 } from '@mui/icons-material';
-import './VirtualNumbersStepsHero.css';
+import '../StepGuides.css';
 import Image from 'next/image';
 import SipImage from '/public/Assets/ccc1.png';
 
 const VirtualNumbersStepsHero = () => {
     return (
-        <div className="virtualNumbersSteps-container">
-            <div className="sipTrunkSteps-image">
+        <div className="stepGuide">
+            <div className="stepGuide-image">
                 <Image
                     src={SipImage}
                     alt="SIP Trunking"
@@ -26,12 +26,12 @@ const VirtualNumbersStepsHero = () => {
                     height={500}
                 />
             </div>
-            <div className="virtualNumbersSteps-content">
-                <h2 className="virtualNumbersSteps-title">
+            <div className="stepGuide-content">
+                <h2 className="stepGuide-title">
                     Virtual Numbers Made Simple: A Guide to Activation and Management
                 </h2>
 
-                <div className="virtualNumbersSteps">
+                <div className="stepGuide-steps">
                     {/* Step 1 */}
                     <div className="step">
                         <LocalPhone className="step-icon" />

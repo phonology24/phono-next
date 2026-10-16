@@ -10,14 +10,14 @@ import {
     School,
     Update,
 } from '@mui/icons-material';
-import './CallQueueManagementGuideHero.css';
+import '../StepGuides.css';
 import Image from 'next/image';
 import CallQueueImage from '/public/Assets/ccc1.png';
 
 const CallQueueManagementGuideHero = () => {
     return (
-        <div className="callQueueManagementGuide-container">
-            <div className="callQueueManagementGuide-image">
+        <div className="stepGuide">
+            <div className="stepGuide-image">
                 <Image
                     src={CallQueueImage}
                     alt="Call Queue Management Guide"
@@ -25,12 +25,12 @@ const CallQueueManagementGuideHero = () => {
                     height={500}
                 />
             </div>
-            <div className="callQueueManagementGuide-content">
-                <h2 className="callQueueManagementGuide-title">
+            <div className="stepGuide-content">
+                <h2 className="stepGuide-title">
                     A Complete Guide to Effective Call Queue Management for Better Customer Experience
                 </h2>
 
-                <div className="callQueueSteps">
+                <div className="stepGuide-steps">
                     {/* Step 1 */}
                     <div className="step">
                         <Call className="step-icon" />

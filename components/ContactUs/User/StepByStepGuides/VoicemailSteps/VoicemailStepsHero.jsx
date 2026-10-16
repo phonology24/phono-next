@@ -8,14 +8,14 @@ import {
     TrendingUp,
     Security,
 } from '@mui/icons-material';
-import './VoicemailSetupGuideHero.css';
+import '../StepGuides.css';
 import Image from 'next/image';
 import VoicemailImage from '/public/Assets/ccc1.png';
 
 const VoicemailSetupGuideHero = () => {
     return (
-        <div className="voicemailSetupGuide-container">
-            <div className="voicemailSetupGuide-image">
+        <div className="stepGuide">
+            <div className="stepGuide-image">
                 <Image
                     src={VoicemailImage}
                     alt="Voicemail Setup Guide"
@@ -23,12 +23,12 @@ const VoicemailSetupGuideHero = () => {
                     height={500}
                 />
             </div>
-            <div className="voicemailSetupGuide-content">
-                <h2 className="voicemailSetupGuide-title">
+            <div className="stepGuide-content">
+                <h2 className="stepGuide-title">
                     Voicemail Setup Made Simple: Configure, Personalize, and Retrieve Messages
                 </h2>
 
-                <div className="voicemailSetupSteps">
+                <div className="stepGuide-steps">
                     {/* Step 1 */}
                     <div className="step">
                         <Settings className="step-icon" />

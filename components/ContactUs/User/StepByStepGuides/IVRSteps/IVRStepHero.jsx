@@ -11,14 +11,14 @@ import {
     Campaign,
     HeadsetMic
 } from '@mui/icons-material';
-import './IVRStepsHero.css';
+import '../StepGuides.css';
 import SipImage from '/public/Assets/ccc1.png';
 import Image from 'next/image';
 
 const IVRStepsHero = () => {
     return (
-        <div className="ivrSteps-container">
-                        <div className="sipTrunkSteps-image">
+        <div className="stepGuide">
+                        <div className="stepGuide-image">
                             <Image
                                 src={SipImage}
                                 alt="SIP Trunking"
@@ -26,13 +26,13 @@ const IVRStepsHero = () => {
                                 height={500}
                             />
                         </div>
-            <div className="ivrSteps-content">
-                <h2 className="ivrSteps-title">
+            <div className="stepGuide-content">
+                <h2 className="stepGuide-title">
                     Setting Up Your IVR with Phonology: A Step-by-Step Guide
                 </h2>
 
                 {/* Step-by-step guide with icons */}
-                <div className="ivrSteps">
+                <div className="stepGuide-steps">
 
                     <div className="step">
                         <Flag className="step-icon" />
