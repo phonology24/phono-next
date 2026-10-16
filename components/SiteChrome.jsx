@@ -12,7 +12,6 @@ const THEMED = /^\/([a-z-]+-virtual-phone-number|canada-toll-free-virtual-number
 export default function SiteChrome() {
   const pathname = usePathname();
   const hideNavbar = NO_NAVBAR.includes(pathname) ||
-    pathname.startsWith('/phonology-blogs/') ||
     pathname.startsWith('/edit-post/') ||
     pathname.includes('support-document-admin');
 

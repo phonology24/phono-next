@@ -101,7 +101,7 @@ const phoneNumbers = {
                 <li key={country} className="country-card">
                   <a href={path}>
                     {/* flagcdn crops tight to the flag, so the circle crop is clean; ISO code comes from the flagsapi URL */}
-                    <Image src={`https://flagcdn.com/w80/${flag.split('/')[3].toLowerCase()}.png`} alt="" width={36} height={36} className="flag-round" />
+                    <Image src={`https://flagcdn.com/w80/${flag.split('/')[3].toLowerCase()}.png`} alt="" width={36} height={36} className="ph-flag" />
                     <span>{country}</span>
                   </a>
                 </li>
