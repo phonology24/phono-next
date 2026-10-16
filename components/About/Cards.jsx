@@ -6,81 +6,59 @@ import ShutterSpeedIcon from "@mui/icons-material/ShutterSpeed";
 import HubIcon from "@mui/icons-material/Hub";
 import StarIcon from "@mui/icons-material/Star";
 import SatelliteAltIcon from "@mui/icons-material/SatelliteAlt";
-import { motion } from "framer-motion";
 const Cards = () => {
   const achievements = [
     {
       id: 1,
       title: "A-Z Voice Termination & flexible routing",
-      icon: (
-        <PrecisionManufacturingIcon
-          style={{ fontSize: 50, marginBottom: 10 }}
-        />
-      ),
+      icon: <PrecisionManufacturingIcon />,
     },
     {
       id: 2,
       title: "Dedicated account management",
-      icon: <StorageIcon style={{ fontSize: 50, marginBottom: 10 }} />,
+      icon: <StorageIcon />,
     },
     {
       id: 3,
       title: "20+ billion minutes terminated each year",
-      icon: <ShutterSpeedIcon style={{ fontSize: 50, marginBottom: 10 }} />,
+      icon: <ShutterSpeedIcon />,
     },
     {
       id: 4,
       title: "550+ Directs and CLI certified routes",
-      icon: <HubIcon style={{ fontSize: 50, marginBottom: 10 }} />,
+      icon: <HubIcon />,
     },
     {
       id: 5,
       title: "Per minute channel pricing",
-      icon: <StarIcon style={{ fontSize: 50, marginBottom: 10 }} />,
+      icon: <StarIcon />,
     },
     {
       id: 6,
       title: "24*7 Customer Support",
-      icon: <SatelliteAltIcon style={{ fontSize: 50, marginBottom: 10 }} />,
+      icon: <SatelliteAltIcon />,
     },
     {
       id: 7,
       title: "60% Cost Reduction",
-      icon: <SatelliteAltIcon style={{ fontSize: 50, marginBottom: 10 }} />,
+      icon: <SatelliteAltIcon />,
     },
     {
       id: 8,
       title: "DID coverage for 120+ countries",
-      icon: <SatelliteAltIcon style={{ fontSize: 50, marginBottom: 10 }} />,
+      icon: <SatelliteAltIcon />,
     },
   ];
 
   return (
-    <div className="cards-container">
+    <div className="about-cards-container">
       {achievements.map((achievement) => (
-        <motion.div
-          whileHover={{
-            scale: [1, 1.2, 1.1, 1],
-            rotate: [0, 0, 0, 0, 0],
-            borderRadius: ["0%", "25%", "50%", "50%", "20%"],
-            backgroundColor: "#6CFF4F",
-          }}
-          transition={{
-            duration: 0.5,
-            ease: "easeInOut",
-            times: [0, 0.2, 0.5, 0.7, 1],
-            repeat: null,
-            repeatDelay: 1,
-          }}
-          key={achievement.id}
-          className="card"
-          style={{ width: "250px", height: "100px" }}
-        >
+        <div key={achievement.id} className="about-card">
           {achievement.icon}
           <h3>
             <b>{achievement.title}</b>
           </h3>
-        </motion.div>
+        </div>
       ))}
     </div>
   );

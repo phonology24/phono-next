@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/heading.css";
 import Image from "next/image";
-import HeroImage from "../../public/Assets/home-hero3.png";
 
 import PlaceHolderImage from "../../public/Assets/about.png";
 
