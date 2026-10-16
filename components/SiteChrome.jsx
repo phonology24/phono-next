@@ -11,14 +11,15 @@ const THEMED = /^\/(([a-z-]+-virtual-phone-number|canada-toll-free-virtual-numbe
 
 export default function SiteChrome() {
   const pathname = usePathname();
+  const themed = THEMED.test(pathname);
   const hideNavbar = NO_NAVBAR.includes(pathname) ||
     pathname.startsWith('/edit-post/') ||
     pathname.includes('support-document-admin');
 
   return (
     <>
-      {THEMED.test(pathname) && <i data-theme-ready="" hidden />}
-      {!hideNavbar && <Navbar />}
+      {themed && <i data-theme-ready="" hidden />}
+      {!hideNavbar && <Navbar themed={themed} />}
     </>
   );
 }

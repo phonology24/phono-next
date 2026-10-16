@@ -540,6 +540,38 @@ margin: 20px 0px 20px 0px;
   margin-right: var(--space-6);
 }
 
+/* System / light / dark segmented control. Native radios, visually hidden. */
+.themePicker {
+  display: inline-flex;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-full);
+  background: var(--surface-raised);
+}
+.themePickerNav { margin-right: var(--space-3); }
+.themePicker label {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: background-color var(--motion), color var(--motion);
+}
+.themePicker label:hover,
+.themePicker label:has(:checked) { color: var(--ink); }
+.themePicker label:has(:checked) { background: var(--surface-sunken); }
+.themePicker label:has(:focus-visible) { outline: 2px solid var(--focus); outline-offset: 1px; }
+.themePicker input { position: absolute; opacity: 0; pointer-events: none; }
+.themePicker svg { width: 18px; height: 18px; }
+
+@media (max-width: 1024px) {
+  .themePickerNav { display: none; }
+}
+
 @media (max-width: 1024px) {
   .primaryButtonBook {
     margin-right: var(--space-2);

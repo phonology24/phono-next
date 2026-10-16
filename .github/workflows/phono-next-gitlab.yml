@@ -57,7 +57,7 @@ jobs:
             -H "X-API-Key: $WHATSAPP_API_KEY" \
             -H "Content-Type: application/json" \
             -d "{
-              \"to\": \"Vocallabs Tech\",
+              \"to\": \"Phonology 2.0\",
               \"message\": \"Deployed Phonology Landing Page to Production ✅\\nPushed by: $PUSHER\",
               \"isGroup\": \"Y\",
               \"mentions\": \"\"

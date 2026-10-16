@@ -24,8 +24,10 @@ import styles from '../styles/App.module.css'
 import BrandLogo from "./BrandLogo";
 import DropdownMenuResources from "./Home/DropdownMenuResources";
 import DropdownMenuProducts from "./Home/DropdownMenuProducts";
+import ThemePicker from "./ThemePicker";
 
-const Navbar = () => {
+// themed: route supports dark mode, so offer the theme picker.
+const Navbar = ({ themed }) => {
   const [openMenu, setOpenMenu] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -133,6 +135,7 @@ const Navbar = () => {
           Resources
         </Link> */}
       </div>
+        {themed && <ThemePicker className={styles.themePickerNav} />}
         <Link href="https://phonology.zohobookings.in/#/phonologybookameeting" target="_blank" rel="noopener noreferrer nofollow">
           <button className={styles.primaryButtonBook}>Book a Meeting</button>
         </Link>
@@ -163,6 +166,12 @@ const Navbar = () => {
           </List>
           <Divider />
         </Box>
+        {themed && (
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', p: 2 }}>
+            <span className="ph-label">Theme</span>
+            <ThemePicker />
+          </Box>
+        )}
       </Drawer>
     </nav>
   );

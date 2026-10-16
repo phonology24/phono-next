@@ -56,9 +56,11 @@
 }
 
 /* Dark theme only on routes migrated to tokens: SiteChrome renders [data-theme-ready] there.
+   ThemePicker sets <html data-theme="light|dark">; without it the OS preference wins.
+   The two dark blocks below must stay identical (CSS can't share one across the @media).
    ponytail: route gate; becomes an admin denylist once every public page is on tokens. */
 @media (prefers-color-scheme: dark) {
-  :root:has([data-theme-ready]) {
+  :root:not([data-theme="light"]):has([data-theme-ready]) {
     --surface: #111213;
     --surface-raised: #1c1c1e;
     --surface-sunken: #0a0a0b;
@@ -78,6 +80,26 @@
     --shadow-pop: 0 8px 24px #00000099, 0 1px 2px #00000066;
     color-scheme: dark;
   }
+}
+:root[data-theme="dark"]:has([data-theme-ready]) {
+  --surface: #111213;
+  --surface-raised: #1c1c1e;
+  --surface-sunken: #0a0a0b;
+  --line: #2f3234;
+  --line-strong: #6e7572;
+  --ink: #f2f4f3;
+  --ink-muted: #a1a8a5;
+  --graphite: #2a2b2e;
+  --mint-text: #3ddc97;
+  --mint-soft: #0e2e21;
+  --keypad-off: #f2f4f329;
+  --status-live: #3ddc97;
+  --status-ringing: #ffb020;
+  --status-missed: #ff6b6f;
+  --on-status-missed: #1c1c1e;
+  --status-hold: #7c9cff;
+  --shadow-pop: 0 8px 24px #00000099, 0 1px 2px #00000066;
+  color-scheme: dark;
 }
 
 body {
