@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import '../../styles/InternationalNumbers/allCountries.css';
 
 const phoneNumbers = {
@@ -99,7 +100,8 @@ const phoneNumbers = {
               {phoneNumbers[region].map(({ country, path, flag }) => (
                 <li key={country} className="country-card">
                   <a href={path}>
-                    <span className="ph-chip" aria-hidden="true">{flag.split('/')[3]}</span>
+                    {/* flagcdn crops tight to the flag, so the circle crop is clean; ISO code comes from the flagsapi URL */}
+                    <Image src={`https://flagcdn.com/w80/${flag.split('/')[3].toLowerCase()}.png`} alt="" width={36} height={36} className="flag-round" />
                     <span>{country}</span>
                   </a>
                 </li>

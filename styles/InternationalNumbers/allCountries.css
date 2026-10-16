@@ -68,8 +68,17 @@
     height: 100%;
 }
 
-.country-card span:not(.ph-chip) {
+.country-card span {
     font: var(--type-body-sm);
+}
+
+.flag-round {
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-full);
+    object-fit: cover;
+    border: 1px solid var(--line);
+    background: var(--surface-sunken);
 }
 
 @media (max-width: 768px) {

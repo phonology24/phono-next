@@ -3,7 +3,7 @@
     output: 'standalone',
     images: {
           unoptimized: true,
-      domains: ['blog.phonology.io', 'flagsapi.com', 'phonology.io','images.unsplash.com', 'plus.unsplash.com', 'via.placeholder.com', 'placehold.co'],
+      domains: ['blog.phonology.io', 'flagsapi.com', 'flagcdn.com', 'phonology.io','images.unsplash.com', 'plus.unsplash.com', 'via.placeholder.com', 'placehold.co'],
     },
     webpack: (config, { isServer }) => {
       config.module.rules.push({
