@@ -1,131 +1,120 @@
+/* Generic names (.page-title, .search-bar*) are scoped under .subcategories-container:
+   DocumentPage.css and CombinedLayout.css reuse them and global CSS persists across navigation. */
 .subcategories-container {
-  padding: 5rem 2rem 2rem 2rem; /* Reduced left and right padding for better alignment */
-  background-color: #f4f4f4;
+  box-sizing: border-box;
+  padding: calc(70px + var(--space-8)) var(--space-4) var(--space-12); /* clears the fixed 70px navbar */
+  background: var(--surface);
+  color: var(--ink);
   min-height: 100vh;
-  display: flex; /* Center content horizontally */
+  display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align items in the center horizontally */
-  align-items: flex-start; /* Align items to the top vertically */
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-/* Title style */
-.page-title {
-  font-size: 22px; /* Adjusted title size for better balance */
-  font-weight: bold;
-  text-align: left;
-  margin-bottom: 1.5rem; /* Reduced bottom margin */
-  color: #333;
-  /* border: 1px solid red; */
+.subcategories-container .page-title {
+  font: var(--type-display-lg);
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 var(--space-6);
   min-width: 100%;
   text-align: center;
-
 }
 
-.search-bar-container {
-  margin-bottom: 1rem;
-  justify-content: center;
-  margin-top: 0px;
+.subcategories-container .search-bar-container {
   display: flex;
+  justify-content: center;
   min-width: 100%;
+  margin: 0 0 var(--space-6);
 }
 
-.search-bar {
+.subcategories-container .search-bar {
+  box-sizing: border-box;
   width: 100%;
   max-width: 450px;
-  padding: 0.8rem 1.2rem;
-  font-size: 1rem;
-  border: 0px solid #ffffff;
-  border-radius: 50px;
-  outline: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-  margin-top: 0px;
+  min-height: 48px;
+  padding: 0 var(--space-6);
+  font: var(--type-body);
+  color: var(--ink);
+  background: var(--surface-raised);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-full);
+  margin: 0;
 }
 
-.search-bar:focus {
-  border-color: #0073e6;
-  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+.subcategories-container .search-bar::placeholder {
+  color: var(--ink-muted);
 }
 
-.search-bar::placeholder {
-  color: #dadada;
-}
-
-
-/* Grid layout for the subcategories */
 .subcategories-grid {
   margin: 0 auto;
   display: flex;
-  flex-direction: column; /* Vertical alignment */
-  gap: .5rem; /* Reduced gap to make the layout more compact */
-  width: 100%; /* Ensures the grid takes up full width */
-  max-width: 900px; /* Optional: to limit max width of the grid */
+  flex-direction: column;
+  gap: var(--space-2);
+  width: 100%;
+  max-width: 900px;
 }
 
-/* Subcategory card style */
 .subcategory-card {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 0.8rem 1.2rem; /* Reduced padding for a more compact card */
-  border: 0px solid #ddd; /* Changed border color for a softer appearance */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100%; /* Full width for each card */
-  max-height: 80px; /* Set a max height for compactness */
+  box-sizing: border-box;
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3) var(--space-6);
+  transition: border-color var(--motion);
+  width: 100%;
+  max-height: 80px;
   text-align: left;
   display: flex;
-  justify-content: space-between; /* Ensures title and description are spaced */
-  align-items: center; /* Vertically center content */
-}
-
-/* Card hover effect */
-.subcategory-card:hover {
-  transform: translateY(-3px);
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-4);
   cursor: pointer;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Title inside the card */
+.subcategory-card:hover {
+  border-color: var(--line-strong);
+}
+
 .subcategory-title {
-  font-size: 16px; /* Adjusted font size */
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 0.5rem; /* Small margin for a tight layout */
-  white-space: nowrap; /* Prevent text overflow */
+  font: var(--type-title);
+  color: var(--ink);
+  margin: 0;
+  white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; /* Ensures long text doesn't overflow */
+  text-overflow: ellipsis;
 }
 
-/* Description inside the card */
 .subcategory-description {
-  font-size: 14px; /* Smaller font for description to reduce space */
-  color: #666;
-  line-height: 1.4;
-  margin-top: 0.2rem; /* Tight margin for description */
+  font: var(--type-body-sm);
+  color: var(--ink-muted);
+  margin: 0;
 }
 
-/* Handling cases with no subcategories */
-.subcategories-list p {
+/* Empty state: "No support articles found." */
+.subcategories-grid > p {
   text-align: center;
-  font-size: 1.2rem;
-  color: #777;
+  font: var(--type-body);
+  color: var(--ink-muted);
 }
 
-/* Responsive adjustments for mobile view */
 @media (max-width: 768px) {
-  .page-title {
-      font-size: 1.5rem; /* Smaller title on mobile */
+  .subcategories-container .page-title {
+    font: var(--type-display-md);
+    letter-spacing: -0.025em;
   }
 
   .subcategory-card {
-      padding: 0.8rem 1rem; /* Slightly smaller padding on mobile */
-      max-height: 70px; /* Further reduce height on smaller screens */
+    padding: var(--space-3) var(--space-4);
+    max-height: 70px;
   }
 
   .subcategory-title {
-      font-size: 14px; /* Adjust title size for mobile */
+    font: var(--type-body);
+    font-weight: 600;
   }
 
   .subcategory-description {
-      font-size: 12px; /* Smaller description on mobile */
+    font: var(--type-caption);
   }
 }

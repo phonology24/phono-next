@@ -13,16 +13,19 @@ const TalkToSales = () => {
     return (
         <div className="contact-container">
             <h2 className='talkh2'>Talk to Sales</h2>
-            <div className='contact-child'>   
+            <div className='contact-child'>
                 {contactData.map((contact, index) => (
                     <div className="contact-card" key={index}>
-                        <img src={contact.flagUrl} alt={`${contact.country} flag`} className="flag" />
-                              <div className='card-content'>                           
-                        <h3>{contact.country}</h3>
-                        Phonology IT Solutions<br/>
-# 2 ,2nd Floor, 
-RR Chambers 11th Main, Millers Rd, Bengaluru, Karnataka 560001                        <p>{contact.number}</p>
-                        </div> 
+                        <img src={contact.flagUrl} alt="" width={36} height={36} className="ph-flag" />
+                        <div className='card-content'>
+                            <h3>{contact.country}</h3>
+                            <span className="address">
+                                Phonology IT Solutions<br/>
+                                # 2 ,2nd Floor,
+                                RR Chambers 11th Main, Millers Rd, Bengaluru, Karnataka 560001
+                            </span>
+                            <p><span className="ph-mono">{contact.number}</span></p>
+                        </div>
                     </div>
                 ))}
             </div>

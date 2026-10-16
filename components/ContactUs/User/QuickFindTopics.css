@@ -1,56 +1,66 @@
 .quickfind-container {
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
-    padding: 20px 150px; 
+    gap: var(--space-6);
+    max-width: 1200px;
+    margin: 0 auto var(--space-16);
+    padding: var(--space-4);
   }
-  
 
-  .quickfind-container a{
+  .quickfind-container a {
     text-decoration: none;
+    color: inherit;
   }
 
-  .quick-heading{
-    font-size: 1.8rem;
+  .quick-heading {
+    font: var(--type-display-md);
+    letter-spacing: -0.025em;
+    color: var(--ink);
     text-align: center;
-
+    margin: var(--space-12) var(--space-4) var(--space-6);
   }
+
   .quickfind-card {
-    flex: 1 1 calc(25.33% - 20px); 
-    width: 250px;
-    padding: 30px;
-    border: 1px solid rgb(187, 187, 187);
-    border-radius: 10px;
+    box-sizing: border-box;
+    flex: 1 1 calc(25.33% - 20px);
+    padding: var(--space-8);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
     text-align: center;
-    background-color: #e6ffec;
-    transition: transform 0.3s ease;
-  }  
+    background: var(--mint-soft);
+    transition: border-color var(--motion);
+  }
+
+  .quickfind-card:hover {
+    border-color: var(--line-strong);
+  }
 
   .quickfind-icon {
     font-size: 35px;
-    color: #000000;
-    margin: 0px;
-    border: 1px solid rgb(168, 168, 168);
-    padding: 10px; 
-    border-radius:20px;
-}
+    color: var(--mint-text);
+    background: var(--surface-raised);
+    margin: 0;
+    border: 1px solid var(--line);
+    padding: var(--space-3);
+    border-radius: var(--radius-full);
+  }
 
   .quickfind-heading {
-      font-size: 1.2rem;
-      color: #000000;
-    margin: 0px 0;
-}
-
-.quickfind-subheading {
-    font-size: .8rem;
-    margin: 5px 0;
-    color: #666;
+    font: var(--type-title);
+    color: var(--ink);
+    margin: var(--space-3) 0 0;
   }
-  
+
+  .quickfind-subheading {
+    font: var(--type-body-sm);
+    margin: var(--space-1) 0 0;
+    color: var(--ink-muted);
+  }
+
   @media (max-width: 768px) {
     .quickfind-card {
-      width: 100%;
+      flex-basis: 100%;
     }
   }
-  

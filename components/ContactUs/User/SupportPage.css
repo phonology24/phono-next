@@ -3,89 +3,67 @@
     justify-content: center;
     align-items: center;
     min-height: 60vh;
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #ffffff 100%);
-    margin: 50px 20px; /* Reduced margin for smaller screens */
-    color: #000000;
+    background: var(--surface-sunken);
+    margin: 80px var(--space-4) var(--space-8); /* 80px clears the fixed 70px navbar */
+    color: var(--ink);
     text-align: center;
-    padding: 20px;
-    border-radius: 17px;
+    padding: var(--space-6);
+    border-radius: var(--radius-lg);
   }
-  
+
   .supportpage-content-container {
-    max-width: 90%; /* Ensure content fits on smaller screens */
-    padding: 20px;
-    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 720px;
+    padding: var(--space-6) 0;
   }
-  
+
   .supportpage-heading {
-    font-size: 3rem; /* Adjust for smaller screens */
-    margin: 1rem;
+    font: var(--type-display-lg);
+    letter-spacing: -0.025em;
+    color: var(--ink);
+    margin: 0 0 var(--space-4);
   }
-  
+
   .supportpage-paragraph {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
+    font: var(--type-body-lg);
+    color: var(--ink-muted);
+    margin: 0 0 var(--space-6);
   }
-  
+
   .supportpage-search-bar {
     display: flex;
-    flex-direction: column; /* Stack input and button on smaller screens */
-    gap: 10px;
-    align-items: center;
     justify-content: center;
   }
-  
+
   .supportpage-search-input {
-    width: 70%; /* Input takes full width on mobile */
-    padding: 12px; /* Adjust padding for better fit */
-    font-size: 1rem;
-    border: none;
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 560px;
+    min-height: 48px;
+    padding: 0 var(--space-6);
+    font: var(--type-body);
+    color: var(--ink);
+    background: var(--surface-raised);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius-full);
   }
-  
-  .supportpage-search-button {
-    width: 100%; /* Button takes full width on mobile */
-    padding: 12px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 50px; /* Matches the input style */
-    background-color: #2575fc;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+
+  .supportpage-search-input::placeholder {
+    color: var(--ink-muted);
   }
-  
-  .supportpage-search-button:hover {
-    background-color: #6a11cb;
-  }
-  
+
   @media (max-width: 768px) {
     .supportpage-support-page {
-      margin: 20px 10px; /* Further reduce margin for small screens */
+      padding: var(--space-4);
     }
-  
+
     .supportpage-heading {
-      font-size: 2.5rem;
+      font: var(--type-display-md);
+      letter-spacing: -0.025em;
     }
-  
+
     .supportpage-paragraph {
-      font-size: 0.9rem;
-      margin-bottom: 1rem;
-    }
-  
-    .supportpage-search-bar {
-      flex-direction: column; /* Ensure proper stacking on mobile */
-    }
-  
-    .supportpage-search-input,
-    .supportpage-search-button {
-      font-size: 0.9rem;
+      font: var(--type-body);
     }
   }
-  
