@@ -1,206 +1,158 @@
-/* General Styles */
-
-/* body {
-    padding: 0;
-    background-color: #e3ffe7;
-} */
+/* Blog list (/phonology-blogs). Generic class names are scoped under .usersideblog-container
+   so they can't leak to other pages once loaded (global CSS persists across client navigation). */
 
 .usersideblog-container {
-    min-width: 100vw;
-    margin: 100px 0px;
-    /* margin: 0 auto; */
-    /* padding: 20px; */
+    margin: 100px 0;
+    color: var(--ink);
 }
 
 .usersideblog-header {
     text-align: left;
     display: flex;
     flex-direction: row;
-    /* margin-bottom: 40px; */
 }
 
 .usersideblog-logo {
-    margin-bottom: 50px;
     max-width: 210px;
     max-height: 100px;
-    /* border: 1px solid black; */
     margin-bottom: 0;
 }
 
-/* Main Content */
+/* Positioned so it paints above the marquee it overlaps by 70px. */
 .usersideblog-main {
+    position: relative;
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    /* border: 1px solid black; */
+    gap: var(--space-6);
     max-width: 90vw;
-    /* border: 1px solid black; */
-    margin-top: -70px;
+    margin: -70px auto 0;
+}
 
+.usersideblog-heading {
+    font: var(--type-display-lg);
+    letter-spacing: -0.025em;
+    color: var(--ink);
 }
 
 .usersideblog-blog-list {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    max-width:80%;
-    /* border: 1px solid black; */
-    padding: 0px 20px;
+    gap: var(--space-6);
+    max-width: 80%;
+    padding: 0 var(--space-6);
     flex: 1;
-    /* background-color: white; */
 }
 
 .usersideblog-blog-card {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+    gap: var(--space-3);
+    padding: var(--space-6);
+    background: var(--surface-raised);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
     cursor: pointer;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    /* border: 1px solid rgb(221, 221, 221); */
-    /* max-width: 70%; */
-    /* From https://css.glass */
-background: rgba(255, 255, 255, 0.16);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(6.4px);
--webkit-backdrop-filter: blur(6.4px);
+    transition: border-color var(--motion);
 }
 
-/* .usersideblog-blog-card:hover {
-    transform: scale(1.02);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-} */
+.usersideblog-blog-card:hover {
+    border-color: var(--line-strong);
+}
 
 .usersideblog-blog-image {
-    /* width: 300px; */
     max-height: 300px;
     object-fit: contain;
     padding: 0;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
 }
 
 .usersideblog-blog-content {
     flex: 1;
+    min-width: 0;
 }
 
 .usersideblog-blog-title {
-    font-size: 20px;
+    font: var(--type-title);
     margin: 0;
-    color: #333;
+    color: var(--ink);
 }
 
 .usersideblog-blog-date {
-    font-size: 14px;
-    color: #888;
-    margin: 10px 0;
+    font: var(--type-body-sm);
+    color: var(--ink-muted);
+    margin: var(--space-2) 0;
 }
 
 .usersideblog-blog-excerpt {
-    font-size: 16px;
-    color: #333;
-    line-height: 1.6;
+    font: var(--type-body);
+    color: var(--ink);
 }
 
-.side-div {
+.usersideblog-container .side-div {
     display: flex;
     flex-direction: column;
-    gap: 0px;
     max-width: 25%;
-    padding: 20px;
-    /* background: #ffffff; */
-    /* border: 1px solid #ddd; */
-    border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
-  }
-  
-  .side-card {
-    padding: 15px;
-    background: #ffffff00;
-    border-radius: 8px;
-    /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
-  }
-  
-  .side-card-image {
+    padding: var(--space-6);
+}
+
+.usersideblog-container .side-card {
+    padding: var(--space-4);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: background-color var(--motion);
+}
+
+.usersideblog-container .side-card:hover {
+    background: var(--surface-sunken);
+}
+
+.usersideblog-container .side-card-image {
     width: 50%;
     height: auto;
-    border-radius: 8px;
-  }
-  
-  .side-card-title {
-    font-size: 1.2em;
-    margin: 10px 0;
-    color: #333;
-  }
-  
-  .side-card-description {
-    font-size: 1em;
-    color: #666;
-  }
-  
-  .side-card-date {
-    font-size: 0.9em;
-    color: #888;
-    margin-top: 10px;
-  }
-  
+    border-radius: var(--radius-md);
+}
 
+.usersideblog-container .side-card-title {
+    font: var(--type-title);
+    margin: var(--space-2) 0;
+    color: var(--ink);
+}
 
-/* Mobile Styles */
+/* Mobile: no fixed widths wider than the viewport (was 150vw / 100vw + a debug border). */
 @media (max-width: 767px) {
     .usersideblog-container {
-        min-width: 100vw;
-        min-height: 100%;
-        margin: 0 auto;
-        
-        /* padding: 20px; */
-        /* border: 1px solid black; */
+        margin: 0;
+        padding-top: 96px; /* clears the 70px fixed navbar; the marquee is hidden here */
     }
-    
-    .usersideblog-main {
-        min-width: 150vw;
-        flex-direction: column;
-        border: 1px solid black;
 
+    .usersideblog-heading {
+        font: var(--type-display-md);
+        letter-spacing: -0.025em;
+    }
+
+    .usersideblog-main {
+        flex-direction: column;
+        max-width: none;
+        margin: 0;
     }
 
     .usersideblog-blog-list {
         max-width: 100%;
-        border: none;
+        padding: 0 var(--space-4);
     }
 
-    .side-div {
-        display: none; /* Hide side content on small screens */
+    .usersideblog-container .side-div {
+        display: none;
     }
 
     .usersideblog-blog-card {
-        /* min-width: 100vw; */
-        min-width: 100vw;
-
         flex-direction: column;
         align-items: flex-start;
+        padding: var(--space-4);
     }
 
     .usersideblog-blog-image {
         width: 100%;
         height: auto;
-    }
-
-    .usersideblog-blog-content {
-        padding: 10px;
-    }
-
-    .usersideblog-blog-title {
-        font-size: 1.5em;
-    }
-
-    .usersideblog-blog-date {
-        font-size: 0.9em;
-    }
-
-    .usersideblog-blog-excerpt {
-        font-size: 1em;
     }
 }

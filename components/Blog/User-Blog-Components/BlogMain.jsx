@@ -76,7 +76,7 @@ const PhonologyBlogs = () => {
 
       <main className="usersideblog-main">
         <section className="usersideblog-blog-list">
-          <h2 style={{fontSize:"46px"}}>Our Blogs</h2>
+          <h2 className="usersideblog-heading">Our Blogs</h2>
           {posts.length === 0 ? ( 
             <h2>No posts available</h2>
           ) : (
@@ -106,7 +106,7 @@ const PhonologyBlogs = () => {
         </section>
 
         <aside className="side-div">
-          <h2 style={{fontSize:"46px"}}>News</h2>
+          <h2 className="usersideblog-heading">News</h2>
           {news.length === 0 ? (
             <p>No news available</p>
           ) : (

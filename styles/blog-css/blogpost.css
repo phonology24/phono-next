@@ -1,53 +1,117 @@
+/* Blog post (/phonology-blogs/[slug]). Centred reading column under the fixed 70px navbar. */
 .blogpost-container {
-    padding: 10px 100px 100px 100px;
-    background-color: #f1f1f1;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 96px var(--space-4) var(--space-16);
+  color: var(--ink);
 }
 
-.post-content img {
-border-radius: 17px;
-  }
+.blogpost-status {
+  padding: 96px var(--space-4) var(--space-16);
+  text-align: center;
+  font: var(--type-body);
+  color: var(--ink-muted);
+}
+
+.blogpost-container .postTitle {
+  font: var(--type-display-lg);
+  letter-spacing: -0.025em;
+  text-align: center;
+  color: var(--ink);
+  margin: 0 0 var(--space-8);
+}
+
+/* Post body is draft-js HTML: one <p> per line, blank lines as empty <p>s, so p keeps margin 0. */
+.blogpost-container .post-content {
+  font: var(--type-body-lg);
+  color: var(--ink);
+  overflow-wrap: break-word;
+}
+
+.blogpost-container .post-content p {
+  margin: 0;
+  color: var(--ink);
+}
+
+.blogpost-container .post-content h1,
+.blogpost-container .post-content h2 {
+  font: var(--type-display-md);
+  letter-spacing: -0.025em;
+  margin: var(--space-8) 0 var(--space-3);
+}
+
+.blogpost-container .post-content h3 {
+  font: var(--type-heading);
+  letter-spacing: -0.025em;
+  margin: var(--space-6) 0 var(--space-2);
+}
+
+.blogpost-container .post-content h4 {
+  font: var(--type-title);
+  margin: var(--space-6) 0 var(--space-2);
+}
+
+.blogpost-container .post-content ul,
+.blogpost-container .post-content ol {
+  padding-left: var(--space-6);
+  margin: var(--space-3) 0;
+}
+
+.blogpost-container .post-content li + li {
+  margin-top: var(--space-2);
+}
+
+.blogpost-container .post-content a {
+  color: var(--mint-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.blogpost-container .post-content blockquote {
+  margin: var(--space-6) 0;
+  padding-left: var(--space-4);
+  border-left: 3px solid var(--line-strong);
+  color: var(--ink-muted);
+}
+
+.blogpost-container .post-content code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  padding: 0 4px;
+  background: var(--surface-sunken);
+  border-radius: var(--radius-sm);
+}
+
+.blogpost-container .post-content pre {
+  font: var(--type-number);
+  margin: var(--space-4) 0;
+  padding: var(--space-4);
+  overflow-x: auto;
+  background: var(--surface-sunken);
+  border-radius: var(--radius-md);
+}
+
+.blogpost-container .post-content pre code {
+  padding: 0;
+  font-size: inherit;
+  background: none;
+}
+
+.blogpost-container .post-content figure {
+  margin: var(--space-6) 0;
+}
+
+.blogpost-container .post-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
+}
 
 @media (max-width: 768px) {
-    .blogpost-container {
-        padding: 20px;
-    }
-
-    .postTitle {
-        font-size: 28px;
-        padding: 10px;
-    }
-
-    .post-content {
-        padding: 20px;
-    }
-}
-
-.postTitle {
-    /* margin-bottom: 5px; */
-    /* padding: 20px; */
-    font-size: 30px;
-    text-align: center;
-    padding: 0rem 20rem;
-
-}
-
-.post-content {
-    /* background-color: #eaffe6; */
-    font-size: 1.1rem;
-    padding: 0rem 20rem;
-    line-height: 1.8;
-    color: #555;
-    border-radius: 30px;
-}
-
-.post-content p{
-margin: 0;
-}
-
-.post-content img {
-    
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-    margin: 0 auto;
+  .blogpost-container .postTitle {
+    font: var(--type-display-md);
+    letter-spacing: -0.025em;
+  }
 }

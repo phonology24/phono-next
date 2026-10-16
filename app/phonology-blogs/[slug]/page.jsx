@@ -42,9 +42,9 @@ const BlogPost = ({ params }) => {
     }
   }, [postId]);
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>{error}</div>;
-  if (!post) return <div>Post not found</div>;
+  if (loading) return <div className="blogpost-status">Loading...</div>;
+  if (error) return <div className="blogpost-status">{error}</div>;
+  if (!post) return <div className="blogpost-status">Post not found</div>;
 
   return (
     <>

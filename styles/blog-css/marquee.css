@@ -1,78 +1,51 @@
-/* NewsMarquee.css */
-.news-marquee{
-  height:400px;
-  margin-top: 0px;
-/* border: 1px solid black; */
-margin-left: -200px;
-/* align-items: flex-start; */
-background-color: #fffefe00;
-z-index: -999 !important;
-min-width: 200vw;
-
+/* Blog list marquee. Scoped under the blog root: admin's newsadmin.css also defines .news-card-image. */
+.usersideblog-container .news-marquee {
+  height: 400px;
+  overflow: hidden; /* was min-width:200vw + margin-left:-200px, which overflowed the page */
 }
 
-
-@media(max-width: 768px){
- .news-marquee{
-
-  display: none;
-
-}
+@media (max-width: 768px) {
+  .usersideblog-container .news-marquee {
+    display: none;
+  }
 }
 
-.news-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 500px;
-    /* padding: 20px; */
-    height: 320px;
-    margin: 0px 30px 50px 0px;
-    border: none;
-    border-radius: 10px;
-    background-color: #ffffff69;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: all .3s ease-in-out;
+.usersideblog-container .news-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 320px;
+  margin: 0 30px 50px 0;
+  overflow: hidden;
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--motion);
+}
 
-  }
-  
-  .news-card:hover{
-    transform: scale(1.05);
-  }
+.usersideblog-container .news-card:hover {
+  border-color: var(--line-strong);
+}
 
-  .news-card-image { 
-    width: 100%;
-    height: 200px;
-    border-radius: 10px 10px 0 0;
-    object-fit: contain;
-    /* border: 1px solid black; */
-  }
-  
-  .news-card-content {
-    text-align: center;
-    /* border: 1px solid black; */
-    /* padding-top:50px; */
-    /* justify-content: baseline; */
-    padding: 10px 30px 10px 30px;
-    font-weight: 500;
-    overflow-y: scroll;
-    scrollbar-width: none;
-    /* font-family: "League Spartan", sans-serif !important; */
+.usersideblog-container .news-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background: var(--surface-sunken);
+}
 
-    }
-  
-  .news-card h3 {
-    margin: 10px 0;
-    /* border: 1px solid black; */
-    font-size: 16px;
-    color: #555;
-    display: flex;
-    flex-wrap: wrap;
-    /* max-width: 100px; */
-  }
-  
-  .news-card p {
-    font-size: 14px;
-    color: #555;
-  }
-  
+.usersideblog-container .news-card-content {
+  text-align: center;
+  padding: var(--space-2) var(--space-8);
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.usersideblog-container .news-card h3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: var(--space-2) 0;
+  font: var(--type-title);
+  color: var(--ink);
+}
