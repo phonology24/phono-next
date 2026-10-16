@@ -61,6 +61,15 @@
     max-width: 100%;
   }
 
+  .features-hero-image,
+  .features-hero-content {
+    min-width: 0;
+  }
+
+  .features-hero-content {
+    padding: var(--space-6) var(--space-4);
+  }
+
   .features-hero-heading {
     font: var(--type-display-md);
   }
