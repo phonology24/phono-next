@@ -84,7 +84,7 @@ const breadcrumbSchema = {
 const Page = () => {
   return (
     
-    <div style={{maxWidth:"85vw", margin:"0 auto"}}>
+    <div>
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
