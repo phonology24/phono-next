@@ -5,7 +5,6 @@ import Home from '@/components/Home.jsx';
 import styles from '../styles/App.module.css';
 import Head from 'next/head';
 import Script from 'next/script';
-import { GoogleTagManager } from '@next/third-parties/google';
 // import favicon from '../app/favicon.ico'
 // Metadata for the page
 export const metadata = {
@@ -95,11 +94,6 @@ const Page = () => {
 
         <meta name="robots" content={metadata.robots} />
       </Head>
-        <Script src="https://cdn-in.pagesense.io/js/phonology/e13bd7015ee44d6da3db0e837cce6739.js"/>
-
-        <GoogleTagManager gtmId="GTM-T4FS3L3Q" />
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4FS3L3Q"
-          height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
       {/* JSON-LD for WebSite */}
       <Script
         id="website-schema"
@@ -120,27 +114,6 @@ const Page = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-    <Script
-            type="text/javascript"
-            id="zsiqchat"
-            dangerouslySetInnerHTML={{
-              __html: `
-                var $zoho=$zoho || {};
-                $zoho.salesiq = $zoho.salesiq || {
-                  widgetcode: "siqed8e902c4505673f934b08d408819a9982cdb93c35ad32b2bceabd67e6bb9e4c",
-                  values: {},
-                  ready: function() {}
-                };
-                var d=document;s=d.createElement("script");
-                s.type="text/javascript";
-                s.id="zsiqscript";
-                s.defer=true;
-                s.src="https://salesiq.zohopublic.in/widget";
-                t=d.getElementsByTagName("script")[0];
-                t.parentNode.insertBefore(s,t);
-              `,
-            }}
-          />
       <Home />
     </div>
   );

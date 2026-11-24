@@ -13,7 +13,7 @@ export const metadata = {
   keywords:
     'direct routing, direct routing cubase, direct routing as a service, microsoft teams direct routing, microsoft teams phone system direct routing, direct routing demo, microsoft direct routing, routing for ms teams, what is direct routing as a service, pro tips for direct routing & e911 | odfp116, cubase bus routing, operator connect vs direct routing as a service, should our company do operator connect or direct routing',
   alternates: {
-    canonical: 'https://www.phonology.io/direct-routing-service-providers',
+    canonical: 'https://www.phonology.io/cloud-telephony-providers',
   },
   robots: 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large', // Robots meta tag
 
@@ -24,10 +24,10 @@ const websiteSchema = {
   '@context': 'https://schema.org/',
   '@type': 'WebSite',
   name: 'Phonology',
-  url: 'https://www.phonology.io/direct-routing-service-providers',
+  url: 'https://www.phonology.io/cloud-telephony-providers',
   potentialAction: {
     '@type': 'SearchAction',
-    target: 'https://www.phonology.io/direct-routing-service-providers{search_term_string}',
+    target: 'https://www.phonology.io/cloud-telephony-providers{search_term_string}',
     'query-input': 'required name=search_term_string',
   },
 };
@@ -36,7 +36,7 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'Phonology',
-  url: 'https://www.phonology.io/direct-routing-service-providers',
+  url: 'https://www.phonology.io/cloud-telephony-providers',
   telephone: '9845633355',
   address: {
     '@type': 'PostalAddress',
@@ -79,7 +79,7 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 2,
       name: 'Direct Routing Service Providers',
-      item: 'https://www.phonology.io/direct-routing-service-providers',
+      item: 'https://www.phonology.io/cloud-telephony-providers',
     },
   ],
 };

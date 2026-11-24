@@ -3,6 +3,8 @@ import { Metadata } from 'next';
 
 export const metadata = {
   title: 'Refund Policy | Phonology',
+  description: 'When and how Phonology refunds payments for its services.',
+  alternates: { canonical: '/refund-policy' },
 };
 
 const RefundPolicy = () => {

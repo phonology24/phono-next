@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../styles/hostedphonenumbers.css';
-import MyGlobe from '../MyGlobe';
 import HostedPBXIMG from '../../public/Assets/hostedpbxhero.png'
 import Image from 'next/image';
 

@@ -2,8 +2,10 @@ import React from 'react';
 import { Metadata } from 'next';
 
 export const metadata = {
-  title: 'Privacy Policy | Phonology', 
-}
+  title: 'Privacy Policy | Phonology',
+  description: 'How Phonology collects, uses and protects your information.',
+  alternates: { canonical: '/privacy-policy' },
+};
 const PrivacyPolicy = () => {
   const containerStyle = {
     maxWidth: '800px',

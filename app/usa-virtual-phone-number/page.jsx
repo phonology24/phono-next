@@ -14,7 +14,7 @@ export const metadata = {
   robots: 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large',
   keywords: 'United-States-virtual-phone-number',
   alternates: {
-    canonical: '/united-states-virtual-phone-number',
+    canonical: '/usa-virtual-phone-number',
   },
 };
 

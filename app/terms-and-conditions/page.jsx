@@ -2,8 +2,10 @@ import React from 'react';
 import { Metadata } from 'next';
 
 export const metadata = {
-  title: 'Terms and Conditions | Phonology', 
-}
+  title: 'Terms and Conditions | Phonology',
+  description: "The terms that apply when you use Phonology's website and services.",
+  alternates: { canonical: '/terms-and-conditions' },
+};
 const TermsAndConditions = () => {
   const containerStyle = {
     maxWidth: '800px',

@@ -49,9 +49,9 @@ const Navbar = ({ themed }) => {
       href: "/call-center-solution",
     },
     {
-      text: "Microsft Teams",
+      text: "Microsoft Teams",
       icon: <Groups2Icon />,
-      href: "/direct-routing-service-providers",
+      href: "/cloud-telephony-providers",
     },
     {
       text: "SIP Trunking",

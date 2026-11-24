@@ -15,7 +15,7 @@ export const metadata = {
   robots: 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large',
   keywords: 'Canada-Toll-Free-virtual-phone-number',
   alternates: {
-    canonical: '/canada-toll-free-virtual-phone-number',
+    canonical: '/canada-toll-free-virtual-number',
   },
 };
 

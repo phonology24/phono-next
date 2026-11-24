@@ -1,12 +1,11 @@
 "use client";
 import React from 'react';
-import dynamic from 'next/dynamic';
-
-const HostedPhoneNumberHeader = dynamic(() => import('./HostedNumbers/HostedPhoneNumbersHeading'), { ssr: false });
-const Footer = dynamic(() => import('../components/Footer'), { ssr: false });
-const DemoForm = dynamic(() => import('../components/DemoRequestForm'), { ssr: false });
-const HostedNumbersTwoCards = dynamic(() => import('./HostedNumbers/HostedNumbersTwoCards'), { ssr: false });
-const HostedPbxCards = dynamic(() => import('../components/HostedNumbers/HostedPbxCards'), { ssr: false });
+// Plain imports so the page HTML is rendered on the server and search engines can read it.
+import HostedPhoneNumberHeader from './HostedNumbers/HostedPhoneNumbersHeading';
+import Footer from '../components/Footer';
+import DemoForm from '../components/DemoRequestForm';
+import HostedNumbersTwoCards from './HostedNumbers/HostedNumbersTwoCards';
+import HostedPbxCards from '../components/HostedNumbers/HostedPbxCards';
 
 const HostedPhoneNumbers = () => {
   return (

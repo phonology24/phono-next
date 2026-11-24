@@ -14,7 +14,7 @@ export const metadata = {
     robots: 'index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large',
     keywords: 'US-Toll-Free-virtual-phone-number',
     alternates: {
-      canonical: '/us-toll-free-virtual-phone-number',
+      canonical: '/usa-toll-free-virtual-phone-number',
     },
   };
   
