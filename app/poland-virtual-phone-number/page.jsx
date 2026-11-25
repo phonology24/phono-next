@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfPolandNumber from '@/components/InternationalNumbers/poland/BenefitsOfPolandNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/poland/FAQAccordion'
-import PolandFeatureCards from '@/components/InternationalNumbers/poland/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/poland/HowToBuy'
-import PolandEightCards from '@/components/InternationalNumbers/poland/PolandEightCards'
-import PolandHeader from '@/components/InternationalNumbers/poland/PolandHeader'
-import PolandSubHeader from '@/components/InternationalNumbers/poland/PolandSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Poland Virtual Phone Number | Phonology VoIP Solutions',
   description: 'Boost your business with a Poland virtual phone number. Phonology offers crystal-clear VoIP services, ensuring efficient global communication.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <PolandHeader />
-  <PolandSubHeader />
-  <BenefitsOfPolandNumber />
-  <PolandEightCards />
-  <HowToBuy />
-  <PolandFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="poland-virtual-phone-number" />;
 }
-
-export default page

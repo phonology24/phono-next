@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfSwedenNumber from '@/components/InternationalNumbers/sweden/BenefitsOfSwedenNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/sweden/FAQAccordion'
-import SwedenFeatureCards from '@/components/InternationalNumbers/sweden/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/sweden/HowToBuy'
-import SwedenEightCards from '@/components/InternationalNumbers/sweden/SwedenEightCards'
-import SwedenHeader from '@/components/InternationalNumbers/sweden/SwedenHeader'
-import SwedenSubHeader from '@/components/InternationalNumbers/sweden/SwedenSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Sweden Virtual Phone Number | Affordable VoIP Solutions',
   description: 'Boost your business communication with a Sweden virtual phone number. Phonology offers reliable VoIP services to keep you connected anywhere in the world.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <SwedenHeader />
-  <SwedenSubHeader />
-  <BenefitsOfSwedenNumber />
-  <SwedenEightCards />
-  <HowToBuy />
-  <SwedenFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="sweden-virtual-phone-number" />;
 }
-
-export default page

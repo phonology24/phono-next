@@ -1,13 +1,8 @@
-import UifnPage from '@/components/UifnPage.jsx'
-import VirtualNumber from '@/components/VirtualNumber'
-import React from 'react'
+import ServicePage from '@/components/service/ServicePage';
+import { metaFor } from '@/components/service/pages';
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-   <UifnPage/>
-    </div>
-  )
+export const metadata = metaFor('uifn-number');
+
+export default function Page() {
+  return <ServicePage slug="uifn-number" />;
 }
-
-export default page

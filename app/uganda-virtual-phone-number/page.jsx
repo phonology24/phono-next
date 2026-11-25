@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfUgandaNumber from '@/components/InternationalNumbers/uganda/BenefitsOfUgandaNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/uganda/FAQAccordion'
-import UgandaFeatureCards from '@/components/InternationalNumbers/uganda/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/uganda/HowToBuy'
-import UgandaEightCards from '@/components/InternationalNumbers/uganda/UgandaEightCards'
-import UgandaHeader from '@/components/InternationalNumbers/uganda/UgandaHeader'
-import UgandaSubHeader from '@/components/InternationalNumbers/uganda/UgandaSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Uganda Virtual Phone Number | Affordable VoIP by Phonology',
   description: 'Grow your business with a Uganda virtual phone number. Phonology provides reliable and cost-effective VoIP services for seamless global communication.',
@@ -18,20 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-      <UgandaHeader />
-      <UgandaSubHeader />
-      <BenefitsOfUgandaNumber />
-      <UgandaEightCards />
-      <HowToBuy />
-      <UgandaFeatureCards />
-      <FAQAccordionComponent />
-      <PhoneNumbers />
-      <Footer />
-    </div>
-  )
+export default function Page() {
+  return <CountryPage slug="uganda-virtual-phone-number" />;
 }
-
-export default page

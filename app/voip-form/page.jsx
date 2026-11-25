@@ -26,29 +26,6 @@ const Page = () => {
         <meta name="robots" content={metadata.robots} />
       </Head>
 
-      {/* Zoho SalesIQ Chat Script */}
-      <Script
-        id="zsiqchat"
-        strategy="lazyOnload" // Load it only after the page has loaded
-        dangerouslySetInnerHTML={{
-          __html: `
-            var $zoho=$zoho || {};
-            $zoho.salesiq = $zoho.salesiq || {
-              widgetcode: "siqed8e902c4505673f934b08d408819a9982cdb93c35ad32b2bceabd67e6bb9e4c",
-              values: {},
-              ready: function() {}
-            };
-            var d=document;s=d.createElement("script");
-            s.type="text/javascript";
-            s.id="zsiqscript";
-            s.defer=true;
-            s.src="https://salesiq.zohopublic.in/widget";
-            t=d.getElementsByTagName("script")[0];
-            t.parentNode.insertBefore(s,t);
-          `,
-        }}
-      />
-
       {/* Google Analytics Script */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=AW-16678504638"
@@ -63,34 +40,6 @@ const Page = () => {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'AW-16678504638');
-          `,
-        }}
-      />
-
-      {/* Google Tag Manager */}
-      <Script
-        id="gtm"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-T4FS3L3Q');
-          `,
-        }}
-      />
-
-      {/* Event Tracking for Form Submission */}
-      <Script
-        id="event-tracking"
-        dangerouslySetInnerHTML={{
-          __html: `
-            gtag('event', 'conversion_event_submit_lead_form', {
-              'event_category': 'Form Submission',
-              'event_label': 'Lead Form',
-              'value': 1
-            });
           `,
         }}
       />

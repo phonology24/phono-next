@@ -3,18 +3,20 @@ import { Metadata } from 'next';
 
 export const metadata = {
   title: 'Refund Policy | Phonology',
+  description: 'When and how Phonology refunds payments for its services.',
+  alternates: { canonical: '/refund-policy' },
 };
 
 const RefundPolicy = () => {
   const containerStyle = {
     maxWidth: '800px',
-    margin: '100px auto',
+    margin: '140px auto 96px', color: 'var(--ink)', lineHeight: 1.7,
     padding: '20px',
-    fontFamily: 'Arial, sans-serif',
+    fontFamily: 'var(--font-sans)',
   };
 
   const headingStyle = {
-    fontSize: '24px',
+    fontSize: '24px', fontFamily: 'var(--font-display)', fontWeight: 500, letterSpacing: '-0.02em',
     marginBottom: '15px',
   };
 

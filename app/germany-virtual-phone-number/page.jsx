@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import BenefitsOfGermanyNumber from '@/components/InternationalNumbers/germany/BenefitsOfGermanyNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/germany/FAQAccordion'
-import GermanyFeatureCards from '@/components/InternationalNumbers/germany/FeatureCards'
-import GermanyEightCards from '@/components/InternationalNumbers/germany/GermanyEightCards'
-import GermanyHeader from '@/components/InternationalNumbers/germany/GermanyHeader'
-import GermanySubHeader from '@/components/InternationalNumbers/germany/GermanySubHeader'
-import HowToBuy from '@/components/InternationalNumbers/germany/howToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Germany Virtual Phone Number for Business Growth | Phonology',
   description: 'Grow your business with a Germany virtual phone number. Phonology’s VoIP services offer reliable, scalable, and cost-effective communication solutions.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-    <GermanyHeader />
-    <GermanySubHeader />
-    <BenefitsOfGermanyNumber />
-    <GermanyEightCards />
-    <HowToBuy />
-    <GermanyFeatureCards />
-    <FAQAccordionComponent />
-    <PhoneNumbers />
-    <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="germany-virtual-phone-number" />;
 }
-
-export default page

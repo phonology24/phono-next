@@ -2,19 +2,21 @@ import React from 'react';
 import { Metadata } from 'next';
 
 export const metadata = {
-  title: 'Terms and Conditions | Phonology', 
-}
+  title: 'Terms and Conditions | Phonology',
+  description: "The terms that apply when you use Phonology's website and services.",
+  alternates: { canonical: '/terms-and-conditions' },
+};
 const TermsAndConditions = () => {
   const containerStyle = {
     maxWidth: '800px',
     // margin: 'auto',
-    margin:'100px auto',
+    margin: '140px auto 96px', color: 'var(--ink)', lineHeight: 1.7,
     padding: '20px',
-    fontFamily: 'Arial, sans-serif',
+    fontFamily: 'var(--font-sans)',
   };
 
   const headingStyle = {
-    fontSize: '24px',
+    fontSize: '24px', fontFamily: 'var(--font-display)', fontWeight: 500, letterSpacing: '-0.02em',
     marginBottom: '15px',
   };
 

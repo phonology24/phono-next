@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfRomaniaNumber from '@/components/InternationalNumbers/romania/BenefitsOfRomaniaNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/romania/FAQAccordion'
-import RomaniaFeatureCards from '@/components/InternationalNumbers/romania/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/romania/HowToBuy'
-import RomaniaEightCards from '@/components/InternationalNumbers/romania/RomaniaEightCards'
-import RomaniaHeader from '@/components/InternationalNumbers/romania/RomaniaHeader'
-import RomaniaSubHeader from '@/components/InternationalNumbers/romania/RomaniaSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Romania Virtual Phone Number for Global Communication | Phonology',
   description: 'Enhance your business outreach with a Romania virtual phone number. Phonology offers affordable VoIP solutions with excellent call quality and global reach.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <RomaniaHeader />
-  <RomaniaSubHeader />
-  <BenefitsOfRomaniaNumber />
-  <RomaniaEightCards />
-  <HowToBuy />
-  <RomaniaFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="romania-virtual-phone-number" />;
 }
-
-export default page

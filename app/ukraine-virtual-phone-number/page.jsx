@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfUkraineNumber from '@/components/InternationalNumbers/ukraine/BenefitsOfUkraineNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/ukraine/FAQAccordion'
-import UkraineFeatureCards from '@/components/InternationalNumbers/ukraine/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/ukraine/HowToBuy'
-import UkraineEightCards from '@/components/InternationalNumbers/ukraine/UkraineEightCards'
-import UkraineHeader from '@/components/InternationalNumbers/ukraine/UkraineHeader'
-import UkraineSubHeader from '@/components/InternationalNumbers/ukraine/UkraineSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Ukraine Virtual Phone Number | Reliable VoIP by Phonology',
   description: 'Enhance your business with a Ukraine virtual phone number. Phonology’s VoIP services offer seamless, affordable, and reliable international communication.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <UkraineHeader />
-  <UkraineSubHeader />
-  <BenefitsOfUkraineNumber />
-  <UkraineEightCards />
-  <HowToBuy />
-  <UkraineFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="ukraine-virtual-phone-number" />;
 }
-
-export default page

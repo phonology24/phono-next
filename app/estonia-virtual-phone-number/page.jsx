@@ -1,13 +1,5 @@
-import React from 'react'
-import Footer from '@/components/Footer'
-import BenefitsOfEstoniaNumber from '@/components/InternationalNumbers/estonia/BenefitsOfEstoniaNumber'
-import EstoniaEightCards from '@/components/InternationalNumbers/estonia/EstoniaEightCards'
-import EstoniaHeader from '@/components/InternationalNumbers/estonia/EstoniaHeader'
-import EstoniaSubHeader from '@/components/InternationalNumbers/estonia/EstoniaSubHeader'
-import FAQAccordionComponent from '@/components/InternationalNumbers/estonia/FAQAccordion'
-import EstoniaFeatureCards from '@/components/InternationalNumbers/estonia/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/estonia/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Estonia Virtual Phone Number | Phonology VoIP Solutions',
   description: 'Boost your business presence with an Estonia virtual phone number. Phonology offers secure, affordable, and efficient VoIP services tailored to your needs.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-    <EstoniaHeader />
-    <EstoniaSubHeader />
-    <BenefitsOfEstoniaNumber />
-    <EstoniaEightCards />
-    <HowToBuy />
-    <EstoniaFeatureCards />
-    <FAQAccordionComponent />
-    <PhoneNumbers />
-    <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="estonia-virtual-phone-number" />;
 }
-
-export default page

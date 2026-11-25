@@ -1,4 +1,12 @@
+# Search engines and AI assistants (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, ...) are all welcome.
+# Site map for AI assistants: https://www.phonology.io/llms.txt
 User-Agent: *
 Allow: /
+Disallow: /admin-login
+Disallow: /admin-dashboard
+Disallow: /admin-post-editor
+Disallow: /add-news
+Disallow: /edit-post/
+Disallow: /thank-you
 
-Sitemap: https://phonology.io/sitemap.xml
+Sitemap: https://www.phonology.io/sitemap.xml

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../../../styles/campaign/campaign1.css';
 import BrandLogo from '../../BrandLogo';
+import LeadForm from '../../LeadForm';
 import LandingPageImage from '../../../public/Assets/cloud.png'
 import AcUnitOutlinedIcon from '@mui/icons-material/AcUnitOutlined';
 import AutoAwesomeMotionOutlinedIcon from '@mui/icons-material/AutoAwesomeMotionOutlined';
@@ -72,7 +73,7 @@ const CampaignHeader = () => {
                         <div className="cta-buttons">
                         <button 
     className='button-85' 
-    onClick={() => window.open('https://zfrmz.in/OVhArflKi5Y3yxPIOhgd', '_blank')}>
+    onClick={() => document.getElementById('campaign-form')?.scrollIntoView({ behavior: 'smooth' })}>
     Start your free trial &nbsp; {`\u2192`}
 </button>
 
@@ -80,7 +81,7 @@ const CampaignHeader = () => {
                         </div>
                     </div>
                     <div className='cards right'>
-                    <iframe aria-label='Sign Up To Schedule a Demo' frameBorder="0" className='form-frame' src='https://forms.zohopublic.in/phonology/form/CampaignForm/formperma/ZSZ6bo7a2Bc7eKru1S4sKmXzI4dMI8Rp-9bOSbnInZ4'></iframe>                        {/* <Image src={LandingPageImage} alt='phono-img' width={1000} height={1000} className='right-image' /> */}
+                    <div id='campaign-form' className='form-frame lead-sheet'><LeadForm /></div>                        {/* <Image src={LandingPageImage} alt='phono-img' width={1000} height={1000} className='right-image' /> */}
 
                     </div>
                 </div>

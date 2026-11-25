@@ -1,13 +1,5 @@
-import React from 'react'
-import Footer from '@/components/Footer'
-import BelgiumEightCards from '@/components/InternationalNumbers/belgium/BelgiumEightCards'
-import BelgiumHeader from '@/components/InternationalNumbers/belgium/BelgiumHeader'
-import BelgiumSubHeader from '@/components/InternationalNumbers/belgium/BelgiumSubHeader'
-import BenefitsOfBelgiumNumber from '@/components/InternationalNumbers/belgium/BenefitsOfBelgiumNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/belgium/FAQAccordion'
-import BelgiumFeatureCards from '@/components/InternationalNumbers/belgium/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/belgium/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
     title: 'Get a Belgium Virtual Phone Number | Phonology',
     description: 'Boost your business with a Belgium virtual phone number. Connect globally, manage calls efficiently, and enjoy crystal-clear communication with Phonology\'s VoIP services.',
@@ -16,24 +8,8 @@ export const metadata = {
     alternates: {
       canonical: '/belgium-virtual-phone-number',
     },
-  };
-  
-const page = () => {
+};
 
-    return (
-        <div style={{maxWidth:"85vw", margin:"0 auto"}}>
-            <BelgiumHeader />
-            <BelgiumSubHeader />
-            <BenefitsOfBelgiumNumber />
-            <BelgiumEightCards />
-            <HowToBuy />
-            <BelgiumFeatureCards />
-            <FAQAccordionComponent />
-            <PhoneNumbers />
-            <Footer />
-        </div>
-    )
-
+export default function Page() {
+  return <CountryPage slug="belgium-virtual-phone-number" />;
 }
-
-export default page

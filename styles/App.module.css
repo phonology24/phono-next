@@ -86,7 +86,7 @@ margin: 20px 0px 20px 0px;
   display: none;
 }
 
-.navbarLinksContainer a {
+.navbarLinksContainer > a {
   margin-right: 2rem;
   text-decoration: none;
   color: var(--ink);
@@ -94,6 +94,7 @@ margin: 20px 0px 20px 0px;
   font-weight: 600;
   padding: var(--space-2) var(--space-3);
 }
+.navbarLinksContainer > div { margin-right: 2rem; }
 
 .primary-button {
   padding: 0.9rem 1.75rem;
@@ -713,7 +714,7 @@ margin: 20px 0px 20px 0px;
 }
 
 @media (max-width: 1000px) {
-  .navbarLinksContainer a {
+  .navbarLinksContainer > * {
     margin-right: 1rem;
     font-size: 1rem;
   }
@@ -910,7 +911,7 @@ margin: 20px 0px 20px 0px;
   }
 }
 
-.navbarLinksContainer a{
+.navbarLinksContainer > *{
   float: left;
   display: block;
   text-align: center;

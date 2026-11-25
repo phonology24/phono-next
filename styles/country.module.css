@@ -1,0 +1,82 @@
+/* Country number page. Tokens only (globals.css), so light and dark themes both work. */
+.page { background: var(--surface); color: var(--ink); }
+.wrap { width: min(1240px, 100% - 32px); margin-inline: auto; }
+.band { padding-block: clamp(72px, 10vw, 120px); }
+.inkBand { background: var(--surface-sunken); }
+
+.h1, .h2 { font-family: var(--font-display); font-weight: 500; color: var(--ink); text-wrap: balance; }
+.h1 { margin: var(--space-6) 0 var(--space-6); font-size: clamp(32px, 3.9vw, 54px); line-height: 1.06; letter-spacing: -0.035em; }
+.h2 { margin: 0 0 var(--space-4); font-size: clamp(28px, 3.6vw, 44px); line-height: 1.1; letter-spacing: -0.03em; }
+.lede { margin: 0 0 var(--space-8); max-width: 54ch; font: 400 clamp(17px, 1.6vw, 20px)/1.55 var(--font-sans); color: var(--ink-muted); }
+.sub { margin: 0; max-width: 46ch; font: var(--type-body-lg); color: var(--ink-muted); }
+.ctas { display: flex; flex-wrap: wrap; gap: var(--space-3); }
+
+/* Hero: words left, the call's route right. */
+.hero { padding: calc(70px + clamp(40px, 6vw, 88px)) 0 clamp(56px, 8vw, 104px); }
+.heroGrid { display: grid; gap: var(--space-12); align-items: start; }
+.heroGrid > * { min-width: 0; }
+@media (min-width: 1024px) { .heroGrid { grid-template-columns: 3fr 2fr; } }
+.heroCopy { animation: rise .6s cubic-bezier(.2, .7, .2, 1) both; }
+
+.crumbs { display: flex; gap: var(--space-2); align-items: center; font: var(--type-body-sm); color: var(--ink-muted); }
+.crumbs a { color: var(--ink-muted); text-decoration: underline; text-underline-offset: 4px; text-decoration-color: var(--line-strong); min-height: 44px; display: inline-flex; align-items: center; }
+.crumbs a:hover { color: var(--ink); }
+
+.route {
+  margin: 0; display: grid; gap: var(--space-6); padding: var(--space-6);
+  border: 1px solid var(--line); border-radius: 20px; background: var(--surface-raised);
+  animation: rise .7s .12s cubic-bezier(.2, .7, .2, 1) both;
+}
+@media (min-width: 1024px) { .route { margin-top: 96px; } }
+.routeHead { display: grid; grid-template-columns: auto 1fr auto; gap: var(--space-4); align-items: center; }
+.routeHead > div { display: grid; gap: 2px; min-width: 0; }
+.routeLabel { font: var(--type-body-sm); color: var(--ink-muted); }
+.routeNum { font: 400 20px/28px var(--font-mono); color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: clip; }
+.ringing {
+  display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 10px; border-radius: var(--radius-full);
+  background: color-mix(in srgb, var(--status-ringing) 14%, transparent); color: var(--status-ringing);
+  font: 500 12px/1 var(--font-sans);
+}
+.ringing::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: pulse 1.2s ease-in-out infinite; }
+.hops { list-style: none; margin: 0; padding: 0; display: grid; }
+.hops li {
+  position: relative; display: flex; justify-content: space-between; align-items: center;
+  padding: var(--space-3) 0 var(--space-3) var(--space-8); font: var(--type-body); color: var(--ink);
+}
+/* The route: a mint line joining one keypad dot per hop. */
+.hops li::before { content: ""; position: absolute; left: 6px; top: 50%; width: 10px; height: 10px; margin-top: -5px; border-radius: 3px; background: var(--mint); }
+.hops li:not(:last-child)::after { content: ""; position: absolute; left: 10px; top: calc(50% + 5px); height: 100%; width: 2px; background: var(--mint-soft); }
+.hops b { font: 400 14px/20px var(--font-mono); color: var(--ink-muted); }
+.answered { display: flex; justify-content: space-between; align-items: center; padding-top: var(--space-4); border-top: 1px solid var(--line); }
+.live { display: inline-flex; align-items: center; gap: 6px; font: 500 14px/20px var(--font-sans); color: var(--status-live); }
+.live::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+.timer { font: var(--type-number); color: var(--ink-muted); }
+
+/* Ways to answer: heading left, two-by-two list right. */
+.split { display: grid; gap: var(--space-12); align-items: start; }
+@media (min-width: 1024px) { .split { grid-template-columns: 5fr 7fr; } }
+.answerWays { list-style: none; margin: 0; padding: 0; display: grid; gap: 0 var(--space-8); border-top: 1px solid var(--line); }
+@media (min-width: 640px) { .answerWays { grid-template-columns: 1fr 1fr; } }
+.answerWays li { padding: var(--space-6) 0; border-bottom: 1px solid var(--line); }
+.answerWays h3, .steps h3, .qa h3 { margin: 0 0 var(--space-2); font: var(--type-title); color: var(--ink); }
+.answerWays p, .steps p, .qa p { margin: 0; font: var(--type-body); color: var(--ink-muted); }
+.answerWays a { color: var(--ink); text-underline-offset: 4px; }
+.answerWays a:hover { color: var(--mint-text); }
+
+/* Setup: four steps in order, numbered by the keypad motif. */
+.steps { list-style: none; counter-reset: step; margin: var(--space-12) 0 0; padding: 0; display: grid; gap: var(--space-6); }
+@media (min-width: 768px) { .steps { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1100px) { .steps { grid-template-columns: repeat(4, 1fr); } }
+.steps li { counter-increment: step; padding-top: var(--space-6); border-top: 2px solid var(--line); }
+.steps li::before {
+  content: counter(step); display: grid; place-items: center; width: 36px; height: 36px; margin-bottom: var(--space-6);
+  border-radius: 10px; background: var(--mint); color: var(--on-mint); font: 500 16px/1 var(--font-mono);
+}
+
+/* FAQ, open in full. */
+.faq { display: grid; border-top: 1px solid var(--line); }
+.qa { padding: var(--space-6) 0; border-bottom: 1px solid var(--line); }
+.qa p { max-width: 62ch; }
+
+@keyframes rise { from { opacity: 0; transform: translateY(16px); } }
+@keyframes pulse { 50% { opacity: .3; } }

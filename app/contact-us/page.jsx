@@ -1,12 +1,8 @@
-import ContactUsIndex from '@/components/ContactUs/ContactUsIndex'
-import React from 'react'
+import ServicePage from '@/components/service/ServicePage';
+import { metaFor } from '@/components/service/pages';
 
-const page = () => {
-  return (
-    <div >
-      <ContactUsIndex/>
-    </div>
-  )
+export const metadata = metaFor('contact-us');
+
+export default function Page() {
+  return <ServicePage slug="contact-us" />;
 }
-
-export default page

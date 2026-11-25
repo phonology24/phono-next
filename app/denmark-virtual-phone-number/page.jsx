@@ -1,13 +1,5 @@
-import React from 'react'
-import Footer from '@/components/Footer'
-import BenefitsOfDenmarkNumber from '@/components/InternationalNumbers/denmark/BenefitsOfDenmarkNumber'
-import DenmarkEightCards from '@/components/InternationalNumbers/denmark/DenmarkEightCards'
-import DenmarkHeader from '@/components/InternationalNumbers/denmark/DenmarkHeader'
-import DenmarkSubHeader from '@/components/InternationalNumbers/denmark/DenmarkSubHeader'
-import FAQAccordionComponent from '@/components/InternationalNumbers/denmark/FAQAccordion'
-import DenmarkFeatureCards from '@/components/InternationalNumbers/denmark/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/denmark/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
     title: 'Get a Denmark Virtual Phone Number | Phonology',
     description: 'Need a Denmark virtual phone number for your business? Phonology offers reliable VoIP solutions to help you manage international calls effortlessly.',
@@ -16,23 +8,8 @@ export const metadata = {
     alternates: {
       canonical: '/denmark-virtual-phone-number',
     },
-  };
-  
-const page = () => {
-    return (
-        <div style={{maxWidth:"85vw", margin:"0 auto"}}>
-            <DenmarkHeader />
-            <DenmarkSubHeader />
-            <BenefitsOfDenmarkNumber />
-            <DenmarkEightCards />
-            <HowToBuy />
-            <DenmarkFeatureCards />
-            <FAQAccordionComponent />
-            <PhoneNumbers />
-            <Footer />
-        </div>
+};
 
-    )
+export default function Page() {
+  return <CountryPage slug="denmark-virtual-phone-number" />;
 }
-
-export default page
