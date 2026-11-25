@@ -1,13 +1,5 @@
-import React from 'react'
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfLatviaNumber from '@/components/InternationalNumbers/latvia/BenefitsOfLatviaNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/latvia/FAQAccordion'
-import LatviaFeatureCards from '@/components/InternationalNumbers/latvia/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/latvia/HowToBuy'
-import LatviaEightCards from '@/components/InternationalNumbers/latvia/LatviaEightCards'
-import LatviaHeader from '@/components/InternationalNumbers/latvia/LatviaHeader'
-import LatviaSubHeader from '@/components/InternationalNumbers/latvia/LatviaSubHeader'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Latvia Virtual Phone Number for Business | Phonology VoIP',
   description: 'Get a Latvia virtual phone number and streamline your communication with Phonology’s reliable and cost-effective VoIP services.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-    <LatviaHeader />
-    <LatviaSubHeader />
-    <BenefitsOfLatviaNumber />
-    <LatviaEightCards />
-    <HowToBuy />
-    <LatviaFeatureCards />
-    <FAQAccordionComponent />
-    <PhoneNumbers />
-    <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="latvia-virtual-phone-number" />;
 }
-
-export default page

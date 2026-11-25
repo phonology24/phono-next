@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfSerbiaNumber from '@/components/InternationalNumbers/serbia/BenefitsOfSerbiaNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/serbia/FAQAccordion'
-import SerbiaFeatureCards from '@/components/InternationalNumbers/serbia/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/serbia/HowToBuy'
-import SerbiaEightCards from '@/components/InternationalNumbers/serbia/SerbiaEightCards'
-import SerbiaHeader from '@/components/InternationalNumbers/serbia/SerbiaHeader'
-import SerbiaSubHeader from '@/components/InternationalNumbers/serbia/SerbiaSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Get a Serbia Virtual Phone Number | Phonology VoIP Solutions',
   description: 'Expand your business communication with a Serbia virtual phone number. Phonology provides reliable VoIP services with clear calls and global connectivity.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <SerbiaHeader />
-  <SerbiaSubHeader />
-  <BenefitsOfSerbiaNumber />
-  <SerbiaEightCards />
-  <HowToBuy />
-  <SerbiaFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="serbia-virtual-phone-number" />;
 }
-
-export default page

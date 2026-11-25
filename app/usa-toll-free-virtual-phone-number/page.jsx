@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfUSATollFreeNumber from '@/components/InternationalNumbers/us-tf/BenefitsOfUSATollFreeNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/us-tf/FAQAccordion'
-import USATollFreeFeatureCards from '@/components/InternationalNumbers/us-tf/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/us-tf/HowToBuy'
-import USATollFreeEightCards from '@/components/InternationalNumbers/us-tf/USATollFreeEightCards'
-import USATollFreeHeader from '@/components/InternationalNumbers/us-tf/USATollFreeHeader'
-import USATollFreeSubHeader from '@/components/InternationalNumbers/us-tf/USATollFreeSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
     title: 'Get a US Toll-Free Virtual Number | Phonology VoIP Services',
     description: 'Provide your clients with easy access using a US toll-free number. Phonology’s VoIP services offer reliable, scalable, and affordable solutions for your business.',
@@ -16,22 +8,8 @@ export const metadata = {
     alternates: {
       canonical: '/usa-toll-free-virtual-phone-number',
     },
-  };
-  
-const page = () => {
-    return (
-        <div style={{maxWidth:"85vw", margin:"0 auto"}}>
-            <USATollFreeHeader />
-            <USATollFreeSubHeader />
-            <BenefitsOfUSATollFreeNumber />
-            <USATollFreeEightCards />
-            <HowToBuy />
-            <USATollFreeFeatureCards />
-            <FAQAccordionComponent />
-            <PhoneNumbers />
-            <Footer />
-        </div>
-    )
-}
+};
 
-export default page
+export default function Page() {
+  return <CountryPage slug="usa-toll-free-virtual-phone-number" />;
+}

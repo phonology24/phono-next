@@ -1,0 +1,25 @@
+/* Rate-card / number request: the always-dark band that closes every sales page. */
+.quote { padding-block: clamp(72px, 10vw, 120px); background: var(--surface-sunken); scroll-margin-top: 72px; }
+.wrap { width: min(1240px, 100% - 32px); margin-inline: auto; display: grid; gap: var(--space-12); align-items: start; }
+@media (min-width: 1024px) { .wrap { grid-template-columns: 5fr 6fr; } }
+.h2 {
+  margin: 0 0 var(--space-4); font: 500 clamp(30px, 4vw, 48px)/1.08 var(--font-display);
+  letter-spacing: -0.03em; color: var(--ink); text-wrap: balance;
+}
+.lead { margin: 0; max-width: 52ch; font: var(--type-body-lg); color: var(--ink-muted); }
+.contacts { display: grid; gap: 0; margin: var(--space-8) 0 0; border-top: 1px solid var(--line); }
+.contacts > div {
+  display: grid; grid-template-columns: 96px 1fr; gap: var(--space-4); align-items: baseline;
+  padding: var(--space-4) 0; border-bottom: 1px solid var(--line);
+}
+.contacts dt { font: var(--type-body-sm); color: var(--ink-muted); }
+.contacts dd { margin: 0; font: 400 16px/24px var(--font-mono); color: var(--ink); }
+.contacts a, .meeting a {
+  color: var(--ink); text-decoration: underline; text-decoration-color: var(--line-strong);
+  text-underline-offset: 4px; min-height: 44px; display: inline-flex; align-items: center;
+}
+.contacts a:hover, .meeting a:hover { color: var(--mint-text); text-decoration-color: currentColor; }
+.meeting { margin: var(--space-6) 0 0; font: var(--type-body); color: var(--ink-muted); }
+.meeting a { display: inline; }
+/* The form sits on a raised sheet inside the dark band. */
+.form { border-radius: var(--radius-lg); background: var(--surface-raised); border: 1px solid var(--line); position: relative; }

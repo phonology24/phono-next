@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import AustraliaEightCards from '@/components/InternationalNumbers/australia/AustraliaEightCards'
-import AustraliaHeader from '@/components/InternationalNumbers/australia/AustraliaHeader'
-import AustraliaSubHeader from '@/components/InternationalNumbers/australia/AustraliaSubHeader'
-import BenefitsOfAustraliaNumber from '@/components/InternationalNumbers/australia/BenefitsOfAustraliaNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/australia/FAQAccordion'
-import AustraliaFeatureCards from '@/components/InternationalNumbers/australia/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/australia/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Australia Virtual Phone Number | Phonology VoIP Solutions',
   description: 'Enhance your business communication with an Australia virtual phone number. Phonology offers reliable and affordable VoIP solutions tailored for global reach.',
@@ -18,20 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-    <div style={{maxWidth:"85vw", margin:"0 auto"}}>
-      <AustraliaHeader />
-      <AustraliaSubHeader />
-      <BenefitsOfAustraliaNumber />
-      <AustraliaEightCards />
-      <HowToBuy />
-      <AustraliaFeatureCards />
-      <FAQAccordionComponent />
-      <PhoneNumbers />
-      <Footer />
-    </div>
-  )
+export default function Page() {
+  return <CountryPage slug="australia-virtual-phone-number" />;
 }
-
-export default page

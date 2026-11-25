@@ -1,155 +1,122 @@
-import React, { useEffect, useRef, useState } from 'react';
-import "../../styles/dropdownsolutions.css";
-import CallIcon from '@mui/icons-material/Call';
-import PhoneIcon from '@mui/icons-material/Phone';
-import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
-import CloudIcon from '@mui/icons-material/Cloud';
-import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
-import CallCenterIcon from '@mui/icons-material/HeadsetMic';
-import PublicIcon from '@mui/icons-material/Public';
-import drop from "../../public/Assets/drop.png"
+"use client";
+import { useEffect, useRef, useState } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
+import { flagSrc } from '../numbers/countries';
+import "../../styles/dropdownsolutions.css";
+
+// The navbar's Solutions menu: every service page, grouped the way buyers look for them.
+const GROUPS = [
+  ['Calling', [
+    ['SIP trunking', 'Connect your PBX or dialler and call 150+ countries', '/sip-trunk-providers'],
+    ['Business VoIP and A-Z routes', 'Office calling plus international routes with caller ID', '/voip-service-providers-in-india'],
+    ['Hosted PBX', 'Your phone system in the cloud, for every branch', '/hosted-pbx-providers'],
+    ['Call centre telephony', 'Lines, routing and IVR for inbound and outbound teams', '/call-center-solution'],
+    ['Microsoft Teams calling', 'Phone numbers in Teams through direct routing', '/cloud-telephony-providers'],
+  ]],
+  ['Numbers', [
+    ['Virtual numbers', 'Local and toll-free numbers in 69 countries', '/virtual-phone-number-providers'],
+    ['Buy a number online', 'Pick a number and where its calls go', '/get-phone-numbers'],
+    ['UIFN numbers', 'One +800 toll-free number for many countries', '/uifn-number'],
+  ]],
+  ['AI and messaging', [
+    ['AI voice agents', 'Agents that answer and make calls on your numbers', '/ai-voice-agents'],
+    ['Voice API', 'Calls, IVR and SMS from your own app', '/voice-api'],
+    ['WhatsApp Business API', 'Watel shared inbox, chatbots and catalog', '/whatsapp-business'],
+    ['SMS and messaging', 'OTP, alerts and offers over SMS and chat apps', '/messaging-services'],
+    ['Unified communications', 'Voice, video and chat on one platform', '/unified-communication-providers'],
+  ]],
+];
+
+const POPULAR = [
+  ['US', 'USA', '/usa-virtual-phone-number'],
+  ['GB', 'UK', '/uk-virtual-phone-number'],
+  ['CA', 'Canada', '/canada-virtual-phone-number'],
+  ['AU', 'Australia', '/australia-virtual-phone-number'],
+  ['AE', 'UAE', '/uae-virtual-phone-number'],
+  ['SG', 'Singapore', '/singapore-virtual-phone-number'],
+];
+
+const SISTER = [
+  ['VocalStack', 'https://www.vocalstack.site'],
+  ['EazyReach', 'https://www.eazyreach.app'],
+  ['Watel', 'https://www.watel.io'],
+];
 
 const DropdownMenuProducts = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const dropdownRef = useRef(null);
-
-  const businessCommunications = [
-    {
-      name: 'Unified Communications',
-      description: 'One platform for all your voice, video, and collaboration needs.',
-      link: '/unified-communication-providers',
-      icon: <CallIcon />
-    },
-    {
-      name: 'SIP Trunking',
-      description: 'Scalable and affordable voice solutions designed to meet your business needs.',
-      link: '/sip-trunk-providers',
-      icon: <PhoneIcon />
-    },
-    {
-      name: 'Virtual Numbers',
-      description: "Reach customers worldwide using local and toll-free numbers.",
-      link: '/virtual-phone-number-providers',
-      icon: <ContactPhoneIcon />
-    },
-    {
-      name: 'Cloud Telephony',
-      description: 'Reliable and efficient cloud telephony for effortless business communication.',
-      link: '/cloud-telephony-providers',
-      icon: <CloudIcon />
-    },
-    {
-      name: 'Hosted Phone Systems',
-      description: 'Scalable, cloud-hosted call center solutions.',
-      link: '/hosted-pbx-providers',
-      icon: <PhoneAndroidIcon />
-    },
-    {
-      name: 'Hosted Call Centers',
-      description: 'A business phone system enhanced with call center features.',
-      link: '/call-center-solution',
-      icon: <CallCenterIcon />
-    },
-    {
-      name: 'UIFN Numbers',
-      description: ' Global customer access through one easy-to-use toll-free number.',
-      link: '/uifn-number',
-      icon: <PublicIcon />
-    },
-
-  ];
-
-  const appsSection = [
-
-    {
-      name: 'Vocal Stack',
-      description: 'Instant DIDs, ultra low latency media, studio grade noise cancellation, all API-first.',
-      link: 'https://www.vocalstack.site', // Use the full URL here
-      icon: <CallIcon />
-    },
-    {
-      name: 'Eazy Reach',
-      description: 'AI contact finder for B2B teams. Instantly uncover CXO-level phone numbers, verified emails.',
-      link: 'https://www.eazyreach.app', // Use the full URL here
-      icon: <CallIcon />
-    },
-    {
-      name: 'Whatsapp Business',
-      description: 'Whatsapp third-party integration platform for business owners.',
-      link: '/whatsapp-business', // Use the full URL here
-      icon: <CallIcon />
-    },
-    {
-      name: 'Watel',
-      description: 'Whatsapp third-party integration platform for business owners.',
-      link: 'https://www.watel.io', // Use the full URL here
-      icon: <CallIcon />
-    },
-    {
-      name: 'Voice API',
-      description: 'Whatsapp third-party integration platform for business owners.',
-      link: '/voice-api', // Use the full URL here
-      icon: <CallIcon />
-    },
-    {
-      name: 'AI Voice Agent',
-      description: 'Whatsapp third-party integration platform for business owners.',
-      link: '/ai-voice-agents', // Use the full URL here
-      icon: <CallIcon />
-    }
-  ];
-
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
+  const toggle = useRef(null);
 
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
+    if (!open) return;
+    const outside = (e) => { if (!ref.current?.contains(e.target)) setOpen(false); };
+    const esc = (e) => { if (e.key === 'Escape') { setOpen(false); toggle.current?.focus(); } };
+    document.addEventListener('mousedown', outside);
+    document.addEventListener('keydown', esc);
+    return () => { document.removeEventListener('mousedown', outside); document.removeEventListener('keydown', esc); };
+  }, [open]);
 
-    document.addEventListener('click', handleClickOutside);
-
-    return () => {
-      document.removeEventListener('click', handleClickOutside);
-    };
-  }, []);
+  const close = () => setOpen(false);
 
   return (
-    <div className="dropdownContainer" ref={dropdownRef}>
-      <button className="dropdownToggle" onClick={() => setIsOpen(!isOpen)}>
+    <div className="dropdownContainer" ref={ref}>
+      <button
+        ref={toggle}
+        type="button"
+        className="dropdownToggle"
+        aria-expanded={open}
+        aria-controls="solutions-menu"
+        onClick={() => setOpen(!open)}
+      >
         Solutions
+        <svg className="dropdownCaret" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
       </button>
-      {isOpen && (
-        <div className="dropdownMenu">
-          {/* Products Section */}
-          <div className="dropdownCol">
-            <h4></h4>
-            {businessCommunications.map((item, index) => (
-              <div className="dropdownItem" key={index}>
-                <a href={item.link}>
-                  <div className="icon">{item.icon} {item.name}</div>
-                </a>
-                <p>{item.description}</p>
+      {open && (
+        <div id="solutions-menu" className="dropdownMenu">
+          <div className="menuGroups">
+            {GROUPS.map(([group, items]) => (
+              <div key={group} className="menuGroup">
+                <h2 className="menuGroupTitle">{group}</h2>
+                <ul>
+                  {items.map(([name, text, href]) => (
+                    <li key={href}>
+                      <Link href={href} className="menuItem" onClick={close}>
+                        <span className="menuItemName">{name}</span>
+                        <span className="menuItemText">{text}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                {group === 'Numbers' && (
+                  <div className="menuPopular">
+                    <span className="menuGroupTitle">Popular countries</span>
+                    <ul>
+                      {POPULAR.map(([iso, name, href]) => (
+                        <li key={href}>
+                          <Link href={href} onClick={close}>
+                            <Image src={flagSrc(iso)} alt="" width={20} height={20} className="ph-flag" />
+                            {name}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             ))}
           </div>
-
-          {/* Apps Section */}
-          <div className="dropdownCol">
-            <h4></h4>
-            {appsSection.map((app, index) => (
-              <div className="dropdownItem" key={index}>
-                <a href={app.link} target="_blank" rel="noopener noreferrer">
-                  {app.name}</a>
-                <p>{app.description}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* Placeholder Image Section */}
-          <div className="dropdownCol image-section">
-            <Image src={drop} alt="Placeholder"  height={1000} width={1000}/>
+          <div className="menuFoot">
+            <span>
+              More from Phonology:{' '}
+              {SISTER.map(([name, href], i) => (
+                <span key={href}>
+                  {i > 0 && ' · '}
+                  <a href={href} target="_blank" rel="noopener noreferrer">{name}</a>
+                </span>
+              ))}
+            </span>
+            <Link href="/#quote" className="menuCta" onClick={close}>Get a rate card</Link>
           </div>
         </div>
       )}

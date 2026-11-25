@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfUKTFNumber from '@/components/InternationalNumbers/uk-tf/BenefitsOfUKTFNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/uk-tf/FAQAccordion'
-import UKTFFeatureCards from '@/components/InternationalNumbers/uk-tf/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/uk-tf/HowToBuy'
-import UKTFEightCards from '@/components/InternationalNumbers/uk-tf/UKTFEightCards'
-import UKTFHeader from '@/components/InternationalNumbers/uk-tf/UKTFHeader'
-import UKTFSubHeader from '@/components/InternationalNumbers/uk-tf/UKTFSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Get a UK Toll-Free Virtual Number | Phonology',
   description: 'Offer your clients a hassle-free way to contact you with a UK toll-free virtual number. Phonology’s VoIP solutions are affordable and easy to manage.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <UKTFHeader />
-  <UKTFSubHeader />
-  <BenefitsOfUKTFNumber />
-  <UKTFEightCards />
-  <HowToBuy />
-  <UKTFFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="uk-toll-free-virtual-phone-number" />;
 }
-
-export default page

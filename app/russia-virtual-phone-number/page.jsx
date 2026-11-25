@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfRussiaNumber from '@/components/InternationalNumbers/russia/BenefitsOfRussiaNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/russia/FAQAccordion'
-import RussiaFeatureCards from '@/components/InternationalNumbers/russia/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/russia/HowToBuy'
-import RussiaEightCards from '@/components/InternationalNumbers/russia/RussiaEightCards'
-import RussiaHeader from '@/components/InternationalNumbers/russia/RussiaHeader'
-import RussiaSubHeader from '@/components/InternationalNumbers/russia/RussiaSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Russia Virtual Phone Number | Reliable VoIP by Phonology',
   description: 'Strengthen your communication with a Russia virtual phone number. Phonology’s VoIP solutions offer seamless, affordable, and reliable global calling.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <RussiaHeader />
-  <RussiaSubHeader />
-  <BenefitsOfRussiaNumber />
-  <RussiaEightCards />
-  <HowToBuy />
-  <RussiaFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="russia-virtual-phone-number" />;
 }
-
-export default page

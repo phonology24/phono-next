@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import BenefitsOfGeorgiaNumber from '@/components/InternationalNumbers/georgia/BenefitsOfGeorgiaNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/georgia/FAQAccordion'
-import GeorgiaFeatureCards from '@/components/InternationalNumbers/georgia/FeatureCards'
-import GeorgiaEightCards from '@/components/InternationalNumbers/georgia/GeorgiaEightCards'
-import GeorgiaHeader from '@/components/InternationalNumbers/georgia/GeorgiaHeader'
-import GeorgiaSubHeader from '@/components/InternationalNumbers/georgia/GeorgiaSubHeader'
-import HowToBuy from '@/components/InternationalNumbers/georgia/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Georgia Virtual Phone Number | Affordable VoIP by Phonology',
   description: 'Get a Georgia virtual phone number and enhance your business communication. Phonology provides reliable VoIP solutions for businesses of all sizes.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-    <GeorgiaHeader />
-    <GeorgiaSubHeader />
-    <BenefitsOfGeorgiaNumber />
-    <GeorgiaEightCards />
-    <HowToBuy />
-    <GeorgiaFeatureCards />
-    <FAQAccordionComponent />
-    <PhoneNumbers />
-    <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="georgia-virtual-phone-number" />;
 }
-
-export default page

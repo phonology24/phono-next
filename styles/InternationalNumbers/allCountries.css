@@ -1,79 +1,40 @@
+/* Country directory: region heads, then a grid of flag + name links (one per country page). */
 .phone-numbers-heading {
-    font: var(--type-display-lg);
-    letter-spacing: -0.025em;
-    color: var(--ink);
-    text-align: center;
-    margin-top: 20px;
+  margin: 0 0 var(--space-8);
+  font: 500 clamp(30px, 4vw, 48px)/1.08 var(--font-display);
+  letter-spacing: -0.03em;
+  color: var(--ink);
 }
 
-.phone-numbers {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    overflow: auto;
-    padding: 50px;
-}
+.phone-numbers { display: grid; gap: var(--space-8); }
 
-.region {
-    width: 100%;
-}
-
-.phone-numbers h2 {
-    margin: 0 0 10px 0;
-    font: var(--type-title);
-    color: var(--ink);
+.region h3 {
+  margin: 0 0 var(--space-3);
+  font: var(--type-body-sm);
+  color: var(--ink-muted);
 }
 
 .phone-numbers ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 190px), 1fr));
+  border-top: 1px solid var(--line);
 }
 
-.phone-numbers li {
-    margin-bottom: 10px;
-    font-size: 10px;
-}
-
-.country-card {
-    width: 100px;
-    height: 110px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background: var(--surface-raised);
-    border-radius: var(--radius-lg);
-    padding: 5px;
-    text-align: center;
-    border: 1px solid var(--line);
-    transition: background-color var(--motion), transform var(--motion);
-}
-
-.country-card:hover {
-    transform: scale(1.07);
-    background: var(--mint-soft);
-}
+.country-card { border-bottom: 1px solid var(--line); }
 
 .country-card a {
-    text-decoration: none;
-    color: var(--ink);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: var(--space-2);
-    height: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 52px;
+  padding-right: var(--space-3);
+  color: var(--ink);
+  text-decoration: none;
+  font: 500 15px/20px var(--font-sans);
 }
-
-.country-card span {
-    font: var(--type-body-sm);
-}
-
-@media (max-width: 768px) {
-    .phone-numbers-heading {
-        font: var(--type-display-md);
-    }
-}
+.country-card .ph-flag { width: 24px; height: 24px; flex: none; }
+.country-card a:hover { color: var(--mint-text); }
+.country-card a:hover span { text-decoration: underline; text-underline-offset: 4px; }

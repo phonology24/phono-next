@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfMyanmarNumber from '@/components/InternationalNumbers/myanmar/BenefitsOfMyanmarNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/myanmar/FAQAccordion'
-import MyanmarFeatureCards from '@/components/InternationalNumbers/myanmar/FeaturesCards'
-import HowToBuy from '@/components/InternationalNumbers/myanmar/HowToBuy'
-import MyanmarEightCards from '@/components/InternationalNumbers/myanmar/MyanmarEightCards'
-import MyanmarHeader from '@/components/InternationalNumbers/myanmar/MyanmarHeader'
-import MyanmarSubHeader from '@/components/InternationalNumbers/myanmar/MyanmarSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Myanmar Virtual Phone Number | Phonology VoIP Solutions',
   description: 'Grow your business with a Myanmar virtual phone number. Phonology offers cost-effective and reliable VoIP services for seamless global communication.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <MyanmarHeader />
-  <MyanmarSubHeader />
-  <BenefitsOfMyanmarNumber />
-  <MyanmarEightCards />
-  <HowToBuy />
-  <MyanmarFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="myanmar-virtual-phone-number" />;
 }
-
-export default page

@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfPakistanNumber from '@/components/InternationalNumbers/pakistan/BenefitsOfPakistanNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/pakistan/FAQAccordion'
-import PakistanFeatureCards from '@/components/InternationalNumbers/pakistan/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/pakistan/HowToBuy'
-import PakistanEightCards from '@/components/InternationalNumbers/pakistan/PakistanEightCards'
-import PakistanHeader from '@/components/InternationalNumbers/pakistan/PakistanHeader'
-import PakistanSubHeader from '@/components/InternationalNumbers/pakistan/PakistanSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Pakistan Virtual Phone Number | Affordable VoIP by Phonology',
   description: 'Enhance your business communication with a Pakistan virtual phone number. Phonology’s VoIP services offer crystal-clear calls and cost-effective solutions.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <PakistanHeader />
-  <PakistanSubHeader />
-  <BenefitsOfPakistanNumber />
-  <PakistanEightCards />
-  <HowToBuy />
-  <PakistanFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="pakistan-virtual-phone-number" />;
 }
-
-export default page

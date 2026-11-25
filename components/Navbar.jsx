@@ -29,7 +29,6 @@ import ThemePicker from "./ThemePicker";
 // themed: route supports dark mode, so offer the theme picker.
 const Navbar = ({ themed }) => {
   const [openMenu, setOpenMenu] = useState(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   const menuOptions = [
@@ -87,10 +86,6 @@ const Navbar = ({ themed }) => {
     });
   };
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-    console.log(isDropdownOpen)
-  };
 
 
   useEffect(() => {
@@ -122,7 +117,7 @@ const Navbar = ({ themed }) => {
         <Link href="/about-phonology" state={[]} className={styles.navlink1}>
           Company
         </Link>
-        <a className={styles.dropbutton} onClick={toggleDropdown}> <DropdownMenuProducts/></a>
+        <DropdownMenuProducts />
       {/* <a className={styles.dropbutton} onClick={toggleDropdown}><DropdownMenuSolutions /></a>  */}
         {/* <a className={styles.dropbutton} onClick={toggleDropdown}>   <DropdownMenuResources /></a> */}
         <Link href="/phonology-blogs" className={styles.navlink1}>

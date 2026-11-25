@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfMalaysiaNumber from '@/components/InternationalNumbers/malaysia/BenefitsOfMalaysiaNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/malaysia/FAQAccordion'
-import MalaysiaFeatureCards from '@/components/InternationalNumbers/malaysia/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/malaysia/HowToBuy'
-import MalaysiaEightCards from '@/components/InternationalNumbers/malaysia/MalaysiaEightCards'
-import MalaysiaHeader from '@/components/InternationalNumbers/malaysia/MalaysiaHeader'
-import MalaysiaSubHeader from '@/components/InternationalNumbers/malaysia/MalaysiaSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Get a Malaysia Virtual Phone Number | Phonology VoIP Services',
   description: 'Boost your global communication with a Malaysia virtual phone number. Phonology provides reliable, affordable VoIP solutions to suit your business needs.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <MalaysiaHeader />
-  <MalaysiaSubHeader />
-  <BenefitsOfMalaysiaNumber />
-  <MalaysiaEightCards />
-  <HowToBuy />
-  <MalaysiaFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="malaysia-virtual-phone-number" />;
 }
-
-export default page

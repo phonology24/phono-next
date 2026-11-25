@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfJapanNumber from '@/components/InternationalNumbers/japan/BenefitsOfJapanNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/japan/FAQAccordion'
-import JapanFeatureCards from '@/components/InternationalNumbers/japan/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/japan/HowToBuy'
-import JapanEightCards from '@/components/InternationalNumbers/japan/JapanEightCards'
-import JapanHeader from '@/components/InternationalNumbers/japan/JapanHeader'
-import JapanSubHeader from '@/components/InternationalNumbers/japan/JapanSubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Get a Japan Virtual Phone Number | Phonology VoIP',
   description: 'Enhance your international communication with a Japan virtual phone number. Phonology provides scalable, reliable, and affordable VoIP solutions.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <JapanHeader />
-  <JapanSubHeader />
-  <BenefitsOfJapanNumber />
-  <JapanEightCards />
-  <HowToBuy />
-  <JapanFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="japan-virtual-phone-number" />;
 }
-
-export default page

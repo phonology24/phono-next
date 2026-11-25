@@ -1,14 +1,5 @@
+import CountryPage from '@/components/numbers/CountryPage';
 
-import Footer from '@/components/Footer'
-import BenefitsOfCanadaTollFreeNumber from '@/components/InternationalNumbers/canada-tf/BenefitsOfCanadaTollFreeNumber'
-import CanadaTollFreeEightCards from '@/components/InternationalNumbers/canada-tf/CanadaTollFreeEightCards'
-import CanadaTollFreeHeader from '@/components/InternationalNumbers/canada-tf/CanadaTollFreeHeader'
-import CanadaTollFreeSubHeader from '@/components/InternationalNumbers/canada-tf/CanadaTollFreeSubHeader'
-import FAQAccordionComponent from '@/components/InternationalNumbers/canada-tf/FAQAccordion'
-import CanadaTollFreeFeatureCards from '@/components/InternationalNumbers/canada-tf/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/canada-tf/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
 export const metadata = {
   title: 'Get a Canada Toll-Free Virtual Number | Phonology VoIP',
   description: 'Offer your clients easy access with a Canada toll-free number. Phonology provides reliable and affordable VoIP solutions for smooth customer communication.',
@@ -19,20 +10,6 @@ export const metadata = {
   },
 };
 
-const CanadaTollFreePage = () => {
-  return (
-    <div style={{maxWidth:"85vw", margin:"0 auto"}}>
-      <CanadaTollFreeHeader/>
-      <CanadaTollFreeSubHeader />
-      <BenefitsOfCanadaTollFreeNumber />
-      <CanadaTollFreeEightCards />
-      <HowToBuy />
-      <CanadaTollFreeFeatureCards />
-      <FAQAccordionComponent />
-      <PhoneNumbers />
-      <Footer />
-    </div>
-  )
+export default function Page() {
+  return <CountryPage slug="canada-toll-free-virtual-number" />;
 }
-
-export default CanadaTollFreePage

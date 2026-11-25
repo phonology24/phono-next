@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import ArgentinaEightCards from '@/components/InternationalNumbers/argentina/ArgentinaEightCards'
-import ArgentinaHeader from '@/components/InternationalNumbers/argentina/ArgentinaHeader'
-import ArgentinaSubHeader from '@/components/InternationalNumbers/argentina/ArgentinaSubHeader'
-import BenefitsOfArgentinaNumber from '@/components/InternationalNumbers/argentina/BenefitsOfArgentinaNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/argentina/FAQAccordion'
-import ArgentinaFeatureCards from '@/components/InternationalNumbers/argentina/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/argentina/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Argentina Virtual Phone Number for Businesses | Phonology VoIP',
   description: 'Expand your communication with an Argentina virtual phone number. Phonology’s VoIP services provide reliable and affordable solutions for international business.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-    <div style={{maxWidth:"85vw", margin:"0 auto"}}>
-      <ArgentinaHeader />
-      <ArgentinaSubHeader />
-      <BenefitsOfArgentinaNumber />
-      <ArgentinaEightCards />
-      <HowToBuy />
-      <ArgentinaFeatureCards />
-      <FAQAccordionComponent />
-      <PhoneNumbers />
-      <Footer />
-    </div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="argentina-virtual-phone-number" />;
 }
-
-export default page

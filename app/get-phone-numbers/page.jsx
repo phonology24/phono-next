@@ -1,24 +1,21 @@
-import React from 'react'
-import CountryDropdown from '@/components/Get-Phone-Numbers/GetPhoneNumbers'
-import { Metadata } from 'next';
+import CountryDropdown from '@/components/Get-Phone-Numbers/GetPhoneNumbers';
+import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent';
+import Footer from '@/components/Footer';
 
-// Define metadata for the page
 export const metadata = {
-  title: 'International Reach Simplified – Virtual Numbers from 100+ Countries',
-  description: 'Expand your business effortlessly with our international virtual numbers. Phonology virtual phone numbers provide seamless global connectivity, ensuring you stay connected with customers worldwide.',
-  keywords: 'Internet service provider in India, Business VoIP in India, business VoIP service in India, VoIP Phone, VoIP, VoIP Service Provider in Bangalore, VoIP Service Provider in India, Best VoIP Service, VoIP Phone Provider, IP phone provider, IP PBX Provider, Internet Telephony Service Provider, VoIP Solutions Provider, Best Business VoIP Solutions Provider, Cloud Based PBX Service Provider, How to Choose VoIP Phone System, VoIP Features, SIP Trunk, VOIP in India in Bangalore, VoIP communication in India, trunk line internet in India, small office VoIP in Bangalore, small office phone systems in India, SIP trunk in India, office VoIP phones in India, office phone services in India, office IP phone in India, ',
-  alternates: {
-    canonical: 'https://www.phonology.io/get-phone-numbers',
-}
+  title: 'Buy International Virtual Phone Numbers Online | Phonology',
+  description: 'Pick a toll-free, local or mobile number, choose where its calls go (your PBX, SIP trunk or a phone number) and buy it online. Numbers in 69 countries for businesses in India.',
+  alternates: { canonical: '/get-phone-numbers' },
 };
 
-
-const page = () => {
+export default function Page() {
   return (
-    <div style={{maxWidth:"85vw", margin:"0 auto"}}>
-      <CountryDropdown/>
-    </div>
-  )
+    <main style={{ width: 'min(1240px, 100% - 32px)', margin: '0 auto' }}>
+      <CountryDropdown />
+      <section style={{ paddingBlock: 'clamp(72px, 10vw, 120px)' }}>
+        <PhoneNumbers title="Numbers by country" />
+      </section>
+      <Footer />
+    </main>
+  );
 }
-
-export default page

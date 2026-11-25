@@ -7,7 +7,7 @@ const NO_NAVBAR = ['/voip-form', '/admin-post-editor'];
 
 // Routes fully on design tokens get the dark theme (see the gate in globals.css).
 // ponytail: grows phase by phase; admin routes never match.
-const THEMED = /^\/(([a-z-]+-virtual-phone-number|canada-toll-free-virtual-number|about-phonology)|(contact-us|phonology-blogs)(\/.*)?)?$/;
+const THEMED = /^\/(([a-z-]+-virtual-phone-number|canada-toll-free-virtual-number|about-phonology|sip-trunk-providers|voip-service-providers-in-india|call-center-solution|hosted-pbx-providers|cloud-telephony-providers|virtual-phone-number-providers|uifn-number|ai-voice-agents|voice-api|whatsapp-business|messaging-services|unified-communication-providers)|(contact-us|phonology-blogs)(\/.*)?)?$/;
 
 export default function SiteChrome() {
   const pathname = usePathname();

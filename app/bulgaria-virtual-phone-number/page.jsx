@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import BenefitsOfBulgariaNumber from '@/components/InternationalNumbers/bulgaria/BenefitsOfBulgariaNumber'
-import BulgariaEightCards from '@/components/InternationalNumbers/bulgaria/BulgariaEightCards'
-import BulgariaHeader from '@/components/InternationalNumbers/bulgaria/BulgariaHeader'
-import BulgariaSubHeader from '@/components/InternationalNumbers/bulgaria/BulgariaSubHeader'
-import FAQAccordionComponent from '@/components/InternationalNumbers/bulgaria/FAQAccordion'
-import BulgariaFeatureCards from '@/components/InternationalNumbers/bulgaria/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/bulgaria/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Bulgaria Virtual Phone Number | Phonology VoIP Solutions',
   description: 'Expand your business reach with a Bulgaria virtual phone number. Phonology’s VoIP services offer reliable call forwarding and low-cost communication solutions.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-    <BulgariaHeader />
-    <BulgariaSubHeader />
-    <BenefitsOfBulgariaNumber />
-    <BulgariaEightCards />
-    <HowToBuy />
-    <BulgariaFeatureCards />
-    <FAQAccordionComponent />
-    <PhoneNumbers />
-    <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="bulgaria-virtual-phone-number" />;
 }
-
-export default page

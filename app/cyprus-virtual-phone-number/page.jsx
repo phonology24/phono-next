@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import BenefitsOfCyprusNumber from '@/components/InternationalNumbers/cyprus/BenefitsOfCyprusNumber'
-import CyprusEightCards from '@/components/InternationalNumbers/cyprus/CyprusEightCards'
-import CyprusHeader from '@/components/InternationalNumbers/cyprus/CyprusHeader'
-import CyprusSubHeader from '@/components/InternationalNumbers/cyprus/CyprusSubHeader'
-import FAQAccordionComponent from '@/components/InternationalNumbers/cyprus/FAQAccordion'
-import CyprusFeatureCards from '@/components/InternationalNumbers/cyprus/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/cyprus/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Cyprus Virtual Phone Number | Cost-Effective VoIP by Phonology',
   description: 'Get a Cyprus virtual phone number and take your business global. Enjoy affordable, reliable, and scalable VoIP services from Phonology.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-    <div style={{maxWidth:"85vw", margin:"0 auto"}}>
-    <CyprusHeader />
-    <CyprusSubHeader />
-    <BenefitsOfCyprusNumber />
-    <CyprusEightCards />
-    <HowToBuy />
-    <CyprusFeatureCards />
-    <FAQAccordionComponent />
-    <PhoneNumbers />
-    <Footer />
-  </div>
-  
-  )
+export default function Page() {
+  return <CountryPage slug="cyprus-virtual-phone-number" />;
 }
-
-export default page

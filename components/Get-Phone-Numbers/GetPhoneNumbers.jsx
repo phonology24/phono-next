@@ -324,7 +324,7 @@ const CountryDropdown = () => {
 
   return (
     <div className='dropdownDiv'>
-      <h1 className="mainHeadingDIDNumbers">International Virtual Phone Numbers from 150+ Countries </h1>
+      <h1 className="mainHeadingDIDNumbers">Buy a virtual phone number online</h1>
       <button className="shoppingBag" onClick={toggleDrawer} style={{fontSize: "20px"}}><LocalMallIcon /></button>
      <div className='countrysDiv'>
       <div className='countryDropDown'>

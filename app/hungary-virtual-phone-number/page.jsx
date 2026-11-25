@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfHungaryNumber from '@/components/InternationalNumbers/hungary/BenefitsOfHungaryNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/hungary/FAQAccordion'
-import HungaryFeatureCards from '@/components/InternationalNumbers/hungary/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/hungary/HowToBuy'
-import HungaryEightCards from '@/components/InternationalNumbers/hungary/HungaryEightCards'
-import HungaryHeader from '@/components/InternationalNumbers/hungary/HungaryHeader'
-import HungarySubHeader from '@/components/InternationalNumbers/hungary/HungarySubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
     title: 'Get a Hungary Virtual Phone Number | Phonology',
     description: 'Strengthen your global reach with a Hungary virtual phone number. Phonology’s VoIP services offer clear, affordable, and reliable communication.',
@@ -16,23 +8,8 @@ export const metadata = {
     alternates: {
       canonical: '/hungary-virtual-phone-number',
     },
-  };
-  
-const page = () => {
-    return (
-        <div style={{maxWidth:"85vw", margin:"0 auto"}}>
-            <HungaryHeader />
-            <HungarySubHeader />
-            <BenefitsOfHungaryNumber />
-            <HungaryEightCards />
-            <HowToBuy />
-            <HungaryFeatureCards />
-            <FAQAccordionComponent />
-            <PhoneNumbers />
-            <Footer />
-        </div>
+};
 
-    )
+export default function Page() {
+  return <CountryPage slug="hungary-virtual-phone-number" />;
 }
-
-export default page

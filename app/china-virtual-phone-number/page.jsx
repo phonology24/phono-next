@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import BenefitsOfChinaNumber from '@/components/InternationalNumbers/china/BenefitsOfChinaNumber'
-import ChinaEightCards from '@/components/InternationalNumbers/china/ChinaEightCards'
-import ChinaHeader from '@/components/InternationalNumbers/china/ChinaHeader'
-import ChinaSubHeader from '@/components/InternationalNumbers/china/ChinaSubHeader'
-import FAQAccordionComponent from '@/components/InternationalNumbers/china/FAQAccordion'
-import ChinaFeatureCards from '@/components/InternationalNumbers/china/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/china/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Get a China Virtual Phone Number | Phonology VoIP Services',
   description: 'Boost your business communication with a China virtual phone number. Phonology’s VoIP solutions ensure affordable and seamless global calling.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <ChinaHeader />
-  <ChinaSubHeader />
-  <BenefitsOfChinaNumber />
-  <ChinaEightCards />
-  <HowToBuy />
-  <ChinaFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="china-virtual-phone-number" />;
 }
-
-export default page

@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import BenefitsOfFinlandNumber from '@/components/InternationalNumbers/finland/BenefitsOfFinlandNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/finland/FAQAccordion'
-import FinlandFeatureCards from '@/components/InternationalNumbers/finland/FeatureCards'
-import FinlandEightCards from '@/components/InternationalNumbers/finland/FinlandEightCards'
-import FinlandHeader from '@/components/InternationalNumbers/finland/FinlandHeader'
-import FinlandSubHeader from '@/components/InternationalNumbers/finland/FinlandSubHeader'
-import HowToBuy from '@/components/InternationalNumbers/finland/HowtToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Finland Virtual Phone Number for Global Businesses | Phonology',
   description: 'Get a Finland virtual phone number to simplify your communication. Phonology’s VoIP services provide reliable call forwarding and global connectivity.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-    <FinlandHeader />
-    <FinlandSubHeader />
-    <BenefitsOfFinlandNumber />
-    <FinlandEightCards />
-    <HowToBuy />
-    <FinlandFeatureCards />
-    <FAQAccordionComponent />
-    <PhoneNumbers />
-    <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="finland-virtual-phone-number" />;
 }
-
-export default page

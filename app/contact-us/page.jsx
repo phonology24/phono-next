@@ -1,18 +1,8 @@
-import ContactUsIndex from '@/components/ContactUs/ContactUsIndex'
-import React from 'react'
+import ServicePage from '@/components/service/ServicePage';
+import { metaFor } from '@/components/service/pages';
 
-export const metadata = {
-  title: 'Contact Phonology | VoIP, SIP Trunking and Virtual Numbers',
-  description: 'Talk to Phonology sales or support about SIP trunks, international calling, virtual numbers and cloud telephony. Office in Bengaluru.',
-  alternates: { canonical: '/contact-us' },
-};
+export const metadata = metaFor('contact-us');
 
-const page = () => {
-  return (
-    <div >
-      <ContactUsIndex/>
-    </div>
-  )
+export default function Page() {
+  return <ServicePage slug="contact-us" />;
 }
-
-export default page

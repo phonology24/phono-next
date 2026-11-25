@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import BangladeshEightCards from '@/components/InternationalNumbers/bangladesh/BangladeshEightCards'
-import BangladeshHeader from '@/components/InternationalNumbers/bangladesh/BangladeshHeader'
-import BangladeshSubHeader from '@/components/InternationalNumbers/bangladesh/BangladeshSubHeader'
-import BenefitsOfBangladeshNumber from '@/components/InternationalNumbers/bangladesh/BenefitsOfBangladeshNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/bangladesh/FAQAccordion'
-import BangladeshFeatureCards from '@/components/InternationalNumbers/bangladesh/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/bangladesh/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Bangladesh Virtual Phone Number | Reliable VoIP by Phonology',
   description: 'Expand your business with a Bangladesh virtual phone number. Phonology’s VoIP services offer crystal-clear calls and affordable global communication.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-  <BangladeshHeader />
-  <BangladeshSubHeader />
-  <BenefitsOfBangladeshNumber />
-  <BangladeshEightCards />
-  <HowToBuy />
-  <BangladeshFeatureCards />
-  <FAQAccordionComponent />
-  <PhoneNumbers />
-  <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="bangladesh-virtual-phone-number" />;
 }
-
-export default page

@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import BenefitsOfColombiaNumber from '@/components/InternationalNumbers/colombia/BenefitsOfColombiaNumber'
-import ColombiaEightCards from '@/components/InternationalNumbers/colombia/ColombiaEightCards'
-import ColombiaHeader from '@/components/InternationalNumbers/colombia/ColombiaHeader'
-import ColombiaSubHeader from '@/components/InternationalNumbers/colombia/ColumbiaSubHeader'
-import FAQAccordionComponent from '@/components/InternationalNumbers/colombia/FAQAccordion'
-import ColombiaFeatureCards from '@/components/InternationalNumbers/colombia/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/colombia/HowToBuy'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Colombia Virtual Phone Number | Phonology VoIP Services',
   description: 'Expand your global communication with a Colombia virtual phone number. Phonology provides cost-effective and reliable VoIP solutions tailored for businesses.',
@@ -18,20 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-    <div style={{maxWidth:"85vw", margin:"0 auto"}}>
-      <ColombiaHeader />
-      <ColombiaSubHeader />
-      <BenefitsOfColombiaNumber />
-      <ColombiaEightCards />
-      <HowToBuy />
-      <ColombiaFeatureCards />
-      <FAQAccordionComponent />
-      <PhoneNumbers />
-      <Footer />
-    </div>
-  )
+export default function Page() {
+  return <CountryPage slug="colombia-virtual-phone-number" />;
 }
-
-export default page

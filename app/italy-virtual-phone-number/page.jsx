@@ -1,13 +1,5 @@
-import Footer from '@/components/Footer'
-import PhoneNumbers from '@/components/InternationalNumbers/GetInternationalNumbersComponent'
-import BenefitsOfItalyNumber from '@/components/InternationalNumbers/italy/BenefitsOfItalyNumber'
-import FAQAccordionComponent from '@/components/InternationalNumbers/italy/FaAQAccordion'
-import ItalyFeatureCards from '@/components/InternationalNumbers/italy/FeatureCards'
-import HowToBuy from '@/components/InternationalNumbers/italy/HowToBuy'
-import ItalyEightCards from '@/components/InternationalNumbers/italy/ItalyEightCards'
-import ItalyHeader from '@/components/InternationalNumbers/italy/ItalyHeader'
-import ItalySubHeader from '@/components/InternationalNumbers/italy/ItalySubHeader'
-import React from 'react'
+import CountryPage from '@/components/numbers/CountryPage';
+
 export const metadata = {
   title: 'Italy Virtual Phone Number | Reliable VoIP Solutions by Phonology',
   description: 'Enhance your business communication with an Italy virtual phone number. Phonology offers affordable VoIP services tailored for businesses of all sizes.',
@@ -18,21 +10,6 @@ export const metadata = {
   },
 };
 
-const page = () => {
-  return (
-<div style={{maxWidth:"85vw", margin:"0 auto"}}>
-    <ItalyHeader />
-    <ItalySubHeader />
-    <BenefitsOfItalyNumber />
-    <ItalyEightCards />
-    <HowToBuy />
-    <ItalyFeatureCards />
-    <FAQAccordionComponent />
-    <PhoneNumbers />
-    <Footer />
-</div>
-
-  )
+export default function Page() {
+  return <CountryPage slug="italy-virtual-phone-number" />;
 }
-
-export default page
